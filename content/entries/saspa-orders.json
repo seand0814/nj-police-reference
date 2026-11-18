@@ -1,0 +1,30 @@
+{
+  "id": "saspa-orders",
+  "category": "Investigations",
+  "title": "Sexual Assault Survivor Protection Act Orders",
+  "source_type": "directive",
+  "citation": "Sexual Assault Survivor Protection Act of 2015, N.J.S.A. 2C:14-13 et seq.",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "For victims of nonconsensual sexual contact, sexual penetration, lewdness, or an attempt at any of these, who do not qualify for a DV restraining order (no DV relationship).",
+    "The victim may apply for a temporary protective order without the respondent present, followed by a final hearing.",
+    "Relief includes no contact, staying away from the victim's home, work, school and other places, and other protections.",
+    "No criminal complaint is required to apply.",
+    "Violating the order is contempt (2C:29-9)."
+  ],
+  "officer_notes": [
+    "Help the victim apply the same way you would for a TRO, following your court's after-hours procedure."
+  ],
+  "related": [
+    "njsa-2c-14-2",
+    "njsa-2c-14-3",
+    "njsa-2c-29-9"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Protective Orders (ERPO, SASPA)"
+}

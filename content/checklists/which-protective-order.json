@@ -1,0 +1,100 @@
+{
+  "id": "which-protective-order",
+  "kind": "flow",
+  "title": "Which Protective Order Fits?",
+  "sections": [
+    "domestic-violence",
+    "arrest-juveniles",
+    "checklists"
+  ],
+  "summary": "Points the victim or family to the right order: DV TRO, SASPA, ERPO or release conditions.",
+  "start": "rel",
+  "nodes": {
+    "rel": {
+      "q": "Is there a DV relationship between the parties?",
+      "help": "Current or former spouse or household member, child in common or expected, or a dating relationship.",
+      "yes": "pred",
+      "no": "sex"
+    },
+    "pred": {
+      "q": "Did a DV predicate act occur (assault, harassment, threats, stalking, criminal mischief, etc.)?",
+      "yes": "tro",
+      "no": "nopred"
+    },
+    "tro": {
+      "result": "DV restraining order (TRO)",
+      "tone": "green",
+      "points": [
+        "Help the victim apply for a TRO (Family Part, or the on-call judge after hours).",
+        "Run the mandatory arrest go-by if an offense occurred.",
+        "If firearms are a concern, an ERPO can also be sought."
+      ],
+      "link": "/entry/dv-tro-guide"
+    },
+    "nopred": {
+      "result": "No TRO basis yet",
+      "tone": "blue",
+      "points": [
+        "Document the incident and relationship.",
+        "Give the victim DV rights information and resources.",
+        "If firearms pose a danger, consider an ERPO."
+      ],
+      "link": "/entry/dv-procedures"
+    },
+    "sex": {
+      "q": "Was the person a victim of nonconsensual sexual contact, penetration or lewdness (or an attempt)?",
+      "yes": "saspa",
+      "no": "gun"
+    },
+    "saspa": {
+      "result": "Sexual Assault Survivor Protection Act order",
+      "tone": "green",
+      "points": [
+        "Help the victim apply for a temporary protective order.",
+        "No criminal complaint is required.",
+        "Contact SART and the county prosecutor per policy."
+      ],
+      "link": "/entry/saspa-orders"
+    },
+    "gun": {
+      "q": "Does someone pose a significant danger to themselves or others by having a firearm?",
+      "yes": "erpo",
+      "no": "charge"
+    },
+    "erpo": {
+      "result": "Extreme Risk Protective Order (ERPO)",
+      "tone": "amber",
+      "points": [
+        "A family or household member or an officer may petition.",
+        "A temporary order can issue the same day.",
+        "On service, firearms, ammunition and permits must be surrendered."
+      ],
+      "link": "/entry/ag-erpo"
+    },
+    "charge": {
+      "q": "Is there a pending criminal charge against the person causing the problem?",
+      "yes": "nocontact",
+      "no": "other"
+    },
+    "nocontact": {
+      "result": "No-contact release conditions",
+      "tone": "blue",
+      "points": [
+        "Check whether a judge set no-contact conditions.",
+        "Report violations to the prosecutor; in DV cases, they can be charged as contempt."
+      ],
+      "link": "/entry/no-contact-conditions"
+    },
+    "other": {
+      "result": "Criminal complaint or civil options",
+      "tone": "blue",
+      "points": [
+        "If there is probable cause, consider harassment (2C:33-4) or stalking (2C:12-10).",
+        "A stalking conviction acts as a restraining order (2C:12-10.1).",
+        "Refer the person to victim services and civil legal resources."
+      ],
+      "link": "/entry/njsa-2c-12-10"
+    }
+  },
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

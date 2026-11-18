@@ -1,27 +1,36 @@
 {
   "id": "ag-erpo",
   "category": "Investigations",
-  "title": "Extreme Risk Protective Orders (ERPO)",
+  "title": "Extreme Risk Protective Orders (ERPO): Full Guide",
   "source_type": "directive",
-  "citation": "Extreme Risk Protective Order Act, N.J.S.A. 2C:58-20 et seq.; AG ERPO directive",
+  "citation": "Extreme Risk Protective Order Act of 2018, N.J.S.A. 2C:58-20 et seq.; AG ERPO directive",
   "source_url": "",
   "grade_or_penalty": "",
   "key_points": [
-    "A family or household member, or a law enforcement officer, may petition for a temporary ERPO when a person poses a significant danger of injuring themselves or others with a firearm.",
-    "Factors include recent threats or violence, violations of restraining orders, reckless firearm use, substance abuse and recent acquisition of firearms.",
-    "A temporary order requires surrender of firearms, ammunition and firearms permits; a final hearing follows within the time the statute sets.",
-    "Officers serving an order should seize firearms covered by it and may seek a search warrant if the respondent does not comply."
+    "Purpose: temporarily remove firearms and ammunition from a person who poses a significant danger of injuring themselves or others by having or buying a firearm. It is not a criminal charge.",
+    "Who may petition: a family or household member, or a law enforcement officer or agency.",
+    "Temporary ERPO (TERPO): the petitioner files a sworn petition. A judge may issue it the same day without the respondent present if there is good cause to believe the respondent poses an immediate and present danger.",
+    "Factors include: threats or acts of violence toward self or others; violations of restraining orders; prior DV, stalking or violent offenses; reckless use or display of a firearm; drug or alcohol abuse; and recent acquisition of firearms or ammunition.",
+    "On service, the respondent must immediately surrender firearms, ammunition, the FPIC and handgun purchase permits. If there is probable cause firearms are being kept, officers may seek a search warrant.",
+    "Final ERPO (FERPO): a hearing is held within the time the statute sets (about 10 days). The petitioner must prove by a preponderance of the evidence that the respondent poses a significant danger. A FERPO stays in effect until the court terminates it.",
+    "Violating an ERPO is a crime.",
+    "The AG directive requires officers to consider an ERPO on calls showing firearm-related risk (DV, threats, mental health crises) and to tell family members how to petition."
   ],
   "officer_notes": [
-    "Consult your agency's ERPO coordinator and the county prosecutor."
+    "Write the petition with specific facts: dates, words used, behavior, firearms known.",
+    "Check firearm records and permits before serving.",
+    "Coordinate with your agency's ERPO coordinator and the county prosecutor.",
+    "An ERPO can be sought alongside a DV restraining order or a mental health screening."
   ],
   "related": [
-    "njsa-2c-58-26"
+    "njsa-2c-58-26",
+    "njsa-2c-58-27",
+    "njsa-2c-58-28"
   ],
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
   "last_verified": null,
   "section": "arrest-juveniles",
-  "group": "AG Directives & Policies"
+  "group": "Protective Orders (ERPO, SASPA)"
 }

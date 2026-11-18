@@ -20,5 +20,22 @@
     "The suspect purposely or knowingly damaged tangible property of another (OR recklessly or negligently damaged it with fire, explosives or other dangerous means)",
     "OR tampered with tangible property of another so as to endanger a person or property",
     "Determine the dollar amount of damage (sets the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Purposely or knowingly damages tangible property of another (or recklessly or negligently with fire, explosives or other dangerous means)",
+      "grade": "Graded by amount"
+    },
+    {
+      "label": "a(2)",
+      "text": "Purposely, knowingly or recklessly tampers with tangible property of another so as to endanger a person or property",
+      "grade": "Graded by amount"
+    },
+    {
+      "label": "b",
+      "text": "Grading: $2,000+ = 3rd degree; over $500 to under $2,000 = 4th degree; $500 or less = DP. Higher grades for damage to utilities, transportation, research facilities, and similar targets",
+      "grade": "Varies"
+    }
   ]
 }

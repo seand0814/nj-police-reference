@@ -23,5 +23,27 @@
     "Eluding: The suspect operated a motor vehicle on a street or highway",
     "Eluding: After receiving any signal from an officer to bring the vehicle to a full stop, the suspect knowingly fled or tried to elude",
     "Eluding upgrade: the flight created a risk of death or injury to any person (2nd degree)"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Resisting arrest: purposely prevents or attempts to prevent an officer from making an arrest",
+      "grade": "DP"
+    },
+    {
+      "label": "a(2)",
+      "text": "Resisting by flight",
+      "grade": "4th degree"
+    },
+    {
+      "label": "a(3)",
+      "text": "Resisting by using or threatening force against the officer or another, or by any other means creating a substantial risk of physical injury",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "b",
+      "text": "Eluding: knowingly flees or attempts to elude an officer in a vehicle after a signal to stop",
+      "grade": "3rd degree; 2nd degree if risk of death or injury"
+    }
   ]
 }

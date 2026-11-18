@@ -21,5 +21,22 @@
     "Knowing it would not be honored by the drawee",
     "Check presumptions: no account, or not paid within 10 days after notice of dishonor",
     "Determine the amount (sets the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "Offense",
+      "text": "Issues or passes a check or similar sight order knowing it will not be honored",
+      "grade": "Graded by amount"
+    },
+    {
+      "label": "Presumptions",
+      "text": "Knowledge presumed if no account existed, or the check is not paid within 10 days after notice of dishonor",
+      "grade": ""
+    },
+    {
+      "label": "Grading",
+      "text": "$75,000+ = 2nd; $1,000 to under $75,000 = 3rd; $200 to under $1,000 = 4th; under $200 = DP",
+      "grade": "Varies"
+    }
   ]
 }

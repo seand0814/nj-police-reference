@@ -24,5 +24,27 @@
     "(a): The suspect entered or surreptitiously remained in a structure (or research facility, utility property, or similar)",
     "(a): Knowing he was not licensed or privileged to do so",
     "OR (b): Knowing he was not licensed, entered or remained in a place after notice against trespass was given (in person, by posting, or by fencing)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Unlicensed entry: enters or surreptitiously remains in a structure (or research facility, utility property, airport secure area) knowing he is not licensed to",
+      "grade": "DP; 4th degree in a dwelling, school, utility, research facility or airport"
+    },
+    {
+      "label": "b",
+      "text": "Defiant trespasser: enters or remains after notice given in person, by posting, or by fencing or enclosure",
+      "grade": "PDP"
+    },
+    {
+      "label": "c",
+      "text": "Peering into a dwelling window or opening to invade privacy",
+      "grade": "4th degree"
+    },
+    {
+      "label": "d",
+      "text": "Defenses: abandoned structure; place open to the public with conditions followed; reasonable belief of license",
+      "grade": ""
+    }
   ]
 }

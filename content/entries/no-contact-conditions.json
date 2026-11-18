@@ -1,0 +1,26 @@
+{
+  "id": "no-contact-conditions",
+  "category": "Investigations",
+  "title": "No-Contact Conditions of Pretrial Release",
+  "source_type": "directive",
+  "citation": "Criminal Justice Reform Act, N.J.S.A. 2A:162-15 et seq.; N.J.S.A. 2C:29-9",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "When releasing a defendant, a judge can order no contact with the victim or witnesses as a condition of release.",
+    "In DV cases, violating these conditions can be charged as contempt under 2C:29-9(b).",
+    "The prosecutor can also move to revoke release when conditions are violated.",
+    "Check release conditions in the court system when a victim reports contact."
+  ],
+  "officer_notes": [],
+  "related": [
+    "cjr-overview",
+    "njsa-2c-29-9"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Protective Orders (ERPO, SASPA)"
+}

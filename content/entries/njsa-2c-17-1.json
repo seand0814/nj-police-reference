@@ -20,5 +20,22 @@
     "The suspect purposely started a fire or caused an explosion",
     "Arson: the act recklessly placed a building or structure of another (or certain other property) in danger of damage or destruction",
     "Aggravated arson: purposely or knowingly placed another person in danger of death or bodily injury, OR purposely targeted a building or structure, OR other aggravating purposes listed in the statute"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Aggravated arson: starting a fire or explosion that places a person in danger of death or bodily injury, or purposely targets a structure, or for hire or to collect insurance, among other listed purposes",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b",
+      "text": "Arson: purposely starting a fire or explosion that recklessly places a building, structure or listed property of another in danger",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "c",
+      "text": "Failure to control or report a dangerous fire the actor knows of and has a duty to address",
+      "grade": "4th degree"
+    }
   ]
 }

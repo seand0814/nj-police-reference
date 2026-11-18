@@ -66,6 +66,22 @@ export function parseCite(citation: string | null | undefined): Cite | null {
   };
 }
 
+/**
+ * Link to the full text of a statute (all subsections) on Justia's free copy of the NJ statutes.
+ * Letter suffixes: kept for Title 39 and after a decimal (real sections like 39:4-14.3b, 2C:35-5.3a);
+ * dropped after a whole-number 2C/Title 4 section, where they usually mean a subsection (2C:14-3a, 4:22-17c).
+ */
+export function fullTextUrl(citation: string | null | undefined): string | null {
+  if (!citation) return null;
+  const m = citation.match(/\b(2C|39|4|30):(\d+[A-Za-z]?)-(\d+)(?:\.(\d+))?([A-Za-z]?)/i);
+  if (!m) return null;
+  const title = m[1].toLowerCase();
+  const chapter = m[2].toLowerCase();
+  const keepLetter = !!m[5] && (title === "39" || !!m[4]);
+  const section = m[3] + (m[4] ? "-" + m[4] : "") + (keepLetter ? m[5].toLowerCase() : "");
+  return `https://law.justia.com/codes/new-jersey/title-${title}/section-${title}-${chapter}-${section}/`;
+}
+
 // ---------------- section placement ----------------
 type Placeable = { id: string; category: string; citation: string | null; source_type?: string | null; section?: string };
 
@@ -257,7 +273,10 @@ export const CASE_GROUPS = [
 ];
 
 /** Display order for groups in the Arrest, Juveniles & Directives section. */
-export const ARREST_GROUPS = ["Charging & Criminal Justice Reform", "Juveniles", "Cannabis & Underage Alcohol", "AG Directives & Policies"];
+export const ARREST_GROUPS = ["Charging & Criminal Justice Reform", "Protective Orders (ERPO, SASPA)", "Juveniles", "Cannabis & Underage Alcohol", "AG Directives & Policies"];
+
+/** Display order for groups in the Domestic Violence section. */
+export const DV_GROUPS = ["Response Procedures", "Restraining Orders (TRO/FRO)"];
 
 /** Statutes shown as a "Related statutes" group inside hub sections (they also stay in their own section). */
 export const HUB_STATUTES: Record<string, (c: Cite) => boolean> = {

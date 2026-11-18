@@ -1,0 +1,32 @@
+{
+  "id": "dv-fro-guide",
+  "category": "Domestic Violence",
+  "title": "Final Restraining Orders (FRO)",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 2C:25-29; Silver v. Silver, 387 N.J. Super. 112 (App. Div. 2006)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "The final hearing is held in the Superior Court, Family Part, generally within 10 days of the complaint. Both sides may testify and present evidence.",
+    "Two-part test (Silver v. Silver): the court must find a predicate act of domestic violence by a preponderance of the evidence, and that a restraining order is needed to protect the victim from immediate danger or further abuse.",
+    "The judge weighs the history of domestic violence between the parties, immediate danger to person or property, and the best interests of the victim and any child.",
+    "An FRO has no expiration date. It stays in effect until a judge dissolves it.",
+    "An FRO bars the defendant from possessing or buying firearms, under both NJ law and federal law (18 U.S.C. 922(g)(8)).",
+    "Relief can include everything available in a TRO plus counseling, support, rent or mortgage payments, and parenting time conditions."
+  ],
+  "officer_notes": [
+    "FRO information appears in the DV central registry; check it on every DV call.",
+    "Violations are enforced like TRO violations: probable cause means mandatory arrest."
+  ],
+  "related": [
+    "dv-tro-guide",
+    "njsa-2c-25-29",
+    "njsa-2c-29-9"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "domestic-violence",
+  "group": "Restraining Orders (TRO/FRO)"
+}

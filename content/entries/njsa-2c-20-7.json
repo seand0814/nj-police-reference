@@ -20,5 +20,17 @@
     "The suspect knowingly received, retained or disposed of movable property of another",
     "Knowing the property was stolen, or believing it was probably stolen",
     "Determine the value (sets the grade); check the statutory presumptions of knowledge"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Knowingly receives, retains or disposes of movable property of another, knowing it was stolen or believing it probably was",
+      "grade": "Graded by value (2C:20-2)"
+    },
+    {
+      "label": "b",
+      "text": "Presumptions of knowledge: possession of stolen property from two or more thefts; recent prior dealings in stolen property; a dealer acquiring for far below value; altered VINs; and others listed",
+      "grade": ""
+    }
   ]
 }

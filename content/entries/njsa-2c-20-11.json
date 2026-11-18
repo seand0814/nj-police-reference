@@ -22,5 +22,47 @@
     "The merchandise was offered for sale by a store or retail establishment",
     "With purpose to deprive the merchant of it without paying the full retail value",
     "Determine the full retail value (sets the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "b(1)",
+      "text": "Takes possession of, carries away, transfers or causes to be carried away merchandise with purpose to deprive the merchant",
+      "grade": "Graded by value"
+    },
+    {
+      "label": "b(2)",
+      "text": "Conceals merchandise on his person or otherwise with purpose to deprive",
+      "grade": "Graded by value"
+    },
+    {
+      "label": "b(3)",
+      "text": "Alters, transfers or removes a price tag or label with purpose to pay less",
+      "grade": "Graded by value"
+    },
+    {
+      "label": "b(4)",
+      "text": "Transfers merchandise from one container to another with purpose to deprive",
+      "grade": "Graded by value"
+    },
+    {
+      "label": "b(5)",
+      "text": "Under-rings: a cashier rings up a lesser price with purpose to deprive",
+      "grade": "Graded by value"
+    },
+    {
+      "label": "b(6)",
+      "text": "Removes a shopping cart from the premises without consent with purpose to deprive",
+      "grade": "DP"
+    },
+    {
+      "label": "c",
+      "text": "Grading: $75,000+ = 2nd; $500 to under $75,000 = 3rd; $200 to $500 = 4th; under $200 = DP. Mandatory community service on conviction",
+      "grade": "Varies"
+    },
+    {
+      "label": "e",
+      "text": "Merchants and officers may detain a suspect in a reasonable manner for a reasonable time with probable cause, with immunity from civil liability",
+      "grade": ""
+    }
   ]
 }

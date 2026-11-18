@@ -21,5 +21,22 @@
     "OR (b) Offensive language: in a public place, used unreasonably loud and offensively coarse or abusive language, given the circumstances",
     "With purpose to cause public inconvenience, annoyance or alarm, or recklessly creating a risk of it",
     "It occurred in or affected a public place"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Improper behavior: fighting, threatening, or violent or tumultuous behavior",
+      "grade": "PDP"
+    },
+    {
+      "label": "a(2)",
+      "text": "Improper behavior: creating a hazardous or physically dangerous condition by an act serving no legitimate purpose",
+      "grade": "PDP"
+    },
+    {
+      "label": "b",
+      "text": "Offensive language: in a public place, unreasonably loud and offensively coarse or abusive language",
+      "grade": "PDP"
+    }
   ]
 }

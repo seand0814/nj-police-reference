@@ -20,5 +20,17 @@
     "The suspect knew of the order (served, or had actual notice)",
     "The suspect purposely or knowingly disobeyed it",
     "For DV orders: note whether the violating conduct was itself a crime or offense (sets the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Contempt: purposely or knowingly disobeys a judicial order or protective order, or hinders its execution",
+      "grade": "4th degree"
+    },
+    {
+      "label": "b",
+      "text": "Violating a DV restraining order (or DV conditions of release)",
+      "grade": "4th degree if the conduct is also a crime or offense; DP otherwise"
+    }
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "id": "tro-after-hours",
+  "kind": "checklist",
+  "title": "After-Hours TRO Application",
+  "sections": [
+    "domestic-violence",
+    "checklists"
+  ],
+  "summary": "Helping a DV victim get a temporary restraining order when the court is closed.",
+  "groups": [
+    {
+      "name": "Prepare",
+      "steps": [
+        {
+          "text": "Confirm the DV relationship and a predicate act",
+          "link": "/entry/dv-tro-guide"
+        },
+        {
+          "text": "Check the DV registry for existing orders and prior history"
+        },
+        {
+          "text": "Explain the TRO process neutrally; don't discourage or promise outcomes"
+        },
+        {
+          "text": "Ask what relief the victim wants: no contact, residence, custody, places to stay away from"
+        },
+        {
+          "text": "Ask about weapons and firearms the defendant has access to"
+        }
+      ]
+    },
+    {
+      "name": "Application",
+      "steps": [
+        {
+          "text": "Complete the TRO application with the victim's account in their own words"
+        },
+        {
+          "text": "Contact the on-call judge per your court's procedure; the victim gives sworn testimony"
+        },
+        {
+          "text": "Record the time the TRO is granted and the judge's name"
+        }
+      ]
+    },
+    {
+      "name": "After it's granted",
+      "steps": [
+        {
+          "text": "Give the victim a copy and the final hearing date and location"
+        },
+        {
+          "text": "Serve the defendant as soon as possible",
+          "link": "/go/serve-restraining-order"
+        },
+        {
+          "text": "Seize weapons and permits as the order directs",
+          "link": "/entry/dv-weapons-after"
+        },
+        {
+          "text": "Enter the order and service in the registry; complete reports"
+        },
+        {
+          "text": "Give the victim safety planning and hotline information",
+          "detail": "NJ DV Hotline: 1-800-572-7233"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

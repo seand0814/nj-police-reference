@@ -20,5 +20,67 @@
     "The suspect committed an act of sexual penetration with the victim",
     "Plus one of the statute's circumstances, for example: physical force or coercion; a victim under 13; a 13-15 year old victim with an actor at least 4 years older; or a helpless or incapacitated victim",
     "For aggravated sexual assault, identify the aggravating circumstance (weapon, severe injury, during another crime, aided by others, etc.)"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Aggravated: penetration with a victim under 13",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(2)",
+      "text": "Aggravated: victim 13-15 and the actor is related, has supervisory or disciplinary power, or is a resource family parent or guardian",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(3)",
+      "text": "Aggravated: during robbery, kidnapping, homicide, aggravated assault, burglary, arson or criminal escape",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(4)",
+      "text": "Aggravated: armed with a weapon and threatens to use it",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(5)",
+      "text": "Aggravated: aided by others and using physical force or coercion",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(6)",
+      "text": "Aggravated: physical force or coercion causing severe personal injury",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(7)",
+      "text": "Aggravated: victim physically helpless, intellectually or mentally incapacitated, or incapable of consent",
+      "grade": "1st degree"
+    },
+    {
+      "label": "b",
+      "text": "Sexual contact with a victim under 13 by an actor at least 4 years older",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "c(1)",
+      "text": "Penetration using physical force or coercion, without severe personal injury",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "c(2)",
+      "text": "Victim on probation, parole or detained, and the actor has supervisory or disciplinary power",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "c(3)",
+      "text": "Victim 16-17 and the actor is related, has supervisory or disciplinary power, or is a resource family parent or guardian",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "c(4)",
+      "text": "Victim 13-15 and the actor is at least 4 years older",
+      "grade": "2nd degree"
+    }
   ]
 }

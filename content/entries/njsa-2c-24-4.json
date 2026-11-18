@@ -21,5 +21,22 @@
     "The victim was under 18",
     "The suspect acted knowingly",
     "Note whether the suspect had a legal duty of care or assumed responsibility for the child (raises the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Engages in sexual conduct that would impair or debauch the morals of a child",
+      "grade": "2nd degree with a legal duty or caretaker role; 3rd degree otherwise"
+    },
+    {
+      "label": "a(2)",
+      "text": "Causes a child harm that would make the child an abused or neglected child",
+      "grade": "2nd degree with a legal duty or caretaker role; 3rd degree otherwise"
+    },
+    {
+      "label": "b",
+      "text": "Child sexual abuse material: causing a child to engage in prohibited sexual acts, photographing or filming, distributing, possessing, or viewing; grading depends on conduct and number of items",
+      "grade": "1st to 4th degree"
+    }
   ]
 }

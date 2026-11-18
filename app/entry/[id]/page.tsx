@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allEntries, entrySection, getEntry, type Entry } from "@/lib/content";
-import { gradeBadge, sectionBySlug } from "@/lib/sections";
+import { fullTextUrl, gradeBadge, sectionBySlug } from "@/lib/sections";
 import BookmarkButton from "@/components/BookmarkButton";
 import CopyCharge from "@/components/CopyCharge";
 import ElementsChecklist from "@/components/ElementsChecklist";
@@ -93,6 +93,40 @@ function Table({ table }: { table: NonNullable<Entry["table"]> }) {
   );
 }
 
+function Subsections({ items, url }: { items: NonNullable<Entry["subsections"]>; url: string | null }) {
+  return (
+    <section className="mt-5">
+      <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+        <span aria-hidden>📑</span> Subsections
+      </h2>
+      <ul className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        {items.map((it, i) => {
+          const b = gradeBadge(it.grade);
+          return (
+            <li key={i} className="flex gap-3 border-b border-slate-100 p-4 last:border-0 dark:border-slate-800">
+              <span className="mt-0.5 h-fit shrink-0 rounded-lg bg-slate-900 px-2 py-0.5 font-mono text-xs font-bold text-white dark:bg-slate-100 dark:text-slate-900">
+                {it.label}
+              </span>
+              <div className="min-w-0 flex-1">
+                <p className="leading-snug">{it.text}</p>
+                {it.grade ? (
+                  <p className="mt-1.5 flex flex-wrap items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-400">
+                    <GradeBadge badge={b} /> {b && it.grade.length <= 12 ? null : it.grade}
+                  </p>
+                ) : null}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+      <p className="mt-2 text-xs text-slate-500">
+        Plain-language summary, not yet verified.{" "}
+        {url ? <a href={url} target="_blank" rel="noopener noreferrer" className="font-medium text-brand underline dark:text-brand-dark">Read the exact wording ›</a> : null}
+      </p>
+    </section>
+  );
+}
+
 export default async function EntryPage({ params }: { params: Params }) {
   const entry = getEntry((await params).id);
   if (!entry) notFound();
@@ -100,6 +134,7 @@ export default async function EntryPage({ params }: { params: Params }) {
   const badge = gradeBadge(entry.grade_or_penalty, entry.citation);
   const related = entry.related.map((id) => getEntry(id)).filter((x) => x !== null);
   const verified = entry.source_verified && entry.last_verified;
+  const textUrl = entry.source_type === "statute" ? fullTextUrl(entry.citation) : null;
   const isCharge = entry.source_type === "statute" && !!badge && !["Info", "Defense", "Penalty", "Confirm", "Enhancer"].includes(badge.label);
   const chargeText = isCharge
     ? [`${entry.citation} – ${entry.title} – ${LONG_GRADE[badge!.label] ?? badge!.label}`, entry.key_points[0] ?? ""].filter(Boolean).join("\n")
@@ -139,6 +174,22 @@ export default async function EntryPage({ params }: { params: Params }) {
         </section>
       ) : null}
 
+      {textUrl ? (
+        <a
+          href={textUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 flex min-h-[52px] items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 shadow-sm active:scale-[0.99] dark:border-slate-800 dark:bg-slate-900"
+        >
+          <span>
+            <span className="block font-semibold">📖 Full statute text</span>
+            <span className="block text-xs text-slate-500">Every subsection, word for word (Justia, unofficial copy)</span>
+          </span>
+          <span aria-hidden className="text-slate-400">↗</span>
+        </a>
+      ) : null}
+
+      {entry.subsections?.length ? <Subsections items={entry.subsections} url={textUrl} /> : null}
       {entry.elements?.length ? <ElementsChecklist elements={entry.elements} /> : null}
       {entry.table ? <Table table={entry.table} /> : null}
 

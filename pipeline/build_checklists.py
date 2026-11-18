@@ -406,6 +406,46 @@ ITEMS.append(dict(id="template-uof-report", kind="template", title="Use of Force
   dict(name="After", steps=[S("Medical aid offered or given; injuries"), S("Supervisor notification; BWC; witnesses; photos")]),
  ]))
 
+# ======================= PROTECTIVE ORDERS =======================
+ITEMS.append(dict(id="which-protective-order", kind="flow", title="Which Protective Order Fits?", sections=["domestic-violence", "arrest-juveniles", "checklists"],
+ summary="Points the victim or family to the right order: DV TRO, SASPA, ERPO or release conditions.", start="rel",
+ nodes={
+  "rel": dict(q="Is there a DV relationship between the parties?", help="Current or former spouse or household member, child in common or expected, or a dating relationship.", yes="pred", no="sex"),
+  "pred": dict(q="Did a DV predicate act occur (assault, harassment, threats, stalking, criminal mischief, etc.)?", yes="tro", no="nopred"),
+  "tro": dict(result="DV restraining order (TRO)", tone="green", points=["Help the victim apply for a TRO (Family Part, or the on-call judge after hours).", "Run the mandatory arrest go-by if an offense occurred.", "If firearms are a concern, an ERPO can also be sought."], link="/entry/dv-tro-guide"),
+  "nopred": dict(result="No TRO basis yet", tone="blue", points=["Document the incident and relationship.", "Give the victim DV rights information and resources.", "If firearms pose a danger, consider an ERPO."], link="/entry/dv-procedures"),
+  "sex": dict(q="Was the person a victim of nonconsensual sexual contact, penetration or lewdness (or an attempt)?", yes="saspa", no="gun"),
+  "saspa": dict(result="Sexual Assault Survivor Protection Act order", tone="green", points=["Help the victim apply for a temporary protective order.", "No criminal complaint is required.", "Contact SART and the county prosecutor per policy."], link="/entry/saspa-orders"),
+  "gun": dict(q="Does someone pose a significant danger to themselves or others by having a firearm?", yes="erpo", no="charge"),
+  "erpo": dict(result="Extreme Risk Protective Order (ERPO)", tone="amber", points=["A family or household member or an officer may petition.", "A temporary order can issue the same day.", "On service, firearms, ammunition and permits must be surrendered."], link="/entry/ag-erpo"),
+  "charge": dict(q="Is there a pending criminal charge against the person causing the problem?", yes="nocontact", no="other"),
+  "nocontact": dict(result="No-contact release conditions", tone="blue", points=["Check whether a judge set no-contact conditions.", "Report violations to the prosecutor; in DV cases, they can be charged as contempt."], link="/entry/no-contact-conditions"),
+  "other": dict(result="Criminal complaint or civil options", tone="blue", points=["If there is probable cause, consider harassment (2C:33-4) or stalking (2C:12-10).", "A stalking conviction acts as a restraining order (2C:12-10.1).", "Refer the person to victim services and civil legal resources."], link="/entry/njsa-2c-12-10"),
+ }))
+
+ITEMS.append(dict(id="tro-after-hours", kind="checklist", title="After-Hours TRO Application", sections=["domestic-violence", "checklists"],
+ summary="Helping a DV victim get a temporary restraining order when the court is closed.", groups=[
+  dict(name="Prepare", steps=[
+   S("Confirm the DV relationship and a predicate act", "", "/entry/dv-tro-guide"),
+   S("Check the DV registry for existing orders and prior history"),
+   S("Explain the TRO process neutrally; don't discourage or promise outcomes"),
+   S("Ask what relief the victim wants: no contact, residence, custody, places to stay away from"),
+   S("Ask about weapons and firearms the defendant has access to"),
+  ]),
+  dict(name="Application", steps=[
+   S("Complete the TRO application with the victim's account in their own words"),
+   S("Contact the on-call judge per your court's procedure; the victim gives sworn testimony"),
+   S("Record the time the TRO is granted and the judge's name"),
+  ]),
+  dict(name="After it's granted", steps=[
+   S("Give the victim a copy and the final hearing date and location"),
+   S("Serve the defendant as soon as possible", "", "/go/serve-restraining-order"),
+   S("Seize weapons and permits as the order directs", "", "/entry/dv-weapons-after"),
+   S("Enter the order and service in the registry; complete reports"),
+   S("Give the victim safety planning and hotline information", "NJ DV Hotline: 1-800-572-7233"),
+  ]),
+ ]))
+
 for it in ITEMS:
     it["note"] = "Follow your department's policy and current AG directives. Not yet verified against official sources."
     json.dump(it, open(os.path.join(OUT, it["id"] + ".json"), "w", encoding="utf8"), ensure_ascii=False, indent=2)

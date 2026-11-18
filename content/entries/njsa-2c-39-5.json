@@ -21,5 +21,37 @@
     "Firearms: the suspect had no permit to carry (handgun) or no firearms purchaser ID card (rifle or shotgun), and no exemption applies",
     "Other weapons (knife, club, etc.): possessed under circumstances not manifestly appropriate for lawful uses",
     "Note the location (school property raises the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Machine guns without a license",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b",
+      "text": "Handguns without a permit to carry",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "c",
+      "text": "Rifles or shotguns without a firearms purchaser ID card",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "d",
+      "text": "Other weapons under circumstances not manifestly appropriate for lawful uses",
+      "grade": "4th degree"
+    },
+    {
+      "label": "e",
+      "text": "Firearms or other weapons on school, college or university property without authorization",
+      "grade": "3rd or 4th degree"
+    },
+    {
+      "label": "f",
+      "text": "Assault firearms without a license",
+      "grade": "2nd degree"
+    }
   ]
 }

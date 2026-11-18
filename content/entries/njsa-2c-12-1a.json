@@ -31,5 +31,27 @@
     "OR a(2): negligently caused bodily injury with a deadly weapon",
     "OR a(3): used a physical threat to try to make someone afraid they were about to be seriously hurt",
     "Note whether it was a fight entered into by mutual consent (lowers the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Attempts to cause, or purposely, knowingly or recklessly causes, bodily injury to another",
+      "grade": "DP"
+    },
+    {
+      "label": "a(2)",
+      "text": "Negligently causes bodily injury with a deadly weapon",
+      "grade": "DP"
+    },
+    {
+      "label": "a(3)",
+      "text": "Uses a physical threat to try to make someone fear imminent serious bodily injury",
+      "grade": "DP"
+    },
+    {
+      "label": "Mutual fight",
+      "text": "Simple assault in a fight or scuffle entered into by mutual consent",
+      "grade": "PDP"
+    }
   ]
 }

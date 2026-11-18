@@ -20,5 +20,6 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "group": "Response Procedures"
 }

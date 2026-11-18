@@ -29,5 +29,17 @@
     "(a): With purpose to terrorize another, or to cause evacuation or serious public inconvenience (or in reckless disregard of that risk)",
     "OR (b): The suspect threatened to kill another",
     "(b): With purpose to put the victim in imminent fear of death, under circumstances reasonably causing the victim to believe the threat was immediate and likely to be carried out"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Threatens a crime of violence with purpose to terrorize, or to cause evacuation of a building, place of assembly or transit, or serious public inconvenience, or in reckless disregard of that risk",
+      "grade": "3rd degree; 2nd during a declared emergency"
+    },
+    {
+      "label": "b",
+      "text": "Threatens to kill another with purpose to put them in imminent fear of death, under circumstances reasonably causing the victim to believe it",
+      "grade": "3rd degree"
+    }
   ]
 }

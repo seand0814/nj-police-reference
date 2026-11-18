@@ -18,5 +18,17 @@
   "elements": [
     "The suspect knowingly restrained the victim unlawfully",
     "In circumstances exposing the victim to risk of serious bodily injury (OR held the victim in a condition of involuntary servitude)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Knowingly restrains another unlawfully in circumstances exposing them to risk of serious bodily injury",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "b",
+      "text": "Knowingly holds another in a condition of involuntary servitude",
+      "grade": "3rd degree"
+    }
   ]
 }

@@ -30,5 +30,42 @@
     "The suspect acted knowingly or purposely",
     "No valid prescription or other legal authority",
     "Identify the substance and quantity (sets the grade); remember the marijuana thresholds"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Possession of Schedule I-IV CDS or analog",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "a(2)",
+      "text": "Possession of Schedule V CDS",
+      "grade": "4th degree"
+    },
+    {
+      "label": "a(3)",
+      "text": "More than 6 oz of marijuana or more than 17 g of hashish",
+      "grade": "4th degree"
+    },
+    {
+      "label": "a(4)",
+      "text": "6 oz or less of marijuana, or 17 g or less of hashish",
+      "grade": "No penalty"
+    },
+    {
+      "label": "a(5)",
+      "text": "Psilocybin, 1 oz or less",
+      "grade": "DP"
+    },
+    {
+      "label": "b",
+      "text": "Using or being under the influence of CDS (not marijuana or hashish)",
+      "grade": "DP"
+    },
+    {
+      "label": "c",
+      "text": "Failing to voluntarily deliver CDS to the nearest officer",
+      "grade": "DP"
+    }
   ]
 }

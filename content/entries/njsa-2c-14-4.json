@@ -19,5 +19,17 @@
     "The suspect did a flagrantly lewd and offensive act",
     "Knowing or reasonably expecting it would be observed by a nonconsenting person who would be affronted or alarmed",
     "For the 4th-degree version: exposed intimate parts for sexual gratification to a child under 13 (or a person unable to understand), with the actor at least 4 years older"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Lewdness: a flagrantly lewd and offensive act knowing or expecting it will be observed by a nonconsenting person who would be affronted or alarmed",
+      "grade": "DP"
+    },
+    {
+      "label": "b",
+      "text": "Exposes intimate parts for sexual gratification to a child under 13 (actor 4+ years older) or a person unable to understand; or similar conduct listed",
+      "grade": "4th degree"
+    }
   ]
 }

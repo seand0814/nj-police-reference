@@ -1,0 +1,36 @@
+{
+  "id": "dv-tro-guide",
+  "category": "Domestic Violence",
+  "title": "Temporary Restraining Orders (TRO)",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 2C:25-28; AG Domestic Violence Procedures Manual",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Who can get one: a victim of domestic violence as defined in 2C:25-19, meaning a qualifying relationship plus a predicate act.",
+    "Where: during court hours, the victim files in the Superior Court, Family Part. After hours, on weekends and holidays, police help the victim apply to an on-call municipal or Superior Court judge, usually by phone or video from the police department.",
+    "Standard: the judge may issue a TRO without the defendant present (ex parte) when it is needed to protect the victim's life, health or well-being.",
+    "Typical relief: no contact or communication; barring the defendant from the residence (exclusive possession to the victim); barring the defendant from the victim's work, school or other places; temporary custody; emergency money relief; and seizure of weapons, firearms and firearms permits.",
+    "A TRO lasts until the final hearing, which is generally held within 10 days (2C:25-29).",
+    "A TRO is a civil order. The victim can seek a TRO, file a criminal complaint, or both; one does not require the other.",
+    "Only the defendant can violate the order. The victim cannot be charged with violating their own order, even if they initiate contact."
+  ],
+  "officer_notes": [
+    "Explain the process neutrally. Do not discourage an application or predict the outcome.",
+    "Give the victim a copy of the TRO and explain when and where the final hearing will be.",
+    "Serve the defendant as soon as possible and record the time of service.",
+    "Run the after-hours TRO checklist."
+  ],
+  "related": [
+    "njsa-2c-25-28",
+    "njsa-2c-25-29",
+    "dv-fro-guide",
+    "dv-serving-enforcing"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "domestic-violence",
+  "group": "Restraining Orders (TRO/FRO)"
+}

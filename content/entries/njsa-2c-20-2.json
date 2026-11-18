@@ -15,5 +15,37 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "subsections": [
+    {
+      "label": "a",
+      "text": "All forms of theft in Chapter 20 are a single offense",
+      "grade": ""
+    },
+    {
+      "label": "b(1)",
+      "text": "2nd degree: $75,000 or more; property taken by extortion; certain CDS amounts; people smuggling and other listed cases",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b(2)",
+      "text": "3rd degree: over $500 to under $75,000; or a firearm, motor vehicle, vessel, boat, horse, domestic companion animal, airplane, CDS, blank prescription, or other listed items regardless of value",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "b(3)",
+      "text": "4th degree: at least $200 but not more than $500",
+      "grade": "4th degree"
+    },
+    {
+      "label": "b(4)",
+      "text": "Disorderly persons: under $200",
+      "grade": "DP"
+    },
+    {
+      "label": "c",
+      "text": "Claim of right defenses; amounts in one scheme may be aggregated",
+      "grade": ""
+    }
+  ]
 }

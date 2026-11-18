@@ -20,5 +20,27 @@
     "The suspect caused the victim's death",
     "Manslaughter: the suspect acted recklessly (or in the heat of passion after reasonable provocation)",
     "Aggravated manslaughter: recklessly, under circumstances showing extreme indifference to human life (or while eluding police)"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Aggravated manslaughter: recklessly causes death under circumstances manifesting extreme indifference to human life",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(2)",
+      "text": "Aggravated manslaughter: causes death while fleeing or attempting to elude police",
+      "grade": "1st degree"
+    },
+    {
+      "label": "b(1)",
+      "text": "Manslaughter: recklessly causes death",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b(2)",
+      "text": "Manslaughter: a homicide that would be murder but is committed in the heat of passion from reasonable provocation",
+      "grade": "2nd degree"
+    }
   ]
 }

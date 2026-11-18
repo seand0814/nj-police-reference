@@ -1,0 +1,27 @@
+{
+  "id": "dv-weapons-after",
+  "category": "Domestic Violence",
+  "title": "Weapons Seized on DV Calls: What Happens Next",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 2C:25-21(d); AG DV Procedures Manual",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Seized weapons, firearms, FPIC and permits are inventoried in the DV report and sent to the county prosecutor as the county requires.",
+    "The prosecutor decides whether to petition the court to forfeit the weapons or keep the owner from regaining them; the statute sets a deadline for that petition.",
+    "Weapons are not returned while a restraining order that prohibits them is in effect.",
+    "The owner may apply for return through the court; the prosecutor can object."
+  ],
+  "officer_notes": [
+    "Confirm your county prosecutor's forfeiture timeline and paperwork."
+  ],
+  "related": [
+    "njsa-2c-25-21"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "domestic-violence",
+  "group": "Restraining Orders (TRO/FRO)"
+}

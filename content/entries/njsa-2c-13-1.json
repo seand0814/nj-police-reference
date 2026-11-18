@@ -21,5 +21,22 @@
     "Removal or confinement was by force, threat or deception (or, for a child under 14 or incompetent person, without a parent's or guardian's consent)",
     "With purpose to: hold for ransom or as a shield or hostage; facilitate a crime or flight; inflict bodily injury or terrorize; or interfere with a government function",
     "Note whether the victim was released unharmed in a safe place (affects grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Unlawful removal or confinement to hold for ransom, reward, or as a shield or hostage",
+      "grade": "1st degree"
+    },
+    {
+      "label": "b",
+      "text": "Unlawful removal a substantial distance or confinement for a substantial period, to facilitate a crime or flight, inflict injury or terrorize, interfere with a government function, or permanently deprive a parent of custody",
+      "grade": "1st degree"
+    },
+    {
+      "label": "c",
+      "text": "Grading: 2nd degree if the victim is released unharmed and in a safe place before apprehension; enhanced sentence for child victims under 16 with aggravators",
+      "grade": "1st / 2nd degree"
+    }
   ]
 }

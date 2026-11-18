@@ -29,5 +29,27 @@
     "The suspect operated a motor vehicle (or permitted another person who was impaired to operate one)",
     "While under the influence of alcohol, a narcotic, hallucinogenic or habit-producing drug, OR with a BAC of 0.08% or higher",
     "Document observations, SFSTs and breath, blood or DRE results"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Operating a motor vehicle under the influence of alcohol or drugs, or with BAC of 0.08% or more; or permitting an impaired person to operate",
+      "grade": ""
+    },
+    {
+      "label": "a(1)",
+      "text": "First offense: fines by BAC level, IDRC, possible jail, ignition interlock; forfeiture if BAC 0.15%+ or drug impaired",
+      "grade": "MV"
+    },
+    {
+      "label": "a(2)",
+      "text": "Second offense: fines, 48 hours to 90 days jail, community service, 1-2 year forfeiture, interlock",
+      "grade": "MV"
+    },
+    {
+      "label": "a(3)",
+      "text": "Third and later: $1,000 fine, 180 days jail, 8-year forfeiture, interlock",
+      "grade": "MV"
+    }
   ]
 }

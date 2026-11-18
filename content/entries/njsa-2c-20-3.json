@@ -20,5 +20,17 @@
     "The property belonged to another",
     "The suspect acted with purpose to deprive the owner of it",
     "Determine the value of the property (sets the grade)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Movable property: unlawfully takes or exercises control over movable property of another with purpose to deprive",
+      "grade": "Graded by value (2C:20-2)"
+    },
+    {
+      "label": "b",
+      "text": "Immovable property: unlawfully transfers an interest in immovable property of another with purpose to benefit himself or another",
+      "grade": "Graded by value (2C:20-2)"
+    }
   ]
 }

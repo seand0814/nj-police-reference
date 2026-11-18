@@ -21,5 +21,27 @@
     "The suspect had no license or privilege to be there",
     "The suspect intended to commit an offense inside",
     "For 2nd degree: purposely, knowingly or recklessly inflicted, attempted or threatened bodily injury, OR was armed with explosives or a deadly weapon"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Enters a research facility, structure or separately secured part of one, with purpose to commit an offense inside",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "a(2)",
+      "text": "Surreptitiously remains there, knowing he is not licensed to, with purpose to commit an offense",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "a(3)",
+      "text": "Trespasses in or on utility company property with purpose to commit an offense",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "b",
+      "text": "2nd degree if the actor purposely, knowingly or recklessly inflicts, attempts or threatens bodily injury, or is armed with explosives or a deadly weapon",
+      "grade": "2nd degree"
+    }
   ]
 }

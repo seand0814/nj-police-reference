@@ -20,5 +20,27 @@
     "The suspect caused the victim's death, or caused serious bodily injury that resulted in death",
     "The suspect acted purposely or knowingly",
     "OR (felony murder): the death was caused during the commission, attempt or flight from robbery, sexual assault, arson, burglary, kidnapping, carjacking, escape or terrorism"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "Purposely causes death, or serious bodily injury resulting in death",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(2)",
+      "text": "Knowingly causes death, or serious bodily injury resulting in death",
+      "grade": "1st degree"
+    },
+    {
+      "label": "a(3)",
+      "text": "Felony murder: death caused during robbery, sexual assault, arson, burglary, kidnapping, carjacking, criminal escape or terrorism (or flight)",
+      "grade": "1st degree"
+    },
+    {
+      "label": "b",
+      "text": "Sentencing: 30 years to life with 30 years parole ineligibility; life without parole in specified circumstances",
+      "grade": ""
+    }
   ]
 }

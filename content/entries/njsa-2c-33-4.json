@@ -29,5 +29,27 @@
     "(a): made or caused communications anonymously, at extremely inconvenient hours, in offensively coarse language, or in another manner likely to cause annoyance or alarm",
     "OR (b): subjected the victim to striking, kicking, shoving or other offensive touching, or threatened to do so",
     "OR (c): engaged in a course of alarming conduct or repeatedly committed acts with purpose to alarm or seriously annoy"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "With purpose to harass, makes communications anonymously, at extremely inconvenient hours, in offensively coarse language, or in a manner likely to cause annoyance or alarm",
+      "grade": "PDP"
+    },
+    {
+      "label": "b",
+      "text": "With purpose to harass, subjects another to striking, kicking, shoving or other offensive touching, or threatens to",
+      "grade": "PDP"
+    },
+    {
+      "label": "c",
+      "text": "With purpose to alarm or seriously annoy, engages in a course of alarming conduct or repeated acts",
+      "grade": "PDP"
+    },
+    {
+      "label": "e",
+      "text": "Upgrade if committed while serving a prison term or on parole or probation for an indictable offense, or aimed at a judge because of judicial duties",
+      "grade": "4th degree"
+    }
   ]
 }

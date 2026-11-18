@@ -23,5 +23,47 @@
     "OR b(5): Committed a simple assault against a protected victim (officer, EMS, health care worker, etc.)",
     "b(5): The victim was acting in the performance of duties (or because of their status), and the suspect knew or should have known it",
     "Record the level of injury: none, bodily, significant or serious"
+  ],
+  "subsections": [
+    {
+      "label": "b(1)",
+      "text": "Attempts to cause serious bodily injury, or causes it purposely, knowingly, or recklessly with extreme indifference",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b(2)",
+      "text": "Attempts to cause, or purposely or knowingly causes, bodily injury with a deadly weapon",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "b(3)",
+      "text": "Causes bodily injury to another with a deadly weapon through recklessness",
+      "grade": "4th degree"
+    },
+    {
+      "label": "b(4)",
+      "text": "Knowingly points a firearm at or in the direction of another, under circumstances manifesting extreme indifference (whether or not believed loaded)",
+      "grade": "4th degree"
+    },
+    {
+      "label": "b(5)",
+      "text": "Simple assault on a protected victim: law enforcement, firefighters, EMS, health care workers, school employees, transit operators, judges, DCP&P workers, utility workers, and others listed",
+      "grade": "4th degree; 3rd degree if bodily injury"
+    },
+    {
+      "label": "b(6)",
+      "text": "Causes bodily injury while fleeing or attempting to elude police",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b(7)",
+      "text": "Attempts to cause significant bodily injury, or causes it purposely, knowingly or recklessly",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "Other paragraphs",
+      "text": "Also covers injury by starting a fire or explosion; pointing a firearm, imitation firearm or laser sight at an officer; and strangulation of a domestic violence victim. Confirm paragraph numbers and grades in the full text.",
+      "grade": "Varies (confirm)"
+    }
   ]
 }

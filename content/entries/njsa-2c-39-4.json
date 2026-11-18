@@ -19,5 +19,32 @@
     "The suspect possessed a firearm or other weapon (or imitation firearm)",
     "The suspect knew he possessed it",
     "The suspect had a purpose to use it unlawfully against the person or property of another"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Possession of a firearm with purpose to use it unlawfully against the person or property of another",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b",
+      "text": "Explosives with purpose to use unlawfully",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "c",
+      "text": "Destructive devices with purpose to use unlawfully",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "d",
+      "text": "Other weapons with purpose to use unlawfully",
+      "grade": "3rd degree"
+    },
+    {
+      "label": "e",
+      "text": "Imitation firearms with purpose to use unlawfully",
+      "grade": "4th degree"
+    }
   ]
 }

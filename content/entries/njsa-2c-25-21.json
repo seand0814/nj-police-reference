@@ -23,5 +23,27 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Mandatory arrest and complaint when probable cause of DV exists and the victim shows signs of injury, a warrant is in effect, a restraining order violation occurred, or a weapon was involved",
+      "grade": ""
+    },
+    {
+      "label": "b",
+      "text": "Discretionary arrest and complaint in other cases with probable cause",
+      "grade": ""
+    },
+    {
+      "label": "c",
+      "text": "When both parties are injured, weigh comparative injuries, history and other factors; do not arrest a victim for reasonable self-defense",
+      "grade": ""
+    },
+    {
+      "label": "d",
+      "text": "Ask about and seize weapons at risk; seize FPIC and permits with any firearm; forward to the county prosecutor",
+      "grade": ""
+    }
+  ]
 }

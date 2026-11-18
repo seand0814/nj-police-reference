@@ -19,5 +19,17 @@
     "The suspect possessed a firearm (or other weapon)",
     "The suspect knew he possessed it",
     "The suspect falls in a prohibited class (for example, a prior conviction for a listed offense)"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Persons convicted of listed offenses (and certain others) possessing any weapon",
+      "grade": "4th degree (3rd degree in some cases)"
+    },
+    {
+      "label": "b",
+      "text": "Persons convicted of listed offenses possessing a firearm",
+      "grade": "2nd degree, with mandatory parole ineligibility"
+    }
   ]
 }

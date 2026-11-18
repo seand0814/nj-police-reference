@@ -20,5 +20,27 @@
     "The suspect was in the course of committing a theft (including attempt and immediate flight)",
     "The suspect inflicted bodily injury or used force; OR threatened or purposely put the victim in fear of immediate bodily injury; OR committed or threatened a 1st or 2nd degree crime",
     "For 1st degree: attempted to kill, inflicted or attempted serious bodily injury, or was armed with or threatened use of a deadly weapon"
+  ],
+  "subsections": [
+    {
+      "label": "a(1)",
+      "text": "In the course of a theft, inflicts bodily injury or uses force upon another",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "a(2)",
+      "text": "Threatens another with, or purposely puts them in fear of, immediate bodily injury",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "a(3)",
+      "text": "Commits or threatens immediately to commit a 1st or 2nd degree crime",
+      "grade": "2nd degree"
+    },
+    {
+      "label": "b",
+      "text": "1st degree if the actor attempts to kill, purposely inflicts or attempts serious bodily injury, or is armed with, uses or threatens a deadly weapon",
+      "grade": "1st degree"
+    }
   ]
 }

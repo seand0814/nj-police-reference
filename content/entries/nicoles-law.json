@@ -1,0 +1,27 @@
+{
+  "id": "nicoles-law",
+  "category": "Investigations",
+  "title": "Nicole's Law: Orders Protecting Sex Offense Victims",
+  "source_type": "directive",
+  "citation": "Nicole's Law, N.J.S.A. 2C:44-8 and 2C:14-12",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Lets a court restrain a person charged with or convicted of a sex offense from contacting the victim, including as a condition of release and after conviction.",
+    "A conviction-based order can remain in effect until the court ends it.",
+    "Violating the order is contempt (2C:29-9)."
+  ],
+  "officer_notes": [
+    "Confirm the order's terms in court records before enforcing."
+  ],
+  "related": [
+    "saspa-orders",
+    "njsa-2c-29-9"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Protective Orders (ERPO, SASPA)"
+}

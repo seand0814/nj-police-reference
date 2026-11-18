@@ -1,0 +1,25 @@
+{
+  "id": "njsa-2c-25-28",
+  "category": "Domestic Violence",
+  "title": "Filing a DV Complaint for a Restraining Order (TRO)",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:25-28",
+  "source_url": "",
+  "grade_or_penalty": "Procedure (no grade)",
+  "key_points": [
+    "A victim may file a civil complaint alleging domestic violence in the Superior Court, Family Part, where the act occurred, where the defendant lives, or where the victim lives or is sheltered.",
+    "When the court is closed, the victim may apply to a designated judge with police assistance.",
+    "The judge may issue an ex parte TRO when needed to protect the victim's life, health or well-being.",
+    "The TRO can include the same types of relief as a final order, plus seizure of weapons.",
+    "Filing a civil complaint does not prevent filing a criminal complaint for the same act."
+  ],
+  "officer_notes": [],
+  "related": [
+    "dv-tro-guide",
+    "njsa-2c-25-29"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import {
   ARREST_GROUPS,
+  DV_GROUPS,
   CASE_GROUPS,
   HUB_GROUPS,
   HUB_STATUTES,
@@ -38,6 +39,8 @@ export type Entry = {
   elements?: string[];
   /** Optional table (for charts like the drug recognition matrix). */
   table?: { columns: string[]; rows: string[][]; note?: string };
+  /** Plain-language breakdown of a statute's subsections, each with its own grade. */
+  subsections?: { label: string; text: string; grade: string }[];
   /** Lines in "English | Spanish" form get a play button. */
   speak?: boolean;
 };
@@ -206,7 +209,7 @@ export function sectionGroups(slug: string): { byType: Group[]; byChapter?: Grou
 
   // Hub sections: named groups, then related statutes that live in other sections.
   const rows = entries.map((e) => ({ key: e.group || HUB_GROUPS[e.id] || "Procedures & Reference", row: toRow(e) }));
-  const groups = bucket(rows, [...new Set([...ARREST_GROUPS, ...CASE_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
+  const groups = bucket(rows, [...new Set([...DV_GROUPS, ...ARREST_GROUPS, ...CASE_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
   const filter = HUB_STATUTES[slug];
   if (filter) {
     const related = allEntries().filter((e) => {

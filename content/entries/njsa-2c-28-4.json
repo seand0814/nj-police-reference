@@ -19,5 +19,17 @@
     "(a): The suspect knowingly gave or caused to be given false information to law enforcement",
     "(a): With purpose to implicate another",
     "OR (b): reported or caused to be reported an offense or incident knowing it did not occur, or pretended to furnish information about an offense knowing he had none"
+  ],
+  "subsections": [
+    {
+      "label": "a",
+      "text": "Knowingly gives false information to law enforcement with purpose to implicate another",
+      "grade": "4th degree (3rd degree in specified cases)"
+    },
+    {
+      "label": "b",
+      "text": "Reports an offense or incident knowing it did not occur, or pretends to have information about one",
+      "grade": "DP"
+    }
   ]
 }
