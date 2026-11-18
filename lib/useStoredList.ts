@@ -44,4 +44,7 @@ export const KEYS = {
   notes: "njpr.notes",
   contacts: "njpr.contacts",
   radio: "njpr.radioCodes",
+  recent: "njpr.recent",
+  ccView: "njpr.criminalCodeView",
+  checks: "njpr.checks.", // + checklist id
 };

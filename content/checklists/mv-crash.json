@@ -1,0 +1,67 @@
+{
+  "id": "mv-crash",
+  "kind": "checklist",
+  "title": "Motor Vehicle Crash",
+  "sections": [
+    "motor-vehicle",
+    "checklists"
+  ],
+  "summary": "Scene management through the crash report.",
+  "groups": [
+    {
+      "name": "Scene safety",
+      "steps": [
+        {
+          "text": "Position the vehicle to protect the scene; lights on"
+        },
+        {
+          "text": "Check for injuries and request EMS and fire as needed"
+        },
+        {
+          "text": "Look for hazards: fuel, fire, wires, hazmat placards",
+          "link": "/entry/hazmat-erg"
+        },
+        {
+          "text": "Set up traffic control"
+        }
+      ]
+    },
+    {
+      "name": "Investigate",
+      "steps": [
+        {
+          "text": "Identify drivers, passengers and witnesses; exchange information"
+        },
+        {
+          "text": "Check licenses, registrations and insurance"
+        },
+        {
+          "text": "Watch for signs of impairment",
+          "link": "/go/dwi-arrest"
+        },
+        {
+          "text": "Photograph vehicles, final rest positions, debris and road marks"
+        },
+        {
+          "text": "If a driver left the scene, get the vehicle description and direction",
+          "link": "/entry/njsa-39-4-129"
+        }
+      ]
+    },
+    {
+      "name": "Wrap up",
+      "steps": [
+        {
+          "text": "Arrange tows and clear debris"
+        },
+        {
+          "text": "Complete the NJTR-1 crash report"
+        },
+        {
+          "text": "Issue summonses where the facts support them"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

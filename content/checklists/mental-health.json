@@ -1,0 +1,56 @@
+{
+  "id": "mental-health",
+  "kind": "flow",
+  "title": "Mental Health Crisis: Screening or Not?",
+  "sections": [
+    "investigations",
+    "checklists"
+  ],
+  "summary": "Deciding on a screening transport under N.J.S.A. 30:4-27.6.",
+  "start": "danger",
+  "nodes": {
+    "danger": {
+      "q": "Is anyone in immediate danger right now?",
+      "yes": "safety",
+      "no": "grounds"
+    },
+    "safety": {
+      "result": "Make the scene safe first",
+      "tone": "red",
+      "points": [
+        "Use time, distance and cover; request backup and EMS.",
+        "Follow the AG Use of Force Policy.",
+        "Once safe, continue to the screening decision."
+      ],
+      "link": "/entry/uof-ag-policy",
+      "next": "grounds"
+    },
+    "grounds": {
+      "q": "Are there reasonable grounds to believe the person is dangerous to self, others or property because of mental illness?",
+      "help": "Based on what you observe or on a screener's certificate.",
+      "yes": "transport",
+      "no": "voluntary"
+    },
+    "transport": {
+      "result": "Transport to a screening service",
+      "tone": "amber",
+      "points": [
+        "Take the person into custody for screening (30:4-27.6).",
+        "Pat down for weapons before transport.",
+        "Document the specific behavior and statements."
+      ],
+      "link": "/entry/njsa-30-4-27-6"
+    },
+    "voluntary": {
+      "result": "Offer voluntary help",
+      "tone": "green",
+      "points": [
+        "Offer voluntary evaluation or a crisis team.",
+        "Share the 988 Suicide & Crisis Lifeline.",
+        "Document the contact and any referrals."
+      ],
+      "link": "/entry/psych-crises"
+    }
+  },
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

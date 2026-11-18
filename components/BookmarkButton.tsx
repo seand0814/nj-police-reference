@@ -12,7 +12,7 @@ export default function BookmarkButton({ id }: { id: string }) {
       onClick={() => save(on ? items.filter((x) => x !== id) : [id, ...items])}
       aria-label={on ? "Remove from Saved" : "Save"}
       aria-pressed={on}
-      className="min-h-[44px] min-w-[44px] shrink-0 rounded-lg border border-slate-300 text-xl dark:border-slate-700"
+      className="min-h-[44px] min-w-[44px] shrink-0 rounded-xl border border-white/40 bg-white/15 text-xl text-white active:scale-95"
     >
       {on ? "★" : "☆"}
     </button>

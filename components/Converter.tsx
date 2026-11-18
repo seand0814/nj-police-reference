@@ -28,7 +28,7 @@ export default function Converter() {
   const out = Number.isFinite(n) ? c.fn(n) : NaN;
 
   return (
-    <div className="space-y-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
+    <div className="space-y-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
       <label className="block space-y-1">
         <span className="text-sm font-medium">Conversion</span>
         <select value={i} onChange={(e) => setI(Number(e.target.value))} className={inputCls}>

@@ -1,0 +1,60 @@
+{
+  "id": "uof-reporting",
+  "kind": "checklist",
+  "title": "After a Use of Force",
+  "sections": [
+    "force-search",
+    "checklists"
+  ],
+  "summary": "What to do once the scene is safe after any reportable use of force.",
+  "groups": [
+    {
+      "name": "Immediately",
+      "steps": [
+        {
+          "text": "Render first aid and request EMS for anyone injured or complaining of injury"
+        },
+        {
+          "text": "Notify a supervisor right away"
+        },
+        {
+          "text": "Intervene and report if you saw another officer use excessive force",
+          "detail": "Duty to intervene under the AG Use of Force Policy",
+          "link": "/entry/uof-ag-policy"
+        }
+      ]
+    },
+    {
+      "name": "Evidence",
+      "steps": [
+        {
+          "text": "Preserve body-worn camera and in-car video; tag the recordings"
+        },
+        {
+          "text": "Photograph injuries to the subject and officers"
+        },
+        {
+          "text": "Identify and interview witnesses"
+        },
+        {
+          "text": "Collect and preserve any weapons or physical evidence"
+        }
+      ]
+    },
+    {
+      "name": "Reporting",
+      "steps": [
+        {
+          "text": "Complete the use of force report in the state reporting system within your agency's deadline"
+        },
+        {
+          "text": "Write a detailed narrative: the threat, resistance, de-escalation tried, force used and why, and when force stopped"
+        },
+        {
+          "text": "Follow your agency's policy for any discharge of a weapon, serious injury or death (prosecutor notification)"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

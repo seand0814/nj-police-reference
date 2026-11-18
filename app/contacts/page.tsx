@@ -22,7 +22,7 @@ export default function ContactsPage() {
     <>
       <PageTitle>My Phone Numbers</PageTitle>
       <DeviceNote />
-      <form onSubmit={add} className="space-y-2 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
+      <form onSubmit={add} className="space-y-2 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Name (e.g. Prosecutor on-call)" maxLength={200} className={inputCls} />
         <input value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} type="tel" placeholder="Phone" maxLength={50} className={inputCls} />
         <input value={form.notes} onChange={(e) => setForm({ ...form, notes: e.target.value })} placeholder="Notes" maxLength={2000} className={inputCls} />
@@ -30,7 +30,7 @@ export default function ContactsPage() {
       </form>
       <ul className="mt-4 space-y-2">
         {sorted.map((c) => (
-          <li key={c.id} className="flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+          <li key={c.id} className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <div className="min-w-0">
               <div className="font-medium">{c.name}</div>
               {c.phone ? <a href={`tel:${c.phone.replace(/[^\d+]/g, "")}`} className="text-brand underline dark:text-brand-dark">{c.phone}</a> : null}

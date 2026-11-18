@@ -1,0 +1,56 @@
+{
+  "id": "sexual-assault-response",
+  "kind": "checklist",
+  "title": "Sexual Assault Initial Response",
+  "sections": [
+    "investigations",
+    "checklists"
+  ],
+  "summary": "A victim-centered first response.",
+  "groups": [
+    {
+      "name": "Safety & care",
+      "steps": [
+        {
+          "text": "Ensure safety and medical care first"
+        },
+        {
+          "text": "Contact the county Sexual Assault Response Team (SART/SANE)",
+          "link": "/entry/sex-crimes-investigation"
+        },
+        {
+          "text": "Explain that a forensic exam is available even without reporting to police"
+        }
+      ]
+    },
+    {
+      "name": "Evidence",
+      "steps": [
+        {
+          "text": "Ask the victim, if possible, not to bathe, change, eat, drink or use the bathroom"
+        },
+        {
+          "text": "Collect clothing in paper bags, not plastic"
+        },
+        {
+          "text": "Secure the scene and note any electronic evidence (messages, video)"
+        }
+      ]
+    },
+    {
+      "name": "Interview",
+      "steps": [
+        {
+          "text": "Brief initial interview only: what happened, suspect info, location, time"
+        },
+        {
+          "text": "Leave the detailed interview to trained investigators"
+        },
+        {
+          "text": "Notify the county prosecutor's sex crimes unit per county policy"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

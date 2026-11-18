@@ -28,7 +28,7 @@ export default function NotesPage() {
     <>
       <PageTitle>My Notes</PageTitle>
       <DeviceNote />
-      <form onSubmit={add} className="space-y-2 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
+      <form onSubmit={add} className="space-y-2 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Title" maxLength={200} className={inputCls} />
         <textarea value={body} onChange={(e) => setBody(e.target.value)} placeholder="Note" rows={4} className={inputCls} />
         <button className={btnCls}>Add note</button>
@@ -36,7 +36,7 @@ export default function NotesPage() {
       <ul className="mt-4 space-y-3">
         {sorted.map((n) => (
           <li key={n.id}>
-            <details className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+            <details className="rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <summary className="flex min-h-[48px] cursor-pointer items-center px-4 font-medium">{n.title}</summary>
               <div className="space-y-2 border-t border-slate-100 p-4 dark:border-slate-800">
                 <input

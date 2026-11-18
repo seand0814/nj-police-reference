@@ -1,0 +1,67 @@
+{
+  "id": "consent-search",
+  "kind": "flow",
+  "title": "Can I Ask for Consent to Search the Car?",
+  "sections": [
+    "force-search",
+    "checklists"
+  ],
+  "summary": "New Jersey rules for motor vehicle consent searches.",
+  "start": "stop",
+  "nodes": {
+    "stop": {
+      "q": "Was the stop lawful (reasonable suspicion of a violation or crime)?",
+      "yes": "pc",
+      "no": "nostop"
+    },
+    "pc": {
+      "q": "Did probable cause to search arise spontaneously and unforeseeably at the scene?",
+      "help": "For example, contraband in plain view during the stop.",
+      "yes": "witt",
+      "no": "ras"
+    },
+    "ras": {
+      "q": "Do you have reasonable, articulable suspicion that a search will reveal evidence of a crime?",
+      "help": "Required before even asking for consent (State v. Carty).",
+      "yes": "ask",
+      "no": "noask"
+    },
+    "witt": {
+      "result": "Automobile exception may apply",
+      "tone": "green",
+      "points": [
+        "A warrantless roadside search is allowed when probable cause arises spontaneously and unforeseeably (State v. Witt).",
+        "No consent needed. Document the facts that created probable cause.",
+        "If the car is towed first, get a warrant."
+      ],
+      "link": "/entry/traffic-stops"
+    },
+    "ask": {
+      "result": "You may request consent",
+      "tone": "green",
+      "points": [
+        "Tell the person they have the right to refuse.",
+        "They may withdraw consent and may watch the search.",
+        "Use your agency's consent-to-search form and record on BWC."
+      ],
+      "link": "/entry/traffic-stops"
+    },
+    "noask": {
+      "result": "Do not ask for consent",
+      "tone": "red",
+      "points": [
+        "Without reasonable suspicion, a consent request is not allowed in NJ.",
+        "Finish the stop without extending it."
+      ],
+      "link": "/entry/traffic-stops"
+    },
+    "nostop": {
+      "result": "Stop is not supported",
+      "tone": "red",
+      "points": [
+        "Without reasonable suspicion, the stop and anything found may be suppressed."
+      ]
+    }
+  },
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "shoplifting",
+  "kind": "checklist",
+  "title": "Shoplifting Arrest",
+  "sections": [
+    "criminal-code",
+    "checklists"
+  ],
+  "summary": "Grading depends on the full retail value.",
+  "groups": [
+    {
+      "name": "On scene",
+      "steps": [
+        {
+          "text": "Confirm what security saw: selection, concealment, passing the last point of sale"
+        },
+        {
+          "text": "Get the full retail value of all items",
+          "link": "/tools"
+        },
+        {
+          "text": "Collect video and the store's written statement"
+        },
+        {
+          "text": "Check for prior shoplifting convictions"
+        }
+      ]
+    },
+    {
+      "name": "Charge",
+      "steps": [
+        {
+          "text": "Grade by value: DP under $200; 4th degree $200-$500; 3rd degree $500 to $75,000; 2nd degree $75,000+",
+          "link": "/entry/njsa-2c-20-11"
+        },
+        {
+          "text": "Return or photograph merchandise per store and agency policy"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

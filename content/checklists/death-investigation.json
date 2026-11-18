@@ -1,0 +1,70 @@
+{
+  "id": "death-investigation",
+  "kind": "checklist",
+  "title": "Unattended or Suspicious Death",
+  "sections": [
+    "investigations",
+    "checklists"
+  ],
+  "summary": "First-officer steps at a death scene.",
+  "groups": [
+    {
+      "name": "First minutes",
+      "steps": [
+        {
+          "text": "Confirm death; request EMS if there is any doubt"
+        },
+        {
+          "text": "Secure the scene and start an entry log"
+        },
+        {
+          "text": "Do not move or cover the body unless necessary; note anything EMS moved"
+        },
+        {
+          "text": "Notify a supervisor and detectives per policy"
+        }
+      ]
+    },
+    {
+      "name": "Observe and record",
+      "steps": [
+        {
+          "text": "Position of the body, injuries, clothing"
+        },
+        {
+          "text": "Lividity, rigor and body temperature",
+          "link": "/entry/postmortem"
+        },
+        {
+          "text": "Weapons, medications, notes, drug items"
+        },
+        {
+          "text": "Doors, windows, lights, thermostat, mail and newspapers"
+        },
+        {
+          "text": "Photograph before anything is touched"
+        }
+      ]
+    },
+    {
+      "name": "Information",
+      "steps": [
+        {
+          "text": "Who found the decedent, and when the person was last known alive"
+        },
+        {
+          "text": "Medical history, physician and medications"
+        },
+        {
+          "text": "Notify the county medical examiner",
+          "detail": "Violent, suspicious, sudden or unattended deaths are reportable",
+          "link": "/entry/death-investigations"
+        },
+        {
+          "text": "Next-of-kin notification in person when possible"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dv-response",
+  "kind": "checklist",
+  "title": "Domestic Violence Call",
+  "sections": [
+    "domestic-violence",
+    "checklists"
+  ],
+  "summary": "On-scene steps for a domestic violence call, from arrival to the DV report.",
+  "groups": [
+    {
+      "name": "Arrival & safety",
+      "steps": [
+        {
+          "text": "Stage and approach with backup; check call history and prior DV at the address"
+        },
+        {
+          "text": "Separate the parties, out of sight and hearing of each other"
+        },
+        {
+          "text": "Check for injuries and request EMS when needed"
+        },
+        {
+          "text": "Ask about weapons in the home and on the parties"
+        },
+        {
+          "text": "Body-worn camera on for the entire contact"
+        }
+      ]
+    },
+    {
+      "name": "Determine what happened",
+      "steps": [
+        {
+          "text": "Confirm a DV relationship",
+          "detail": "Current or former spouse or household member, child in common or expected, or dating relationship (2C:25-19)",
+          "link": "/entry/njsa-2c-25-19"
+        },
+        {
+          "text": "Identify the offense (predicate act) and whether probable cause exists"
+        },
+        {
+          "text": "Interview each party and witnesses separately, including children if appropriate"
+        },
+        {
+          "text": "Check the DV central registry for existing restraining orders"
+        },
+        {
+          "text": "If both parties are injured, identify the primary aggressor",
+          "detail": "Compare injuries, history and self-defense"
+        }
+      ]
+    },
+    {
+      "name": "Arrest decision",
+      "steps": [
+        {
+          "text": "Run the mandatory arrest go-by",
+          "detail": "Injury, warrant, order violation or weapon = mandatory arrest",
+          "link": "/go/dv-arrest"
+        },
+        {
+          "text": "Do not arrest a victim who used reasonable force in self-defense"
+        }
+      ]
+    },
+    {
+      "name": "Weapons",
+      "steps": [
+        {
+          "text": "Seize weapons that put the victim at risk of serious bodily injury"
+        },
+        {
+          "text": "With any firearm, also seize the FPIC and handgun purchase permits"
+        },
+        {
+          "text": "Inventory seized items in the DV report and forward per county prosecutor procedure"
+        }
+      ]
+    },
+    {
+      "name": "Victim services",
+      "steps": [
+        {
+          "text": "Give the victim written notice of rights, in a language they understand"
+        },
+        {
+          "text": "Explain the TRO process and help with an application if requested"
+        },
+        {
+          "text": "Photograph injuries and the scene"
+        },
+        {
+          "text": "Provide the NJ DV hotline and local victim advocate information",
+          "detail": "NJ DV Hotline: 1-800-572-7233"
+        },
+        {
+          "text": "If children were present or harmed, follow policy for notifying DCP&P"
+        }
+      ]
+    },
+    {
+      "name": "Paperwork",
+      "steps": [
+        {
+          "text": "Complete the DV offense report for every DV incident, even with no arrest"
+        },
+        {
+          "text": "Sign complaints as required; note bail or release conditions"
+        },
+        {
+          "text": "Notify a supervisor per policy"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

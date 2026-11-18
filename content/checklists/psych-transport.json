@@ -1,0 +1,35 @@
+{
+  "id": "psych-transport",
+  "kind": "checklist",
+  "title": "Mental Health Screening Transport",
+  "sections": [
+    "investigations",
+    "checklists"
+  ],
+  "summary": "Taking a person to a screening service.",
+  "groups": [
+    {
+      "name": "Steps",
+      "steps": [
+        {
+          "text": "Make the scene safe and slow things down; request a crisis team if available",
+          "link": "/entry/psych-crises"
+        },
+        {
+          "text": "Decide whether there are reasonable grounds for screening",
+          "link": "/go/mental-health"
+        },
+        {
+          "text": "Pat down for weapons before transport"
+        },
+        {
+          "text": "Transport to the designated screening service; brief the screener"
+        },
+        {
+          "text": "Document observations, statements and behavior that supported the decision"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

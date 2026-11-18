@@ -1,0 +1,83 @@
+{
+  "id": "dv-arrest",
+  "kind": "flow",
+  "title": "Is This a Mandatory DV Arrest?",
+  "sections": [
+    "domestic-violence",
+    "checklists"
+  ],
+  "summary": "Walks through N.J.S.A. 2C:25-21.",
+  "start": "rel",
+  "nodes": {
+    "rel": {
+      "q": "Is there a domestic violence relationship?",
+      "help": "Current or former spouse or household member, child in common or expected, or dating relationship.",
+      "yes": "pc",
+      "no": "notdv"
+    },
+    "pc": {
+      "q": "Is there probable cause that a DV offense (predicate act) was committed?",
+      "help": "Assault, harassment, threats, criminal mischief, contempt, stalking and the other offenses listed in 2C:25-19.",
+      "yes": "injury",
+      "no": "nopc"
+    },
+    "injury": {
+      "q": "Does the victim show signs of injury caused by the DV?",
+      "help": "Read broadly: includes complaints of pain or impairment, not just visible marks.",
+      "yes": "must",
+      "no": "warrant"
+    },
+    "warrant": {
+      "q": "Is there a warrant in effect for the suspect?",
+      "yes": "must",
+      "no": "order"
+    },
+    "order": {
+      "q": "Is there probable cause a served restraining order was violated?",
+      "yes": "must",
+      "no": "weapon"
+    },
+    "weapon": {
+      "q": "Was a weapon involved?",
+      "yes": "must",
+      "no": "may"
+    },
+    "must": {
+      "result": "MANDATORY ARREST",
+      "tone": "red",
+      "points": [
+        "Arrest the suspect and sign a criminal complaint.",
+        "Seize weapons at risk, plus FPIC and permits with any firearm.",
+        "Give the victim notice of rights and complete the DV report."
+      ],
+      "link": "/entry/njsa-2c-25-21"
+    },
+    "may": {
+      "result": "Arrest is discretionary",
+      "tone": "amber",
+      "points": [
+        "You may arrest and/or sign a complaint based on probable cause.",
+        "Still seize weapons when needed and complete the DV report.",
+        "Give the victim notice of rights and explain the TRO process."
+      ],
+      "link": "/entry/njsa-2c-25-21"
+    },
+    "nopc": {
+      "result": "No probable cause for a DV offense",
+      "tone": "blue",
+      "points": [
+        "Complete the DV offense report anyway.",
+        "Give the victim notice of rights, including the right to seek a TRO."
+      ]
+    },
+    "notdv": {
+      "result": "Not covered by the DV Act",
+      "tone": "blue",
+      "points": [
+        "Handle any offense under regular criminal law.",
+        "Document the relationship facts in your report."
+      ]
+    }
+  },
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

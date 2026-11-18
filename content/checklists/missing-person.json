@@ -1,0 +1,62 @@
+{
+  "id": "missing-person",
+  "kind": "checklist",
+  "title": "Missing Person Report",
+  "sections": [
+    "investigations",
+    "checklists"
+  ],
+  "summary": "Take the report immediately; there is no waiting period.",
+  "groups": [
+    {
+      "name": "Take the report",
+      "steps": [
+        {
+          "text": "Accept the report immediately, no waiting period",
+          "link": "/entry/missing-persons"
+        },
+        {
+          "text": "Recent photo, physical description and clothing last worn"
+        },
+        {
+          "text": "Phone number, carrier, social media accounts, vehicle and plate"
+        },
+        {
+          "text": "Medical needs, medications, cognitive conditions"
+        },
+        {
+          "text": "Where last seen, with whom, and places the person might go"
+        }
+      ]
+    },
+    {
+      "name": "Assess risk",
+      "steps": [
+        {
+          "text": "High risk: young child, elderly or impaired, medical need, suicide risk, or suspected abduction"
+        },
+        {
+          "text": "High-risk cases: notify a supervisor right away and start an active search"
+        }
+      ]
+    },
+    {
+      "name": "Search and enter",
+      "steps": [
+        {
+          "text": "Search the home and property where last seen, even if family already did"
+        },
+        {
+          "text": "Enter persons under 21 into NCIC without delay (federal law: within two hours)"
+        },
+        {
+          "text": "AMBER Alert requests go through NJ State Police when criteria are met"
+        },
+        {
+          "text": "Canvass, check video, contact friends, school or work, and hospitals"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}
