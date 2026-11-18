@@ -1,0 +1,27 @@
+{
+  "id": "njsa-2c-25-21",
+  "category": "Domestic Violence",
+  "title": "DV Arrest, Complaint and Weapon Seizure",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:25-21",
+  "source_url": "https://www.njcourts.gov/sites/default/files/courts/municipal/legislation/fornjcourtsl2021c358.pdf",
+  "grade_or_penalty": "Procedure statute (no grade).",
+  "key_points": [
+    "Arrest and sign a complaint are MANDATORY when probable cause of DV exists and: the victim shows signs of injury; a warrant is in effect; there is probable cause a served restraining order was violated (2C:29-9); or a weapon (2C:39-1) was involved.",
+    "Otherwise, arrest and/or signing a complaint is discretionary when probable cause of DV exists.",
+    "Signs of injury are read broadly and include pain or impaired condition; if both parties are hurt, weigh comparative injuries, DV history and other factors to find the primary victim.",
+    "A victim who used reasonable force in self-defense may not be arrested or charged for it.",
+    "Ask whether weapons are on the premises; seize any weapon that puts the victim at risk of serious bodily injury, and with a firearm also seize the FPIC and handgun purchase permits. Send items to the county prosecutor and inventory them in the DV report."
+  ],
+  "officer_notes": [
+    "If the victim has no copy of the order, confirm it with the issuing agency.",
+    "Follow the AG Domestic Violence Procedures Manual for reporting and victim notice."
+  ],
+  "related": [
+    "njsa-2c-12-1a"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

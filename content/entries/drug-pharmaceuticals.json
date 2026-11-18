@@ -1,0 +1,22 @@
+{
+  "id": "drug-pharmaceuticals",
+  "category": "DWI & Drugs",
+  "title": "Commonly Misused Pharmaceuticals",
+  "source_type": "federal_pub",
+  "citation": "General knowledge (confirm against DEA publications)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Opioids: oxycodone, hydrocodone, morphine, codeine (including promethazine-codeine syrup), buprenorphine, methadone, tramadol.",
+    "Benzodiazepines: alprazolam, clonazepam, diazepam, lorazepam.",
+    "Stimulants: amphetamine salts, methylphenidate.",
+    "Other commonly misused: gabapentin, carisoprodol, zolpidem.",
+    "Possession outside the original container is limited by N.J.S.A. 2C:35-24; non-CDS prescription drugs fall under 2C:35-10.5."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

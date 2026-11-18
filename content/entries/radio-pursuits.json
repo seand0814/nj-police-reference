@@ -1,0 +1,24 @@
+{
+  "id": "radio-pursuits",
+  "category": "Operations & ICS",
+  "title": "Radio: Pursuits",
+  "source_type": "directive",
+  "citation": "NJ AG Vehicular Pursuit Policy (current revision)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Pursuits are permitted only in limited situations defined by the AG policy, generally for serious violent crimes and when the danger of letting the suspect flee outweighs the danger of the pursuit.",
+    "Notify dispatch immediately: unit, location, direction, speed, vehicle description, reason for the pursuit, and number of occupants.",
+    "A supervisor must monitor the pursuit and can terminate it at any time.",
+    "Limit the number of pursuing units as set by the policy.",
+    "Terminate when the risk becomes too great, the suspect is identified for later arrest, or communication is lost."
+  ],
+  "officer_notes": [
+    "Read the current AG policy; it was substantially tightened in recent revisions."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

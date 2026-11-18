@@ -1,0 +1,43 @@
+{
+  "id": "spanish-field-phrases",
+  "category": "Spanish",
+  "title": "Spanish Field Phrases",
+  "source_type": "original",
+  "citation": "Original phrase list",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Show me your hands. | Muéstreme las manos.",
+    "Freeze! | ¡Quieto! / ¡Quieta!",
+    "Put your hands on your head. | Ponga las manos sobre la cabeza.",
+    "Turn around slowly. | Dese la vuelta despacio.",
+    "Get on your knees. | Arrodíllese.",
+    "Turn off the engine. | Apague el motor.",
+    "Keep your hands on the wheel. | Mantenga las manos en el volante.",
+    "Step out of the vehicle. | Salga del vehículo.",
+    "Do you have any weapons? | ¿Tiene armas?",
+    "Are you hurt? | ¿Está herido? / ¿Está herida?",
+    "Do you need an ambulance? | ¿Necesita una ambulancia?",
+    "Do you speak English? | ¿Habla inglés?",
+    "What is your name? | ¿Cómo se llama?",
+    "When were you born? (date) | ¿En qué fecha nació?",
+    "Driver's license, registration and insurance, please. | Licencia, registro y seguro, por favor.",
+    "Wait here. | Espere aquí.",
+    "What is your address? | ¿Cuál es su dirección?",
+    "Calm down. | Cálmese.",
+    "Who did this? | ¿Quién hizo esto?",
+    "Which way did they go? | ¿Hacia dónde se fueron?",
+    "Describe the person. | Describa a la persona.",
+    "You are under arrest. | Está arrestado. / Está arrestada.",
+    "An interpreter is coming. | Viene un intérprete."
+  ],
+  "officer_notes": [
+    "NEEDS REVIEW by a native Spanish speaker before release.",
+    "For interviews, statements and Miranda, use a qualified interpreter or language line, not this list."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

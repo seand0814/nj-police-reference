@@ -1,0 +1,26 @@
+{
+  "id": "uof-ag-policy",
+  "category": "Use of Force & Search",
+  "title": "Use of Force",
+  "source_type": "directive",
+  "citation": "NJ Attorney General Use of Force Policy (current revision)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Officers must use only the force that is objectively reasonable, necessary and proportional to the threat, and must stop once the threat ends.",
+    "De-escalation is required when it is safe: time, distance, cover, communication and additional resources.",
+    "Deadly force is a last resort, only when the officer reasonably believes it is immediately necessary to protect the officer or another from imminent death or serious bodily injury.",
+    "Chokeholds and neck restraints are treated as deadly force.",
+    "Shooting at or from a moving vehicle is prohibited except where deadly force is otherwise authorized and no reasonable alternative exists.",
+    "Officers have a duty to intervene to stop excessive force by another officer and to report it.",
+    "Render or request medical aid after force is used, and report force through the state's use of force reporting system."
+  ],
+  "officer_notes": [
+    "Your department policy and training may be stricter; follow the strictest applicable rule."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

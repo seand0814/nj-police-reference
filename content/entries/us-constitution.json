@@ -1,0 +1,23 @@
+{
+  "id": "us-constitution",
+  "category": "Case Law & Legal Terms",
+  "title": "U.S. Constitution: Key Amendments",
+  "source_type": "statute",
+  "citation": "U.S. Constitution; N.J. Constitution",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "4th Amendment: protects against unreasonable searches and seizures; warrants require probable cause.",
+    "5th Amendment: protects against compelled self-incrimination and double jeopardy; guarantees due process.",
+    "6th Amendment: right to counsel, speedy and public trial, jury, and to confront witnesses.",
+    "8th Amendment: bars excessive bail and fines and cruel and unusual punishment.",
+    "14th Amendment: applies due process and equal protection to the states.",
+    "N.J. Const. art. I, para. 7 parallels the 4th Amendment but NJ courts often read it to give broader protection."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

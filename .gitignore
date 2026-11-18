@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.env*
+.vercel
+# never commit the source ebook or its extracted text
+source/
+work/
+*.epub
+__pycache__/

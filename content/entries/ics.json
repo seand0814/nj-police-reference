@@ -1,0 +1,23 @@
+{
+  "id": "ics",
+  "category": "Operations & ICS",
+  "title": "Incident Command System",
+  "source_type": "federal_pub",
+  "citation": "FEMA National Incident Management System / Incident Command System",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "The first arriving officer assumes command until relieved, names the incident and sets up an Incident Command Post.",
+    "Command staff: Public Information Officer, Safety Officer, Liaison Officer.",
+    "General staff sections: Operations, Planning, Logistics, Finance/Administration.",
+    "Span of control: 3 to 7 people per supervisor; 5 is optimal.",
+    "Unified command is used when several agencies or jurisdictions share responsibility.",
+    "Use plain language on the radio, set a staging area, and document transfer of command."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dre-evaluation",
+  "category": "DWI & Drugs",
+  "title": "Drug Recognition Evaluation Overview",
+  "source_type": "federal_pub",
+  "citation": "NHTSA/IACP Drug Evaluation and Classification Program (public overview)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "A certified Drug Recognition Expert follows a standardized 12-step evaluation.",
+    "Steps: breath alcohol test; interview of the arresting officer; preliminary exam and first pulse; eye exams (HGN, vertical gaze nystagmus, lack of convergence); divided attention tests; vital signs and second pulse; dark room pupil exam; muscle tone; check for injection sites and third pulse; statements; opinion of the evaluator; toxicology sample.",
+    "Seven drug categories: cannabis, CNS depressants, CNS stimulants, dissociative anesthetics, hallucinogens, inhalants and narcotic analgesics."
+  ],
+  "officer_notes": [
+    "Request a DRE early when impairment is not explained by the breath result."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

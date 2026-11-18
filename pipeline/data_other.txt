@@ -1,0 +1,316 @@
+# cite | title | grade | key points (;;) | R
+# ---------- TITLE 4: ANIMALS ----------
+4:19-17.17|Seizure of Potentially Dangerous Dogs|Procedure (no grade)|An animal control or law enforcement officer may seize and impound a dog believed to be vicious or potentially dangerous, including entering property under court order.|R
+4:22-17a|Animal Cruelty (General)|Disorderly persons offense|Overdriving, overloading, torturing, cruelly beating, needlessly mutilating or killing an animal, or failing to provide necessary care.|
+4:22-17c|Animal Cruelty (Torture, Maiming, Serious Injury)|4th degree; 3rd degree if the animal dies or for certain repeat or aggravated conduct|Purposely, knowingly or recklessly torturing, tormenting, mutilating or killing an animal, or failing to provide care resulting in serious bodily injury.|R
+4:22-17.2|Unlawful Care of Certain Animals|Disorderly persons offense|Failure to meet care standards for animals, such as leaving them exposed without proper care.|R
+4:22-17.3|Cruel Restraint of a Dog|Disorderly persons offense (civil penalties may also apply)|Tethering or restraining a dog in a way that is cruel or violates statutory limits on time, weather and tether type.|R
+4:22-17.4|Confinement of Certain Animals|Civil penalty / disorderly persons (confirm)|Limits on confining animals in conditions that cause suffering.|R
+4:22-17.5|Proper Shelter for Certain Animals|Civil penalty / disorderly persons (confirm)|Dogs and cats kept outdoors must have proper shelter from weather.|R
+4:22-17.8|Penalties for Failure to Provide Proper Care|Penalty provision (no separate grade)|Sets the penalties for violating the care, shelter and tethering requirements.|R
+4:22-18|Carrying an Animal in a Cruel Manner|Disorderly persons offense|Carrying or transporting an animal in a cruel or inhumane manner.|
+4:22-19|Wrongful Treatment of Animals at a Shelter or Pound|Disorderly persons offense|Mistreatment of animals held in a shelter or pound.|R
+4:22-20|Abandoning a Disabled Animal|Disorderly persons offense|Abandoning a maimed, sick, infirm or disabled animal to die in a public place.|
+4:22-21|Selling an Unfit Horse|Disorderly persons offense|Selling or offering for sale a horse that is unfit for work because of disability or disease.|R
+4:22-23|Using Live Birds as Targets|Disorderly persons offense|Using live birds as targets for shooting.|R
+4:22-24|Animal Fighting|3rd degree|Keeping, using, training or promoting animals for fighting, or betting on or attending animal fights.|
+4:22-25.1|Motorist Striking a Domestic Animal|Penalty under the cruelty statutes (confirm)|A driver who strikes a domestic animal must stop and report it to police or the animal's owner.|R
+4:22-25.4|Sale of Dog or Cat Meat for Human Consumption|Disorderly persons offense|Selling or slaughtering dogs or cats for human consumption.|R
+4:22-25.5|Sale of Horses for Human Consumption|Disorderly persons offense|Slaughtering or selling horses for human consumption.|R
+4:22-26|Civil Penalties for Animal Cruelty|Civil penalty provision|Sets civil penalties for acts of cruelty, collected in addition to any criminal charge.|
+4:22-26.1|Forfeiture of Animals|Procedure (no grade)|Allows the court to order forfeiture of animals and costs of their care after a cruelty conviction.|
+4:22-44|Arrests With or Without a Warrant for Cruelty|Procedure (no grade)|Officers may arrest with or without a warrant for animal cruelty committed in their presence.|
+4:22-47|Warrantless Arrest for Animal Fighting|Procedure (no grade)|Officers may enter places where animal fighting is occurring and arrest without a warrant.|
+4:22-50|Care of an Animal When the Owner Is Arrested|Procedure (no grade)|When a person in charge of an animal is arrested, the officer must arrange for the animal's care.|
+4:22-54|Destruction of a Disabled Animal|Procedure (no grade)|An officer may have a veterinarian humanely destroy an abandoned animal that is disabled beyond recovery.|
+# ---------- TITLE 30: MENTAL HEALTH ----------
+30:4-27.2|Civil Commitment Definitions|Definition (no grade)|Defines terms such as "dangerous to self," "dangerous to others or property," "mental illness" and "in need of involuntary commitment."|
+30:4-27.6|Law Enforcement Custody for Mental Health Screening|Procedure (no grade)|When an officer has reasonable grounds, from what the officer sees or from a screener's certificate, that someone meets the standard for involuntary commitment, the officer may take that person into custody and bring them to a screening service.|
+30:4-27.15|Involuntary Commitment Hearing and Orders|Procedure (no grade)|Sets the court process and standards for involuntary commitment after screening.|
+# ---------- TITLE 39: LICENSING & REGISTRATION ----------
+39:3-4|Vehicle Registration Required|Motor vehicle violation|Vehicles driven or parked on public roads must be registered.;;Unregistered vehicle on a highway carries a fine and possible license suspension.|
+39:3-4a|Temporary Registration from Another State|Motor vehicle violation|Rules for vehicles with temporary out-of-state registrations.|
+39:3-4b|30-Day Temporary Registration|Motor vehicle violation|Temporary registration plates are valid for a limited period, usually 30 days.|
+39:3-4c|Rules for Temporary Registrations|Procedure (no grade)|Administrative rules on issuing temporary registrations.|
+39:3-4f|Foreign Country Registration|Motor vehicle violation|Vehicles registered in a foreign country may be driven in NJ for a limited period.|R
+39:3-4.1|Licensing Vehicles for Hire|Motor vehicle violation|Licensing requirements for vehicles transporting passengers for hire.|R
+39:3-6.12|International Registration Plan|Procedure (no grade)|Interstate registration rules for commercial vehicles.|
+39:3-6.13|Apportioned Vehicle Registration|Procedure (no grade)|Registration of vehicles operating in multiple states under apportionment.|
+39:3-9a|Legal Name Required on Driver's License|Procedure (no grade)|A driver's license must show the holder's legal name.|R
+39:3-9b|Street Address Required on Driver's License|Procedure (no grade)|A driver's license must show a street address, not only a post office box.|R
+39:3-10|Driving Without a License|Motor vehicle violation; fine and possible jail for unlicensed drivers|Driving without being licensed, or permitting an unlicensed person to drive a vehicle you own or control.|
+39:3-10n|Temporary Licenses|Procedure (no grade)|Issuance of temporary driver's licenses.|R
+39:3-10.1|Licensing of Bus Drivers|Motor vehicle violation|Bus drivers must hold the appropriate license and endorsements, with listed exceptions.|R
+39:3-10.11|CDL Definitions|Definition (no grade)|Definitions for commercial driver licensing, including alcohol concentration and commercial motor vehicle.|
+39:3-10.13|CDL Driver With .04% BAC|Motor vehicle violation; CDL disqualification|Operating a commercial motor vehicle with a BAC of 0.04% or more, or under the influence, leads to CDL disqualification.|
+39:3-10.18|CDL Must Be in Possession|Motor vehicle violation|A commercial driver must have the CDL in their possession while driving a commercial vehicle.|
+39:3-10.24|CDL Implied Consent|Procedure (no grade)|A commercial driver is deemed to have consented to chemical testing for alcohol.|
+39:3-10.24f|CDL Refusal to Submit to Chemical Test|Motor vehicle violation; CDL disqualification|Refusing a chemical test while operating a commercial vehicle results in disqualification.|R
+39:3-10.26|Only One CDL Permitted|Motor vehicle violation|A driver may not hold more than one commercial driver's license.|
+39:3-10.31|Motorcycle Road Test Waiver|Procedure (no grade)|Allows waiver of the motorcycle road test after an approved safety course.|
+39:3-10.34|Motorcycle License Required for Autocycles|Motor vehicle violation (confirm)|Licensing rules for operating three-wheeled autocycles.|R
+39:3-10b|Motorcycle License Applications|Procedure (no grade)|Application requirements for a motorcycle license or endorsement.|
+39:3-11|Restricted License Violations|Motor vehicle violation|Driving in violation of the conditions on a restricted license.|
+39:3-11.5|Military License Extension|Exemption (no grade)|Service members may drive on an expired license for a period after an emergency deployment or discharge.|R
+39:3-12|Unlawful Securing of a License|Motor vehicle violation|Obtaining a license by false statements or while suspended or revoked.|R
+39:3-13.1|Special Learner's Permit|Procedure (no grade)|Special learner's permit for drivers in an approved driver education course.|
+39:3-13.2a|Examination Permit Use and Supervision|Motor vehicle violation|Conditions for permit holders, such as supervising driver and hours.|R
+39:3-13.4|Probationary License (GDL) Restrictions|Motor vehicle violation|Graduated driver license limits for young drivers, such as night hours, passenger limits, cell phone ban and decal requirement.|R
+39:3-13.8|Penalties for Permit and Probationary License Violations|Motor vehicle violation (fine)|Penalties for violating permit and probationary license restrictions.|R
+39:3-15|Nonresident Drivers|Procedure (no grade)|Licensed nonresidents may drive in NJ under the conditions of this section.|
+39:3-17|Touring Privileges of Nonresidents|Procedure (no grade)|Touring privileges for nonresident drivers and vehicles.|
+39:3-18|Dealer and Temporary Plates|Motor vehicle violation|Use of dealer ("D") plates and temporary plates.|R
+39:3-20|Constructor Vehicles Over 45 MPH|Motor vehicle violation; 3 points|Driving a constructor vehicle faster than 45 mph.|R
+39:3-20.3|Weight Limits for Out-of-State Vehicles|Motor vehicle violation|Weight limits for vehicles registered outside NJ.|R
+39:3-21|Licensing Section (cited in source)|Motor vehicle violation (confirm)|Referenced in the topic list; confirm the section in the official statutes.|R
+39:3-23|Rubber Tires or Approved Material|Motor vehicle violation|Vehicles must have rubber tires or another approved material.|R
+39:3-23.1|Non-Rubber Tires|Motor vehicle violation|Limits on use of tires not made of rubber.|R
+39:3-24.2|Slow-Moving Vehicle Emblem|Motor vehicle violation|Slow-moving vehicles must display the required emblem.|R
+39:3-26.3|Unregistered Vehicle on Highway|Motor vehicle violation|Penalty for operating an unregistered vehicle on a public highway.|R
+39:3-27.11|Unauthorized Use of a Special Plate|Motor vehicle violation|Using special license plates (such as disability or organization plates) without authorization.|R
+39:3-27.12|Penalties for Unauthorized Plate Use|Motor vehicle violation (fine)|Penalties for unauthorized use of special plates.|R
+39:3-29|Failure to Exhibit License, Registration or Insurance|Motor vehicle violation; fine up to $150 (confirm)|A driver must carry and produce a license, registration and insurance card when asked by an officer.;;Failure to possess the documents is separate from not having them at all.|R
+39:3-29.8|Fraudulent or Altered Identification Card|Motor vehicle violation (confirm)|Possessing or displaying a fraudulent or altered MVC non-driver identification card.|R
+39:3-32|Replacing Lost or Damaged Plates|Motor vehicle violation|Lost, stolen or damaged plates must be replaced.|
+39:3-33|License Plate Display|Motor vehicle violation|Plates must be properly displayed, clean, lit at night and unobstructed, including by covers or frames.|
+39:3-34|Registration Application During Suspension|Motor vehicle violation|Applying for registration while one's registration privilege is suspended.|R
+39:3-35|Lending Registration or Plates|Motor vehicle violation|Lending registration certificates or plates to another person.|
+39:3-36|Change of Address|Motor vehicle violation|Drivers must notify the MVC of a change of address within the required time.|
+39:3-37.1|Lending a License or Vehicle|Motor vehicle violation|Lending your license to another, or permitting an unlicensed person to use it.|R
+39:3-40|Driving While Suspended or Revoked|Motor vehicle violation: 1st offense $500 fine; 2nd offense $750 and 10 days jail; 3rd offense $1,000 and 10 days jail, plus additional suspension. Enhanced penalties if suspended for DWI or refusal (2C:40-26 can make it a crime)|Driving while one's license or registration privilege is suspended or revoked.;;Check the reason for suspension: DWI or refusal suspensions trigger mandatory jail and possible criminal charges.|
+39:3-40.1|Revocation of Registration|Procedure (no grade)|MVC may revoke registration for certain violations.|R
+39:3-40.3|Impoundment of Vehicles|Procedure (no grade)|Vehicles operated by unlicensed or suspended drivers, or uninsured, may be impounded.|R
+39:3-40.6|Proof of Insurance Before Release|Procedure (no grade)|Impounded vehicles are released only with proof of insurance and valid registration.|R
+39:5-35|Return of Suspended License|Procedure (no grade)|A suspended driver's license must be returned to the MVC or court.|R
+39:6b-1|Mandatory Insurance Coverage|Motor vehicle violation; driving uninsured: 1st offense fine $300-$1,000, community service and 1-year suspension (penalties in 39:6B-2)|Every registered vehicle must carry the minimum required liability insurance.|R
+39:6-55|Forged Proof of Insurance|Motor vehicle violation (confirm)|Possessing or displaying a forged or altered insurance identification card.|R
+39:8-9|Inspection Sticker|Motor vehicle violation|Failure to display a valid inspection sticker where required.|
+39:10-20|Fines for Title Violations|Penalty provision|Penalties for violations of the vehicle title statutes.|R
+39:3a-1|Television Visible to Driver|Motor vehicle violation|A television or video screen may not be visible to the driver while driving (navigation displays excepted).|
+39:3b-25|Cell Phone Use by School Bus Drivers|Motor vehicle violation (fine)|School bus drivers may not use a cell phone while driving, except in emergencies.|R
+39:3-79|Penalties for Equipment Violations|Penalty provision|General penalty for violations of the equipment article of Chapter 3.|R
+39:3-86|Penalties for Chapter 3 Violations|Penalty provision|General penalty for violations of Chapter 3 where no other penalty is provided.|R
+# ---------- TITLE 39: EQUIPMENT ----------
+39:3-46|When Lighted Lamps Are Required|Motor vehicle violation|Headlights and lamps must be on from sunset to sunrise, in poor visibility, and when windshield wipers are in use due to weather.|
+39:3-47|Headlight Requirements|Motor vehicle violation|Vehicles must have working headlights and tail lamps.|
+39:3-48|Visibility of Lights|Motor vehicle violation|Required lamps must be visible from specified distances.|R
+39:3-49|Headlamps|Motor vehicle violation|Number and placement of headlamps.|R
+39:3-50|Color of Lights|Motor vehicle violation|Limits on light colors; red and blue lights are restricted to authorized vehicles.|R
+39:3-51|Auxiliary Driving Lamps|Motor vehicle violation|Rules for additional driving lamps.|R
+39:3-52|Additional Lighting|Motor vehicle violation|Rules for fog lamps and other additional lights.|R
+39:3-53|Spot Lamps|Motor vehicle violation|Use and aiming of spot lamps.|R
+39:3-54|Warning Lights|Motor vehicle violation|Use of emergency and warning lights by authorized vehicles.|R
+39:3-56|Number of Driving Lamps|Motor vehicle violation|Limit on the number of lit driving lamps.|R
+39:3-57|Single-Beam Road Lighting|Motor vehicle violation|Requirements for single-beam headlamps.|R
+39:3-58|Multiple-Beam Road Lighting|Motor vehicle violation|Requirements for multiple-beam headlamps.|R
+39:3-59|High Beam Indicator|Motor vehicle violation|Vehicles with multiple-beam lights need a high beam indicator.|R
+39:3-60|Use of High Beams|Motor vehicle violation|Dim high beams within 500 feet of oncoming traffic and within 200 feet when following.|R
+39:3-61|Identification Lamps|Motor vehicle violation|Clearance and identification lamps required on larger vehicles.|R
+39:3-61.1|Mounting of Lamps and Reflectors|Motor vehicle violation|Placement of lamps and reflectors.|R
+39:3-61.2|Combination Lighting Devices|Motor vehicle violation|Rules for combined lighting devices.|R
+39:3-61.3|Brake Lights|Motor vehicle violation|Vehicles must have working stop lamps.|R
+39:3-61.4|Overhanging Loads|Motor vehicle violation|Loads extending beyond the vehicle must be marked with flags or lights.|R
+39:3-62|Lamps on Parked Vehicles|Motor vehicle violation|Lighting requirements for vehicles parked on highways at night.|R
+39:3-66|Maintenance of Lamps and Reflectors|Motor vehicle violation|All required lamps and reflectors must be kept in working order.|
+39:3-66.2|Penalties for Lamp Maintenance Violations|Penalty provision|Sets the penalty for lamp and reflector maintenance violations.|R
+39:3-66.3|Rear Stop Lamps Required|Motor vehicle violation|Vehicles must have rear stop lamps.|R
+39:3-67|Brake Equipment|Motor vehicle violation|Vehicles must have adequate brakes in good working order.|
+39:3-69|Horn|Motor vehicle violation|Vehicles must have a working horn; sirens restricted to authorized vehicles.|
+39:3-70|Muffler and Exhaust|Motor vehicle violation|Vehicles must have a muffler that prevents excessive noise; cutouts prohibited.|
+39:3-70.2|Excessive Smoke and Pollution|Motor vehicle violation|Vehicles may not emit excessive smoke or visible pollutants.|R
+39:3-71|Mirrors|Motor vehicle violation|Vehicles must have a rear-view mirror giving a view to the rear.|
+39:3-72|Tire Equipment|Motor vehicle violation|Tires must be in safe condition.|R
+39:3-74|Obstructed Windshield or Windows|Motor vehicle violation|No non-transparent material on the windshield or front side windows; items hanging from the mirror that obstruct the view are prohibited.|
+39:3-76.2|Seat Belt Requirements (Vehicles)|Equipment provision|Vehicles must be equipped with seat belts.|R
+39:3-76.2a|Child Passenger Restraints|Motor vehicle violation; fine $50-$75, no points|Children under 8 and under 57 inches must ride in a rear seat in a proper car seat or booster, with age and weight requirements for rear-facing seats.|R
+39:3-76.2f|Seat Belt Use|Motor vehicle violation; fine plus costs, no points|Driver and all front-seat passengers must wear seat belts; driver is responsible for passengers under 18.;;Primary enforcement for drivers and front-seat passengers.|
+39:3-76.2g|Seat Belt Exceptions|Exemption (no grade)|Exceptions for certain medical conditions, older vehicles without belts, and postal workers on route, among others.|R
+39:3-76.2j|Seat Belt Penalties|Penalty provision|Sets the fine for seat belt violations.|R
+39:3-76.2n|Seat Belt Enforcement|Procedure (no grade)|Describes enforcement of seat belt laws, including rear-seat secondary enforcement.|R
+39:3-79.1|Fenders and Mud Flaps|Motor vehicle violation|Requirements for fenders and mud flaps on certain vehicles.|R
+39:3-79.2|Mud Flap Penalties|Penalty provision|Penalty for mud flap violations.|R
+39:4-60.1|Flashing Lights on Vehicles|Motor vehicle violation|Restricts the use of flashing lights to authorized vehicles.|R
+# ---------- TITLE 39: MOTORCYCLES, ATVs, MOPEDS ----------
+39:3-76.3|Motorcycle Handlebar Height|Motor vehicle violation|Limits on handlebar grip height.|R
+39:3-76.3a|Motorcycle Federal Standards|Motor vehicle violation|Motorcycles must conform to federal safety standards.|R
+39:3-76.4|Motorcycle Muffler|Motor vehicle violation|Motorcycles must have a muffler system meeting the noise standards.|R
+39:3-76.5|Motorcycle Seat, Hand Holds and Footrests|Motor vehicle violation|Passengers may ride only with a permanent seat, hand holds and footrests.|R
+39:3-76.6|Motorcycle Equipment Rules|Procedure (no grade)|Authorizes rules for motorcycle equipment.|R
+39:3-76.7|Motorcycle Helmets|Motor vehicle violation|Operators and passengers must wear an approved helmet.|
+39:3-76.8|Goggles or Face Shield|Motor vehicle violation|Operators must wear goggles or a face shield unless the motorcycle has an approved windscreen.|
+39:3-76.9|Goggle Exemption with Windscreen|Exemption (no grade)|Goggles are not required when the motorcycle has an approved windscreen.|
+39:3-76.11|Motorcycles Restricted on Certain Roads|Motor vehicle violation|Low-powered motorcycles are barred from certain limited-access highways.|R
+39:3c-3|Snowmobile and ATV Registration|Motor vehicle violation (fine)|Snowmobiles and ATVs must be registered.|R
+39:3c-8|Display of ATV Registration Number|Motor vehicle violation (fine)|Registration numbers must be displayed as required.|R
+39:3c-9|Production of Registration Certificate|Motor vehicle violation (fine)|Operators must produce the registration certificate on request.|R
+39:3c-16|ATV Age Requirements|Motor vehicle violation (fine)|Minimum ages and supervision rules for ATV operators.|R
+39:3c-17|ATV Operational Limits|Motor vehicle violation (fine)|ATVs generally may not be operated on public highways or certain public lands.|R
+39:3c-18|ATV Operation on Private Property|Motor vehicle violation (fine)|Operating on private property requires the owner's permission.|R
+39:3c-20|ATV Insurance Required|Motor vehicle violation (fine)|Liability insurance is required for ATVs and snowmobiles.|R
+39:3c-24|ATV Mandatory Equipment|Motor vehicle violation (fine)|Required equipment such as lights, brakes and spark arrestors; helmets required for operators.|R
+39:3c-28|Snowmobile and ATV Penalties|Penalty provision|Fines and possible impoundment for snowmobile and ATV violations.|R
+39:3c-30|Snowmobiles Subject to Chapter 4|Procedure (no grade)|Certain Chapter 4 traffic laws apply to snowmobiles.|R
+39:4-14.3|Motorized Bicycles (Mopeds)|Motor vehicle violation|Moped operators must be at least 15, licensed (a moped license or any license), and the moped must be registered and insured.|
+39:4-14.3b|Moped Violation Penalties|Penalty provision|Sets fines for moped violations.|R
+39:4-14.3d|Operator Only on Moped|Motor vehicle violation|No passengers on mopeds.|R
+39:4-14.3e|Moped Insurance Required|Motor vehicle violation|Mopeds must carry liability insurance.|R
+39:4-14.3g|Moped DWI|Motor vehicle violation; DWI penalties apply|DWI law applies to moped operators.|R
+39:4-14.3k|Moped License Plate|Motor vehicle violation|Mopeds must display a license plate.|R
+39:4-14.3l|Moped Transfer of Ownership|Procedure (no grade)|Rules for transferring moped ownership.|R
+39:4-14.3m|Moped License Display|Motor vehicle violation|License and registration requirements for moped operators.|R
+39:4-14.3n|Moped Make and Model Numbers|Procedure (no grade)|Identification number requirements for mopeds.|R
+39:4-14.30|Nonresident Moped Registration|Procedure (no grade)|Registration rules for nonresident mopeds.|R
+39:4-14.3p|Proof of Moped Ownership|Procedure (no grade)|Ownership documentation for mopeds.|R
+39:4-14.3q|Moped Helmet|Motor vehicle violation|Moped operators must wear an approved helmet.|R
+39:4-14.3s|Moped Rules|Procedure (no grade)|Authorizes moped rules and regulations.|R
+39:4-14.3t|Moped Helmet Penalties|Penalty provision|Fine for moped helmet violations.|R
+39:4-14.3w|Moped Fee Appropriation|Procedure (no grade)|Use of moped registration fees.|R
+39:4-14.3x|Moped Operators Subject to Traffic Laws|Motor vehicle violation|Moped operators are subject to the same traffic laws and penalties as other drivers.|R
+39:4-31.1|Low-Speed Vehicles|Motor vehicle violation|Low-speed vehicles may only be operated on roads with speed limits of 25 mph or less.|R
+39:5a-4|Application of Motor Vehicle Laws (Compact)|Procedure (no grade)|Applies NJ motor vehicle laws under the interstate driver license compact.|R
+# ---------- TITLE 39: BICYCLES, SKATES, SCOOTERS ----------
+39:4-10|Bicycle Lights and Reflectors|Motor vehicle violation (fine)|Bicycles ridden at night need a white front lamp and a red rear lamp or reflector.|
+39:4-10.1|Bicycle Helmets for Under 17|Warning for first offense, then fine on parent or guardian|Riders and passengers under 17 must wear an approved helmet.|
+39:4-10.2|Bicycle Helmet Penalties|Penalty provision|Sets the warnings and fines for helmet violations.|R
+39:4-10.3|Bicycle Helmet Signs at Rental Locations|Procedure (no grade)|Bicycle rental businesses must post helmet requirements.|R
+39:4-10.4|Bicycle Helmet Rules|Procedure (no grade)|Authorizes rules for helmet standards.|R
+39:4-10.5|Helmets for Skating and Skateboarding|Warning, then fine on parent or guardian|Persons under 17 must wear a helmet when roller skating or skateboarding on public property.|
+39:4-10.6|Skating Helmet Penalties|Penalty provision|Sets warnings and fines for skating helmet violations.|R
+39:4-10.10|Skaters and Skateboarders on Roadways|Motor vehicle violation (fine)|Rights and duties of skaters and skateboarders on roadways.|R
+39:4-10.10a|Regulating Skating and Skateboarding|Procedure (no grade)|Municipalities may regulate skating and skateboarding; defines roller skates.|R
+39:4-10.11|Skaters Keep Right|Motor vehicle violation (fine)|Skaters and skateboarders must keep to the right.|R
+39:4-11|Bicycle Audible Signal|Motor vehicle violation (fine)|Bicycles must have a bell or other audible device.|
+39:4-11.1|Bicycle Brake|Motor vehicle violation (fine)|Bicycles must have a working brake.|
+39:4-12|Bicycle Riding Position and Passengers|Motor vehicle violation (fine)|Riders must keep a hand on the handlebars and feet on the pedals; no extra passengers unless the bike is designed for them.|
+39:4-14|Hitching on Vehicles|Motor vehicle violation (fine)|Bicyclists, skaters and others may not hold onto moving vehicles.|
+39:4-14.1|Rights and Duties of Bicyclists|Motor vehicle violation (fine)|Bicyclists have the rights and duties of vehicle drivers.|
+39:4-14.2|Bicyclists Keep Right; Single File|Motor vehicle violation (fine)|Ride as near to the right as practicable, with exceptions; no more than two abreast where allowed.|
+39:4-14.4|Bicycle Reflectors on Rentals|Procedure (no grade)|Rental bicycles must have reflectors.|R
+39:4-14.4a|Helmet Promotional Statement|Procedure (no grade)|Required safety statement on helmets.|R
+39:4-14.5|Bicycle Definition|Definition (no grade)|Defines bicycle for the motor vehicle laws.|R
+39:4-14.7|Bicycle Equipment Rules|Procedure (no grade)|Equipment rules for bicycles.|R
+39:4-14.7a|Bicycle Warning Cards|Procedure (no grade)|Rules and warning cards for bicycle violations.|R
+39:4-14.8|Bicycle Violation Penalties|Penalty provision|Sets fines for bicycle violations.|R
+39:4-14.10|Electric Personal Assistive Mobility Devices|Motor vehicle violation|Defines and regulates EPAMDs (such as self-balancing devices).|R
+39:4-14.11|EPAMD Violations|Motor vehicle violation (fine)|Penalties for violating EPAMD rules.|R
+39:4-14.12|Motorized Scooters on Public Streets|Motor vehicle violation (fine)|Restrictions on motorized scooters that are not low-speed electric scooters.|R
+39:4-14.13|Motorized Scooter Penalties|Penalty provision|Fines for motorized scooter violations.|R
+39:4-14.14|Motorized Scooters on Public Property|Motor vehicle violation (fine)|Restrictions on scooters on public property.|R
+39:4-14.15|Disability Placards for Scooters|Exemption (no grade)|Exceptions for persons with disabilities.|R
+39:4-14.16|Low-Speed Electric Bicycles and Scooters|Motor vehicle violation|Low-speed e-bikes and e-scooters are treated like bicycles: no license, registration or insurance required.|R
+39:4-203.3|Pedestrian and Bicycle Violations by Juveniles|Procedure (no grade)|How pedestrian and bicycle violations by persons under 17 are handled.|R
+# ---------- TITLE 39: PEDESTRIANS ----------
+39:4-32a|Pedestrians at Traffic Signals|Motor vehicle violation (fine)|Pedestrians must obey pedestrian control signals and may not start crossing against a "Don't Walk" or red signal.|R
+39:4-32c|Pedestrian Right of Way at Signals|Motor vehicle violation (fine)|Pedestrians lawfully crossing with the signal have the right of way.|R
+39:4-32g|Driver Due Care for Pedestrians|Motor vehicle violation|Drivers must exercise due care to avoid pedestrians.|R
+39:4-33|Pedestrians Must Use Crosswalks|Motor vehicle violation (fine)|At intersections with traffic signals, pedestrians must cross within crosswalks.|
+39:4-34|Jaywalking|Motor vehicle violation (fine)|Pedestrians crossing outside a crosswalk must yield to vehicles.|R
+39:4-36a|Yielding to Pedestrians in Crosswalks|Motor vehicle violation; 2 points; fine $200 plus community service and possible jail|Drivers must stop and stay stopped for pedestrians in a marked crosswalk or unmarked crosswalk at an intersection.|R
+39:4-36.1|Pedestrian Tunnels|Motor vehicle violation (fine)|Pedestrians must use available tunnels or overpasses where required.|R
+39:4-37.1|Right of Way for Blind Pedestrians|Motor vehicle violation|Drivers must yield to blind pedestrians using a white cane or guide dog.|
+39:4-38|Yielding to Streetcars|Motor vehicle violation|Drivers must yield to streetcars as required.|R
+39:4-39|Following Distance Behind Streetcars|Motor vehicle violation|Drivers must keep a safe distance behind streetcars.|R
+39:4-40|Passing Streetcars|Motor vehicle violation|Rules for passing streetcars that are stopped to load passengers.|R
+39:4-41|Driving Through Safety Zones|Motor vehicle violation; 2 points|Drivers may not drive through a marked safety zone.|R
+39:4-117|Pedestrian Control Signals|Motor vehicle violation (fine)|Pedestrians must obey walk and don't-walk signals.|R
+# ---------- TITLE 39: RULES OF THE ROAD ----------
+39:4-48|Operating a Vehicle Without the Owner's Consent|Motor vehicle violation (see also 2C:20-10)|Driving another person's vehicle without the owner's consent.|R
+39:4-49.1|Drug Possession While Operating a Vehicle|Motor vehicle violation; 2-year license suspension and fine|Operating a vehicle while knowingly possessing CDS or drug paraphernalia.|R
+39:4-49.2|Exemptions: Physicians and Others|Exemption (no grade)|Exemptions for physicians, dentists and similar persons in certain situations.|R
+39:4-49.3|Common Carrier Exemptions|Exemption (no grade)|Exemptions for common carriers.|R
+39:4-50.14|Underage Drinking and Driving (.01% BAC)|Motor vehicle violation; 30-90 day license forfeiture and 15-30 days community service|A driver under 21 who operates a vehicle with a BAC of 0.01% or more but less than 0.08%.|R
+39:4-50.15|DWI with a Minor Passenger|Disorderly persons offense; up to 6 months license forfeiture and community service|A DWI driver with a passenger 17 or younger.|R
+39:4-50.19|Ignition Interlock Offenses|Disorderly persons offense|Tampering with or circumventing an interlock device, or helping someone avoid it.|R
+39:4-50.23|Impoundment After DWI Arrest|Procedure (no grade)|The arrestee's vehicle is impounded for 12 hours after a DWI arrest.|R
+39:4-51a|Drinking While Driving|Motor vehicle violation; 1st offense $200 fine|Consuming an alcoholic beverage while operating a motor vehicle.|
+39:4-51b|Open Container in a Vehicle|Motor vehicle violation; 1st offense $200 fine, $250 for later offenses|An open alcoholic beverage container in the passenger area of a vehicle on a highway.|
+39:4-52|Racing on Highways|Motor vehicle violation; 2 points|Racing, speed contests and similar on a public highway.|R
+39:4-53|Leaving Vehicle with Engine Running|Motor vehicle violation|A driver may not leave a vehicle unattended without stopping the engine, removing the key and setting the brake.|R
+39:4-55|Improper Action on Grade or Curve|Motor vehicle violation; 2 points|Driving improperly on a steep grade or curve.|R
+39:4-56|Delaying Traffic|Motor vehicle violation|Driving at a speed or in a manner that unnecessarily delays traffic.|R
+39:4-57|Failure to Observe Officer's Direction|Motor vehicle violation; 2 points|Drivers must obey the directions of a police officer directing traffic.|
+39:4-57.1|Activating Interior Light at Night Stops|Procedure (no grade)|Guidance for drivers to turn on the interior light when stopped at night.|R
+39:4-58|Driving with Obstructed View|Motor vehicle violation|Driving with the view obstructed by passengers or load.|R
+39:4-61|Riding on Tailboard or Outside the Vehicle|Motor vehicle violation|Passengers may not ride on tailboards or outside parts not intended for passengers.|R
+39:4-62|Moving from Curb into Traffic|Motor vehicle violation|Drivers leaving the curb must yield and do so safely.|R
+39:4-63|Injurious Substances on Highway|Motor vehicle violation|Throwing or dropping glass, nails or similar on a highway.|R
+39:4-64|Littering from Vehicles|Motor vehicle violation (fine)|Throwing litter from a vehicle.|
+39:4-65|Loading or Unloading Passengers|Motor vehicle violation|Rules for discharging passengers safely.|R
+39:4-66|Stopping Before Crossing a Sidewalk|Motor vehicle violation; 2 points|Drivers entering or leaving a driveway must stop before crossing a sidewalk and yield to pedestrians.|
+39:4-66.1|Yielding When Entering from a Private Road or Driveway|Motor vehicle violation; 2 points|Drivers entering a roadway from a private road or driveway must yield to pedestrians and traffic.|
+39:4-66.2|Cutting Through Property to Avoid a Signal|Motor vehicle violation; 2 points|Driving through private property to avoid a traffic signal or sign.|R
+39:4-67|Obstructing Traffic or Blocking an Intersection|Motor vehicle violation|Driving or stopping in a way that obstructs traffic or blocks an intersection.|R
+39:4-69|Riding on Parts Not Intended for Passengers|Motor vehicle violation|Riding on parts of a vehicle not intended for passengers.|R
+39:4-71|Driving on Sidewalks|Motor vehicle violation; 2 points|Driving on a sidewalk except to enter or leave a driveway.|
+39:4-72|Stopping on Signal from a Horse Rider|Motor vehicle violation|Drivers must stop when a person riding or driving a horse signals.|R
+39:4-75|Overweight Vehicles on Bridges|Motor vehicle violation|Driving a vehicle over a bridge's posted weight limit.|R
+39:4-77|Uncovered Loads|Motor vehicle violation|Loads that may shift or fall must be covered or secured.|R
+39:4-77.1|Snow and Ice from Vehicles|Motor vehicle violation; $25-$75 fine, more if it causes injury or damage|Drivers must make reasonable efforts to remove snow and ice from the vehicle before driving.|
+39:4-78|Carrying Metal Loads|Motor vehicle violation|Rules for transporting metal that may make excessive noise.|R
+39:4-79|Backing to the Curb|Motor vehicle violation|Rules for backing to the curb to load or unload.|R
+39:4-80|Failure to Obey Direction of Officer|Motor vehicle violation; 2 points|Failure to comply with the direction of an officer controlling traffic.|R
+39:4-80.1|Obeying School Crossing Guards|Motor vehicle violation|Drivers must obey the signals of school crossing guards.|R
+39:4-81|Failure to Observe Traffic Signals|Motor vehicle violation; 2 points|Drivers must obey traffic control devices unless directed otherwise by an officer.|
+39:4-82|Keep Right|Motor vehicle violation; 2 points|Drive on the right half of the roadway, with listed exceptions.|
+39:4-82.1|Improper Driving on a Divided Highway|Motor vehicle violation; 2 points|Driving on the wrong side of a divided highway or crossing the median improperly.|
+39:4-83|Keep Right at Intersections|Motor vehicle violation; 2 points|Keep right when approaching an intersection.|R
+39:4-84|Failure to Pass to the Right of Oncoming Traffic|Motor vehicle violation; 5 points|Vehicles traveling in opposite directions must pass to the right.|
+39:4-85|Improper Passing|Motor vehicle violation; 4 points|Passing on the left must be done at a safe distance; passing on the right only where permitted.|
+39:4-85.1|Wrong Way on a One-Way Street|Motor vehicle violation; 2 points|Driving against the posted direction on a one-way street.|
+39:4-86|Passing in a No-Passing Zone|Motor vehicle violation; 4 points|Passing where prohibited by signs or markings.|
+39:4-87|Failure to Yield to an Overtaking Vehicle|Motor vehicle violation; 2 points|A driver being passed must give way to the right and not speed up.|
+39:4-87.1|Buses Reentering Traffic|Motor vehicle violation|Drivers must yield to buses signaling to reenter traffic.|R
+39:4-88|Failure to Maintain Lane|Motor vehicle violation; 2 points|Drive as nearly as practicable within a single lane; do not change lanes until it is safe.|
+39:4-88.1|Lane Violation Penalties|Penalty provision|Penalties for lane violations by certain vehicles.|R
+39:4-89|Following Too Closely (Tailgating)|Motor vehicle violation; 5 points|Do not follow another vehicle more closely than is reasonable and prudent.|
+39:4-90|Failure to Yield at an Intersection|Motor vehicle violation; 2 points|A driver turning left must yield to oncoming traffic; at uncontrolled intersections, yield to the vehicle on the right.|
+39:4-90.1|Improper Entrances and Exits|Motor vehicle violation; 2 points|Use only designated entrances and exits on controlled-access highways.|
+39:4-91|Failure to Yield to Emergency Vehicles|Motor vehicle violation; 2 points|Pull to the right and stop for emergency vehicles using lights and sirens.|
+39:4-92|Following or Parking Near Emergency Vehicles|Motor vehicle violation|Do not follow fire apparatus too closely or park near an emergency scene.|R
+39:4-92.2|Move Over Law|Motor vehicle violation; $100-$500 fine|Slow down and change lanes, if safe, when approaching a stationary emergency, tow, highway maintenance or other covered vehicle with flashing lights.|
+39:4-96|Reckless Driving|Motor vehicle violation; 5 points; 1st offense up to 60 days jail and/or $50-$200 fine|Driving heedlessly, in willful or wanton disregard of the rights or safety of others, endangering people or property.|
+39:4-97|Careless Driving|Motor vehicle violation; 2 points|Driving carelessly, without due caution and circumspection, in a manner that endangers or is likely to endanger people or property.|
+39:4-97.1|Slow Speed Blocking Traffic|Motor vehicle violation; 2 points|Driving so slowly as to impede normal traffic.|R
+39:4-97.2|Unsafe Operation of a Motor Vehicle|Motor vehicle violation; fine $50-$150 plus a $250 surcharge; no points for 1st and 2nd offense within 5 years, 4 points for 3rd|Driving in an unsafe manner likely to endanger a person or property.|
+39:4-97.3|Handheld Device Use While Driving|Motor vehicle violation; $200-$400 1st, $400-$600 2nd, $600-$800 3rd and later with 3 points and possible 90-day suspension|Using a handheld cell phone or texting while driving, except hands-free use and emergencies.|
+39:4-97.4|Cell Phone Exemptions|Exemption (no grade)|Exceptions for emergency calls and certain authorized users.|R
+39:4-98|Speed Limits|Motor vehicle violation; points: 1-14 mph over = 2, 15-29 mph over = 4, 30+ mph over = 5. Fines doubled in safe corridors and construction zones|Sets statutory speed limits (25 mph school and business districts, 35 mph suburban, 50 mph other locations, 55/65 mph highways as posted).|
+39:4-98.6|Fines in 65 MPH Zones|Penalty provision|Increased fines for speeding in 65 mph zones.|R
+39:4-98.7|Speeding 20 MPH or More Over the Limit|Penalty provision (enhanced fines)|Enhanced penalties for speeding 20 mph or more over the limit.|R
+39:4-99|Speeding|Motor vehicle violation; points as in 39:4-98|Exceeding the posted or statutory speed limit; covers posted limits set under other sections.|
+39:4-100|Speed When Crossing Sidewalks|Motor vehicle violation|Speed limits when driving across sidewalks.|R
+39:4-105|Failure to Stop for a Traffic Light|Motor vehicle violation; 2 points|Stop at a red signal and remain stopped until green; right on red only after stopping and only where permitted.|
+39:4-115|Improper Turn at a Traffic Light|Motor vehicle violation; 3 points|Turning in violation of the signal or posted turn restrictions.|
+39:4-119|Flashing Red or Yellow Signals|Motor vehicle violation; 2 points|Stop at a flashing red signal as at a stop sign; proceed with caution at a flashing yellow.|
+39:4-120.9|Traffic Control at Intersections (Private Roads)|Procedure (no grade)|Traffic control at intersections of private roads with public roads.|R
+39:4-120.10|Private Road Offense Penalties|Penalty provision|Penalties for traffic offenses on private roads.|R
+39:4-122|Failure to Stop for a Police Whistle|Motor vehicle violation; 2 points|Drivers must stop when signaled by an officer's whistle.|
+39:4-123|Improper Right or Left Turn|Motor vehicle violation; 3 points|Turns must be made from the proper lane and into the proper lane.|
+39:4-124|Improper Turn at an Intersection|Motor vehicle violation; 3 points|Turning in violation of markers or signs at an intersection.|R
+39:4-125|Improper U-Turn|Motor vehicle violation; 3 points|U-turns are prohibited where signs forbid them, on curves or near hills where visibility is limited.|
+39:4-126|Failure to Signal|Motor vehicle violation; 2 points|Signal turns, lane changes and stops as required.|
+39:4-127|Improper Backing|Motor vehicle violation; 2 points|Backing only when it can be done safely.|
+39:4-127.1|Railroad Crossings|Motor vehicle violation; 2 points|Stop for railroad crossing signals and gates.|
+39:4-127.2|Bridge Barriers and Gates|Motor vehicle violation; 2 points|Do not drive around a closed bridge gate or barrier.|R
+39:4-128|Vehicles That Must Stop at Railroad Crossings|Motor vehicle violation; 2 points|School buses, buses and hazardous cargo vehicles must stop at railroad crossings.|
+39:4-128.1|Passing a Stopped School Bus|Motor vehicle violation; 5 points; fine at least $100 and possible jail and community service|Stop at least 25 feet from a school bus with flashing red lights, unless on the opposite side of a divided highway.|
+39:4-128.4|Passing a Frozen Dessert Truck|Motor vehicle violation; 4 points|Stop for an ice cream truck with flashing lights and stop arm, then proceed at no more than 15 mph.|
+39:4-128.11|Commercial Vehicles at Railroad Crossings|Motor vehicle violation|Railroad crossing rules for commercial vehicles.|R
+39:4-129|Leaving the Scene of an Accident|Injury or death: $2,500-$5,000 fine, up to 180 days jail, 1-year license revocation, 8 points. Property damage only: $200-$400 fine, up to 30 days jail, 6-month revocation, 2 points|A driver involved in a crash must stop, give name, address and insurance information, show credentials, and render reasonable help to the injured.;;See 2C:11-5.1 and 2C:12-1.1 for the criminal versions.|
+39:4-130|Immediate Notice of Accident|Motor vehicle violation|Report crashes involving injury, death or significant property damage to police immediately.|
+39:4-144|Stop and Yield Signs|Motor vehicle violation; 2 points|Stop at a stop sign and yield to traffic; yield as directed at yield signs.|
+# ---------- TITLE 39: PARKING & VEHICLES ----------
+39:4-56.1|Willful Abandonment of a Vehicle|Motor vehicle violation (fine)|Willfully abandoning a vehicle on public or private property.|R
+39:4-56.2|Abandoned Vehicle Penalties|Penalty provision|Sets penalties for abandoning vehicles.|R
+39:4-56.5|Removal of Abandoned Vehicles|Procedure (no grade)|Police may remove vehicles abandoned on highways.|R
+39:4-56.8|Failure to Remove Crash Debris|Motor vehicle violation|Towers must remove debris from crash scenes.|R
+39:4-135|Parking on One-Way Streets|Motor vehicle violation|Parking rules on one-way streets.|R
+39:4-136|Towing Disabled Vehicles|Motor vehicle violation|Rules for towing disabled vehicles.|R
+39:4-137|Unattended Vehicles|Motor vehicle violation|Parked vehicles must have the engine stopped and brakes set.|R
+39:4-138|Prohibited Parking Locations|Motor vehicle violation (fine)|No parking in intersections, crosswalks, within 25 feet of a crosswalk at an intersection, within 50 feet of a stop sign, within 10 feet of a fire hydrant, near fire stations, in front of driveways, and other listed places.|
+39:4-138.6|Parking Distances|Motor vehicle violation|Distances for parking near intersections and other features.|R
+39:4-139|Loading and Unloading Zones|Motor vehicle violation|Rules for loading zones.|R
+39:4-207|Overtime Parking with a Disability Placard|Exemption (no grade)|Vehicles with disability placards may park overtime in metered spaces as allowed.|R
+39:4-207.4|Disability Parking Authorization|Procedure (no grade)|Rules for issuing and using disability parking placards and plates.|R
+39:4-207.7|Towing from Disability Spaces|Procedure (no grade)|Vehicles parked illegally in disability spaces may be towed.|R
+39:4-207.9|Snow Removal from Disability Spaces|Procedure (no grade)|Snow may not be piled in disability parking spaces.|R

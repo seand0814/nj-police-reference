@@ -1,0 +1,25 @@
+{
+  "id": "sfst-walk-turn",
+  "category": "DWI & Drugs",
+  "title": "SFST: Walk and Turn",
+  "source_type": "federal_pub",
+  "citation": "NHTSA SFST procedures form, published by NJ Division of Highway Traffic Safety",
+  "source_url": "https://www.nj.gov/lps/hts/downloads/SFST_Procedures.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Instruction stance is heel-to-toe on a line; the subject takes nine heel-to-toe steps, turns with a series of small steps, and takes nine steps back, arms down, watching feet and counting aloud.",
+    "Confirm the subject understands; repeat only the part they did not understand.",
+    "Eight clues: losing balance during instructions; starting too early; stopping while walking; missing heel-to-toe; stepping off the line; raising arms for balance; turning improperly; wrong number of steps."
+  ],
+  "officer_notes": [
+    "Note surface, lighting, footwear and weather in your report."
+  ],
+  "related": [
+    "sfst-hgn",
+    "sfst-one-leg-stand"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

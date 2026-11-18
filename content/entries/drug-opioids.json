@@ -1,0 +1,24 @@
+{
+  "id": "drug-opioids",
+  "category": "DWI & Drugs",
+  "title": "Narcotic Analgesics (Opioids)",
+  "source_type": "federal_pub",
+  "citation": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 52-54",
+  "source_url": "https://getsmartaboutdrugs.gov/sites/default/files/2025-03/Drugs-Abuse-2024.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Examples: fentanyl, heroin, morphine, hydrocodone, methadone.",
+    "Signs: drowsiness or nodding, constricted pupils, slowed breathing, nausea or vomiting, flushing, dry mouth, heavy limbs.",
+    "Overdose: slow or shallow breathing, bluish lips/nails/skin, cold clammy skin, stupor, convulsions, coma. Pinpoint pupils plus coma plus breathing depression points to opioid poisoning."
+  ],
+  "officer_notes": [
+    "Treat as a medical emergency: request EMS and follow your agency's naloxone policy."
+  ],
+  "related": [
+    "drug-depressants"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

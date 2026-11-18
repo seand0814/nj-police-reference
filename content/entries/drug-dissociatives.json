@@ -1,0 +1,23 @@
+{
+  "id": "drug-dissociatives",
+  "category": "DWI & Drugs",
+  "title": "Dissociative Anesthetics (PCP, Ketamine)",
+  "source_type": "federal_pub",
+  "citation": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 79, 83",
+  "source_url": "https://getsmartaboutdrugs.gov/sites/default/files/2025-03/Drugs-Abuse-2024.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Signs (ketamine): feeling detached or out of control, distorted sight and sound, rapid eye movement, dilated pupils, drooling, tearing, muscle stiffness, possible unresponsiveness.",
+    "Severe overdose (PCP or ketamine): breathing depression, seizures, coma, death from respiratory arrest."
+  ],
+  "officer_notes": [
+    "Watch breathing closely for anyone who becomes unresponsive."
+  ],
+  "related": [
+    "drug-hallucinogens"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

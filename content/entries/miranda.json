@@ -1,0 +1,24 @@
+{
+  "id": "miranda",
+  "category": "Case Law & Legal Terms",
+  "title": "Miranda Warnings",
+  "source_type": "case",
+  "citation": "Miranda v. Arizona, 384 U.S. 436 (1966); NJ case law",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Warnings are required before custodial interrogation: the person is in custody (or its functional equivalent) and is being questioned or exposed to words or actions likely to draw an incriminating response.",
+    "Core rights: to remain silent; that anything said can be used in court; to have a lawyer present before and during questioning; to have a lawyer appointed if one cannot be afforded; to stop answering at any time.",
+    "NJ requires the State to prove a knowing, voluntary and intelligent waiver beyond a reasonable doubt.",
+    "Question-first, warn-later tactics are prohibited (State v. O'Neill, 193 N.J. 148 (2007)).",
+    "An ambiguous request for a lawyer or to stop requires the officer to stop and clarify before going on."
+  ],
+  "officer_notes": [
+    "Read from your agency's approved card or form and record the waiver."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

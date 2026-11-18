@@ -1,0 +1,24 @@
+{
+  "id": "traffic-stops",
+  "category": "Use of Force & Search",
+  "title": "Traffic Stops",
+  "source_type": "directive",
+  "citation": "Fourth Amendment; N.J. Const. art. I, para. 7; NJ case law",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "A stop requires reasonable suspicion of a motor vehicle violation or criminal activity.",
+    "The stop may last only as long as needed to handle the violation; extending it requires new reasonable suspicion (Rodriguez v. United States, 575 U.S. 348 (2015); State v. Dunbar, 229 N.J. 521 (2017) for canine sniffs).",
+    "Drivers may be ordered out of the vehicle (Pennsylvania v. Mimms). In NJ, ordering a passenger out requires specific facts that warrant heightened caution (State v. Smith, 134 N.J. 599 (1994)).",
+    "In NJ, a consent search of a vehicle requires reasonable suspicion first, and the person must be told of the right to refuse (State v. Carty, 170 N.J. 632 (2002)).",
+    "NJ auto exception: a roadside warrantless search is allowed when probable cause arises spontaneously and unforeseeably (State v. Witt, 223 N.J. 409 (2015))."
+  ],
+  "officer_notes": [
+    "Activate body-worn camera per AG directive; complete stop data reporting as required."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hazmat-erg",
+  "category": "Hazmat",
+  "title": "Using the Emergency Response Guidebook",
+  "source_type": "federal_pub",
+  "citation": "PHMSA Emergency Response Guidebook (current edition)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Approach from upwind, uphill and upstream; stay back and use binoculars to read placards.",
+    "Identify the material by the 4-digit UN/NA number or name, and do not walk into or touch any spill.",
+    "Yellow pages: look up by ID number. Blue pages: look up by name. Both point to an orange guide page.",
+    "Orange pages: the guide for potential hazards, public safety and emergency response.",
+    "Green pages: initial isolation and protective action distances for highlighted materials.",
+    "Isolate the area, deny entry, and request fire and hazmat resources; call CHEMTREC for help."
+  ],
+  "officer_notes": [
+    "Keep the current ERG in the vehicle or use the official ERG app."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

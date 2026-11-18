@@ -1,0 +1,24 @@
+{
+  "id": "drug-depressants",
+  "category": "DWI & Drugs",
+  "title": "CNS Depressants",
+  "source_type": "federal_pub",
+  "citation": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), p. 73",
+  "source_url": "https://getsmartaboutdrugs.gov/sites/default/files/2025-03/Drugs-Abuse-2024.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Examples: benzodiazepines such as alprazolam, clonazepam, diazepam; some barbiturates.",
+    "Signs: sleepiness, relaxed mood, poor coordination, confusion; sometimes amnesia, irritability or hostility.",
+    "Overdose: extreme drowsiness, slowed breathing, coma. Mixing with opioids sharply raises the risk of fatal breathing failure."
+  ],
+  "officer_notes": [
+    "Ask about alcohol or opioid use alongside; combined depression is the main danger."
+  ],
+  "related": [
+    "drug-opioids"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

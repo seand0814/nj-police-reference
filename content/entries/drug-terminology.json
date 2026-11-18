@@ -1,0 +1,26 @@
+{
+  "id": "drug-terminology",
+  "category": "DWI & Drugs",
+  "title": "Drug Terminology",
+  "source_type": "federal_pub",
+  "citation": "General law enforcement usage",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Bundle: a group of 10 bags of heroin or fentanyl. Brick: 50 bags (5 bundles).",
+    "Eight ball: about 3.5 grams (1/8 ounce). Zip: an ounce.",
+    "Pressed pills / M30s: counterfeit tablets made to look like oxycodone, frequently containing fentanyl.",
+    "Tranq: xylazine, a veterinary sedative often mixed with fentanyl; it is not reversed by naloxone.",
+    "Dab / wax / shatter: concentrated cannabis extracts.",
+    "Works / rig: injection equipment.",
+    "Stamp: the brand marking printed on bags of heroin or fentanyl."
+  ],
+  "officer_notes": [
+    "Slang changes quickly and varies by region; record the exact words used."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

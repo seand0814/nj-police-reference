@@ -1,0 +1,21 @@
+{
+  "id": "terrorism-awareness",
+  "category": "Operations & ICS",
+  "title": "Terrorism Awareness",
+  "source_type": "federal_pub",
+  "citation": "DHS and FBI public guidance",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Watch for pre-attack indicators: surveillance of a target, testing security, acquiring supplies (such as chemicals or weapons), dry runs, and unusual questions about security.",
+    "Report suspicious activity based on behavior, not appearance, through your agency's suspicious activity reporting process.",
+    "At an explosion or attack scene, consider secondary devices: control the perimeter and stage away from the obvious approaches.",
+    "Coordinate with the NJ Regional Operations Intelligence Center and the FBI Joint Terrorism Task Force through your chain of command."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "traffic-stops-high-risk",
+  "category": "Use of Force & Search",
+  "title": "High-Risk Vehicle Stops",
+  "source_type": "directive",
+  "citation": "General tactical principles; follow agency training",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Use when there is reason to believe occupants are armed or dangerous (felony vehicle, armed suspect, BOLO match).",
+    "Plan before initiating: wait for backup, choose a location with cover and good lighting, and notify dispatch.",
+    "Position vehicles to create cover; officers stay behind cover and do not approach the vehicle.",
+    "One officer gives commands, clearly and one at a time; others cover.",
+    "Order occupants out one at a time, hands visible, walking backward to officers for control and handcuffing.",
+    "Clear the vehicle only after all known occupants are secured."
+  ],
+  "officer_notes": [
+    "Commands must be given in a language the occupants understand; see the Spanish phrase entry."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

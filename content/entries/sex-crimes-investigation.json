@@ -1,0 +1,23 @@
+{
+  "id": "sex-crimes-investigation",
+  "category": "Investigations",
+  "title": "Sex Crimes Investigation",
+  "source_type": "directive",
+  "citation": "NJ AG standards for sexual assault response; general practice",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Ensure safety and medical care first; contact the county Sexual Assault Response Team (SART).",
+    "Victims may receive a forensic exam without reporting to police; respect their choice.",
+    "Preserve evidence: ask the victim not to bathe, change clothes, eat, drink or use the bathroom if possible, and bag clothing in paper.",
+    "Forensic evidence is best collected within 5 days of the assault.",
+    "Use a trauma-informed approach: a brief initial interview for immediate facts, with a detailed interview by trained investigators later.",
+    "Notify the county prosecutor's sex crimes unit per county policy."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

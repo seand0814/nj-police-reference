@@ -1,0 +1,26 @@
+{
+  "id": "sfst-hgn",
+  "category": "DWI & Drugs",
+  "title": "SFST: Horizontal Gaze Nystagmus",
+  "source_type": "federal_pub",
+  "citation": "NHTSA SFST procedures form, published by NJ Division of Highway Traffic Safety",
+  "source_url": "https://www.nj.gov/lps/hts/downloads/SFST_Procedures.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Before testing: remove eyeglasses; check pupil size, equal tracking and resting nystagmus.",
+    "Three clues in each eye (six in all): no smooth pursuit; distinct and sustained nystagmus at maximum deviation; nystagmus starting before 45 degrees.",
+    "Check for vertical gaze nystagmus as well."
+  ],
+  "officer_notes": [
+    "Follow your current SFST certification training for administration and scoring."
+  ],
+  "related": [
+    "sfst-walk-turn",
+    "sfst-one-leg-stand",
+    "njsa-39-4-50"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

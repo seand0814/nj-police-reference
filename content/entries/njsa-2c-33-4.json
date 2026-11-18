@@ -1,0 +1,27 @@
+{
+  "id": "njsa-2c-33-4",
+  "category": "Criminal Law",
+  "title": "Harassment",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:33-4",
+  "source_url": "https://law.counselstack.com/statute/nj/2C%3A33-4",
+  "grade_or_penalty": "Petty disorderly persons offense. Fourth degree if the actor was then serving a prison term or on parole/probation for an indictable conviction, or knowingly aimed the conduct at a current or former judge over the judge's public duties.",
+  "key_points": [
+    "Requires a purpose to harass.",
+    "(a) Communications that are anonymous, at extremely inconvenient hours, in offensively coarse language, or otherwise likely to annoy or alarm. Venue can be where sent or where received.",
+    "(b) Striking, kicking, shoving or other offensive touching, or threatening to.",
+    "(c) Any other course of alarming conduct or repeated acts meant to alarm or seriously annoy."
+  ],
+  "officer_notes": [
+    "Capture screenshots, call logs and timestamps for subsection (a) cases.",
+    "Check parole/probation status; it can make the offense a crime."
+  ],
+  "related": [
+    "njsa-2c-33-4-1",
+    "njsa-2c-12-3"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

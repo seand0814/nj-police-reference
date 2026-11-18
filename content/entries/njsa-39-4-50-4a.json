@@ -1,0 +1,23 @@
+{
+  "id": "njsa-39-4-50-4a",
+  "category": "DWI & Drugs",
+  "title": "Refusal to Submit to Breath Test",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 39:4-50.4a (as amended by P.L.2023, c.191)",
+  "source_url": "https://pub.njleg.gov/Bills/2022/PL23/191_.HTM",
+  "grade_or_penalty": "1st: $300-$500, forfeiture until interlock installed. 2nd: $500-$1,000, 1-2 yr forfeiture + interlock. 3rd+: $1,000, 8 yr forfeiture + interlock. Second and later refusal forfeitures run consecutive to the DWI forfeiture.",
+  "key_points": [
+    "Court must find, by a preponderance: probable cause the person drove or was in actual physical control on a public or quasi-public road while impaired (alcohol, drugs, or cannabis); that the person was arrested, if appropriate; and that the person refused when asked.",
+    "Implied consent itself is in N.J.S.A. 39:4-50.2; cite the correct section on the summons."
+  ],
+  "officer_notes": [
+    "Read the AG standard statement exactly as written and document the response."
+  ],
+  "related": [
+    "njsa-39-4-50"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

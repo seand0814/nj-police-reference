@@ -1,0 +1,19 @@
+{
+  "id": "njsa-2c-5-1",
+  "category": "Criminal Law",
+  "title": "Criminal Attempt",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:5-1",
+  "source_url": "",
+  "grade_or_penalty": "Same degree as the target crime; attempt of a 1st-degree crime is 2nd degree, except attempted murder (1st degree) (2C:5-4)",
+  "key_points": [
+    "Purposely doing what would be a crime if the facts were as the actor believed, or taking a substantial step strongly corroborating criminal purpose.",
+    "Renunciation of purpose before completion can be a defense."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

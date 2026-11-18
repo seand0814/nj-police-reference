@@ -1,0 +1,23 @@
+{
+  "id": "burglary-robbery-investigation",
+  "category": "Investigations",
+  "title": "Burglary & Robbery Response",
+  "source_type": "original",
+  "citation": "General practice",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Check for suspects still on scene before clearing; set up a perimeter on fresh calls.",
+    "Robbery: get a fast description of suspects, weapon, direction and vehicle out to dispatch; protect the victim and witnesses.",
+    "Identify point of entry and exit; protect tool marks, footwear impressions, fingerprints and DNA areas.",
+    "Collect video from the scene and nearby businesses and homes promptly.",
+    "List stolen property with serial numbers for NCIC entry and pawn checks.",
+    "Separate witnesses before taking statements."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

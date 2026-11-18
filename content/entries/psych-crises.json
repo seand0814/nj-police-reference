@@ -1,0 +1,24 @@
+{
+  "id": "psych-crises",
+  "category": "Investigations",
+  "title": "Psychological Crises",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 30:4-27.1 et seq.; NJ AG guidance; de-escalation training",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Treat as a medical crisis: slow down, create distance and time, and use calm, simple language.",
+    "Request a mental health responder or crisis team where available (for example, ARRIVE Together programs).",
+    "An officer may take a person to a screening service when there is reasonable ground to believe they meet the commitment standard (30:4-27.6).",
+    "Dangerous to self or others means a substantial likelihood of harm in the reasonably foreseeable future, based on recent behavior.",
+    "Check for weapons and ask about recent medication or substance use."
+  ],
+  "officer_notes": [
+    "Remember the 988 Suicide & Crisis Lifeline for follow-up resources."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

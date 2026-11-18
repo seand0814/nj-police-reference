@@ -1,0 +1,27 @@
+{
+  "id": "njsa-2c-12-3",
+  "category": "Criminal Law",
+  "title": "Terroristic Threats",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:12-3",
+  "source_url": "https://law.counselstack.com/statute/nj/2C%3A12-3",
+  "grade_or_penalty": "Third degree under (a) or (b). Subsection (a) becomes second degree if committed during a declared national, State or county emergency.",
+  "key_points": [
+    "(a) Threatening any crime of violence aimed at terrorizing someone, forcing an evacuation of a building, assembly place or transit facility, or causing serious public inconvenience.",
+    "(b) Threatening to kill someone to put them in imminent fear of death, where the circumstances would reasonably make the victim believe the threat is immediate and likely to be carried out.",
+    "Emergency upgrade is strict liability: the State only proves the emergency existed.",
+    "Reckless-disregard prosecutions under (a) are limited by State v. Fair (2024): see the related case entry."
+  ],
+  "officer_notes": [
+    "Record the exact words used and how the victim reacted.",
+    "For (b), note facts showing the threat seemed immediate and likely (weapon, proximity, history)."
+  ],
+  "related": [
+    "case-state-v-fair-2024",
+    "njsa-2c-33-4"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

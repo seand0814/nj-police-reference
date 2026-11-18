@@ -1,0 +1,26 @@
+{
+  "id": "drug-schedules-federal",
+  "category": "DWI & Drugs",
+  "title": "Federal Drug Schedules I-V",
+  "source_type": "federal_pub",
+  "citation": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 9-10; 21 U.S.C. 812",
+  "source_url": "https://getsmartaboutdrugs.gov/sites/default/files/2025-03/Drugs-Abuse-2024.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "I: high abuse potential, no accepted U.S. medical use, not accepted as safe under supervision (e.g., heroin, LSD, marijuana federally).",
+    "II: high abuse potential, accepted medical use (possibly restricted), can cause severe dependence (e.g., fentanyl, morphine, methadone, hydrocodone, cocaine, methamphetamine, PCP).",
+    "III: lower abuse potential than I-II; moderate/low physical or high psychological dependence (e.g., some barbiturates).",
+    "IV: lower than III; limited dependence (e.g., alprazolam, clonazepam, diazepam).",
+    "V: lowest; limited dependence relative to IV."
+  ],
+  "officer_notes": [
+    "NJ schedules and grading are in N.J.S.A. 2C:35; federal and state schedules can differ (cannabis is the main example)."
+  ],
+  "related": [
+    "njsa-2c-35-10"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

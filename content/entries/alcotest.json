@@ -1,0 +1,24 @@
+{
+  "id": "alcotest",
+  "category": "DWI & Drugs",
+  "title": "Alcotest / Breath Testing",
+  "source_type": "directive",
+  "citation": "NJ breath testing procedures; State v. Chun, 194 N.J. 54 (2008)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Breath tests are given only by a certified operator using the approved instrument and procedures.",
+    "A 20-minute observation period is required before testing; the subject must not eat, drink, smoke, vomit or place anything in the mouth.",
+    "Read the AG standard statement on breath testing exactly as written before requesting samples.",
+    "An ambiguous or conditional answer is treated as a refusal (see 39:4-50.4a).",
+    "Preserve the instrument printouts and record the observation period start and end times."
+  ],
+  "officer_notes": [
+    "Confirm the instrument model and current procedures with your agency's breath test coordinator."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

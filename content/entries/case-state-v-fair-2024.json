@@ -1,0 +1,23 @@
+{
+  "id": "case-state-v-fair-2024",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Fair (N.J. 2024)",
+  "source_type": "case",
+  "citation": "State v. Fair, N.J. Supreme Court, No. A-20-22, decided Jan. 16, 2024",
+  "source_url": "https://njcourts.gov/system/files/court-opinions/2024/a_20_22.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Recklessness can support a true-threats prosecution under 2C:12-3(a), but there is also an objective test: a reasonable person in the victim's position would have seen the message as threatening violence.",
+    "Subsections (a) and (b) of 2C:12-3 are separate, alternative crimes; a jury must agree unanimously on which one was committed."
+  ],
+  "officer_notes": [
+    "When charging, specify 2C:12-3(a) or (b) rather than 'a and/or b'."
+  ],
+  "related": [
+    "njsa-2c-12-3"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

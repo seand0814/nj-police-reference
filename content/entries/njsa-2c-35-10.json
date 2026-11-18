@@ -1,0 +1,28 @@
+{
+  "id": "njsa-2c-35-10",
+  "category": "DWI & Drugs",
+  "title": "CDS Possession / Under the Influence",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:35-10",
+  "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes%2F1%2F2777%2F3236",
+  "grade_or_penalty": "a(1) Schedule I-IV: third degree. a(2) Schedule V: fourth degree. a(3) over 6 oz marijuana or over 17 g hashish: fourth degree. a(4) 6 oz or less / 17 g or less: no penalty. a(5) psilocybin 1 oz or less: disorderly persons. (b) and (c): disorderly persons.",
+  "key_points": [
+    "Knowingly or purposely obtaining or possessing (actual or constructive) CDS or an analog without a valid prescription.",
+    "Marijuana/hashish odor (fresh or burnt) is NOT reasonable articulable suspicion to search for an a(3)(b) violation.",
+    "Use or being under the influence of CDS (not marijuana/hashish) is a DP offense; the specific drug need not be identified if symptoms prove influence.",
+    "Failing to voluntarily turn CDS over to the nearest officer is a separate DP offense.",
+    "Offenses under a(1)-(3) in a school zone carry at least 100 hours of community service if no prison term."
+  ],
+  "officer_notes": [
+    "Quarterly reporting applies to a(3)(b) violations; follow your agency's UCR process.",
+    "Cannabis possession questions: also review 2C:35-10a and current AG cannabis directives."
+  ],
+  "related": [
+    "njsa-2c-35-24",
+    "drug-schedules-federal"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

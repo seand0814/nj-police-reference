@@ -1,0 +1,4305 @@
+{
+  "categories": [
+    "Criminal Law",
+    "Motor Vehicle",
+    "DWI & Drugs",
+    "Use of Force & Search",
+    "Investigations",
+    "Domestic Violence",
+    "Juveniles",
+    "Case Law & Legal Terms",
+    "Operations & ICS",
+    "Hazmat",
+    "Medical",
+    "Spanish",
+    "Tools",
+    "Department Weapons"
+  ],
+  "topics": [
+    {
+      "id": "njsa-2c-2-9",
+      "category": "Use of Force & Search",
+      "title": "Duress (Defense)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:2-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-2-12",
+      "category": "Use of Force & Search",
+      "title": "Entrapment (Defense)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:2-12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-3-4",
+      "category": "Use of Force & Search",
+      "title": "Use of Force in Self-Protection",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:3-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-3-5",
+      "category": "Use of Force & Search",
+      "title": "Use of Force to Protect Others",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:3-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-3-7",
+      "category": "Use of Force & Search",
+      "title": "Use of Force in Law Enforcement",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:3-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-3-8",
+      "category": "Use of Force & Search",
+      "title": "Use of Force by Persons with Special Responsibility",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:3-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-5-1",
+      "category": "Criminal Law",
+      "title": "Criminal Attempt",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:5-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-5-2",
+      "category": "Criminal Law",
+      "title": "Conspiracy",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:5-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-5-5",
+      "category": "Criminal Law",
+      "title": "Burglar's Tools",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:5-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-5-7",
+      "category": "Criminal Law",
+      "title": "Keys to State-Owned or Leased Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:5-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-2",
+      "category": "Criminal Law",
+      "title": "Criminal Homicide (Definition)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-3",
+      "category": "Criminal Law",
+      "title": "Murder",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-4",
+      "category": "Criminal Law",
+      "title": "Manslaughter",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-5",
+      "category": "Criminal Law",
+      "title": "Vehicular Homicide (Death by Auto or Vessel)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-5-1",
+      "category": "Criminal Law",
+      "title": "Leaving the Scene of a Fatal Accident",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-5.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-6",
+      "category": "Criminal Law",
+      "title": "Aiding Suicide",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-1-1",
+      "category": "Criminal Law",
+      "title": "Leaving the Scene of an Accident Causing Serious Bodily Injury",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-1.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-1-2",
+      "category": "Criminal Law",
+      "title": "Endangering an Injured Victim",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-1.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-1-3",
+      "category": "Criminal Law",
+      "title": "Failure to Report a Missing Child",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-1.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-10",
+      "category": "Criminal Law",
+      "title": "Stalking",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-11",
+      "category": "Criminal Law",
+      "title": "Disarming a Law Enforcement Officer",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-1",
+      "category": "Criminal Law",
+      "title": "Kidnapping",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-2",
+      "category": "Criminal Law",
+      "title": "Criminal Restraint",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-3",
+      "category": "Criminal Law",
+      "title": "False Imprisonment",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-4",
+      "category": "Criminal Law",
+      "title": "Interference with Custody",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-5",
+      "category": "Criminal Law",
+      "title": "Criminal Coercion",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-6",
+      "category": "Criminal Law",
+      "title": "Luring or Enticing a Child",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-7",
+      "category": "Criminal Law",
+      "title": "Luring or Enticing an Adult",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-13-8",
+      "category": "Criminal Law",
+      "title": "Human Trafficking",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:13-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-14-9",
+      "category": "Criminal Law",
+      "title": "Invasion of Privacy",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:14-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-15-1",
+      "category": "Criminal Law",
+      "title": "Robbery",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:15-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-15-2",
+      "category": "Criminal Law",
+      "title": "Carjacking",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:15-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-16-1",
+      "category": "Criminal Law",
+      "title": "Bias Intimidation",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:16-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-17-1",
+      "category": "Criminal Law",
+      "title": "Arson",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:17-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-17-2",
+      "category": "Criminal Law",
+      "title": "Causing or Risking Widespread Injury or Damage",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:17-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-17-3",
+      "category": "Criminal Law",
+      "title": "Criminal Mischief",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:17-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-17-3-1",
+      "category": "Criminal Law",
+      "title": "Damaging, Removing or Altering Traffic Signs",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:17-3.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-17-6",
+      "category": "Criminal Law",
+      "title": "Removal or Alteration of Vehicle Identification Numbers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:17-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-17-7",
+      "category": "Criminal Law",
+      "title": "Tampering with a Nuclear Electric Generating Plant",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:17-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-18-2",
+      "category": "Criminal Law",
+      "title": "Burglary",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:18-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-18-5",
+      "category": "Criminal Law",
+      "title": "Trespass and Damage on Posted Lands",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:18-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-2-3",
+      "category": "Criminal Law",
+      "title": "Theft from a Grave Site",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-2.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-2-6",
+      "category": "Criminal Law",
+      "title": "Leader of a Cargo Theft Network",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-2.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-3",
+      "category": "Criminal Law",
+      "title": "Theft by Unlawful Taking",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-4",
+      "category": "Criminal Law",
+      "title": "Theft by Deception",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-5",
+      "category": "Criminal Law",
+      "title": "Theft by Extortion",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-6",
+      "category": "Criminal Law",
+      "title": "Theft of Lost or Mislaid Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-7",
+      "category": "Criminal Law",
+      "title": "Receiving Stolen Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-7-1",
+      "category": "Criminal Law",
+      "title": "Fencing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-7.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-8",
+      "category": "Criminal Law",
+      "title": "Theft of Services",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-9",
+      "category": "Criminal Law",
+      "title": "Theft by Failure to Make Required Disposition of Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-10",
+      "category": "Criminal Law",
+      "title": "Unlawful Taking of a Means of Conveyance",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-11",
+      "category": "Criminal Law",
+      "title": "Shoplifting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-11-2",
+      "category": "Criminal Law",
+      "title": "Leader of an Organized Retail Theft Enterprise",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-11.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-13",
+      "category": "Criminal Law",
+      "title": "Concealment or Theft of Library Material",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-16",
+      "category": "Criminal Law",
+      "title": "Operating a Chop Shop",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-16 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-18",
+      "category": "Criminal Law",
+      "title": "Leader of an Auto Theft Trafficking Network",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-31",
+      "category": "Criminal Law",
+      "title": "Wrongful Access or Disclosure of Information",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-31 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-2-1",
+      "category": "Criminal Law",
+      "title": "False Government Documents",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-2.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-2-2",
+      "category": "Criminal Law",
+      "title": "Transfer of Police Badges",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-2.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-4",
+      "category": "Criminal Law",
+      "title": "Falsifying or Tampering with Records",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-21",
+      "category": "Criminal Law",
+      "title": "Unlawful Recording in a Theater (Video Piracy)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-21 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-22-1",
+      "category": "Criminal Law",
+      "title": "Disturbing or Desecrating Human Remains",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:22-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-24-4",
+      "category": "Juveniles",
+      "title": "Endangering the Welfare of a Child",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:24-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-24-5",
+      "category": "Juveniles",
+      "title": "Willful Nonsupport",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:24-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-24-7",
+      "category": "Juveniles",
+      "title": "Endangering the Welfare of an Incompetent Person",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:24-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-24-8",
+      "category": "Juveniles",
+      "title": "Abandonment or Neglect of an Elderly or Disabled Person",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:24-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-25-19",
+      "category": "Domestic Violence",
+      "title": "Domestic Violence Definitions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:25-19 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-25-30",
+      "category": "Domestic Violence",
+      "title": "Violation of a DV Restraining Order",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:25-30 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-25-31",
+      "category": "Domestic Violence",
+      "title": "Arrest for Violation of a Restraining Order",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:25-31 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-1",
+      "category": "Criminal Law",
+      "title": "Perjury",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-2",
+      "category": "Criminal Law",
+      "title": "False Swearing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-3",
+      "category": "Criminal Law",
+      "title": "Unsworn Falsification to Authorities",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-4",
+      "category": "Criminal Law",
+      "title": "False Reports to Law Enforcement",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-5",
+      "category": "Criminal Law",
+      "title": "Witness Tampering and Retaliation",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-6",
+      "category": "Criminal Law",
+      "title": "Tampering with Physical Evidence",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-7",
+      "category": "Criminal Law",
+      "title": "Tampering with Public Records or Information",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-28-8",
+      "category": "Criminal Law",
+      "title": "Impersonating a Public Servant or Law Enforcement Officer",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:28-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-2",
+      "category": "Criminal Law",
+      "title": "Resisting Arrest and Eluding",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-3",
+      "category": "Criminal Law",
+      "title": "Hindering Apprehension or Prosecution",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-3-1",
+      "category": "Criminal Law",
+      "title": "Harming a Law Enforcement Animal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-3.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-4",
+      "category": "Criminal Law",
+      "title": "Compounding",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-5",
+      "category": "Criminal Law",
+      "title": "Escape",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-6",
+      "category": "Criminal Law",
+      "title": "Implements for Escape and Contraband",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-7",
+      "category": "Criminal Law",
+      "title": "Bail Jumping and Failure to Appear",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-9",
+      "category": "Criminal Law",
+      "title": "Contempt",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-10",
+      "category": "Criminal Law",
+      "title": "Cell Phone Possession by an Inmate",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-29-11",
+      "category": "Criminal Law",
+      "title": "Refusal to Allow Blood Sample (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-30-2",
+      "category": "Criminal Law",
+      "title": "Official Misconduct",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:30-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-30-6",
+      "category": "Criminal Law",
+      "title": "Official Deprivation of Civil Rights",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:30-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-1",
+      "category": "Criminal Law",
+      "title": "Riot and Failure to Disperse",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-2",
+      "category": "Criminal Law",
+      "title": "Disorderly Conduct",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-3",
+      "category": "Criminal Law",
+      "title": "False Public Alarms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-7",
+      "category": "Criminal Law",
+      "title": "Obstructing a Highway or Public Passage",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-8",
+      "category": "Criminal Law",
+      "title": "Disrupting Meetings and Processions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-9",
+      "category": "Criminal Law",
+      "title": "Desecrating Venerated Objects",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-10",
+      "category": "Criminal Law",
+      "title": "Causing Fear of Bodily Violence (Symbols)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-11",
+      "category": "Criminal Law",
+      "title": "Defacement of Private Property (Bias Symbols)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-12",
+      "category": "Criminal Law",
+      "title": "Maintaining a Nuisance",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-13",
+      "category": "Criminal Law",
+      "title": "Smoking in Certain Public Places",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-14-1",
+      "category": "Criminal Law",
+      "title": "Damaging Railroad Crossing Devices",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-14.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-16",
+      "category": "Criminal Law",
+      "title": "Alcohol on School Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-16 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-21",
+      "category": "Criminal Law",
+      "title": "Interception of Communications (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-21 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-24",
+      "category": "Criminal Law",
+      "title": "Graffiti-Related Offense (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-24 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-28",
+      "category": "Criminal Law",
+      "title": "Recruiting for a Criminal Street Gang",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-28 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-29",
+      "category": "Criminal Law",
+      "title": "Gang Criminality",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-29 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-37-2",
+      "category": "Criminal Law",
+      "title": "Promoting Gambling",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:37-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-1",
+      "category": "Criminal Law",
+      "title": "Creating a Hazard",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-2",
+      "category": "Criminal Law",
+      "title": "Refusing to Yield a Telephone for an Emergency",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-3",
+      "category": "Criminal Law",
+      "title": "Hazing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-17",
+      "category": "Criminal Law",
+      "title": "Product Tampering",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-18",
+      "category": "Criminal Law",
+      "title": "Violating Laws Intended to Protect Public Health and Safety",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-13",
+      "category": "Criminal Law",
+      "title": "Throwing Bodily Fluids at Officers and Corrections Employees",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-3",
+      "category": "Criminal Law",
+      "title": "Prohibited Weapons and Devices",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-5",
+      "category": "Criminal Law",
+      "title": "Unlawful Possession of Weapons",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-17",
+      "category": "Criminal Law",
+      "title": "Use of a Juvenile in Auto Theft",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-24-9",
+      "category": "Juveniles",
+      "title": "Employing a Juvenile in the Commission of a Crime",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:24-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-13-1",
+      "category": "Criminal Law",
+      "title": "Selling Tobacco or Vapor Products to Minors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-13.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-15",
+      "category": "Criminal Law",
+      "title": "Underage Possession or Consumption of Alcohol",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-17",
+      "category": "Criminal Law",
+      "title": "Furnishing Alcohol to Minors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-6",
+      "category": "DWI & Drugs",
+      "title": "Employing a Juvenile in a Drug Distribution Scheme",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-8",
+      "category": "DWI & Drugs",
+      "title": "Distribution to Persons Under 18 or Pregnant Females",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-5",
+      "category": "DWI & Drugs",
+      "title": "Delivering Drug Paraphernalia to a Minor",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-9-1",
+      "category": "Criminal Law",
+      "title": "Sale of Certain Weapons to Minors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-9.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-21",
+      "category": "Criminal Law",
+      "title": "Tattooing or Body Piercing a Minor",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-21 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-15",
+      "category": "Criminal Law",
+      "title": "Child Access to Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-6-1",
+      "category": "Criminal Law",
+      "title": "Possession of Firearms by Minors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-6.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-7-23",
+      "category": "Criminal Law",
+      "title": "Sex Offenders in Youth-Serving Organizations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:7-23 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-14-2",
+      "category": "Criminal Law",
+      "title": "Sexual Assault and Aggravated Sexual Assault",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:14-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-24-1",
+      "category": "Juveniles",
+      "title": "Bigamy",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:24-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-12-2",
+      "category": "Criminal Law",
+      "title": "Sexually Oriented Business Near Schools or Churches",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-12.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-34-1",
+      "category": "Criminal Law",
+      "title": "Prostitution and Related Offenses",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:34-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-34-1-1",
+      "category": "Criminal Law",
+      "title": "Loitering for Prostitution",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:34-1.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-34-2",
+      "category": "Criminal Law",
+      "title": "Obscenity for Persons 18 or Older",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:34-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-34-3",
+      "category": "Criminal Law",
+      "title": "Obscenity for Persons Under 18",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:34-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-34-5",
+      "category": "Criminal Law",
+      "title": "Sexual Penetration While Infected",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:34-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-34-7",
+      "category": "Criminal Law",
+      "title": "Location of Sexually Oriented Businesses",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:34-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-1-1",
+      "category": "Criminal Law",
+      "title": "Alteration of an Access Device",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-1.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-2",
+      "category": "Criminal Law",
+      "title": "Theft: Consolidation and Grading",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-25",
+      "category": "Criminal Law",
+      "title": "Computer Criminal Activity",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-25 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-31-1",
+      "category": "Criminal Law",
+      "title": "Posting Certain Information About Officers and Judges Online",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-31.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-34",
+      "category": "Criminal Law",
+      "title": "Situs of Computer Crime",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-34 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-36",
+      "category": "Criminal Law",
+      "title": "Misuse of Food Stamps or Benefit Cards (over $150)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-36 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-37",
+      "category": "Criminal Law",
+      "title": "Public Assistance Fraud (under $150)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-37 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-39",
+      "category": "Criminal Law",
+      "title": "Pyramid Promotional Schemes",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-39 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-1",
+      "category": "Criminal Law",
+      "title": "Forgery",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-2",
+      "category": "Criminal Law",
+      "title": "Criminal Simulation",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-2-3",
+      "category": "Criminal Law",
+      "title": "False Insurance Identification Cards",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-2.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-2-4",
+      "category": "Criminal Law",
+      "title": "Fraudulent Receipts and UPC Labels",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-2.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-3",
+      "category": "Criminal Law",
+      "title": "Frauds Relating to Public Records",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-4-1",
+      "category": "Criminal Law",
+      "title": "Tampering with Medical Records",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-4.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-4-3",
+      "category": "Criminal Law",
+      "title": "Health Care Claims Fraud",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-4.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-4-6",
+      "category": "Criminal Law",
+      "title": "Insurance Fraud",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-4.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-4-6b",
+      "category": "Criminal Law",
+      "title": "Motor Vehicle Insurance Fraud",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-4.6b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-4-8",
+      "category": "Criminal Law",
+      "title": "Motor Vehicle Title Offenses",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-4.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-5",
+      "category": "Criminal Law",
+      "title": "Bad Checks",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-6",
+      "category": "Criminal Law",
+      "title": "Credit Card Offenses",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-6-1",
+      "category": "Criminal Law",
+      "title": "ATM Scanning Devices (Skimmers)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-6.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-7",
+      "category": "Criminal Law",
+      "title": "Deceptive Business Practices",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-7-3",
+      "category": "Criminal Law",
+      "title": "False Representation of Food as Kosher",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-7.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-8",
+      "category": "Criminal Law",
+      "title": "Misrepresentation of Vehicle Mileage",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-9",
+      "category": "Criminal Law",
+      "title": "Misconduct by a Corporate Official",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-10",
+      "category": "Criminal Law",
+      "title": "Commercial Bribery",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-11",
+      "category": "Criminal Law",
+      "title": "Rigging a Publicly Exhibited Contest",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-12",
+      "category": "Criminal Law",
+      "title": "Defrauding Secured Creditors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-13",
+      "category": "Criminal Law",
+      "title": "Fraud in Insolvency",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-15",
+      "category": "Criminal Law",
+      "title": "Misapplication of Entrusted Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-16",
+      "category": "Criminal Law",
+      "title": "Securing Execution of Documents by Deception",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-16 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-17",
+      "category": "Criminal Law",
+      "title": "Identity Theft",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-17-2",
+      "category": "Criminal Law",
+      "title": "Use of Another's Personal Identifying Information",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-17.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-17-3",
+      "category": "Criminal Law",
+      "title": "Trafficking in Personal Identifying Information",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-17.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-18",
+      "category": "Criminal Law",
+      "title": "Slugs",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-19",
+      "category": "Criminal Law",
+      "title": "Criminal Usury",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-19 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-20",
+      "category": "Criminal Law",
+      "title": "Unlicensed Practice of Medicine",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-20 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-20-1",
+      "category": "Criminal Law",
+      "title": "Related Licensing Offense (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-20.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-22-1",
+      "category": "Criminal Law",
+      "title": "Use of Runners",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-22.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-25",
+      "category": "Criminal Law",
+      "title": "Money Laundering",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-25 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-32",
+      "category": "Criminal Law",
+      "title": "Trademark Counterfeiting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-32 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-33",
+      "category": "Criminal Law",
+      "title": "Unlicensed Electrical Contracting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-33 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-21-35",
+      "category": "Criminal Law",
+      "title": "False Public Utility Employee Identification",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:21-35 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-31",
+      "category": "Criminal Law",
+      "title": "Public Order Offense (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-31 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-19-17-17",
+      "category": "Criminal Law",
+      "title": "Seizure of Potentially Dangerous Dogs",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:19-17.17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17a",
+      "category": "Criminal Law",
+      "title": "Animal Cruelty (General)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17c",
+      "category": "Criminal Law",
+      "title": "Animal Cruelty (Torture, Maiming, Serious Injury)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17c (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17-2",
+      "category": "Criminal Law",
+      "title": "Unlawful Care of Certain Animals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17-3",
+      "category": "Criminal Law",
+      "title": "Cruel Restraint of a Dog",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17-4",
+      "category": "Criminal Law",
+      "title": "Confinement of Certain Animals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17-5",
+      "category": "Criminal Law",
+      "title": "Proper Shelter for Certain Animals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-17-8",
+      "category": "Criminal Law",
+      "title": "Penalties for Failure to Provide Proper Care",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-17.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-18",
+      "category": "Criminal Law",
+      "title": "Carrying an Animal in a Cruel Manner",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-19",
+      "category": "Criminal Law",
+      "title": "Wrongful Treatment of Animals at a Shelter or Pound",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-19 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-20",
+      "category": "Criminal Law",
+      "title": "Abandoning a Disabled Animal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-20 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-21",
+      "category": "Criminal Law",
+      "title": "Selling an Unfit Horse",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-21 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-23",
+      "category": "Criminal Law",
+      "title": "Using Live Birds as Targets",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-23 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-24",
+      "category": "Criminal Law",
+      "title": "Animal Fighting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-24 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-25-1",
+      "category": "Criminal Law",
+      "title": "Motorist Striking a Domestic Animal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-25.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-25-4",
+      "category": "Criminal Law",
+      "title": "Sale of Dog or Cat Meat for Human Consumption",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-25.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-25-5",
+      "category": "Criminal Law",
+      "title": "Sale of Horses for Human Consumption",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-25.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-26",
+      "category": "Criminal Law",
+      "title": "Civil Penalties for Animal Cruelty",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-26 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-26-1",
+      "category": "Criminal Law",
+      "title": "Forfeiture of Animals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-26.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-44",
+      "category": "Criminal Law",
+      "title": "Arrests With or Without a Warrant for Cruelty",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-44 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-47",
+      "category": "Criminal Law",
+      "title": "Warrantless Arrest for Animal Fighting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-47 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-50",
+      "category": "Criminal Law",
+      "title": "Care of an Animal When the Owner Is Arrested",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-50 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-4-22-54",
+      "category": "Criminal Law",
+      "title": "Destruction of a Disabled Animal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 4:22-54 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-4",
+      "category": "Motor Vehicle",
+      "title": "Vehicle Registration Required",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-4a",
+      "category": "Motor Vehicle",
+      "title": "Temporary Registration from Another State",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-4a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-4b",
+      "category": "Motor Vehicle",
+      "title": "30-Day Temporary Registration",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-4b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-4c",
+      "category": "Motor Vehicle",
+      "title": "Rules for Temporary Registrations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-4c (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-4f",
+      "category": "Motor Vehicle",
+      "title": "Foreign Country Registration",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-4f (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-4-1",
+      "category": "Motor Vehicle",
+      "title": "Licensing Vehicles for Hire",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-4.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-6-12",
+      "category": "Motor Vehicle",
+      "title": "International Registration Plan",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-6.12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-6-13",
+      "category": "Motor Vehicle",
+      "title": "Apportioned Vehicle Registration",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-6.13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-9a",
+      "category": "Motor Vehicle",
+      "title": "Legal Name Required on Driver's License",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-9a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-9b",
+      "category": "Motor Vehicle",
+      "title": "Street Address Required on Driver's License",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-9b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10",
+      "category": "Motor Vehicle",
+      "title": "Driving Without a License",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10n",
+      "category": "Motor Vehicle",
+      "title": "Temporary Licenses",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10n (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-1",
+      "category": "Motor Vehicle",
+      "title": "Licensing of Bus Drivers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-11",
+      "category": "Motor Vehicle",
+      "title": "CDL Definitions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-18",
+      "category": "Motor Vehicle",
+      "title": "CDL Must Be in Possession",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-26",
+      "category": "Motor Vehicle",
+      "title": "Only One CDL Permitted",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.26 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-34",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle License Required for Autocycles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.34 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-11",
+      "category": "Motor Vehicle",
+      "title": "Restricted License Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-11-5",
+      "category": "Motor Vehicle",
+      "title": "Military License Extension",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-11.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-12",
+      "category": "Motor Vehicle",
+      "title": "Unlawful Securing of a License",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-13-1",
+      "category": "Motor Vehicle",
+      "title": "Special Learner's Permit",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-13.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-13-2a",
+      "category": "Motor Vehicle",
+      "title": "Examination Permit Use and Supervision",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-13.2a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-13-4",
+      "category": "Motor Vehicle",
+      "title": "Probationary License (GDL) Restrictions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-13.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-15",
+      "category": "Motor Vehicle",
+      "title": "Nonresident Drivers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-13-8",
+      "category": "Motor Vehicle",
+      "title": "Penalties for Permit and Probationary License Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-13.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-17",
+      "category": "Motor Vehicle",
+      "title": "Touring Privileges of Nonresidents",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-18",
+      "category": "Motor Vehicle",
+      "title": "Dealer and Temporary Plates",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-26-3",
+      "category": "Motor Vehicle",
+      "title": "Unregistered Vehicle on Highway",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-26.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-27-11",
+      "category": "Motor Vehicle",
+      "title": "Unauthorized Use of a Special Plate",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-27.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-27-12",
+      "category": "Motor Vehicle",
+      "title": "Penalties for Unauthorized Plate Use",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-27.12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-29",
+      "category": "Motor Vehicle",
+      "title": "Failure to Exhibit License, Registration or Insurance",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-29 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-29-8",
+      "category": "Motor Vehicle",
+      "title": "Fraudulent or Altered Identification Card",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-29.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-32",
+      "category": "Motor Vehicle",
+      "title": "Replacing Lost or Damaged Plates",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-32 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-33",
+      "category": "Motor Vehicle",
+      "title": "License Plate Display",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-33 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-34",
+      "category": "Motor Vehicle",
+      "title": "Registration Application During Suspension",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-34 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-35",
+      "category": "Motor Vehicle",
+      "title": "Lending Registration or Plates",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-35 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-36",
+      "category": "Motor Vehicle",
+      "title": "Change of Address",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-36 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-37-1",
+      "category": "Motor Vehicle",
+      "title": "Lending a License or Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-37.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-40",
+      "category": "Motor Vehicle",
+      "title": "Driving While Suspended or Revoked",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-40 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-40-1",
+      "category": "Motor Vehicle",
+      "title": "Revocation of Registration",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-40.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-5-35",
+      "category": "Motor Vehicle",
+      "title": "Return of Suspended License",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:5-35 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-6b-1",
+      "category": "Motor Vehicle",
+      "title": "Mandatory Insurance Coverage",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:6B-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-6-55",
+      "category": "Motor Vehicle",
+      "title": "Forged Proof of Insurance",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:6-55 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-8-9",
+      "category": "Motor Vehicle",
+      "title": "Inspection Sticker",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:8-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-10-20",
+      "category": "Motor Vehicle",
+      "title": "Fines for Title Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:10-20 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3a-1",
+      "category": "Motor Vehicle",
+      "title": "Television Visible to Driver",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3A-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-20",
+      "category": "Motor Vehicle",
+      "title": "Constructor Vehicles Over 45 MPH",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-20 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3b-25",
+      "category": "Motor Vehicle",
+      "title": "Cell Phone Use by School Bus Drivers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3B-25 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-31-1",
+      "category": "Motor Vehicle",
+      "title": "Low-Speed Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-31.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-39",
+      "category": "Motor Vehicle",
+      "title": "Following Distance Behind Streetcars",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-39 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-40",
+      "category": "Motor Vehicle",
+      "title": "Passing Streetcars",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-40 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-41",
+      "category": "Motor Vehicle",
+      "title": "Driving Through Safety Zones",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-41 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-49-2",
+      "category": "Motor Vehicle",
+      "title": "Exemptions: Physicians and Others",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-49.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-49-3",
+      "category": "Motor Vehicle",
+      "title": "Common Carrier Exemptions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-49.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-52",
+      "category": "Motor Vehicle",
+      "title": "Racing on Highways",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-52 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-53",
+      "category": "Motor Vehicle",
+      "title": "Leaving Vehicle with Engine Running",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-53 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-55",
+      "category": "Motor Vehicle",
+      "title": "Improper Action on Grade or Curve",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-55 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-56",
+      "category": "Motor Vehicle",
+      "title": "Delaying Traffic",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-56 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-57",
+      "category": "Motor Vehicle",
+      "title": "Failure to Observe Officer's Direction",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-57 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-57-1",
+      "category": "Motor Vehicle",
+      "title": "Activating Interior Light at Night Stops",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-57.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-58",
+      "category": "Motor Vehicle",
+      "title": "Driving with Obstructed View",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-58 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-61",
+      "category": "Motor Vehicle",
+      "title": "Riding on Tailboard or Outside the Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-61 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-62",
+      "category": "Motor Vehicle",
+      "title": "Moving from Curb into Traffic",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-62 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-63",
+      "category": "Motor Vehicle",
+      "title": "Injurious Substances on Highway",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-63 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-64",
+      "category": "Motor Vehicle",
+      "title": "Littering from Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-64 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-65",
+      "category": "Motor Vehicle",
+      "title": "Loading or Unloading Passengers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-65 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-66",
+      "category": "Motor Vehicle",
+      "title": "Stopping Before Crossing a Sidewalk",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-66 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-66-1",
+      "category": "Motor Vehicle",
+      "title": "Yielding When Entering from a Private Road or Driveway",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-66.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-66-2",
+      "category": "Motor Vehicle",
+      "title": "Cutting Through Property to Avoid a Signal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-66.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-69",
+      "category": "Motor Vehicle",
+      "title": "Riding on Parts Not Intended for Passengers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-69 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-71",
+      "category": "Motor Vehicle",
+      "title": "Driving on Sidewalks",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-71 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-72",
+      "category": "Motor Vehicle",
+      "title": "Stopping on Signal from a Horse Rider",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-72 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-75",
+      "category": "Motor Vehicle",
+      "title": "Overweight Vehicles on Bridges",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-75 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-77",
+      "category": "Motor Vehicle",
+      "title": "Uncovered Loads",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-77 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-77-1",
+      "category": "Motor Vehicle",
+      "title": "Snow and Ice from Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-77.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-78",
+      "category": "Motor Vehicle",
+      "title": "Carrying Metal Loads",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-78 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-79",
+      "category": "Motor Vehicle",
+      "title": "Backing to the Curb",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-79 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-80",
+      "category": "Motor Vehicle",
+      "title": "Failure to Obey Direction of Officer",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-80 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-80-1",
+      "category": "Motor Vehicle",
+      "title": "Obeying School Crossing Guards",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-80.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-81",
+      "category": "Motor Vehicle",
+      "title": "Failure to Observe Traffic Signals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-81 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-82",
+      "category": "Motor Vehicle",
+      "title": "Keep Right",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-82 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-82-1",
+      "category": "Motor Vehicle",
+      "title": "Improper Driving on a Divided Highway",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-82.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-83",
+      "category": "Motor Vehicle",
+      "title": "Keep Right at Intersections",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-83 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-84",
+      "category": "Motor Vehicle",
+      "title": "Failure to Pass to the Right of Oncoming Traffic",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-84 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-85",
+      "category": "Motor Vehicle",
+      "title": "Improper Passing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-85 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-85-1",
+      "category": "Motor Vehicle",
+      "title": "Wrong Way on a One-Way Street",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-85.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-86",
+      "category": "Motor Vehicle",
+      "title": "Passing in a No-Passing Zone",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-86 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-87",
+      "category": "Motor Vehicle",
+      "title": "Failure to Yield to an Overtaking Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-87 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-87-1",
+      "category": "Motor Vehicle",
+      "title": "Buses Reentering Traffic",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-87.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-88",
+      "category": "Motor Vehicle",
+      "title": "Failure to Maintain Lane",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-88 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-88-1",
+      "category": "Motor Vehicle",
+      "title": "Lane Violation Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-88.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-89",
+      "category": "Motor Vehicle",
+      "title": "Following Too Closely (Tailgating)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-89 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-90",
+      "category": "Motor Vehicle",
+      "title": "Failure to Yield at an Intersection",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-90 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-90-1",
+      "category": "Motor Vehicle",
+      "title": "Improper Entrances and Exits",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-90.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-91",
+      "category": "Motor Vehicle",
+      "title": "Failure to Yield to Emergency Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-91 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-92-2",
+      "category": "Motor Vehicle",
+      "title": "Move Over Law",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-92.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-96",
+      "category": "Motor Vehicle",
+      "title": "Reckless Driving",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-96 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-97",
+      "category": "Motor Vehicle",
+      "title": "Careless Driving",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-97 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-97-1",
+      "category": "Motor Vehicle",
+      "title": "Slow Speed Blocking Traffic",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-97.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-97-2",
+      "category": "Motor Vehicle",
+      "title": "Unsafe Operation of a Motor Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-97.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-97-3",
+      "category": "Motor Vehicle",
+      "title": "Handheld Device Use While Driving",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-97.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-97-4",
+      "category": "Motor Vehicle",
+      "title": "Cell Phone Exemptions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-97.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-98",
+      "category": "Motor Vehicle",
+      "title": "Speed Limits",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-98 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-98-6",
+      "category": "Motor Vehicle",
+      "title": "Fines in 65 MPH Zones",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-98.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-98-7",
+      "category": "Motor Vehicle",
+      "title": "Speeding 20 MPH or More Over the Limit",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-98.7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-99",
+      "category": "Motor Vehicle",
+      "title": "Speeding",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-99 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-105",
+      "category": "Motor Vehicle",
+      "title": "Failure to Stop for a Traffic Light",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-105 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-115",
+      "category": "Motor Vehicle",
+      "title": "Improper Turn at a Traffic Light",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-115 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-119",
+      "category": "Motor Vehicle",
+      "title": "Flashing Red or Yellow Signals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-119 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-120-10",
+      "category": "Motor Vehicle",
+      "title": "Private Road Offense Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-120.10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-120-9",
+      "category": "Motor Vehicle",
+      "title": "Traffic Control at Intersections (Private Roads)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-120.9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-122",
+      "category": "Motor Vehicle",
+      "title": "Failure to Stop for a Police Whistle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-122 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-123",
+      "category": "Motor Vehicle",
+      "title": "Improper Right or Left Turn",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-123 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-124",
+      "category": "Motor Vehicle",
+      "title": "Improper Turn at an Intersection",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-124 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-125",
+      "category": "Motor Vehicle",
+      "title": "Improper U-Turn",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-125 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-126",
+      "category": "Motor Vehicle",
+      "title": "Failure to Signal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-126 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-127",
+      "category": "Motor Vehicle",
+      "title": "Improper Backing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-127 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-127-1",
+      "category": "Motor Vehicle",
+      "title": "Railroad Crossings",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-127.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-127-2",
+      "category": "Motor Vehicle",
+      "title": "Bridge Barriers and Gates",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-127.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-128",
+      "category": "Motor Vehicle",
+      "title": "Vehicles That Must Stop at Railroad Crossings",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-128 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-128-1",
+      "category": "Motor Vehicle",
+      "title": "Passing a Stopped School Bus",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-128.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-128-4",
+      "category": "Motor Vehicle",
+      "title": "Passing a Frozen Dessert Truck",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-128.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-128-11",
+      "category": "Motor Vehicle",
+      "title": "Commercial Vehicles at Railroad Crossings",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-128.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-129",
+      "category": "Motor Vehicle",
+      "title": "Leaving the Scene of an Accident",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-129 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-144",
+      "category": "Motor Vehicle",
+      "title": "Stop and Yield Signs",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-144 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-20-3",
+      "category": "Motor Vehicle",
+      "title": "Weight Limits for Out-of-State Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-20.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-23",
+      "category": "Motor Vehicle",
+      "title": "Rubber Tires or Approved Material",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-23 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-23-1",
+      "category": "Motor Vehicle",
+      "title": "Non-Rubber Tires",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-23.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-24-2",
+      "category": "Motor Vehicle",
+      "title": "Slow-Moving Vehicle Emblem",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-24.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-46",
+      "category": "Motor Vehicle",
+      "title": "When Lighted Lamps Are Required",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-46 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-47",
+      "category": "Motor Vehicle",
+      "title": "Headlight Requirements",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-47 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-48",
+      "category": "Motor Vehicle",
+      "title": "Visibility of Lights",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-48 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-49",
+      "category": "Motor Vehicle",
+      "title": "Headlamps",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-49 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-50",
+      "category": "Motor Vehicle",
+      "title": "Color of Lights",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-50 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-51",
+      "category": "Motor Vehicle",
+      "title": "Auxiliary Driving Lamps",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-51 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-52",
+      "category": "Motor Vehicle",
+      "title": "Additional Lighting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-52 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-53",
+      "category": "Motor Vehicle",
+      "title": "Spot Lamps",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-53 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-54",
+      "category": "Motor Vehicle",
+      "title": "Warning Lights",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-54 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-56",
+      "category": "Motor Vehicle",
+      "title": "Number of Driving Lamps",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-56 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-57",
+      "category": "Motor Vehicle",
+      "title": "Single-Beam Road Lighting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-57 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-58",
+      "category": "Motor Vehicle",
+      "title": "Multiple-Beam Road Lighting",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-58 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-59",
+      "category": "Motor Vehicle",
+      "title": "High Beam Indicator",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-59 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-60",
+      "category": "Motor Vehicle",
+      "title": "Use of High Beams",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-60 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-61",
+      "category": "Motor Vehicle",
+      "title": "Identification Lamps",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-61 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-61-1",
+      "category": "Motor Vehicle",
+      "title": "Mounting of Lamps and Reflectors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-61.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-61-2",
+      "category": "Motor Vehicle",
+      "title": "Combination Lighting Devices",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-61.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-61-3",
+      "category": "Motor Vehicle",
+      "title": "Brake Lights",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-61.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-61-4",
+      "category": "Motor Vehicle",
+      "title": "Overhanging Loads",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-61.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-62",
+      "category": "Motor Vehicle",
+      "title": "Lamps on Parked Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-62 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-66",
+      "category": "Motor Vehicle",
+      "title": "Maintenance of Lamps and Reflectors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-66 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-66-2",
+      "category": "Motor Vehicle",
+      "title": "Penalties for Lamp Maintenance Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-66.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-66-3",
+      "category": "Motor Vehicle",
+      "title": "Rear Stop Lamps Required",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-66.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-67",
+      "category": "Motor Vehicle",
+      "title": "Brake Equipment",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-67 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-69",
+      "category": "Motor Vehicle",
+      "title": "Horn",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-69 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-70",
+      "category": "Motor Vehicle",
+      "title": "Muffler and Exhaust",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-70 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-70-2",
+      "category": "Motor Vehicle",
+      "title": "Excessive Smoke and Pollution",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-70.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-71",
+      "category": "Motor Vehicle",
+      "title": "Mirrors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-71 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-72",
+      "category": "Motor Vehicle",
+      "title": "Tire Equipment",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-72 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-74",
+      "category": "Motor Vehicle",
+      "title": "Obstructed Windshield or Windows",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-74 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-2",
+      "category": "Motor Vehicle",
+      "title": "Seat Belt Requirements (Vehicles)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-2a",
+      "category": "Motor Vehicle",
+      "title": "Child Passenger Restraints",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.2a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-2f",
+      "category": "Motor Vehicle",
+      "title": "Seat Belt Use",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.2f (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-2g",
+      "category": "Motor Vehicle",
+      "title": "Seat Belt Exceptions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.2g (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-2j",
+      "category": "Motor Vehicle",
+      "title": "Seat Belt Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.2j (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-2n",
+      "category": "Motor Vehicle",
+      "title": "Seat Belt Enforcement",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.2n (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-79-1",
+      "category": "Motor Vehicle",
+      "title": "Fenders and Mud Flaps",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-79.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-79-2",
+      "category": "Motor Vehicle",
+      "title": "Mud Flap Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-79.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-60-1",
+      "category": "Motor Vehicle",
+      "title": "Flashing Lights on Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-60.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-31",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Road Test Waiver",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.31 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10b",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle License Applications",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-21",
+      "category": "Motor Vehicle",
+      "title": "Licensing Section (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-21 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-3",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Handlebar Height",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-3a",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Federal Standards",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.3a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-4",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Muffler",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-5",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Seat, Hand Holds and Footrests",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-6",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Equipment Rules",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-7",
+      "category": "Motor Vehicle",
+      "title": "Motorcycle Helmets",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-8",
+      "category": "Motor Vehicle",
+      "title": "Goggles or Face Shield",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-9",
+      "category": "Motor Vehicle",
+      "title": "Goggle Exemption with Windscreen",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-79",
+      "category": "Motor Vehicle",
+      "title": "Penalties for Equipment Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-79 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-86",
+      "category": "Motor Vehicle",
+      "title": "Penalties for Chapter 3 Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-86 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-16",
+      "category": "Motor Vehicle",
+      "title": "ATV Age Requirements",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-16 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-17",
+      "category": "Motor Vehicle",
+      "title": "ATV Operational Limits",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-18",
+      "category": "Motor Vehicle",
+      "title": "ATV Operation on Private Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-20",
+      "category": "Motor Vehicle",
+      "title": "ATV Insurance Required",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-20 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-24",
+      "category": "Motor Vehicle",
+      "title": "ATV Mandatory Equipment",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-24 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-28",
+      "category": "Motor Vehicle",
+      "title": "Snowmobile and ATV Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-28 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-3",
+      "category": "Motor Vehicle",
+      "title": "Snowmobile and ATV Registration",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-8",
+      "category": "Motor Vehicle",
+      "title": "Display of ATV Registration Number",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-9",
+      "category": "Motor Vehicle",
+      "title": "Production of Registration Certificate",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3c-30",
+      "category": "Motor Vehicle",
+      "title": "Snowmobiles Subject to Chapter 4",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3C-30 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-76-11",
+      "category": "Motor Vehicle",
+      "title": "Motorcycles Restricted on Certain Roads",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-76.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3",
+      "category": "Motor Vehicle",
+      "title": "Motorized Bicycles (Mopeds)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3b",
+      "category": "Motor Vehicle",
+      "title": "Moped Violation Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3d",
+      "category": "Motor Vehicle",
+      "title": "Operator Only on Moped",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3d (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3e",
+      "category": "Motor Vehicle",
+      "title": "Moped Insurance Required",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3e (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3g",
+      "category": "Motor Vehicle",
+      "title": "Moped DWI",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3g (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3m",
+      "category": "Motor Vehicle",
+      "title": "Moped License Display",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3m (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3q",
+      "category": "Motor Vehicle",
+      "title": "Moped Helmet",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3q (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3t",
+      "category": "Motor Vehicle",
+      "title": "Moped Helmet Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3t (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3x",
+      "category": "Motor Vehicle",
+      "title": "Moped Operators Subject to Traffic Laws",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3x (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-48",
+      "category": "Motor Vehicle",
+      "title": "Operating a Vehicle Without the Owner's Consent",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-48 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-5a-4",
+      "category": "Motor Vehicle",
+      "title": "Application of Motor Vehicle Laws (Compact)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:5A-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Lights and Reflectors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-1",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Helmets for Under 17",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-2",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Helmet Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-3",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Helmet Signs at Rental Locations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-4",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Helmet Rules",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-5",
+      "category": "Motor Vehicle",
+      "title": "Helmets for Skating and Skateboarding",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-6",
+      "category": "Motor Vehicle",
+      "title": "Skating Helmet Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-10",
+      "category": "Motor Vehicle",
+      "title": "Skaters and Skateboarders on Roadways",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-10a",
+      "category": "Motor Vehicle",
+      "title": "Regulating Skating and Skateboarding",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.10a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-10-11",
+      "category": "Motor Vehicle",
+      "title": "Skaters Keep Right",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-10.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-11",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Audible Signal",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-11-1",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Brake",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-11.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-12",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Riding Position and Passengers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14",
+      "category": "Motor Vehicle",
+      "title": "Hitching on Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-1",
+      "category": "Motor Vehicle",
+      "title": "Rights and Duties of Bicyclists",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-2",
+      "category": "Motor Vehicle",
+      "title": "Bicyclists Keep Right; Single File",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3k",
+      "category": "Motor Vehicle",
+      "title": "Moped License Plate",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3k (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3l",
+      "category": "Motor Vehicle",
+      "title": "Moped Transfer of Ownership",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3l (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3n",
+      "category": "Motor Vehicle",
+      "title": "Moped Make and Model Numbers",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3n (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-30",
+      "category": "Motor Vehicle",
+      "title": "Nonresident Moped Registration",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.30 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3p",
+      "category": "Motor Vehicle",
+      "title": "Proof of Moped Ownership",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3p (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3s",
+      "category": "Motor Vehicle",
+      "title": "Moped Rules",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3s (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-3w",
+      "category": "Motor Vehicle",
+      "title": "Moped Fee Appropriation",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.3w (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-4",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Reflectors on Rentals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-4a",
+      "category": "Motor Vehicle",
+      "title": "Helmet Promotional Statement",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.4a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-5",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Definition",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-7",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Equipment Rules",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-7a",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Warning Cards",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.7a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-8",
+      "category": "Motor Vehicle",
+      "title": "Bicycle Violation Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-10",
+      "category": "Motor Vehicle",
+      "title": "Electric Personal Assistive Mobility Devices",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-11",
+      "category": "Motor Vehicle",
+      "title": "EPAMD Violations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-12",
+      "category": "Motor Vehicle",
+      "title": "Motorized Scooters on Public Streets",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-13",
+      "category": "Motor Vehicle",
+      "title": "Motorized Scooter Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-14",
+      "category": "Motor Vehicle",
+      "title": "Motorized Scooters on Public Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.14 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-15",
+      "category": "Motor Vehicle",
+      "title": "Disability Placards for Scooters",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-14-16",
+      "category": "Motor Vehicle",
+      "title": "Low-Speed Electric Bicycles and Scooters",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-14.16 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-100",
+      "category": "Motor Vehicle",
+      "title": "Speed When Crossing Sidewalks",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-100 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-203-3",
+      "category": "Motor Vehicle",
+      "title": "Pedestrian and Bicycle Violations by Juveniles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-203.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-117",
+      "category": "Motor Vehicle",
+      "title": "Pedestrian Control Signals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-117 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-32a",
+      "category": "Motor Vehicle",
+      "title": "Pedestrians at Traffic Signals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-32a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-32c",
+      "category": "Motor Vehicle",
+      "title": "Pedestrian Right of Way at Signals",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-32c (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-32g",
+      "category": "Motor Vehicle",
+      "title": "Driver Due Care for Pedestrians",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-32g (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-33",
+      "category": "Motor Vehicle",
+      "title": "Pedestrians Must Use Crosswalks",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-33 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-34",
+      "category": "Motor Vehicle",
+      "title": "Jaywalking",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-34 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-36a",
+      "category": "Motor Vehicle",
+      "title": "Yielding to Pedestrians in Crosswalks",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-36a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-36-1",
+      "category": "Motor Vehicle",
+      "title": "Pedestrian Tunnels",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-36.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-37-1",
+      "category": "Motor Vehicle",
+      "title": "Right of Way for Blind Pedestrians",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-37.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-38",
+      "category": "Motor Vehicle",
+      "title": "Yielding to Streetcars",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-38 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-67",
+      "category": "Motor Vehicle",
+      "title": "Obstructing Traffic or Blocking an Intersection",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-67 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-40-3",
+      "category": "Motor Vehicle",
+      "title": "Impoundment of Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-40.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-40-6",
+      "category": "Motor Vehicle",
+      "title": "Proof of Insurance Before Release",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-40.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-50-23",
+      "category": "DWI & Drugs",
+      "title": "Impoundment After DWI Arrest",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-50.23 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-56-1",
+      "category": "Motor Vehicle",
+      "title": "Willful Abandonment of a Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-56.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-56-2",
+      "category": "Motor Vehicle",
+      "title": "Abandoned Vehicle Penalties",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-56.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-56-5",
+      "category": "Motor Vehicle",
+      "title": "Removal of Abandoned Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-56.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-56-8",
+      "category": "Motor Vehicle",
+      "title": "Failure to Remove Crash Debris",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-56.8 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-92",
+      "category": "Motor Vehicle",
+      "title": "Following or Parking Near Emergency Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-92 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-135",
+      "category": "Motor Vehicle",
+      "title": "Parking on One-Way Streets",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-135 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-136",
+      "category": "Motor Vehicle",
+      "title": "Towing Disabled Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-136 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-137",
+      "category": "Motor Vehicle",
+      "title": "Unattended Vehicles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-137 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-138",
+      "category": "Motor Vehicle",
+      "title": "Prohibited Parking Locations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-138 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-138-6",
+      "category": "Motor Vehicle",
+      "title": "Parking Distances",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-138.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-139",
+      "category": "Motor Vehicle",
+      "title": "Loading and Unloading Zones",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-139 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-207",
+      "category": "Motor Vehicle",
+      "title": "Overtime Parking with a Disability Placard",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-207 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-207-4",
+      "category": "Motor Vehicle",
+      "title": "Disability Parking Authorization",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-207.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-207-7",
+      "category": "Motor Vehicle",
+      "title": "Towing from Disability Spaces",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-207.7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-207-9",
+      "category": "Motor Vehicle",
+      "title": "Snow Removal from Disability Spaces",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-207.9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-11-5-3",
+      "category": "Criminal Law",
+      "title": "Strict Liability Vehicular Homicide",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:11-5.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-40-22",
+      "category": "Criminal Law",
+      "title": "Causing Death or Injury While Driving Without a License or While Suspended",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:40-22 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-130",
+      "category": "Motor Vehicle",
+      "title": "Immediate Notice of Accident",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-130 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-13",
+      "category": "Motor Vehicle",
+      "title": "CDL Driver With .04% BAC",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-24",
+      "category": "Motor Vehicle",
+      "title": "CDL Implied Consent",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.24 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-3-10-24f",
+      "category": "Motor Vehicle",
+      "title": "CDL Refusal to Submit to Chemical Test",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:3-10.24f (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-49-1",
+      "category": "Motor Vehicle",
+      "title": "Drug Possession While Operating a Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-49.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-50-14",
+      "category": "DWI & Drugs",
+      "title": "Underage Drinking and Driving (.01% BAC)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-50.14 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-50-15",
+      "category": "DWI & Drugs",
+      "title": "DWI with a Minor Passenger",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-50.15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-50-19",
+      "category": "DWI & Drugs",
+      "title": "Ignition Interlock Offenses",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-50.19 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-51a",
+      "category": "Motor Vehicle",
+      "title": "Drinking While Driving",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-51a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-39-4-51b",
+      "category": "Motor Vehicle",
+      "title": "Open Container in a Vehicle",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-51b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-5-6",
+      "category": "Criminal Law",
+      "title": "Chapter 5 Inchoate Offense (cited in source)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:5-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-20-2-1",
+      "category": "Criminal Law",
+      "title": "Theft-Related Sentencing Provision",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:20-2.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-33-2-1",
+      "category": "Criminal Law",
+      "title": "Loitering to Obtain or Distribute CDS",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-2.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-2",
+      "category": "DWI & Drugs",
+      "title": "CDS Definitions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-3",
+      "category": "DWI & Drugs",
+      "title": "Leader of a Narcotics Trafficking Network",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-4",
+      "category": "DWI & Drugs",
+      "title": "Maintaining a CDS Production Facility",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-4-1",
+      "category": "DWI & Drugs",
+      "title": "Booby Traps in CDS Facilities",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-4.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-5",
+      "category": "DWI & Drugs",
+      "title": "Manufacturing, Distributing or Possessing with Intent to Distribute CDS",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-5-3a",
+      "category": "DWI & Drugs",
+      "title": "Synthetic Cathinones (Bath Salts)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-5.3a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-5-3b",
+      "category": "DWI & Drugs",
+      "title": "Synthetic Cannabinoids",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-5.3b (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-5-11",
+      "category": "DWI & Drugs",
+      "title": "Enhanced Penalty for Date Rape Drugs",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-5.11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-7",
+      "category": "DWI & Drugs",
+      "title": "Distribution on or Near School Property",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-7-1",
+      "category": "DWI & Drugs",
+      "title": "Distribution Near Public Housing, Parks or Public Buildings",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-7.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-10-2",
+      "category": "DWI & Drugs",
+      "title": "GHB Possession",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-10.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-10-3",
+      "category": "DWI & Drugs",
+      "title": "Flunitrazepam Possession",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-10.3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-10-3a",
+      "category": "DWI & Drugs",
+      "title": "Synthetic Cathinone Possession",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-10.3a (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-10-4",
+      "category": "DWI & Drugs",
+      "title": "Toxic Chemicals (Inhaling)",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-10.4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-10-5",
+      "category": "DWI & Drugs",
+      "title": "Prescription Legend Drugs",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-10.5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-11",
+      "category": "DWI & Drugs",
+      "title": "Imitation CDS",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-13",
+      "category": "DWI & Drugs",
+      "title": "Obtaining CDS by Fraud",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-25",
+      "category": "DWI & Drugs",
+      "title": "Ephedrine and Pseudoephedrine Sales",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-25 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-28",
+      "category": "DWI & Drugs",
+      "title": "Methamphetamine Manufacturing Offense",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-28 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-30",
+      "category": "DWI & Drugs",
+      "title": "Overdose Prevention Act: Person Seeking Help",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-30 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-35-31",
+      "category": "DWI & Drugs",
+      "title": "Overdose Prevention Act: Person Overdosing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-31 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-1",
+      "category": "DWI & Drugs",
+      "title": "Drug Paraphernalia Definition",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-2",
+      "category": "DWI & Drugs",
+      "title": "Use or Possession of Drug Paraphernalia",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-3",
+      "category": "DWI & Drugs",
+      "title": "Distribution of Drug Paraphernalia",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-4",
+      "category": "DWI & Drugs",
+      "title": "Advertising Drug Paraphernalia",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-6",
+      "category": "DWI & Drugs",
+      "title": "Hypodermic Syringes",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-6-1",
+      "category": "DWI & Drugs",
+      "title": "Improper Discarding of Hypodermic Needles",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-6.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-36-10",
+      "category": "DWI & Drugs",
+      "title": "Defrauding a Drug or Alcohol Test",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:36-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-4-1",
+      "category": "Criminal Law",
+      "title": "Possession of a Weapon During Certain Drug or Other Crimes",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-4.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-1",
+      "category": "Criminal Law",
+      "title": "Weapons Definitions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-4",
+      "category": "Criminal Law",
+      "title": "Possession of a Weapon for an Unlawful Purpose",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-6",
+      "category": "Criminal Law",
+      "title": "Weapons Exemptions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-7",
+      "category": "Criminal Law",
+      "title": "Certain Persons Not to Have Weapons",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-9",
+      "category": "Criminal Law",
+      "title": "Manufacture, Transport, Disposition and Defacement",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-9 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-9-2",
+      "category": "Criminal Law",
+      "title": "Sale of Handcuffs to Minors",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-9.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-10",
+      "category": "Criminal Law",
+      "title": "Violation of Firearms Regulatory Provisions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-10 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-11",
+      "category": "Criminal Law",
+      "title": "Pawnbrokers and Loans on Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-11 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-12",
+      "category": "Criminal Law",
+      "title": "Voluntary Surrender",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-12 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-13",
+      "category": "Criminal Law",
+      "title": "Wearing Body Armor During a Crime",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-13 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-14",
+      "category": "Criminal Law",
+      "title": "Weapons Training for Illegal Activities",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-14 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-15",
+      "category": "Criminal Law",
+      "title": "Unlawful Firearms Advertising",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-16",
+      "category": "Criminal Law",
+      "title": "Leader of a Firearms Trafficking Network",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-16 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-17",
+      "category": "Criminal Law",
+      "title": "Retired Officers and Hollow-Point Ammunition",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-17 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-18",
+      "category": "Criminal Law",
+      "title": "Inapplicability Provision",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-18 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-19",
+      "category": "Criminal Law",
+      "title": "Automatic Rifle Regulations",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-19 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-39-20",
+      "category": "Criminal Law",
+      "title": "Registration of Certain Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:39-20 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-1",
+      "category": "Criminal Law",
+      "title": "Firearms Dealer Licensing",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-3",
+      "category": "Criminal Law",
+      "title": "Firearms Purchaser ID Card and Handgun Purchase Permits",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-3-1",
+      "category": "Criminal Law",
+      "title": "Temporary Transfer of Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-3.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-5",
+      "category": "Criminal Law",
+      "title": "Licenses for Machine Guns and Assault Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-7",
+      "category": "Criminal Law",
+      "title": "Notification About Possession of Explosive Devices",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-7 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-26",
+      "category": "Criminal Law",
+      "title": "Surrender of Firearms Under an Extreme Risk Protective Order",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-26 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-27",
+      "category": "Criminal Law",
+      "title": "Transfer of Surrendered Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-27 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-58-28",
+      "category": "Criminal Law",
+      "title": "Destruction of Surrendered Firearms",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:58-28 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-10-1",
+      "category": "Criminal Law",
+      "title": "Stalking Conviction Acts as Restraining Order",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-10.1 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-10-2",
+      "category": "Criminal Law",
+      "title": "Release Conditions for Alleged Stalking",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-10.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-30-4-27-6",
+      "category": "Investigations",
+      "title": "Law Enforcement Custody for Mental Health Screening",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 30:4-27.6 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-30-4-27-15",
+      "category": "Investigations",
+      "title": "Involuntary Commitment Hearing and Orders",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 30:4-27.15 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-30-4-27-2",
+      "category": "Investigations",
+      "title": "Civil Commitment Definitions",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 30:4-27.2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-38-2",
+      "category": "Criminal Law",
+      "title": "Terrorism",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:38-2 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-38-3",
+      "category": "Criminal Law",
+      "title": "Producing or Possessing Chemical, Biological, Nuclear or Radiological Weapons",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:38-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-38-4",
+      "category": "Criminal Law",
+      "title": "Hindering Apprehension or Prosecution for Terrorism",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:38-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-38-5",
+      "category": "Criminal Law",
+      "title": "Soliciting or Providing Material Support for Terrorism",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:38-5 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-12-1b",
+      "category": "Criminal Law",
+      "title": "Aggravated Assault",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-1(b) (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-14-3",
+      "category": "Criminal Law",
+      "title": "Criminal Sexual Contact",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:14-3 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "njsa-2c-14-4",
+      "category": "Criminal Law",
+      "title": "Lewdness",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:14-4 (written from general knowledge; confirm)"
+    },
+    {
+      "id": "uof-ag-policy",
+      "category": "Use of Force & Search",
+      "title": "Use of Force",
+      "source_type": "directive",
+      "planned_source": "NJ AG Use of Force Policy (current)"
+    },
+    {
+      "id": "search-patdown",
+      "category": "Use of Force & Search",
+      "title": "Pat-Down and Search",
+      "source_type": "directive",
+      "planned_source": "NJ AG directives + case law"
+    },
+    {
+      "id": "traffic-stops",
+      "category": "Use of Force & Search",
+      "title": "Traffic Stops",
+      "source_type": "directive",
+      "planned_source": "NJ AG directives + case law"
+    },
+    {
+      "id": "traffic-stops-high-risk",
+      "category": "Use of Force & Search",
+      "title": "High-Risk Vehicle Stops",
+      "source_type": "directive",
+      "planned_source": "NJ AG directives / agency policy"
+    },
+    {
+      "id": "dwi-phases",
+      "category": "DWI & Drugs",
+      "title": "DWI Detection Phases",
+      "source_type": "federal_pub",
+      "planned_source": "NHTSA DWI Detection & SFST Participant Manual"
+    },
+    {
+      "id": "alcotest",
+      "category": "DWI & Drugs",
+      "title": "Alcotest / Breath Testing",
+      "source_type": "directive",
+      "planned_source": "NJ AG directives / NJSP Alcotest procedures"
+    },
+    {
+      "id": "dre-evaluation",
+      "category": "DWI & Drugs",
+      "title": "Drug Recognition Evaluation Overview",
+      "source_type": "federal_pub",
+      "planned_source": "NHTSA DRE public materials"
+    },
+    {
+      "id": "drug-inhalants",
+      "category": "DWI & Drugs",
+      "title": "Inhalants",
+      "source_type": "federal_pub",
+      "planned_source": "DEA Drugs of Abuse (2024)"
+    },
+    {
+      "id": "drug-terminology",
+      "category": "DWI & Drugs",
+      "title": "Drug Terminology",
+      "source_type": "federal_pub",
+      "planned_source": "DEA publications"
+    },
+    {
+      "id": "drug-pharmaceuticals",
+      "category": "DWI & Drugs",
+      "title": "Commonly Misused Pharmaceuticals",
+      "source_type": "federal_pub",
+      "planned_source": "DEA Drugs of Abuse (2024)"
+    },
+    {
+      "id": "miranda",
+      "category": "Case Law & Legal Terms",
+      "title": "Miranda Warnings",
+      "source_type": "case",
+      "planned_source": "Miranda v. Arizona, 384 U.S. 436 (1966) + NJ standard language"
+    },
+    {
+      "id": "case-uof",
+      "category": "Case Law & Legal Terms",
+      "title": "Case Law: Use of Force",
+      "source_type": "case",
+      "planned_source": "U.S./NJ Supreme Court opinions"
+    },
+    {
+      "id": "case-rs-pc",
+      "category": "Case Law & Legal Terms",
+      "title": "Case Law: Reasonable Suspicion & Probable Cause",
+      "source_type": "case",
+      "planned_source": "U.S./NJ Supreme Court opinions"
+    },
+    {
+      "id": "case-searches",
+      "category": "Case Law & Legal Terms",
+      "title": "Case Law: Searches",
+      "source_type": "case",
+      "planned_source": "U.S./NJ Supreme Court opinions"
+    },
+    {
+      "id": "us-constitution",
+      "category": "Case Law & Legal Terms",
+      "title": "U.S. Constitution: Key Amendments",
+      "source_type": "statute",
+      "planned_source": "U.S. Constitution text"
+    },
+    {
+      "id": "legal-terms",
+      "category": "Case Law & Legal Terms",
+      "title": "Legal Terms",
+      "source_type": "original",
+      "planned_source": "Original definitions citing statutes"
+    },
+    {
+      "id": "death-investigations",
+      "category": "Investigations",
+      "title": "Death Investigations",
+      "source_type": "directive",
+      "planned_source": "NJ AG directives + original checklist"
+    },
+    {
+      "id": "postmortem",
+      "category": "Investigations",
+      "title": "Post-Mortem Indicators",
+      "source_type": "original",
+      "planned_source": "Public forensic references"
+    },
+    {
+      "id": "sex-crimes-investigation",
+      "category": "Investigations",
+      "title": "Sex Crimes Investigation",
+      "source_type": "directive",
+      "planned_source": "NJ AG Standards for Providing Services to Victims of Sexual Assault"
+    },
+    {
+      "id": "burglary-robbery-investigation",
+      "category": "Investigations",
+      "title": "Burglary & Robbery Response",
+      "source_type": "original",
+      "planned_source": "Original checklist"
+    },
+    {
+      "id": "psych-crises",
+      "category": "Investigations",
+      "title": "Psychological Crises",
+      "source_type": "directive",
+      "planned_source": "NJ AG directives; N.J.S.A. 30:4-27.1 et seq."
+    },
+    {
+      "id": "missing-persons",
+      "category": "Investigations",
+      "title": "Missing Persons",
+      "source_type": "directive",
+      "planned_source": "NJ AG missing persons directive"
+    },
+    {
+      "id": "admonishments",
+      "category": "Investigations",
+      "title": "Admonishments",
+      "source_type": "original",
+      "planned_source": "Original"
+    },
+    {
+      "id": "dv-procedures",
+      "category": "Domestic Violence",
+      "title": "DV Response Procedures",
+      "source_type": "directive",
+      "planned_source": "NJ AG Domestic Violence Procedures Manual"
+    },
+    {
+      "id": "ics",
+      "category": "Operations & ICS",
+      "title": "Incident Command System",
+      "source_type": "federal_pub",
+      "planned_source": "FEMA NIMS/ICS"
+    },
+    {
+      "id": "terrorism-awareness",
+      "category": "Operations & ICS",
+      "title": "Terrorism Awareness",
+      "source_type": "federal_pub",
+      "planned_source": "DHS/FBI public guidance"
+    },
+    {
+      "id": "peel-principles",
+      "category": "Operations & ICS",
+      "title": "Peel's Principles",
+      "source_type": "original",
+      "planned_source": "Historical principles (public domain)"
+    },
+    {
+      "id": "radio-pursuits",
+      "category": "Operations & ICS",
+      "title": "Radio: Pursuits",
+      "source_type": "directive",
+      "planned_source": "NJ AG Vehicular Pursuit Policy"
+    },
+    {
+      "id": "hotlines",
+      "category": "Operations & ICS",
+      "title": "Hotlines & Agency Numbers",
+      "source_type": "federal_pub",
+      "planned_source": "Official agency websites only"
+    },
+    {
+      "id": "hazmat-erg",
+      "category": "Hazmat",
+      "title": "Using the Emergency Response Guidebook",
+      "source_type": "federal_pub",
+      "planned_source": "PHMSA Emergency Response Guidebook"
+    },
+    {
+      "id": "cpr-first-aid",
+      "category": "Medical",
+      "title": "CPR / First Aid Quick Reference",
+      "source_type": "federal_pub",
+      "planned_source": "MedlinePlus/NIH, CDC; link to AHA & Red Cross"
+    },
+    {
+      "id": "njsa-2c-12-1a",
+      "category": "Criminal Law",
+      "title": "Simple Assault",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-1(a)"
+    },
+    {
+      "id": "njsa-2c-12-3",
+      "category": "Criminal Law",
+      "title": "Terroristic Threats",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:12-3"
+    },
+    {
+      "id": "njsa-2c-33-4",
+      "category": "Criminal Law",
+      "title": "Harassment",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-4"
+    },
+    {
+      "id": "njsa-2c-33-4-1",
+      "category": "Criminal Law",
+      "title": "Cyber-Harassment",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:33-4.1"
+    },
+    {
+      "id": "njsa-2c-18-3",
+      "category": "Criminal Law",
+      "title": "Criminal Trespass",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:18-3"
+    },
+    {
+      "id": "njsa-2c-29-1",
+      "category": "Criminal Law",
+      "title": "Obstructing Administration of Law",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:29-1"
+    },
+    {
+      "id": "njsa-2c-25-21",
+      "category": "Domestic Violence",
+      "title": "DV Arrest, Complaint and Weapon Seizure",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:25-21"
+    },
+    {
+      "id": "njsa-2c-35-10",
+      "category": "DWI & Drugs",
+      "title": "CDS Possession / Under the Influence",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-10"
+    },
+    {
+      "id": "njsa-2c-35-24",
+      "category": "DWI & Drugs",
+      "title": "Prescription Drugs Outside Original Container",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 2C:35-24"
+    },
+    {
+      "id": "njsa-39-4-50",
+      "category": "DWI & Drugs",
+      "title": "Driving While Intoxicated",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-50 (as amended by P.L.2023, c.191)"
+    },
+    {
+      "id": "njsa-39-4-50-4a",
+      "category": "DWI & Drugs",
+      "title": "Refusal to Submit to Breath Test",
+      "source_type": "statute",
+      "planned_source": "N.J.S.A. 39:4-50.4a (as amended by P.L.2023, c.191)"
+    },
+    {
+      "id": "case-state-v-fair-2024",
+      "category": "Case Law & Legal Terms",
+      "title": "State v. Fair (N.J. 2024)",
+      "source_type": "case",
+      "planned_source": "State v. Fair, N.J. Supreme Court, No. A-20-22, decided Jan. 16, 2024"
+    },
+    {
+      "id": "sfst-hgn",
+      "category": "DWI & Drugs",
+      "title": "SFST: Horizontal Gaze Nystagmus",
+      "source_type": "federal_pub",
+      "planned_source": "NHTSA SFST procedures form, published by NJ Division of Highway Traffic Safety"
+    },
+    {
+      "id": "sfst-walk-turn",
+      "category": "DWI & Drugs",
+      "title": "SFST: Walk and Turn",
+      "source_type": "federal_pub",
+      "planned_source": "NHTSA SFST procedures form, published by NJ Division of Highway Traffic Safety"
+    },
+    {
+      "id": "sfst-one-leg-stand",
+      "category": "DWI & Drugs",
+      "title": "SFST: One Leg Stand",
+      "source_type": "federal_pub",
+      "planned_source": "NHTSA SFST procedures form, published by NJ Division of Highway Traffic Safety"
+    },
+    {
+      "id": "drug-schedules-federal",
+      "category": "DWI & Drugs",
+      "title": "Federal Drug Schedules I-V",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 9-10; 21 U.S.C. 812"
+    },
+    {
+      "id": "drug-opioids",
+      "category": "DWI & Drugs",
+      "title": "Narcotic Analgesics (Opioids)",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 52-54"
+    },
+    {
+      "id": "drug-stimulants",
+      "category": "DWI & Drugs",
+      "title": "CNS Stimulants",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 65-69"
+    },
+    {
+      "id": "drug-depressants",
+      "category": "DWI & Drugs",
+      "title": "CNS Depressants",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), p. 73"
+    },
+    {
+      "id": "drug-hallucinogens",
+      "category": "DWI & Drugs",
+      "title": "Hallucinogens",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 84-86"
+    },
+    {
+      "id": "drug-dissociatives",
+      "category": "DWI & Drugs",
+      "title": "Dissociative Anesthetics (PCP, Ketamine)",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 79, 83"
+    },
+    {
+      "id": "drug-cannabis",
+      "category": "DWI & Drugs",
+      "title": "Cannabis",
+      "source_type": "federal_pub",
+      "planned_source": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 90-92"
+    },
+    {
+      "id": "spanish-field-phrases",
+      "category": "Spanish",
+      "title": "Spanish Field Phrases",
+      "source_type": "original",
+      "planned_source": "Original phrase list"
+    },
+    {
+      "id": "tool-conversions",
+      "category": "Tools",
+      "title": "Measurement Conversions",
+      "source_type": "original",
+      "planned_source": "Standard unit definitions"
+    }
+  ],
+  "user_features": [
+    "My Notes (user feature)",
+    "My Phone Numbers (user feature)",
+    "Radio Codes editor (user feature, APCO plain-language note)"
+  ],
+  "skipped": [
+    "Oath of Honor",
+    "Mission and Motto",
+    "10 Fatal Errors",
+    "Shotgun",
+    "AR-15",
+    "Semi-Automatic",
+    "Taser"
+  ],
+  "placeholder_category": "Department Weapons — add from your agency's training materials"
+}

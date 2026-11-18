@@ -1,0 +1,28 @@
+{
+  "id": "njsa-39-4-50",
+  "category": "DWI & Drugs",
+  "title": "Driving While Intoxicated",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 39:4-50 (as amended by P.L.2023, c.191)",
+  "source_url": "https://pub.njleg.gov/Bills/2022/PL23/191_.HTM",
+  "grade_or_penalty": "Motor vehicle offense. 1st: $250-$400 (BAC .08-<.10) or $300-$500 (.10+), 12-48 hrs IDRC, up to 30 days jail, interlock (BAC .15+: forfeiture 3 months after interlock install). 2nd: $500-$1,000, 30 days community service, 48 hrs-90 days jail, 1-2 yr forfeiture + interlock. 3rd+: $1,000, 180 days jail (up to 90 may be inpatient rehab), 8 yr forfeiture + interlock.",
+  "key_points": [
+    "Operating a motor vehicle under the influence of alcohol, a narcotic, hallucinogenic or habit-producing drug, or with a BAC of 0.08% or more.",
+    "Also applies to an owner or person in control who lets an impaired driver operate.",
+    "Drug-impaired first offense: 7 months to 1 year license forfeiture.",
+    "P.L.2023, c.191 (approved Dec. 21, 2023) expanded interlock use and added interlock credits."
+  ],
+  "officer_notes": [
+    "Penalties are for court reference; confirm current figures before quoting them to a defendant."
+  ],
+  "related": [
+    "njsa-39-4-50-4a",
+    "sfst-hgn",
+    "sfst-walk-turn",
+    "sfst-one-leg-stand"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

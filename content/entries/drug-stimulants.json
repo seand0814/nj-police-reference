@@ -1,0 +1,23 @@
+{
+  "id": "drug-stimulants",
+  "category": "DWI & Drugs",
+  "title": "CNS Stimulants",
+  "source_type": "federal_pub",
+  "citation": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 65-69",
+  "source_url": "https://getsmartaboutdrugs.gov/sites/default/files/2025-03/Drugs-Abuse-2024.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Examples: cocaine, methamphetamine.",
+    "Signs: dilated pupils, raised pulse and blood pressure, restlessness, irritability, anxiety, insomnia, little appetite, fast breathing, overheating.",
+    "Heavy or chronic use can bring paranoia, hallucinations and violent behavior; a crash of exhaustion and depression follows use.",
+    "Danger signs: irregular heartbeat, very high body temperature, seizures, stroke, cardiac arrest."
+  ],
+  "officer_notes": [
+    "Overheating plus agitation is a medical emergency; request EMS early."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

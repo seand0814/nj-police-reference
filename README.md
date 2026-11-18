@@ -1,0 +1,58 @@
+# NJ Police Reference
+
+A free, open, mobile-first reference for New Jersey patrol officers: statutes with grading, motor vehicle
+violations, DWI and drug recognition, case law and field procedures. No accounts.
+
+Built with Next.js. Every page is generated at build time from the JSON files in `content/entries/`,
+so the site is fast and needs no database. Saved entries, notes, phone numbers and radio codes are stored
+in the user's own browser (localStorage) and never leave the device.
+
+## Deploy (Vercel)
+
+1. Sign in to vercel.com with GitHub.
+2. Add New → Project → import this repository. Leave every setting at its default.
+3. Deploy. Each push to `main` redeploys automatically.
+
+## Run locally (computer only)
+
+```bash
+npm install
+npm run dev     # http://localhost:3000
+npm run build
+```
+
+## Editing content
+
+Each entry is one file in `content/entries/<id>.json`:
+
+```json
+{
+  "id": "njsa-2c-18-3",
+  "category": "Criminal Law",
+  "title": "Criminal Trespass",
+  "citation": "N.J.S.A. 2C:18-3",
+  "source_url": "",
+  "grade_or_penalty": "...",
+  "key_points": ["..."],
+  "officer_notes": ["..."],
+  "related": ["other-entry-id"],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": true,
+  "last_verified": null
+}
+```
+
+To mark an entry checked: set `source_verified` to `true`, fill in `source_url` and `last_verified`
+(`YYYY-MM-DD`), and set `grade_review` to `false`. Entries with `"status": "VERIFY"` are hidden.
+You can edit these files directly on github.com; Vercel rebuilds the site on save.
+
+## Content status
+
+- 610 entries. 24 were checked against a public source; the rest are written from general knowledge of
+  NJ law and show "Not yet verified".
+- 345 grades are flagged `grade_review` and display "Grade under review — confirm before charging."
+- All text is original. `pipeline/` holds the scripts and data used to generate the entries; the
+  similarity check compares entries against the source ebook's text, which is not included in this repo.
+
+**Reference only. Verify against current statute, AG directives, and your department's policy.**

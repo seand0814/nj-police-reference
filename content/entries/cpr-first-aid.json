@@ -1,0 +1,26 @@
+{
+  "id": "cpr-first-aid",
+  "category": "Medical",
+  "title": "CPR / First Aid Quick Reference",
+  "source_type": "federal_pub",
+  "citation": "General public guidance; follow your current CPR/First Aid certification. AHA: heart.org; Red Cross: redcross.org",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Make sure the scene is safe, check responsiveness and breathing, and call for EMS and an AED.",
+    "Adult CPR: push hard and fast in the center of the chest, about 2 to 2.4 inches deep, 100 to 120 compressions per minute, allowing full recoil.",
+    "If trained and willing, give 2 breaths after every 30 compressions; otherwise give continuous compressions.",
+    "Use the AED as soon as it arrives and follow its prompts; minimize pauses in compressions.",
+    "Severe bleeding: apply direct pressure; use a tourniquet 2 to 3 inches above the wound on a limb if pressure fails.",
+    "Suspected opioid overdose: give naloxone per agency policy, support breathing, and continue CPR if needed.",
+    "Choking (responsive adult): abdominal thrusts until the object comes out or the person becomes unresponsive, then start CPR."
+  ],
+  "officer_notes": [
+    "Follow your current CPR/First Aid certification training."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

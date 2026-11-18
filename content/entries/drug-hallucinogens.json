@@ -1,0 +1,24 @@
+{
+  "id": "drug-hallucinogens",
+  "category": "DWI & Drugs",
+  "title": "Hallucinogens",
+  "source_type": "federal_pub",
+  "citation": "DEA, Drugs of Abuse: A DEA Resource Guide (2024 ed.), pp. 84-86",
+  "source_url": "https://getsmartaboutdrugs.gov/sites/default/files/2025-03/Drugs-Abuse-2024.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Examples: LSD, psilocybin mushrooms.",
+    "Signs: distorted sense of time, space and body; mood swings; impaired judgment; dilated pupils, higher pulse and temperature, sweating, tremors (LSD); nausea, weakness and poor coordination (psilocybin).",
+    "Possible panic, paranoia or psychosis; LSD flashbacks can occur long after use."
+  ],
+  "officer_notes": [
+    "Lower stimulation, keep the person safe from injury, and request EMS if distressed."
+  ],
+  "related": [
+    "drug-dissociatives"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

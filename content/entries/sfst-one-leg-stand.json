@@ -1,0 +1,24 @@
+{
+  "id": "sfst-one-leg-stand",
+  "category": "DWI & Drugs",
+  "title": "SFST: One Leg Stand",
+  "source_type": "federal_pub",
+  "citation": "NHTSA SFST procedures form, published by NJ Division of Highway Traffic Safety",
+  "source_url": "https://www.nj.gov/lps/hts/downloads/SFST_Procedures.pdf",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Subject raises either foot about six inches, toe pointed, legs straight, looks at the raised foot and counts aloud by thousands until told to stop.",
+    "Four clues: swaying; raising arms for balance; hopping; putting the foot down."
+  ],
+  "officer_notes": [
+    "Record which foot was raised and when each clue occurred."
+  ],
+  "related": [
+    "sfst-hgn",
+    "sfst-walk-turn"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

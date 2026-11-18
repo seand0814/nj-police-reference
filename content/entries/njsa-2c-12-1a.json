@@ -1,0 +1,28 @@
+{
+  "id": "njsa-2c-12-1a",
+  "category": "Criminal Law",
+  "title": "Simple Assault",
+  "source_type": "statute",
+  "citation": "N.J.S.A. 2C:12-1(a)",
+  "source_url": "https://www.allianceforhope.org/strangulation-legislation/new-jersey/laws/new-jersey-strangulation-law",
+  "grade_or_penalty": "Disorderly persons offense; drops to petty disorderly persons if the fight or scuffle was entered into by mutual consent.",
+  "key_points": [
+    "a(1): tries to cause bodily injury, or causes it purposely, knowingly or recklessly.",
+    "a(2): causes bodily injury through negligence while using a deadly weapon.",
+    "a(3): uses physical menace to try to make someone fear imminent serious bodily injury.",
+    "Bodily injury means physical pain, illness or any impairment of physical condition (N.J.S.A. 2C:11-1(a))."
+  ],
+  "officer_notes": [
+    "Document the injury or the pain the victim describes; pain alone can satisfy bodily injury.",
+    "Ask both parties whether the fight was mutual; it changes the grade.",
+    "If the victim is a protected class (officer, EMS, health care worker, DV victim and others) review aggravated assault under 2C:12-1(b)."
+  ],
+  "related": [
+    "njsa-2c-12-1b",
+    "njsa-2c-25-21"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

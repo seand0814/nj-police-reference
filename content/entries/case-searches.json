@@ -1,0 +1,25 @@
+{
+  "id": "case-searches",
+  "category": "Case Law & Legal Terms",
+  "title": "Case Law: Searches",
+  "source_type": "case",
+  "citation": "U.S. Supreme Court and NJ Supreme Court",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Mapp v. Ohio, 367 U.S. 643 (1961): evidence from unconstitutional searches is excluded in state courts.",
+    "Chimel v. California, 395 U.S. 752 (1969): search incident to arrest is limited to the person and the area within immediate control.",
+    "Arizona v. Gant, 556 U.S. 332 (2009): vehicle search incident to arrest only if the arrestee can reach the passenger area or it is reasonable to believe evidence of the arrest offense is inside.",
+    "Payton v. New York, 445 U.S. 573 (1980): a warrant is needed to enter a home for a routine arrest absent exigency or consent.",
+    "Riley v. California, 573 U.S. 373 (2014): a warrant is generally needed to search a cell phone seized on arrest.",
+    "Missouri v. McNeely, 569 U.S. 141 (2013): alcohol dissipation alone does not create an exigency for a warrantless blood draw.",
+    "State v. Johnson, 68 N.J. 349 (1975): NJ consent searches require that the person knew of the right to refuse.",
+    "State v. Edmonds, 211 N.J. 117 (2012): emergency-aid entry requires an objectively reasonable basis to believe an emergency requires immediate help."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

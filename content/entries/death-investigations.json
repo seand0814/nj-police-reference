@@ -1,0 +1,23 @@
+{
+  "id": "death-investigations",
+  "category": "Investigations",
+  "title": "Death Investigations",
+  "source_type": "directive",
+  "citation": "County Medical Examiner reporting (N.J.S.A. 52:17B-86); general practice",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Violent, suspicious, sudden or unattended deaths must be reported to the county medical examiner.",
+    "Confirm death and check for signs of life; request EMS if there is any doubt.",
+    "Secure the scene, limit entry, and start an entry log; do not move or cover the body unless necessary.",
+    "Note the position of the body, injuries, lividity and rigor, weapons, medications, notes, doors and windows, lights, temperature.",
+    "Identify the last person to see the decedent and when; collect medical history and physician information.",
+    "Notify a supervisor and detectives per policy; next-of-kin notification is done in person when possible."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

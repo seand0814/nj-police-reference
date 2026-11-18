@@ -1,0 +1,26 @@
+{
+  "id": "tool-conversions",
+  "category": "Tools",
+  "title": "Measurement Conversions",
+  "source_type": "original",
+  "citation": "Standard unit definitions",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "1 inch = 2.54 cm; 1 foot = 0.3048 m; 1 mile = 1.609 km.",
+    "1 pound = 453.6 g; 1 ounce (avoirdupois) = 28.35 g; 1 kg = 2.205 lb.",
+    "6 oz marijuana is about 170 g (relevant to 2C:35-10 thresholds).",
+    "Speed: 1 mph = 1.467 ft/sec; feet per second = mph x 1.467.",
+    "Temperature: F = C x 9/5 + 32."
+  ],
+  "officer_notes": [
+    "In the app this becomes an interactive converter."
+  ],
+  "related": [
+    "njsa-2c-35-10"
+  ],
+  "status": "DRAFT",
+  "source_verified": true,
+  "grade_review": false,
+  "last_verified": "2026-11-18"
+}

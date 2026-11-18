@@ -1,0 +1,23 @@
+{
+  "id": "postmortem",
+  "category": "Investigations",
+  "title": "Post-Mortem Indicators",
+  "source_type": "original",
+  "citation": "General forensic reference (estimates only)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Livor mortis (lividity): pooling of blood in low areas; begins within about 30 minutes to 2 hours and becomes fixed around 8 to 12 hours. Lividity inconsistent with position suggests the body was moved.",
+    "Rigor mortis: stiffening that begins in small muscles about 2 to 6 hours after death, is complete around 12 hours, and fades over roughly 24 to 48 hours.",
+    "Algor mortis: body cooling, roughly 1 to 1.5 degrees F per hour under normal conditions.",
+    "Temperature, clothing, body size, activity before death and environment all change these timelines significantly."
+  ],
+  "officer_notes": [
+    "Time of death is determined by the medical examiner; record observations, not conclusions."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "case-rs-pc",
+  "category": "Case Law & Legal Terms",
+  "title": "Case Law: Reasonable Suspicion & Probable Cause",
+  "source_type": "case",
+  "citation": "U.S. Supreme Court and NJ Supreme Court",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Terry v. Ohio (1968): a brief investigative stop requires reasonable, articulable suspicion of criminal activity.",
+    "Illinois v. Wardlow, 528 U.S. 119 (2000): unprovoked flight in a high-crime area can contribute to reasonable suspicion.",
+    "Florida v. J.L., 529 U.S. 266 (2000): an anonymous tip that someone has a gun, without corroboration of its reliability, is not enough to stop and frisk.",
+    "Probable cause means a well-grounded suspicion that a crime has been committed, judged on the totality of the circumstances (Illinois v. Gates, 462 U.S. 213 (1983)).",
+    "NJ: no good-faith exception to the exclusionary rule (State v. Novembrino, 105 N.J. 95 (1987))."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

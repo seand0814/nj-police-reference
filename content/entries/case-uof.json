@@ -1,0 +1,22 @@
+{
+  "id": "case-uof",
+  "category": "Case Law & Legal Terms",
+  "title": "Case Law: Use of Force",
+  "source_type": "case",
+  "citation": "U.S. Supreme Court",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Graham v. Connor, 490 U.S. 386 (1989): force is judged by objective reasonableness from the view of a reasonable officer on the scene, considering severity of the crime, immediate threat, and active resistance or flight.",
+    "Tennessee v. Garner, 471 U.S. 1 (1985): deadly force may not be used to stop a fleeing suspect unless there is probable cause the suspect poses a significant threat of death or serious physical injury.",
+    "Scott v. Harris, 550 U.S. 372 (2007): reasonableness of ending a dangerous high-speed chase by force is judged on the facts, including the risk to the public."
+  ],
+  "officer_notes": [
+    "NJ policy is stricter than these constitutional minimums; see the AG Use of Force Policy entry."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

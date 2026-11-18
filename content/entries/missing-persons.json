@@ -1,0 +1,23 @@
+{
+  "id": "missing-persons",
+  "category": "Investigations",
+  "title": "Missing Persons",
+  "source_type": "directive",
+  "citation": "NJ AG missing persons directive; federal law (34 U.S.C. 41307)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Accept missing person reports immediately; there is no waiting period.",
+    "Children under 21 must be entered in NCIC without delay (federal law requires within two hours).",
+    "Collect a recent photo, description, clothing, phone and social media accounts, vehicle, medical needs, and places the person may go.",
+    "Treat high-risk cases urgently: young children, elderly or cognitively impaired persons, medical needs, suspected abduction, or suicide risk.",
+    "AMBER Alert requests go through the NJ State Police when criteria are met (abducted child in danger with enough descriptive information).",
+    "Search the home and property where the person was last seen, even if family says they already did."
+  ],
+  "officer_notes": [],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

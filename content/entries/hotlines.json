@@ -1,0 +1,28 @@
+{
+  "id": "hotlines",
+  "category": "Operations & ICS",
+  "title": "Hotlines & Agency Numbers",
+  "source_type": "federal_pub",
+  "citation": "Well-known national and NJ numbers (confirm each before release)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Emergency: 911.",
+    "988 Suicide & Crisis Lifeline: call or text 988.",
+    "Poison Control: 1-800-222-1222.",
+    "NJ Domestic Violence Hotline: 1-800-572-7233 (1-800-572-SAFE).",
+    "NJ child abuse reporting (DCP&P): 1-877-652-2873 (1-877-NJ ABUSE).",
+    "National Human Trafficking Hotline: 1-888-373-7888.",
+    "National Center for Missing & Exploited Children: 1-800-843-5678.",
+    "FBI tips: 1-800-225-5324 (1-800-CALL-FBI).",
+    "CHEMTREC (hazardous materials): 1-800-424-9300."
+  ],
+  "officer_notes": [
+    "Add local numbers in My Phone Numbers."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}

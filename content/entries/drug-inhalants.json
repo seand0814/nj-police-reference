@@ -1,0 +1,22 @@
+{
+  "id": "drug-inhalants",
+  "category": "DWI & Drugs",
+  "title": "Inhalants",
+  "source_type": "federal_pub",
+  "citation": "General drug-recognition knowledge (confirm against DEA publications)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Examples: solvents, aerosols, glue, paint, gasoline, nitrous oxide, computer duster.",
+    "Signs: chemical odor on breath or clothing, paint or residue on face, hands or nose, slurred speech, dizziness, poor coordination, watery eyes, nausea.",
+    "Danger: sudden cardiac death can occur even on first use; suffocation is also a risk."
+  ],
+  "officer_notes": [
+    "Possession or use to become intoxicated is covered by N.J.S.A. 2C:35-10.4."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null
+}
