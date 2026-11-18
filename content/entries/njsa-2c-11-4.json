@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect caused the victim's death",
+    "Manslaughter: the suspect acted recklessly (or in the heat of passion after reasonable provocation)",
+    "Aggravated manslaughter: recklessly, under circumstances showing extreme indifference to human life (or while eluding police)"
+  ]
 }

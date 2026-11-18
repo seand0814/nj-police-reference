@@ -14,5 +14,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect took, or exercised unlawful control over, movable property",
+    "The property belonged to another",
+    "The suspect acted with purpose to deprive the owner of it",
+    "Determine the value of the property (sets the grade)"
+  ]
 }

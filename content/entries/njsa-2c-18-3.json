@@ -19,5 +19,10 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "(a): The suspect entered or surreptitiously remained in a structure (or research facility, utility property, or similar)",
+    "(a): Knowing he was not licensed or privileged to do so",
+    "OR (b): Knowing he was not licensed, entered or remained in a place after notice against trespass was given (in person, by posting, or by fencing)"
+  ]
 }

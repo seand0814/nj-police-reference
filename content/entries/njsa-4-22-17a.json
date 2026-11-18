@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect overdrove, tormented, tortured, cruelly beat or needlessly mutilated or killed a living animal, OR failed to provide necessary care",
+    "The suspect acted purposely, knowingly or recklessly (or, for failure of care, had charge or custody of the animal)"
+  ]
 }

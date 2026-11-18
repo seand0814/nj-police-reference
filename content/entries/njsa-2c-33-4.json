@@ -23,5 +23,11 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "The suspect acted with purpose to harass another",
+    "(a): made or caused communications anonymously, at extremely inconvenient hours, in offensively coarse language, or in another manner likely to cause annoyance or alarm",
+    "OR (b): subjected the victim to striking, kicking, shoving or other offensive touching, or threatened to do so",
+    "OR (c): engaged in a course of alarming conduct or repeatedly committed acts with purpose to alarm or seriously annoy"
+  ]
 }

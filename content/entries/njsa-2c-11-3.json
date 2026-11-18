@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect caused the victim's death, or caused serious bodily injury that resulted in death",
+    "The suspect acted purposely or knowingly",
+    "OR (felony murder): the death was caused during the commission, attempt or flight from robbery, sexual assault, arson, burglary, kidnapping, carjacking, escape or terrorism"
+  ]
 }

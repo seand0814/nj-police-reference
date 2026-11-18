@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import {
+  ARREST_GROUPS,
   CASE_GROUPS,
   HUB_GROUPS,
   HUB_STATUTES,
@@ -33,6 +34,12 @@ export type Entry = {
   last_verified: string | null;
   section?: string;
   group?: string;
+  /** What must be proven, for commonly charged offenses. */
+  elements?: string[];
+  /** Optional table (for charts like the drug recognition matrix). */
+  table?: { columns: string[]; rows: string[][]; note?: string };
+  /** Lines in "English | Spanish" form get a play button. */
+  speak?: boolean;
 };
 
 export type Step = { text: string; detail?: string; link?: string };
@@ -41,7 +48,7 @@ export type FlowNode =
   | { result: string; tone: "red" | "amber" | "green" | "blue"; points: string[]; link?: string; next?: string };
 export type Checklist = {
   id: string;
-  kind: "checklist" | "flow";
+  kind: "checklist" | "flow" | "template";
   title: string;
   sections: string[];
   summary: string;
@@ -81,8 +88,9 @@ export function allEntries(): Entry[] {
 
 export function allChecklists(): Checklist[] {
   if (checklistCache) return checklistCache;
+  const rank = { flow: 0, checklist: 1, template: 2 } as const;
   const list = readJsonDir<Checklist>("checklists").sort((a: Checklist, b: Checklist) =>
-    a.kind === b.kind ? a.title.localeCompare(b.title) : a.kind === "flow" ? -1 : 1
+    a.kind === b.kind ? a.title.localeCompare(b.title) : rank[a.kind] - rank[b.kind]
   );
   checklistCache = list;
   return list;
@@ -117,12 +125,14 @@ function toRow(e: Entry): Row {
   };
 }
 
+const KIND_LABEL = { flow: "Decision go-by", checklist: "Checklist", template: "Report template" } as const;
+
 function checklistRow(c: Checklist): Row {
   return {
     id: c.id,
     href: `/go/${c.id}`,
     title: c.title,
-    citation: c.kind === "flow" ? "Decision go-by" : "Checklist",
+    citation: KIND_LABEL[c.kind],
     badge: null,
     review: false,
     kind: c.kind,
@@ -161,6 +171,7 @@ export function sectionGroups(slug: string): { byType: Group[]; byChapter?: Grou
       byType: [
         { name: "Decision Go-Bys", rows: all.filter((c) => c.kind === "flow").map(checklistRow) },
         { name: "Checklists", rows: all.filter((c) => c.kind === "checklist").map(checklistRow) },
+        { name: "Report Templates", rows: all.filter((c) => c.kind === "template").map(checklistRow) },
       ],
       tools: [],
     };
@@ -195,7 +206,7 @@ export function sectionGroups(slug: string): { byType: Group[]; byChapter?: Grou
 
   // Hub sections: named groups, then related statutes that live in other sections.
   const rows = entries.map((e) => ({ key: e.group || HUB_GROUPS[e.id] || "Procedures & Reference", row: toRow(e) }));
-  const groups = bucket(rows, [...new Set([...CASE_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
+  const groups = bucket(rows, [...new Set([...ARREST_GROUPS, ...CASE_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
   const filter = HUB_STATUTES[slug];
   if (filter) {
     const related = allEntries().filter((e) => {
@@ -221,7 +232,7 @@ export function searchIndex(): IndexItem[] {
     id: "go:" + c.id,
     u: `/go/${c.id}`,
     t: c.title,
-    c: c.kind === "flow" ? "Decision go-by" : "Checklist",
+    c: KIND_LABEL[c.kind],
     k: "Checklists & Go-Bys",
     g: "",
     x: [

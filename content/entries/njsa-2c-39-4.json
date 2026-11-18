@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect possessed a firearm or other weapon (or imitation firearm)",
+    "The suspect knew he possessed it",
+    "The suspect had a purpose to use it unlawfully against the person or property of another"
+  ]
 }

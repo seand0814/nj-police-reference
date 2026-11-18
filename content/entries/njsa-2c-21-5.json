@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect issued or passed a check or similar sight order for payment of money",
+    "Knowing it would not be honored by the drawee",
+    "Check presumptions: no account, or not paid within 10 days after notice of dishonor",
+    "Determine the amount (sets the grade)"
+  ]
 }

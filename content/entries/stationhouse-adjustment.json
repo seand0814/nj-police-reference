@@ -1,0 +1,26 @@
+{
+  "id": "stationhouse-adjustment",
+  "category": "Investigations",
+  "title": "Stationhouse Adjustments",
+  "source_type": "directive",
+  "citation": "AG Guidelines for Stationhouse Adjustment of Juvenile Delinquency Offenses",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "An alternative to filing a juvenile complaint for minor offenses, handled at the police department.",
+    "Requires the juvenile's and parent's agreement and, where there is a victim, the victim's input or consent.",
+    "Conditions can include restitution, community service, an apology, or counseling referral.",
+    "It is not a conviction; if the juvenile completes the terms, no complaint is filed.",
+    "Not appropriate for serious or violent offenses or certain categories excluded by the guidelines."
+  ],
+  "officer_notes": [
+    "Use your agency's stationhouse adjustment form and keep records as the guidelines require."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Juveniles"
+}

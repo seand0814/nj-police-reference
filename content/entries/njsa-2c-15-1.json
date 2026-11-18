@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect was in the course of committing a theft (including attempt and immediate flight)",
+    "The suspect inflicted bodily injury or used force; OR threatened or purposely put the victim in fear of immediate bodily injury; OR committed or threatened a 1st or 2nd degree crime",
+    "For 1st degree: attempted to kill, inflicted or attempted serious bodily injury, or was armed with or threatened use of a deadly weapon"
+  ]
 }

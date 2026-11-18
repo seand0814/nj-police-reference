@@ -1,0 +1,26 @@
+{
+  "id": "ag-immigrant-trust",
+  "category": "Investigations",
+  "title": "Immigrant Trust Directive",
+  "source_type": "directive",
+  "citation": "AG Directive 2018-6 (revised 2019)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Officers may not stop, question, arrest, search or detain anyone based solely on actual or suspected immigration status.",
+    "Do not ask about immigration status unless it is necessary to investigate a serious offense and relevant to it.",
+    "Limits assistance with federal civil immigration enforcement and honoring civil detainers, with exceptions for certain serious offenses.",
+    "Cooperation with federal authorities on criminal investigations continues.",
+    "Victims and witnesses must be informed of protections such as U and T visa certifications where applicable."
+  ],
+  "officer_notes": [
+    "Questions about a specific detainer go to your supervisor and the county prosecutor."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "AG Directives & Policies"
+}

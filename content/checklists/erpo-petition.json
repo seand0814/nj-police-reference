@@ -1,0 +1,48 @@
+{
+  "id": "erpo-petition",
+  "kind": "checklist",
+  "title": "Extreme Risk Protective Order",
+  "sections": [
+    "arrest-juveniles",
+    "checklists"
+  ],
+  "summary": "Petitioning for and serving a temporary ERPO.",
+  "groups": [
+    {
+      "name": "Petition",
+      "steps": [
+        {
+          "text": "Identify the danger: recent threats, violence, order violations, reckless firearm use, substance abuse",
+          "link": "/entry/ag-erpo"
+        },
+        {
+          "text": "Check firearm records and permits for the respondent"
+        },
+        {
+          "text": "Complete the petition with specific, sworn facts"
+        },
+        {
+          "text": "Notify a supervisor and the ERPO coordinator or prosecutor"
+        }
+      ]
+    },
+    {
+      "name": "Service",
+      "steps": [
+        {
+          "text": "Serve the temporary order and explain its terms"
+        },
+        {
+          "text": "Take custody of firearms, ammunition and permits covered by the order"
+        },
+        {
+          "text": "If the respondent won't comply, seek a search warrant"
+        },
+        {
+          "text": "Give receipts and complete the return of service"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

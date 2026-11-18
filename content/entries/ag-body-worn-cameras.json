@@ -1,0 +1,27 @@
+{
+  "id": "ag-body-worn-cameras",
+  "category": "Investigations",
+  "title": "Body-Worn Cameras",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 40A:14-118.3 et seq.; AG body-worn camera directive (current revision)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Uniformed patrol officers must wear and use body-worn cameras.",
+    "Activate at the start of calls for service, stops, investigative encounters and any use of force; keep recording until the encounter ends.",
+    "Tell people they are being recorded when it is safe and practical.",
+    "Special limits apply in schools, places of worship, health care settings and with confidential informants, unless enforcement action is taking place.",
+    "Rules restrict reviewing footage before writing reports in certain incidents, such as uses of force; follow your agency's policy.",
+    "Failing to record when required can affect evidence and lead to discipline."
+  ],
+  "officer_notes": [
+    "If you forget to activate, document why and when you started recording."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "AG Directives & Policies"
+}

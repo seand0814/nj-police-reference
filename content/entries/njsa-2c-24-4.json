@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "(a)(2): The suspect caused the child harm that would make the child an abused or neglected child, OR (a)(1) engaged in sexual conduct that would impair or debauch the child's morals",
+    "The victim was under 18",
+    "The suspect acted knowingly",
+    "Note whether the suspect had a legal duty of care or assumed responsibility for the child (raises the grade)"
+  ]
 }

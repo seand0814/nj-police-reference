@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect drove a vehicle",
+    "Carelessly, without due caution and circumspection",
+    "In a manner that endangered, or was likely to endanger, a person or property"
+  ]
 }

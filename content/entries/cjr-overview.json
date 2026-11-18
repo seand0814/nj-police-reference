@@ -1,0 +1,29 @@
+{
+  "id": "cjr-overview",
+  "category": "Investigations",
+  "title": "Criminal Justice Reform: How Charging Works",
+  "source_type": "directive",
+  "citation": "Criminal Justice Reform Act, N.J.S.A. 2A:162-15 et seq.; AG Law Enforcement Directive on CJR (current revision)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Since January 1, 2017, pretrial release is decided by risk, not by money bail, in nearly all cases.",
+    "Two charging paths: a complaint-summons (CDR-1), where the person is released and told to appear in court, or a complaint-warrant (CDR-2), where the person is held for a release decision by a judge.",
+    "The AG directive sets when a warrant is presumed (generally serious and violent crimes) and the factors that can justify a warrant for other charges: risk of not appearing, danger to the community or a victim, and risk of obstructing justice.",
+    "A judge must find probable cause before a complaint-warrant issues.",
+    "For warrant arrests, a Public Safety Assessment (PSA) is generated from criminal history and court records. It scores risk of failure to appear and new criminal activity and flags new violent criminal activity.",
+    "The prosecutor decides whether to seek pretrial detention; the court holds a detention hearing."
+  ],
+  "officer_notes": [
+    "Follow your county prosecutor's charging guidelines on which offenses need prior approval for a warrant application.",
+    "Write the probable cause statement (affidavit of probable cause) with specific facts, not conclusions.",
+    "Disorderly persons offenses are usually charged on a summons."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Charging & Criminal Justice Reform"
+}

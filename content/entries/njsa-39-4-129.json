@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect was the driver of a vehicle involved in a crash",
+    "The crash caused injury, death or damage to property",
+    "The suspect knew of the crash",
+    "The suspect failed to stop, give the required information, or render reasonable assistance"
+  ]
 }

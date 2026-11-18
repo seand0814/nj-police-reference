@@ -24,5 +24,12 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "a(1): The suspect attempted to cause, or caused, bodily injury to another",
+    "a(1): The suspect acted purposely, knowingly or recklessly",
+    "OR a(2): negligently caused bodily injury with a deadly weapon",
+    "OR a(3): used a physical threat to try to make someone afraid they were about to be seriously hurt",
+    "Note whether it was a fight entered into by mutual consent (lowers the grade)"
+  ]
 }

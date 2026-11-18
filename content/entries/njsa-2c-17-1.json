@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect purposely started a fire or caused an explosion",
+    "Arson: the act recklessly placed a building or structure of another (or certain other property) in danger of damage or destruction",
+    "Aggravated arson: purposely or knowingly placed another person in danger of death or bodily injury, OR purposely targeted a building or structure, OR other aggravating purposes listed in the statute"
+  ]
 }

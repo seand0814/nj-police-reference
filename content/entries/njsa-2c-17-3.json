@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect purposely or knowingly damaged tangible property of another (OR recklessly or negligently damaged it with fire, explosives or other dangerous means)",
+    "OR tampered with tangible property of another so as to endanger a person or property",
+    "Determine the dollar amount of damage (sets the grade)"
+  ]
 }

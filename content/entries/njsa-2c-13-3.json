@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect knowingly restrained the victim unlawfully",
+    "So as to interfere substantially with the victim's liberty"
+  ]
 }

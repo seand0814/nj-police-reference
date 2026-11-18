@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect was in the course of an unlawful taking of a motor vehicle (including attempt and flight)",
+    "The suspect inflicted bodily injury or used force on an occupant or person in control; OR threatened or put them in fear of immediate bodily injury; OR committed or threatened a 1st or 2nd degree crime; OR drove off with a person still in the vehicle"
+  ]
 }

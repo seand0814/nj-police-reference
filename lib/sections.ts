@@ -27,6 +27,8 @@ export const SECTIONS: Section[] = [
     tile: "from-amber-500 to-orange-600", accent: "border-amber-500 text-amber-700 dark:text-amber-300", chip: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200" },
   { slug: "domestic-violence", name: "Domestic Violence", short: "DV", icon: "🏠", blurb: "Procedures, mandatory arrest, DV statutes",
     tile: "from-fuchsia-600 to-pink-700", accent: "border-fuchsia-600 text-fuchsia-700 dark:text-fuchsia-300", chip: "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200" },
+  { slug: "arrest-juveniles", name: "Arrest, Juveniles & Directives", short: "Arrest & AG", icon: "🚔", blurb: "Charging, juveniles, cannabis, AG directives",
+    tile: "from-sky-500 to-cyan-700", accent: "border-sky-500 text-sky-700 dark:text-sky-300", chip: "bg-sky-100 text-sky-800 dark:bg-sky-950 dark:text-sky-200" },
   { slug: "force-search", name: "Use of Force & Search", short: "Force & Search", icon: "🛡️", blurb: "AG force policy, stops, frisks, searches",
     tile: "from-violet-600 to-purple-700", accent: "border-violet-600 text-violet-700 dark:text-violet-300", chip: "bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-200" },
   { slug: "case-law", name: "Case Law Library", short: "Case Law", icon: "📜", blurb: "Key U.S. and NJ cases with field scenarios",
@@ -254,6 +256,9 @@ export const CASE_GROUPS = [
   "Overviews",
 ];
 
+/** Display order for groups in the Arrest, Juveniles & Directives section. */
+export const ARREST_GROUPS = ["Charging & Criminal Justice Reform", "Juveniles", "Cannabis & Underage Alcohol", "AG Directives & Policies"];
+
 /** Statutes shown as a "Related statutes" group inside hub sections (they also stay in their own section). */
 export const HUB_STATUTES: Record<string, (c: Cite) => boolean> = {
   "domestic-violence": (c) => c.title === "2C" && (c.chapter === 25 || (c.chapter === 12 && c.section === 10) || (c.chapter === 29 && c.section === 9)),
@@ -263,6 +268,7 @@ export const HUB_STATUTES: Record<string, (c: Cite) => boolean> = {
     (c.title === "2C" && c.chapter === 36 && c.section === 2),
   "force-search": (c) => c.title === "2C" && c.chapter === 3,
   investigations: (c) => c.title === "30",
+  "arrest-juveniles": (c) => c.title === "2C" && c.chapter === 33 && c.section === 15,
 };
 
 // ---------------- grade badges ----------------

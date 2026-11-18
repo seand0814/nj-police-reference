@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect altered, made, completed, executed, authenticated, issued or transferred a writing, OR uttered a writing he knew was forged",
+    "So that it purported to be the act of another who did not authorize it (or of a fictitious person or at a different time or place)",
+    "With purpose to defraud or injure anyone, or knowing he was facilitating a fraud or injury"
+  ]
 }

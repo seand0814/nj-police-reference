@@ -1,0 +1,80 @@
+{
+  "id": "template-dv-report",
+  "kind": "template",
+  "title": "Domestic Violence Report Outline",
+  "sections": [
+    "domestic-violence",
+    "checklists"
+  ],
+  "summary": "A fill-in outline for a DV narrative.",
+  "groups": [
+    {
+      "name": "Call",
+      "steps": [
+        {
+          "text": "Dispatch information and time of arrival"
+        },
+        {
+          "text": "Who was present on arrival and their condition"
+        }
+      ]
+    },
+    {
+      "name": "Relationship",
+      "steps": [
+        {
+          "text": "Relationship between the parties (qualifies under 2C:25-19?)"
+        },
+        {
+          "text": "Children present"
+        }
+      ]
+    },
+    {
+      "name": "Statements",
+      "steps": [
+        {
+          "text": "Victim statement (in their words)"
+        },
+        {
+          "text": "Suspect statement"
+        },
+        {
+          "text": "Witness statements"
+        }
+      ]
+    },
+    {
+      "name": "Evidence",
+      "steps": [
+        {
+          "text": "Injuries observed and photographed"
+        },
+        {
+          "text": "Scene condition, damage"
+        },
+        {
+          "text": "Weapons on scene and seized; FPIC and permits"
+        }
+      ]
+    },
+    {
+      "name": "Actions",
+      "steps": [
+        {
+          "text": "History and existing orders checked"
+        },
+        {
+          "text": "Arrest decision and basis (mandatory or discretionary)"
+        },
+        {
+          "text": "Victim rights notice given; TRO assistance"
+        },
+        {
+          "text": "DCP&P notification if applicable"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

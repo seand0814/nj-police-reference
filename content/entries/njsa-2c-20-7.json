@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect knowingly received, retained or disposed of movable property of another",
+    "Knowing the property was stolen, or believing it was probably stolen",
+    "Determine the value (sets the grade); check the statutory presumptions of knowledge"
+  ]
 }

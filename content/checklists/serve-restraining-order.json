@@ -1,0 +1,39 @@
+{
+  "id": "serve-restraining-order",
+  "kind": "checklist",
+  "title": "Serving a Restraining Order",
+  "sections": [
+    "domestic-violence",
+    "checklists"
+  ],
+  "summary": "Service of a TRO or final restraining order.",
+  "groups": [
+    {
+      "name": "Steps",
+      "steps": [
+        {
+          "text": "Confirm the order and its conditions in the DV registry"
+        },
+        {
+          "text": "Serve in person; give the respondent a copy"
+        },
+        {
+          "text": "Explain the terms: no contact, locations, and consequences of violation"
+        },
+        {
+          "text": "Seize weapons, firearms, FPIC and permits as the order directs"
+        },
+        {
+          "text": "Arrange supervised retrieval of belongings if the order allows"
+        },
+        {
+          "text": "Complete the return of service and enter it in the registry"
+        },
+        {
+          "text": "Notify the victim that the order was served"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

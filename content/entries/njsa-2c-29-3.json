@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect acted with purpose to hinder the detention, apprehension, investigation, prosecution, conviction or punishment of another (or himself)",
+    "By one of the listed means: harboring or concealing, providing aid such as a weapon, money or transportation, concealing or destroying evidence, warning, giving false information, or similar",
+    "Note the degree of the underlying offense (sets the grade)"
+  ]
 }

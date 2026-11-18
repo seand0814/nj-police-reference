@@ -1,0 +1,29 @@
+{
+  "id": "underage-cannabis-alcohol",
+  "category": "Investigations",
+  "title": "Under 21: Cannabis and Alcohol Warnings",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 2C:33-15 (as amended in 2021)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Persons under 21 who possess or consume alcohol or cannabis are not arrested or fined; they receive progressive warnings.",
+    "1st violation: written warning. 2nd: written warning, plus notice to a parent or guardian if under 18 and information about community services. 3rd and later: written warning and referral to community services, with parent notice if under 18.",
+    "Odor of alcohol or cannabis alone is not a basis to search, and officers may not ask for consent to search for this violation.",
+    "Body-worn cameras must be on during these encounters.",
+    "Officers may not take the juvenile into custody for this violation alone."
+  ],
+  "officer_notes": [
+    "Use the warning forms and tracking system your agency is required to use."
+  ],
+  "related": [
+    "njsa-2c-33-15",
+    "cannabis-adults"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Cannabis & Underage Alcohol"
+}

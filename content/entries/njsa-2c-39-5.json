@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect knowingly possessed the item (handgun, rifle, shotgun, assault firearm, machine gun or other weapon)",
+    "Firearms: the suspect had no permit to carry (handgun) or no firearms purchaser ID card (rifle or shotgun), and no exemption applies",
+    "Other weapons (knife, club, etc.): possessed under circumstances not manifestly appropriate for lawful uses",
+    "Note the location (school property raises the grade)"
+  ]
 }

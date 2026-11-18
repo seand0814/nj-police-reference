@@ -1,0 +1,95 @@
+{
+  "id": "template-dwi-report",
+  "kind": "template",
+  "title": "DWI Report Outline",
+  "sections": [
+    "dwi-drugs",
+    "checklists"
+  ],
+  "summary": "A fill-in outline for a DWI narrative. Copy it into your report.",
+  "groups": [
+    {
+      "name": "Vehicle in motion",
+      "steps": [
+        {
+          "text": "Date, time, location, weather, lighting, road"
+        },
+        {
+          "text": "Driving behavior observed (specific cues)"
+        },
+        {
+          "text": "How the vehicle stopped"
+        }
+      ]
+    },
+    {
+      "name": "Personal contact",
+      "steps": [
+        {
+          "text": "Odor, eyes, speech, face"
+        },
+        {
+          "text": "Handling of documents"
+        },
+        {
+          "text": "Statements about drinking, drugs, last meal, sleep"
+        },
+        {
+          "text": "Medical conditions, injuries, footwear"
+        }
+      ]
+    },
+    {
+      "name": "Field sobriety tests",
+      "steps": [
+        {
+          "text": "Surface and conditions"
+        },
+        {
+          "text": "HGN: clues in each eye"
+        },
+        {
+          "text": "Walk and Turn: clues observed"
+        },
+        {
+          "text": "One Leg Stand: clues observed"
+        }
+      ]
+    },
+    {
+      "name": "Arrest and testing",
+      "steps": [
+        {
+          "text": "Time of arrest and basis for probable cause"
+        },
+        {
+          "text": "Observation period start and end times"
+        },
+        {
+          "text": "Standard statement read; response"
+        },
+        {
+          "text": "Breath results or refusal; DRE if requested"
+        }
+      ]
+    },
+    {
+      "name": "Wrap up",
+      "steps": [
+        {
+          "text": "Vehicle impound and release information"
+        },
+        {
+          "text": "Summonses issued"
+        },
+        {
+          "text": "Release to responsible adult"
+        },
+        {
+          "text": "BWC and in-car video recorded"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

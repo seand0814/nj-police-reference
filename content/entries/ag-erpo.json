@@ -1,0 +1,27 @@
+{
+  "id": "ag-erpo",
+  "category": "Investigations",
+  "title": "Extreme Risk Protective Orders (ERPO)",
+  "source_type": "directive",
+  "citation": "Extreme Risk Protective Order Act, N.J.S.A. 2C:58-20 et seq.; AG ERPO directive",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "A family or household member, or a law enforcement officer, may petition for a temporary ERPO when a person poses a significant danger of injuring themselves or others with a firearm.",
+    "Factors include recent threats or violence, violations of restraining orders, reckless firearm use, substance abuse and recent acquisition of firearms.",
+    "A temporary order requires surrender of firearms, ammunition and firearms permits; a final hearing follows within the time the statute sets.",
+    "Officers serving an order should seize firearms covered by it and may seek a search warrant if the respondent does not comply."
+  ],
+  "officer_notes": [
+    "Consult your agency's ERPO coordinator and the county prosecutor."
+  ],
+  "related": [
+    "njsa-2c-58-26"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "AG Directives & Policies"
+}

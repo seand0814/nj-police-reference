@@ -261,6 +261,151 @@ ITEMS.append(dict(id="mental-health", kind="flow", title="Mental Health Crisis: 
   "voluntary": dict(result="Offer voluntary help", tone="green", points=["Offer voluntary evaluation or a crisis team.", "Share the 988 Suicide & Crisis Lifeline.", "Document the contact and any referrals."], link="/entry/psych-crises"),
  }))
 
+# ======================= MORE CHECKLISTS =======================
+ITEMS.append(dict(id="arrest-processing", kind="checklist", title="Arrest Processing", sections=["arrest-juveniles", "checklists"],
+ summary="From the street to the charging decision under Criminal Justice Reform.", groups=[
+  dict(name="At the scene", steps=[
+   S("Search incident to arrest; secure property and evidence"),
+   S("Confirm identity and check for warrants and restraining orders"),
+   S("Note injuries and request medical attention if needed"),
+  ]),
+  dict(name="At headquarters", steps=[
+   S("Miranda before any custodial questioning; record as required", "", "/entry/ag-recording-interrogations"),
+   S("Fingerprints and photographs for indictable offenses (Live Scan)"),
+   S("Collect DNA where the law requires it for the arrest charge"),
+   S("Allow a phone call per agency policy"),
+  ]),
+  dict(name="Charging", steps=[
+   S("Decide complaint-summons or complaint-warrant under the AG directive and county guidelines", "", "/entry/cjr-overview"),
+   S("Get prosecutor approval where your county requires it"),
+   S("Write a specific affidavit of probable cause"),
+   S("Warrant: submit to a judge; the PSA is generated for the release decision"),
+   S("Summons: serve the defendant and release with the court date"),
+  ]),
+  dict(name="Wrap up", steps=[
+   S("Victim notification and rights information where required"),
+   S("Property and evidence logged and secured"),
+   S("Reports completed and BWC footage tagged"),
+  ]),
+ ]))
+
+ITEMS.append(dict(id="juvenile-custody-checklist", kind="checklist", title="Juvenile in Custody", sections=["arrest-juveniles", "checklists"],
+ summary="Steps for a person under 18 taken into custody.", groups=[
+  dict(name="Steps", steps=[
+   S("Confirm age and identity", "", "/entry/juvenile-custody"),
+   S("Notify a parent or guardian as soon as possible; document the time"),
+   S("Keep the juvenile out of sight and sound of adult detainees"),
+   S("Questioning: Miranda with a parent present whenever possible (Presha)", "", "/entry/juvenile-interrogation"),
+   S("Consider a stationhouse adjustment for a minor offense", "", "/entry/stationhouse-adjustment"),
+   S("Contact juvenile intake or the on-call Family judge about detention"),
+   S("Release to a parent or guardian, or transport as ordered"),
+   S("Complete juvenile complaint and reports; keep records confidential"),
+  ]),
+ ]))
+
+ITEMS.append(dict(id="search-warrant-affidavit", kind="checklist", title="Search Warrant Affidavit", sections=["force-search", "checklists"],
+ summary="What a strong NJ search warrant application includes.", groups=[
+  dict(name="The affiant", steps=[
+   S("Your training and experience relevant to this investigation"),
+  ]),
+  dict(name="Probable cause", steps=[
+   S("Specific facts, with dates, showing a crime was committed"),
+   S("Facts linking the evidence to the place to be searched (nexus)"),
+   S("Recent information; explain why it is not stale"),
+   S("Informants: basis of knowledge, reliability, and how you corroborated them (totality of the circumstances)"),
+   S("NJ has no good-faith exception: the affidavit must stand on its own", "", "/entry/case-state-v-novembrino"),
+  ]),
+  dict(name="Particularity", steps=[
+   S("Exact description of the place: address, building, unit, vehicles, people"),
+   S("Specific list of items to be seized"),
+   S("Digital devices: say what data you want and why"),
+  ]),
+  dict(name="Special requests", steps=[
+   S("No-knock entry: specific facts showing danger or destruction of evidence"),
+   S("Nighttime execution, if needed, with reasons"),
+  ]),
+  dict(name="Before and after", steps=[
+   S("Prosecutor review per county policy"),
+   S("Execute within the time the warrant allows (R. 3:5-5)"),
+   S("Leave a copy and receipt; complete the inventory and return"),
+  ]),
+ ]))
+
+ITEMS.append(dict(id="erpo-petition", kind="checklist", title="Extreme Risk Protective Order", sections=["arrest-juveniles", "checklists"],
+ summary="Petitioning for and serving a temporary ERPO.", groups=[
+  dict(name="Petition", steps=[
+   S("Identify the danger: recent threats, violence, order violations, reckless firearm use, substance abuse", "", "/entry/ag-erpo"),
+   S("Check firearm records and permits for the respondent"),
+   S("Complete the petition with specific, sworn facts"),
+   S("Notify a supervisor and the ERPO coordinator or prosecutor"),
+  ]),
+  dict(name="Service", steps=[
+   S("Serve the temporary order and explain its terms"),
+   S("Take custody of firearms, ammunition and permits covered by the order"),
+   S("If the respondent won't comply, seek a search warrant"),
+   S("Give receipts and complete the return of service"),
+  ]),
+ ]))
+
+ITEMS.append(dict(id="building-search", kind="checklist", title="Building Search", sections=["operations", "checklists"],
+ summary="Searching a building for a suspect, such as after an alarm with signs of entry.", groups=[
+  dict(name="Before entry", steps=[
+   S("Set a perimeter covering all exits"),
+   S("Get the layout and keyholder information if possible"),
+   S("Request K-9; give a loud K-9 or police announcement and wait"),
+   S("Team of at least two; agree on a plan and radio channel"),
+  ]),
+  dict(name="Searching", steps=[
+   S("Move slowly using cover; clear corners by slicing the pie"),
+   S("Clear one room at a time; check closets, ceilings, under furniture"),
+   S("Mark or call out cleared areas"),
+   S("Keep one officer covering while another searches"),
+  ]),
+  dict(name="After", steps=[
+   S("Document point of entry, damage and evidence"),
+   S("Notify the owner or keyholder and secure the building"),
+  ]),
+ ]))
+
+ITEMS.append(dict(id="serve-restraining-order", kind="checklist", title="Serving a Restraining Order", sections=["domestic-violence", "checklists"],
+ summary="Service of a TRO or final restraining order.", groups=[
+  dict(name="Steps", steps=[
+   S("Confirm the order and its conditions in the DV registry"),
+   S("Serve in person; give the respondent a copy"),
+   S("Explain the terms: no contact, locations, and consequences of violation"),
+   S("Seize weapons, firearms, FPIC and permits as the order directs"),
+   S("Arrange supervised retrieval of belongings if the order allows"),
+   S("Complete the return of service and enter it in the registry"),
+   S("Notify the victim that the order was served"),
+  ]),
+ ]))
+
+# ======================= REPORT TEMPLATES =======================
+ITEMS.append(dict(id="template-dwi-report", kind="template", title="DWI Report Outline", sections=["dwi-drugs", "checklists"],
+ summary="A fill-in outline for a DWI narrative. Copy it into your report.", groups=[
+  dict(name="Vehicle in motion", steps=[S("Date, time, location, weather, lighting, road"), S("Driving behavior observed (specific cues)"), S("How the vehicle stopped")]),
+  dict(name="Personal contact", steps=[S("Odor, eyes, speech, face"), S("Handling of documents"), S("Statements about drinking, drugs, last meal, sleep"), S("Medical conditions, injuries, footwear")]),
+  dict(name="Field sobriety tests", steps=[S("Surface and conditions"), S("HGN: clues in each eye"), S("Walk and Turn: clues observed"), S("One Leg Stand: clues observed")]),
+  dict(name="Arrest and testing", steps=[S("Time of arrest and basis for probable cause"), S("Observation period start and end times"), S("Standard statement read; response"), S("Breath results or refusal; DRE if requested")]),
+  dict(name="Wrap up", steps=[S("Vehicle impound and release information"), S("Summonses issued"), S("Release to responsible adult"), S("BWC and in-car video recorded")]),
+ ]))
+ITEMS.append(dict(id="template-dv-report", kind="template", title="Domestic Violence Report Outline", sections=["domestic-violence", "checklists"],
+ summary="A fill-in outline for a DV narrative.", groups=[
+  dict(name="Call", steps=[S("Dispatch information and time of arrival"), S("Who was present on arrival and their condition")]),
+  dict(name="Relationship", steps=[S("Relationship between the parties (qualifies under 2C:25-19?)"), S("Children present")]),
+  dict(name="Statements", steps=[S("Victim statement (in their words)"), S("Suspect statement"), S("Witness statements")]),
+  dict(name="Evidence", steps=[S("Injuries observed and photographed"), S("Scene condition, damage"), S("Weapons on scene and seized; FPIC and permits")]),
+  dict(name="Actions", steps=[S("History and existing orders checked"), S("Arrest decision and basis (mandatory or discretionary)"), S("Victim rights notice given; TRO assistance"), S("DCP&P notification if applicable")]),
+ ]))
+ITEMS.append(dict(id="template-uof-report", kind="template", title="Use of Force Narrative Outline", sections=["force-search", "checklists"],
+ summary="Covers what reviewers look for under Graham and the AG policy.", groups=[
+  dict(name="Why you were there", steps=[S("Call or reason for contact; what you knew beforehand")]),
+  dict(name="The threat", steps=[S("Severity of the suspected offense"), S("Specific words and actions showing a threat to you or others"), S("Resistance or flight, described specifically")]),
+  dict(name="De-escalation", steps=[S("Commands, warnings, time, distance, cover, additional resources used or why not feasible")]),
+  dict(name="Force used", steps=[S("Each type of force, in order, and why it was necessary and proportional"), S("When force stopped and why")]),
+  dict(name="After", steps=[S("Medical aid offered or given; injuries"), S("Supervisor notification; BWC; witnesses; photos")]),
+ ]))
+
 for it in ITEMS:
     it["note"] = "Follow your department's policy and current AG directives. Not yet verified against official sources."
     json.dump(it, open(os.path.join(OUT, it["id"] + ".json"), "w", encoding="utf8"), ensure_ascii=False, indent=2)

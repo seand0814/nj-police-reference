@@ -1,0 +1,80 @@
+{
+  "id": "arrest-processing",
+  "kind": "checklist",
+  "title": "Arrest Processing",
+  "sections": [
+    "arrest-juveniles",
+    "checklists"
+  ],
+  "summary": "From the street to the charging decision under Criminal Justice Reform.",
+  "groups": [
+    {
+      "name": "At the scene",
+      "steps": [
+        {
+          "text": "Search incident to arrest; secure property and evidence"
+        },
+        {
+          "text": "Confirm identity and check for warrants and restraining orders"
+        },
+        {
+          "text": "Note injuries and request medical attention if needed"
+        }
+      ]
+    },
+    {
+      "name": "At headquarters",
+      "steps": [
+        {
+          "text": "Miranda before any custodial questioning; record as required",
+          "link": "/entry/ag-recording-interrogations"
+        },
+        {
+          "text": "Fingerprints and photographs for indictable offenses (Live Scan)"
+        },
+        {
+          "text": "Collect DNA where the law requires it for the arrest charge"
+        },
+        {
+          "text": "Allow a phone call per agency policy"
+        }
+      ]
+    },
+    {
+      "name": "Charging",
+      "steps": [
+        {
+          "text": "Decide complaint-summons or complaint-warrant under the AG directive and county guidelines",
+          "link": "/entry/cjr-overview"
+        },
+        {
+          "text": "Get prosecutor approval where your county requires it"
+        },
+        {
+          "text": "Write a specific affidavit of probable cause"
+        },
+        {
+          "text": "Warrant: submit to a judge; the PSA is generated for the release decision"
+        },
+        {
+          "text": "Summons: serve the defendant and release with the court date"
+        }
+      ]
+    },
+    {
+      "name": "Wrap up",
+      "steps": [
+        {
+          "text": "Victim notification and rights information where required"
+        },
+        {
+          "text": "Property and evidence logged and secured"
+        },
+        {
+          "text": "Reports completed and BWC footage tagged"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

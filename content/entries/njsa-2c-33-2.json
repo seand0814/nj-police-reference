@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "(a) Improper behavior: the suspect engaged in fighting, threatening, violent or tumultuous behavior, or created a hazardous or physically dangerous condition by an act serving no legitimate purpose",
+    "OR (b) Offensive language: in a public place, used unreasonably loud and offensively coarse or abusive language, given the circumstances",
+    "With purpose to cause public inconvenience, annoyance or alarm, or recklessly creating a risk of it",
+    "It occurred in or affected a public place"
+  ]
 }

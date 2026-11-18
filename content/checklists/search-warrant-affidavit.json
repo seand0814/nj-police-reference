@@ -1,0 +1,81 @@
+{
+  "id": "search-warrant-affidavit",
+  "kind": "checklist",
+  "title": "Search Warrant Affidavit",
+  "sections": [
+    "force-search",
+    "checklists"
+  ],
+  "summary": "What a strong NJ search warrant application includes.",
+  "groups": [
+    {
+      "name": "The affiant",
+      "steps": [
+        {
+          "text": "Your training and experience relevant to this investigation"
+        }
+      ]
+    },
+    {
+      "name": "Probable cause",
+      "steps": [
+        {
+          "text": "Specific facts, with dates, showing a crime was committed"
+        },
+        {
+          "text": "Facts linking the evidence to the place to be searched (nexus)"
+        },
+        {
+          "text": "Recent information; explain why it is not stale"
+        },
+        {
+          "text": "Informants: basis of knowledge, reliability, and how you corroborated them (totality of the circumstances)"
+        },
+        {
+          "text": "NJ has no good-faith exception: the affidavit must stand on its own",
+          "link": "/entry/case-state-v-novembrino"
+        }
+      ]
+    },
+    {
+      "name": "Particularity",
+      "steps": [
+        {
+          "text": "Exact description of the place: address, building, unit, vehicles, people"
+        },
+        {
+          "text": "Specific list of items to be seized"
+        },
+        {
+          "text": "Digital devices: say what data you want and why"
+        }
+      ]
+    },
+    {
+      "name": "Special requests",
+      "steps": [
+        {
+          "text": "No-knock entry: specific facts showing danger or destruction of evidence"
+        },
+        {
+          "text": "Nighttime execution, if needed, with reasons"
+        }
+      ]
+    },
+    {
+      "name": "Before and after",
+      "steps": [
+        {
+          "text": "Prosecutor review per county policy"
+        },
+        {
+          "text": "Execute within the time the warrant allows (R. 3:5-5)"
+        },
+        {
+          "text": "Leave a copy and receipt; complete the inventory and return"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

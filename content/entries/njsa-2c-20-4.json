@@ -14,5 +14,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect obtained property of another",
+    "By deception: creating or reinforcing a false impression, preventing someone from acquiring information, or failing to correct a false impression he created",
+    "The suspect acted purposely",
+    "Determine the value (sets the grade)"
+  ]
 }

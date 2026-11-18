@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect drove a motor vehicle on a public road",
+    "The suspect's driving privilege (or registration) was suspended or revoked",
+    "Record the reason for the suspension (DWI or refusal suspensions trigger enhanced penalties)"
+  ]
 }

@@ -16,5 +16,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect was driving a vehicle or operating a vessel",
+    "The suspect drove recklessly",
+    "The reckless driving caused the victim's death"
+  ]
 }

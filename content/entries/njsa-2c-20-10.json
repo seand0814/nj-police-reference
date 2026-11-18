@@ -14,5 +14,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect took, operated or exercised control over a vehicle, boat or airplane",
+    "Without the owner's consent",
+    "With purpose to withhold it temporarily from the owner",
+    "Note any dangerous operation, injury or damage (raises the grade)"
+  ]
 }

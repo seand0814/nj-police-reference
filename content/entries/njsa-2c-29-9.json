@@ -14,5 +14,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "A court order (such as a restraining order) existed",
+    "The suspect knew of the order (served, or had actual notice)",
+    "The suspect purposely or knowingly disobeyed it",
+    "For DV orders: note whether the violating conduct was itself a crime or offense (sets the grade)"
+  ]
 }

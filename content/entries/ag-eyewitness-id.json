@@ -1,0 +1,28 @@
+{
+  "id": "ag-eyewitness-id",
+  "category": "Investigations",
+  "title": "Eyewitness Identification Procedures",
+  "source_type": "directive",
+  "citation": "AG Guidelines for Photo and Live Lineup Identification Procedures; State v. Henderson, 208 N.J. 208 (2011)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Use blind or blinded administration: the person showing the lineup should not know which person is the suspect.",
+    "Tell the witness the perpetrator may or may not be in the lineup and that the investigation continues either way.",
+    "Fillers should match the witness's description; show one suspect per lineup.",
+    "Record the witness's own words of confidence immediately; do not give feedback.",
+    "Showups are allowed only shortly after the event and are inherently suggestive; document the circumstances and instructions given."
+  ],
+  "officer_notes": [
+    "Record the whole procedure on video when possible."
+  ],
+  "related": [
+    "case-state-v-henderson"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "AG Directives & Policies"
+}

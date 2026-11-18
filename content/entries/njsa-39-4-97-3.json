@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect was driving a moving vehicle on a public road",
+    "The suspect used a handheld wireless device (talking, texting or other use) without a hands-free device",
+    "No exception applies (such as reporting an emergency)"
+  ]
 }

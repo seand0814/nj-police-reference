@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect used, or possessed with intent to use, drug paraphernalia",
+    "To plant, grow, manufacture, test, pack, store, contain, conceal, inject, ingest, inhale or otherwise introduce CDS into the body (not cannabis)"
+  ]
 }

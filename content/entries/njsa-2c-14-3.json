@@ -15,5 +15,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect committed an act of sexual contact (intentional touching of intimate parts, directly or through clothing, to degrade or humiliate the victim or for sexual arousal or gratification)",
+    "Under one of the circumstances listed in 2C:14-2 (force or coercion, victim's age, helplessness, etc.)"
+  ]
 }

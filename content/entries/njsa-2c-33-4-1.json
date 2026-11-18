@@ -20,5 +20,10 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "The suspect made a communication online or through an electronic device or social network",
+    "With purpose to harass another",
+    "The communication threatened injury to a person or property, was lewd or obscene and sent to cause emotional harm or fear, or threatened a crime"
+  ]
 }

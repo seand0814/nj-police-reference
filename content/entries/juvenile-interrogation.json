@@ -1,0 +1,29 @@
+{
+  "id": "juvenile-interrogation",
+  "category": "Investigations",
+  "title": "Questioning Juveniles",
+  "source_type": "directive",
+  "citation": "State v. Presha, 163 N.J. 304 (2000); J.D.B. v. North Carolina, 564 U.S. 261 (2011); R. 3:17",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Give Miranda warnings in age-appropriate language and, whenever possible, with a parent or guardian present.",
+    "Presha: a parent's absence is a highly significant factor. For a juvenile under 14, a statement taken without a parent present is generally inadmissible unless the parent was unwilling or truly unavailable.",
+    "Age matters to whether a juvenile is in custody (J.D.B.); assume custody sooner with young people.",
+    "Do not use the parent as an interrogator or discourage the parent from being present.",
+    "Record custodial interrogations as required by Court Rule 3:17."
+  ],
+  "officer_notes": [
+    "Note who was present, how rights were explained, and the juvenile's responses."
+  ],
+  "related": [
+    "case-jdb-v-north-carolina",
+    "miranda"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Juveniles"
+}

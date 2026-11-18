@@ -1,0 +1,27 @@
+{
+  "id": "ag-recording-interrogations",
+  "category": "Investigations",
+  "title": "Recording Custodial Interrogations",
+  "source_type": "directive",
+  "citation": "N.J. Court Rule 3:17",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Custodial interrogations in a place of detention must be electronically recorded when the person is suspected of murder, manslaughter, kidnapping, robbery, aggravated sexual assault, sexual assault and other listed serious crimes.",
+    "Exceptions exist (for example, the suspect refuses to be recorded, or the statement is spontaneous), and they must be documented.",
+    "If an unexcused recording is missing, the court may exclude the statement or give the jury a cautionary instruction."
+  ],
+  "officer_notes": [
+    "When in doubt, record."
+  ],
+  "related": [
+    "miranda",
+    "juvenile-interrogation"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "AG Directives & Policies"
+}

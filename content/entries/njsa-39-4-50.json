@@ -24,5 +24,10 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "The suspect operated a motor vehicle (or permitted another person who was impaired to operate one)",
+    "While under the influence of alcohol, a narcotic, hallucinogenic or habit-producing drug, OR with a BAC of 0.08% or higher",
+    "Document observations, SFSTs and breath, blood or DRE results"
+  ]
 }

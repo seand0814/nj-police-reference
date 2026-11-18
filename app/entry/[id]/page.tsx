@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allEntries, entrySection, getEntry } from "@/lib/content";
+import { allEntries, entrySection, getEntry, type Entry } from "@/lib/content";
 import { gradeBadge, sectionBySlug } from "@/lib/sections";
 import BookmarkButton from "@/components/BookmarkButton";
+import CopyCharge from "@/components/CopyCharge";
+import ElementsChecklist from "@/components/ElementsChecklist";
+import SpeakList from "@/components/SpeakList";
 import { RecordVisit } from "@/components/RecentList";
 import { CPR_BANNER, DISCLAIMER, GradeBadge } from "@/components/ui";
 
@@ -50,6 +53,46 @@ function List({ title, icon, items }: { title: string; icon: string; items: stri
   );
 }
 
+const LONG_GRADE: Record<string, string> = {
+  "1st°": "1st degree crime",
+  "2nd°": "2nd degree crime",
+  "3rd°": "3rd degree crime",
+  "4th°": "4th degree crime",
+  DP: "Disorderly persons offense",
+  PDP: "Petty disorderly persons offense",
+  MV: "Motor vehicle violation",
+  "By value": "Graded by value",
+  Contempt: "Contempt",
+};
+
+function Table({ table }: { table: NonNullable<Entry["table"]> }) {
+  return (
+    <section className="mt-5">
+      <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <table className="w-full min-w-[560px] text-left text-sm">
+          <thead className="bg-slate-100 dark:bg-slate-800">
+            <tr>
+              {table.columns.map((c, i) => (
+                <th key={i} className={"px-3 py-2 font-semibold " + (i === 0 ? "sticky left-0 bg-slate-100 dark:bg-slate-800" : "")}>{c}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {table.rows.map((r, i) => (
+              <tr key={i} className="border-t border-slate-100 dark:border-slate-800">
+                {r.map((cell, j) => (
+                  <td key={j} className={"px-3 py-2 " + (j === 0 ? "sticky left-0 bg-white font-semibold dark:bg-slate-900" : "")}>{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {table.note ? <p className="mt-2 text-xs text-slate-500">{table.note}</p> : null}
+    </section>
+  );
+}
+
 export default async function EntryPage({ params }: { params: Params }) {
   const entry = getEntry((await params).id);
   if (!entry) notFound();
@@ -57,6 +100,10 @@ export default async function EntryPage({ params }: { params: Params }) {
   const badge = gradeBadge(entry.grade_or_penalty, entry.citation);
   const related = entry.related.map((id) => getEntry(id)).filter((x) => x !== null);
   const verified = entry.source_verified && entry.last_verified;
+  const isCharge = entry.source_type === "statute" && !!badge && !["Info", "Defense", "Penalty", "Confirm", "Enhancer"].includes(badge.label);
+  const chargeText = isCharge
+    ? [`${entry.citation} – ${entry.title} – ${LONG_GRADE[badge!.label] ?? badge!.label}`, entry.key_points[0] ?? ""].filter(Boolean).join("\n")
+    : "";
 
   return (
     <article>
@@ -88,10 +135,22 @@ export default async function EntryPage({ params }: { params: Params }) {
               ⚠️ Grade under review — confirm before charging.
             </p>
           ) : null}
+          {isCharge ? <div className="mt-3"><CopyCharge text={chargeText} /></div> : null}
         </section>
       ) : null}
 
-      {entry.source_type === "case" ? (
+      {entry.elements?.length ? <ElementsChecklist elements={entry.elements} /> : null}
+      {entry.table ? <Table table={entry.table} /> : null}
+
+      {entry.speak ? (
+        <section className="mt-5">
+          <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+            <span aria-hidden>🗣️</span> Tap 🔊 to hear it
+          </h2>
+          <SpeakList lines={entry.key_points} />
+          <List title="Notes" icon="👮" items={entry.officer_notes} />
+        </section>
+      ) : entry.source_type === "case" ? (
         <>
           <List title="The ruling" icon="⚖️" items={entry.key_points} />
           <List title="In the field" icon="👮" items={entry.officer_notes} />

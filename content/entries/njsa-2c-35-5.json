@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect manufactured, distributed or dispensed CDS, OR possessed CDS with intent to do so",
+    "The suspect acted knowingly or purposely",
+    "Identify the substance (lab confirmation) and the quantity (sets the grade)",
+    "Intent evidence: quantity, packaging, scales, cash, ledgers, communications"
+  ]
 }

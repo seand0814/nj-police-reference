@@ -1,0 +1,58 @@
+{
+  "id": "building-search",
+  "kind": "checklist",
+  "title": "Building Search",
+  "sections": [
+    "operations",
+    "checklists"
+  ],
+  "summary": "Searching a building for a suspect, such as after an alarm with signs of entry.",
+  "groups": [
+    {
+      "name": "Before entry",
+      "steps": [
+        {
+          "text": "Set a perimeter covering all exits"
+        },
+        {
+          "text": "Get the layout and keyholder information if possible"
+        },
+        {
+          "text": "Request K-9; give a loud K-9 or police announcement and wait"
+        },
+        {
+          "text": "Team of at least two; agree on a plan and radio channel"
+        }
+      ]
+    },
+    {
+      "name": "Searching",
+      "steps": [
+        {
+          "text": "Move slowly using cover; clear corners by slicing the pie"
+        },
+        {
+          "text": "Clear one room at a time; check closets, ceilings, under furniture"
+        },
+        {
+          "text": "Mark or call out cleared areas"
+        },
+        {
+          "text": "Keep one officer covering while another searches"
+        }
+      ]
+    },
+    {
+      "name": "After",
+      "steps": [
+        {
+          "text": "Document point of entry, damage and evidence"
+        },
+        {
+          "text": "Notify the owner or keyholder and secure the building"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

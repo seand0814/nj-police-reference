@@ -15,5 +15,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect engaged in a course of conduct (two or more acts) directed at a specific person",
+    "The suspect acted purposely or knowingly",
+    "The conduct would cause a reasonable person to fear for their safety or a third person's safety, or to suffer significant emotional distress"
+  ]
 }

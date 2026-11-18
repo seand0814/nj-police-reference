@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect knowingly restrained the victim unlawfully",
+    "In circumstances exposing the victim to risk of serious bodily injury (OR held the victim in a condition of involuntary servitude)"
+  ]
 }

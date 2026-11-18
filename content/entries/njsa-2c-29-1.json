@@ -20,5 +20,9 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "The suspect purposely obstructed, impaired or perverted the administration of law or a government function, or prevented a public servant from lawfully performing an official function",
+    "By means of flight, intimidation, force, violence, physical interference or obstacle, or by an independently unlawful act"
+  ]
 }

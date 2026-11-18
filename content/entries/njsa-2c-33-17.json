@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect purposely or knowingly offered, served or made available an alcoholic beverage",
+    "To a person under the legal drinking age (21)",
+    "No exception applies (religious observance, or parent or guardian in a private home)"
+  ]
 }

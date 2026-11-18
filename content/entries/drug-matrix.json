@@ -1,0 +1,125 @@
+{
+  "id": "drug-matrix",
+  "category": "DWI & Drugs",
+  "title": "Drug Recognition Signs Chart",
+  "source_type": "federal_pub",
+  "citation": "NHTSA/IACP Drug Evaluation and Classification Program (DRE) matrix",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Typical signs by drug category, as taught in DRE training. Individual results vary.",
+    "HGN = horizontal gaze nystagmus; VGN = vertical gaze nystagmus; LOC = lack of convergence."
+  ],
+  "officer_notes": [
+    "Signs are indicators, not proof. Request a certified DRE and toxicology."
+  ],
+  "related": [
+    "dre-evaluation",
+    "drug-depressants",
+    "drug-stimulants",
+    "drug-hallucinogens",
+    "drug-dissociatives",
+    "drug-opioids",
+    "drug-inhalants",
+    "drug-cannabis"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "dwi-drugs",
+  "group": "Drug Recognition",
+  "table": {
+    "columns": [
+      "Category",
+      "HGN",
+      "VGN",
+      "LOC",
+      "Pupils",
+      "Pulse",
+      "Blood pressure",
+      "Body temp",
+      "Muscle tone"
+    ],
+    "rows": [
+      [
+        "CNS depressants",
+        "Present",
+        "Present*",
+        "Present",
+        "Normal**",
+        "Down",
+        "Down",
+        "Normal",
+        "Flaccid"
+      ],
+      [
+        "CNS stimulants",
+        "None",
+        "None",
+        "None",
+        "Dilated",
+        "Up",
+        "Up",
+        "Up",
+        "Rigid"
+      ],
+      [
+        "Hallucinogens",
+        "None",
+        "None",
+        "None",
+        "Dilated",
+        "Up",
+        "Up",
+        "Up",
+        "Rigid"
+      ],
+      [
+        "Dissociative anesthetics",
+        "Present",
+        "Present",
+        "Present",
+        "Normal",
+        "Up",
+        "Up",
+        "Up",
+        "Rigid"
+      ],
+      [
+        "Narcotic analgesics",
+        "None",
+        "None",
+        "None",
+        "Constricted",
+        "Down",
+        "Down",
+        "Down",
+        "Normal/Flaccid"
+      ],
+      [
+        "Inhalants",
+        "Present",
+        "Present*",
+        "Present",
+        "Normal**",
+        "Up",
+        "Up/Down",
+        "Up/Down/Normal",
+        "Normal/Flaccid"
+      ],
+      [
+        "Cannabis",
+        "None",
+        "None",
+        "Present",
+        "Dilated",
+        "Up",
+        "Up",
+        "Normal",
+        "Normal"
+      ]
+    ],
+    "note": "* VGN at high doses for that person. ** Some depressants and inhalants can dilate pupils. Based on the DRE program's general indicators; not yet checked against the current NHTSA manual."
+  }
+}

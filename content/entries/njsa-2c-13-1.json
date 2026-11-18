@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect unlawfully removed the victim a substantial distance, or unlawfully confined the victim for a substantial period",
+    "Removal or confinement was by force, threat or deception (or, for a child under 14 or incompetent person, without a parent's or guardian's consent)",
+    "With purpose to: hold for ransom or as a shield or hostage; facilitate a crime or flight; inflict bodily injury or terrorize; or interfere with a government function",
+    "Note whether the victim was released unharmed in a safe place (affects grade)"
+  ]
 }

@@ -15,5 +15,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect entered (or surreptitiously remained in) a research facility, structure, or separately secured part of a structure",
+    "The suspect had no license or privilege to be there",
+    "The suspect intended to commit an offense inside",
+    "For 2nd degree: purposely, knowingly or recklessly inflicted, attempted or threatened bodily injury, OR was armed with explosives or a deadly weapon"
+  ]
 }

@@ -1,0 +1,65 @@
+{
+  "id": "template-uof-report",
+  "kind": "template",
+  "title": "Use of Force Narrative Outline",
+  "sections": [
+    "force-search",
+    "checklists"
+  ],
+  "summary": "Covers what reviewers look for under Graham and the AG policy.",
+  "groups": [
+    {
+      "name": "Why you were there",
+      "steps": [
+        {
+          "text": "Call or reason for contact; what you knew beforehand"
+        }
+      ]
+    },
+    {
+      "name": "The threat",
+      "steps": [
+        {
+          "text": "Severity of the suspected offense"
+        },
+        {
+          "text": "Specific words and actions showing a threat to you or others"
+        },
+        {
+          "text": "Resistance or flight, described specifically"
+        }
+      ]
+    },
+    {
+      "name": "De-escalation",
+      "steps": [
+        {
+          "text": "Commands, warnings, time, distance, cover, additional resources used or why not feasible"
+        }
+      ]
+    },
+    {
+      "name": "Force used",
+      "steps": [
+        {
+          "text": "Each type of force, in order, and why it was necessary and proportional"
+        },
+        {
+          "text": "When force stopped and why"
+        }
+      ]
+    },
+    {
+      "name": "After",
+      "steps": [
+        {
+          "text": "Medical aid offered or given; injuries"
+        },
+        {
+          "text": "Supervisor notification; BWC; witnesses; photos"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

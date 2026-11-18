@@ -23,5 +23,11 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "(a): The suspect threatened to commit a crime of violence",
+    "(a): With purpose to terrorize another, or to cause evacuation or serious public inconvenience (or in reckless disregard of that risk)",
+    "OR (b): The suspect threatened to kill another",
+    "(b): With purpose to put the victim in imminent fear of death, under circumstances reasonably causing the victim to believe the threat was immediate and likely to be carried out"
+  ]
 }

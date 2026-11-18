@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect impersonated another, assumed a false identity, or used another person's personal identifying information",
+    "With purpose to obtain a benefit for himself or another, or to injure or defraud another",
+    "Determine the value of the benefit or injury and the number of victims (sets the grade)"
+  ]
 }

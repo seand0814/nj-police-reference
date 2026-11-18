@@ -1,0 +1,33 @@
+{
+  "id": "spanish-miranda",
+  "category": "Spanish",
+  "title": "Miranda Rights in Spanish (Reference)",
+  "source_type": "original",
+  "citation": "Reference translation; use your agency's approved Spanish rights form",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "You have the right to remain silent. | Usted tiene el derecho de permanecer callado.",
+    "Anything you say can and will be used against you in a court of law. | Cualquier cosa que diga puede y será usada en su contra en un tribunal de justicia.",
+    "You have the right to talk to a lawyer and to have a lawyer present before and during any questioning. | Tiene derecho a consultar con un abogado y a tenerlo presente antes y durante cualquier interrogatorio.",
+    "If you cannot afford a lawyer, one will be appointed for you before any questioning, if you wish. | Si no puede pagar un abogado, se le nombrará uno antes de cualquier interrogatorio, si así lo desea.",
+    "You can decide at any time to exercise these rights and not answer questions or make statements. | Puede decidir en cualquier momento ejercer estos derechos y no contestar preguntas ni hacer declaraciones.",
+    "Do you understand each of these rights? | ¿Entiende cada uno de estos derechos?",
+    "Having these rights in mind, do you wish to talk to us now? | Teniendo en cuenta estos derechos, ¿desea hablar con nosotros ahora?"
+  ],
+  "officer_notes": [
+    "For any interrogation, use your department's approved Spanish rights form and a qualified interpreter. This translation is for reference and has not been verified.",
+    "Record the warnings and the response on video."
+  ],
+  "related": [
+    "miranda",
+    "spanish-field-phrases"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "quick-reference",
+  "group": "Procedures & Reference",
+  "speak": true
+}

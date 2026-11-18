@@ -1,0 +1,24 @@
+{
+  "id": "juvenile-curfew",
+  "category": "Investigations",
+  "title": "Juvenile Curfew",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 40:48-2.52 (municipal juvenile curfew ordinances); local ordinance",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Municipalities may adopt juvenile curfew ordinances; there is no single statewide curfew.",
+    "Check your town's ordinance for hours, ages and exceptions (work, school or religious events, accompanied by a parent, emergencies).",
+    "Typical handling: identify the juvenile, contact a parent or guardian, and release to them. Ordinances may allow penalties against parents."
+  ],
+  "officer_notes": [
+    "Record the ordinance section on any complaint."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Juveniles"
+}

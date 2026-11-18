@@ -16,5 +16,11 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect took possession of, carried away, concealed, altered or transferred merchandise (or under-rang it as a cashier, or removed a shopping cart)",
+    "The merchandise was offered for sale by a store or retail establishment",
+    "With purpose to deprive the merchant of it without paying the full retail value",
+    "Determine the full retail value (sets the grade)"
+  ]
 }

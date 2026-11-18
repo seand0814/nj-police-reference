@@ -1,0 +1,24 @@
+{
+  "id": "ag-strip-search",
+  "category": "Investigations",
+  "title": "Strip and Body Cavity Searches",
+  "source_type": "directive",
+  "citation": "N.J.S.A. 2A:161A-1 et seq.; AG strip search guidelines",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "A person detained or arrested for a non-indictable offense may not be strip searched unless there is a warrant or consent, or a statutory exception applies (such as reasonable suspicion of a weapon, CDS or evidence, with supervisory authorization).",
+    "Body cavity searches require a search warrant and must be done by medical personnel.",
+    "Searches must be done in private by officers of the same sex, and documented."
+  ],
+  "officer_notes": [
+    "Confirm the exact exceptions and authorization rules in your agency's policy before any strip search."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "AG Directives & Policies"
+}

@@ -15,5 +15,13 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "Resisting: The suspect purposely prevented or tried to prevent an officer from effecting an arrest",
+    "Resisting: The suspect knew or had reason to know the person was a law enforcement officer making an arrest",
+    "Resisting upgrade: by flight (4th degree), or using or threatening force, or creating a substantial risk of injury (3rd degree)",
+    "Eluding: The suspect operated a motor vehicle on a street or highway",
+    "Eluding: After receiving any signal from an officer to bring the vehicle to a full stop, the suspect knowingly fled or tried to elude",
+    "Eluding upgrade: the flight created a risk of death or injury to any person (2nd degree)"
+  ]
 }

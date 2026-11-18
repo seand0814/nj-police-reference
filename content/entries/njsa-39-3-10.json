@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect drove a motor vehicle on a public road",
+    "The suspect was not licensed to drive (OR the owner knowingly allowed an unlicensed person to drive)"
+  ]
 }

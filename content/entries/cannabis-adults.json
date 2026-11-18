@@ -1,0 +1,31 @@
+{
+  "id": "cannabis-adults",
+  "category": "Investigations",
+  "title": "Adult Cannabis: What Officers Can and Can't Do",
+  "source_type": "directive",
+  "citation": "CREAMMA, N.J.S.A. 24:6I-31 et seq.; N.J.S.A. 2C:35-10(a)(3)-(4)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Adults 21 and older may lawfully buy cannabis from licensed dispensaries.",
+    "Possession of 6 ounces or less of marijuana (17 grams or less of hashish) carries no penalty; more than that is a 4th degree crime.",
+    "The odor of cannabis (burnt or raw), possession of an amount that carries no penalty, or possession near cash or multiple containers is not, by itself, reasonable suspicion to stop or search.",
+    "Growing cannabis at home without a license remains illegal.",
+    "Driving while impaired by cannabis is DWI under 39:4-50; use a DRE where available.",
+    "Local ordinances govern public consumption and penalties for it."
+  ],
+  "officer_notes": [
+    "Sales without a license and possession with intent to distribute are still crimes (2C:35-5)."
+  ],
+  "related": [
+    "njsa-2c-35-10",
+    "drug-cannabis",
+    "njsa-39-4-50"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "section": "arrest-juveniles",
+  "group": "Cannabis & Underage Alcohol"
+}

@@ -19,5 +19,10 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "Probable cause existed that the suspect operated (or was in actual physical control of) a vehicle while impaired",
+    "The suspect was arrested, if appropriate",
+    "The standard statement was read and the suspect refused to submit to breath samples"
+  ]
 }

@@ -24,5 +24,11 @@
   "status": "DRAFT",
   "source_verified": true,
   "grade_review": false,
-  "last_verified": "2026-11-18"
+  "last_verified": "2026-11-18",
+  "elements": [
+    "The suspect obtained or possessed CDS or an analog (actual or constructive possession)",
+    "The suspect acted knowingly or purposely",
+    "No valid prescription or other legal authority",
+    "Identify the substance and quantity (sets the grade); remember the marijuana thresholds"
+  ]
 }

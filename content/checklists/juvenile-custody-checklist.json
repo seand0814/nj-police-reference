@@ -1,0 +1,45 @@
+{
+  "id": "juvenile-custody-checklist",
+  "kind": "checklist",
+  "title": "Juvenile in Custody",
+  "sections": [
+    "arrest-juveniles",
+    "checklists"
+  ],
+  "summary": "Steps for a person under 18 taken into custody.",
+  "groups": [
+    {
+      "name": "Steps",
+      "steps": [
+        {
+          "text": "Confirm age and identity",
+          "link": "/entry/juvenile-custody"
+        },
+        {
+          "text": "Notify a parent or guardian as soon as possible; document the time"
+        },
+        {
+          "text": "Keep the juvenile out of sight and sound of adult detainees"
+        },
+        {
+          "text": "Questioning: Miranda with a parent present whenever possible (Presha)",
+          "link": "/entry/juvenile-interrogation"
+        },
+        {
+          "text": "Consider a stationhouse adjustment for a minor offense",
+          "link": "/entry/stationhouse-adjustment"
+        },
+        {
+          "text": "Contact juvenile intake or the on-call Family judge about detention"
+        },
+        {
+          "text": "Release to a parent or guardian, or transport as ordered"
+        },
+        {
+          "text": "Complete juvenile complaint and reports; keep records confidential"
+        }
+      ]
+    }
+  ],
+  "note": "Follow your department's policy and current AG directives. Not yet verified against official sources."
+}

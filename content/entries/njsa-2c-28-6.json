@@ -14,5 +14,10 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "The suspect believed an official proceeding or investigation was pending or about to be instituted",
+    "The suspect altered, destroyed, concealed or removed any article (or made, presented or used false evidence)",
+    "With purpose to impair its verity or availability (or to mislead a public servant)"
+  ]
 }

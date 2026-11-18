@@ -14,5 +14,9 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": false,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "All elements of distribution or possession with intent to distribute (2C:35-5)",
+    "The conduct occurred on school property, on a school bus, or within 1,000 feet of school property"
+  ]
 }

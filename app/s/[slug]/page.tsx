@@ -51,12 +51,19 @@ export default async function SectionPage({ params }: { params: Params }) {
                 href={t.href}
                 className={"flex min-h-[64px] w-44 shrink-0 flex-col justify-center rounded-2xl border-l-4 bg-white px-3 py-2 shadow-sm dark:bg-slate-900 " + section.accent}
               >
-                <span className="text-xs font-semibold">{t.kind === "flow" ? "🔀 Decision go-by" : "☑️ Checklist"}</span>
+                <span className="text-xs font-semibold">{t.kind === "flow" ? "🔀 Decision go-by" : t.kind === "template" ? "📝 Report template" : "☑️ Checklist"}</span>
                 <span className="text-sm font-medium leading-snug text-slate-800 dark:text-slate-100">{t.title}</span>
               </Link>
             ))}
           </div>
         </section>
+      ) : null}
+
+      {slug === "motor-vehicle" ? (
+        <Link href="/tools/points" className="mb-4 flex min-h-[56px] items-center justify-between rounded-2xl border-l-4 border-blue-600 bg-white px-4 shadow-sm dark:bg-slate-900">
+          <span className="font-semibold">🎯 Points & penalties table</span>
+          <span aria-hidden className="text-slate-400">›</span>
+        </Link>
       ) : null}
 
       {isStatutes ? <div className="mb-3"><BadgeLegend /></div> : null}

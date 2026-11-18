@@ -16,5 +16,12 @@
   "status": "DRAFT",
   "source_verified": false,
   "grade_review": true,
-  "last_verified": null
+  "last_verified": null,
+  "elements": [
+    "b(1): Attempted to cause serious bodily injury, or caused it, purposely or knowingly (or recklessly with extreme indifference)",
+    "OR b(2): Attempted to cause or caused bodily injury with a deadly weapon, purposely or knowingly",
+    "OR b(5): Committed a simple assault against a protected victim (officer, EMS, health care worker, etc.)",
+    "b(5): The victim was acting in the performance of duties (or because of their status), and the suspect knew or should have known it",
+    "Record the level of injury: none, bodily, significant or serious"
+  ]
 }
