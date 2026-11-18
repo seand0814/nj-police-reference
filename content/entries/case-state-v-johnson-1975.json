@@ -1,0 +1,25 @@
+{
+  "id": "case-state-v-johnson-1975",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Johnson (N.J. 1975)",
+  "source_type": "case",
+  "citation": "State v. Johnson, 68 N.J. 349 (1975)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Under the NJ Constitution, the State must show the person giving consent knew of the right to refuse."
+  ],
+  "officer_notes": [
+    "Scenario: You ask a homeowner for consent to search without telling him he can say no.",
+    "Takeaway: Always advise the right to refuse and document it, ideally on a consent form and BWC."
+  ],
+  "related": [
+    "case-schneckloth-v-bustamonte",
+    "case-state-v-carty"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Consent Searches"
+}

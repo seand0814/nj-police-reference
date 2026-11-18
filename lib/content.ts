@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import {
+  CASE_GROUPS,
   HUB_GROUPS,
   HUB_STATUTES,
   MV_TYPES,
@@ -104,7 +105,14 @@ function toRow(e: Entry): Row {
     href: `/entry/${e.id}`,
     title: e.title,
     citation: e.citation ?? "",
-    badge: gradeBadge(e.grade_or_penalty, e.citation),
+    badge:
+      e.source_type === "case"
+        ? /\bN\.J\.|\(N\.J\./.test(e.citation ?? "") || /\(N\.J\./.test(e.title)
+          ? { label: "NJ", cls: "bg-emerald-600 text-white" }
+          : /U\.S\.|S\. ?Ct\./.test(e.citation ?? "")
+            ? { label: "U.S.", cls: "bg-indigo-600 text-white" }
+            : null
+        : gradeBadge(e.grade_or_penalty, e.citation),
     review: !!e.grade_review,
   };
 }
@@ -187,7 +195,7 @@ export function sectionGroups(slug: string): { byType: Group[]; byChapter?: Grou
 
   // Hub sections: named groups, then related statutes that live in other sections.
   const rows = entries.map((e) => ({ key: e.group || HUB_GROUPS[e.id] || "Procedures & Reference", row: toRow(e) }));
-  const groups = bucket(rows, [...new Set(Object.values(HUB_GROUPS)), "Procedures & Reference"]);
+  const groups = bucket(rows, [...new Set([...CASE_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
   const filter = HUB_STATUTES[slug];
   if (filter) {
     const related = allEntries().filter((e) => {

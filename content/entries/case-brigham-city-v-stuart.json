@@ -1,0 +1,25 @@
+{
+  "id": "case-brigham-city-v-stuart",
+  "category": "Case Law & Legal Terms",
+  "title": "Brigham City v. Stuart (2006)",
+  "source_type": "case",
+  "citation": "Brigham City v. Stuart, 547 U.S. 398 (2006)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Officers may enter a home without a warrant when they have an objectively reasonable basis to believe an occupant is seriously injured or imminently threatened.",
+    "New Jersey: See State v. Edmonds, 211 N.J. 117 (2012): the emergency-aid entry needs an objectively reasonable basis and the scope is limited to the emergency."
+  ],
+  "officer_notes": [
+    "Scenario: Through a window you see a fight in a kitchen and a teen punch an adult, who spits blood.",
+    "Takeaway: Document what you saw or heard that showed an emergency."
+  ],
+  "related": [
+    "case-state-v-edmonds"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Homes, Exigency & Emergency Aid"
+}

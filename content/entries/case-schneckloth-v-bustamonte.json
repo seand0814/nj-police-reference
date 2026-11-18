@@ -1,0 +1,25 @@
+{
+  "id": "case-schneckloth-v-bustamonte",
+  "category": "Case Law & Legal Terms",
+  "title": "Schneckloth v. Bustamonte (1973)",
+  "source_type": "case",
+  "citation": "Schneckloth v. Bustamonte, 412 U.S. 218 (1973)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Federally, consent must be voluntary under the totality of the circumstances; knowledge of the right to refuse is a factor but not required.",
+    "New Jersey: State v. Johnson, 68 N.J. 349 (1975) requires proof that the person knew they could refuse."
+  ],
+  "officer_notes": [
+    "Scenario: During a stop you ask 'Mind if I look in the trunk?' and the driver says sure.",
+    "Takeaway: NJ is stricter; see State v. Johnson and State v. Carty."
+  ],
+  "related": [
+    "case-state-v-johnson-1975"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Consent Searches"
+}

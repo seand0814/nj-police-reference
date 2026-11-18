@@ -1,0 +1,24 @@
+{
+  "id": "case-missouri-v-mcneely",
+  "category": "Case Law & Legal Terms",
+  "title": "Missouri v. McNeely (2013)",
+  "source_type": "case",
+  "citation": "Missouri v. McNeely, 569 U.S. 141 (2013)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: The natural dissipation of alcohol does not automatically create an exigency for a warrantless blood draw; exigency is judged case by case."
+  ],
+  "officer_notes": [
+    "Scenario: In a routine DWI arrest with a judge available, you want blood drawn without a warrant.",
+    "Takeaway: Seek a warrant for blood unless specific facts create a real emergency."
+  ],
+  "related": [
+    "case-birchfield-v-north-dakota"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "DWI & Chemical Tests"
+}

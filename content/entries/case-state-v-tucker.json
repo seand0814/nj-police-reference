@@ -1,0 +1,24 @@
+{
+  "id": "case-state-v-tucker",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Tucker (N.J. 1994)",
+  "source_type": "case",
+  "citation": "State v. Tucker, 136 N.J. 158 (1994)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Under the NJ Constitution, a person is seized when an officer's words or actions would make a reasonable person believe they are not free to leave, even if they have not submitted. Flight alone, without reasonable suspicion beforehand, did not justify the chase."
+  ],
+  "officer_notes": [
+    "Scenario: You chase a teen who ran when your car turned the corner, with no other suspicious facts. He drops drugs during the chase.",
+    "Takeaway: In NJ the chase can be the seizure; you need reasonable suspicion before you pursue."
+  ],
+  "related": [
+    "case-california-v-hodari-d"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Stops & Reasonable Suspicion"
+}

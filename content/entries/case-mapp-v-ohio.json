@@ -1,0 +1,24 @@
+{
+  "id": "case-mapp-v-ohio",
+  "category": "Case Law & Legal Terms",
+  "title": "Mapp v. Ohio (1961)",
+  "source_type": "case",
+  "citation": "Mapp v. Ohio, 367 U.S. 643 (1961)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Evidence obtained through an unconstitutional search is inadmissible in state court."
+  ],
+  "officer_notes": [
+    "Scenario: Officers force their way into a home without a warrant and find obscene materials.",
+    "Takeaway: A bad search can lose the whole case."
+  ],
+  "related": [
+    "case-state-v-novembrino"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Evidence, Exclusion & ID"
+}

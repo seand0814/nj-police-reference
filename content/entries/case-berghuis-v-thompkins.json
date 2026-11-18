@@ -1,0 +1,23 @@
+{
+  "id": "case-berghuis-v-thompkins",
+  "category": "Case Law & Legal Terms",
+  "title": "Berghuis v. Thompkins (2010)",
+  "source_type": "case",
+  "citation": "Berghuis v. Thompkins, 560 U.S. 370 (2010)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Federally, a suspect must invoke the right to silence unambiguously; remaining mostly silent is not an invocation.",
+    "New Jersey: NJ courts require officers to scrupulously honor any indication, even ambiguous, that a suspect wishes to stop; clarify before continuing."
+  ],
+  "officer_notes": [
+    "Scenario: A suspect sits silent for most of a long interview, then answers one question.",
+    "Takeaway: NJ is more protective; treat ambiguous statements as a cue to stop and clarify."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Interrogation & Miranda"
+}

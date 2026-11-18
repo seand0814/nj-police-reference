@@ -1,0 +1,24 @@
+{
+  "id": "case-barnes-v-felix",
+  "category": "Case Law & Legal Terms",
+  "title": "Barnes v. Felix (2025)",
+  "source_type": "case",
+  "citation": "Barnes v. Felix, 605 U.S. ___ (2025)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Rejected the 'moment of threat' approach; courts must consider the totality of the circumstances, including events leading up to the use of force."
+  ],
+  "officer_notes": [
+    "Scenario: An officer jumps on a slowly moving car's doorsill during a traffic stop and fires.",
+    "Takeaway: Your decisions leading up to force are part of the reasonableness review; de-escalate early."
+  ],
+  "related": [
+    "case-graham-v-connor"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Use of Force"
+}

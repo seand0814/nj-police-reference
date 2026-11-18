@@ -1,0 +1,24 @@
+{
+  "id": "case-state-v-witt",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Witt (N.J. 2015)",
+  "source_type": "case",
+  "citation": "State v. Witt, 223 N.J. 409 (2015)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: NJ allows a warrantless on-scene vehicle search when probable cause arises from unforeseeable and spontaneous circumstances. If the car is towed and impounded, get a warrant."
+  ],
+  "officer_notes": [
+    "Scenario: During a stop for a traffic violation you see a handgun's grip under the seat. You search the car at the roadside.",
+    "Takeaway: Search at the scene or get a warrant; don't tow first and search later without one."
+  ],
+  "related": [
+    "case-carroll-v-us"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Vehicle Searches"
+}

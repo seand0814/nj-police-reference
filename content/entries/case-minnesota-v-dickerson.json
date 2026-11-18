@@ -1,0 +1,24 @@
+{
+  "id": "case-minnesota-v-dickerson",
+  "category": "Case Law & Legal Terms",
+  "title": "Minnesota v. Dickerson (1993)",
+  "source_type": "case",
+  "citation": "Minnesota v. Dickerson, 508 U.S. 366 (1993)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: During a lawful frisk, an officer may seize an object whose contraband nature is immediately apparent by touch. Squeezing or manipulating an object after determining it is not a weapon exceeds the frisk."
+  ],
+  "officer_notes": [
+    "Scenario: During a pat-down you feel a small lump in a jacket pocket. It is clearly not a weapon, so you roll it between your fingers to figure out what it is.",
+    "Takeaway: Once you know it's not a weapon, stop. Seize only if it is immediately recognizable as contraband."
+  ],
+  "related": [
+    "case-terry-v-ohio"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Frisks & Pat-Downs"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "case-state-v-henderson",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Henderson (N.J. 2011)",
+  "source_type": "case",
+  "citation": "State v. Henderson, 208 N.J. 208 (2011)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Revised NJ's approach to eyewitness identification based on scientific research; suggestive procedures (such as lack of double-blind administration, poor instructions) are scrutinized."
+  ],
+  "officer_notes": [
+    "Scenario: You show a victim a photo array yourself, knowing which photo is the suspect, and say 'Take your time, he's in there.'",
+    "Takeaway: Follow the AG eyewitness identification procedures: blind administration, neutral instructions, record confidence."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Evidence, Exclusion & ID"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "case-riley-v-california",
+  "category": "Case Law & Legal Terms",
+  "title": "Riley v. California (2014)",
+  "source_type": "case",
+  "citation": "Riley v. California, 573 U.S. 373 (2014)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Police generally must get a warrant before searching the digital contents of a cell phone seized during an arrest."
+  ],
+  "officer_notes": [
+    "Scenario: You arrest a man and want to scroll through his text messages at the scene.",
+    "Takeaway: Secure the phone and get a warrant; exigencies are rare and must be documented."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Phones, Data & Privacy"
+}

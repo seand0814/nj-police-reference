@@ -1,0 +1,24 @@
+{
+  "id": "case-maryland-v-shatzer",
+  "category": "Case Law & Legal Terms",
+  "title": "Maryland v. Shatzer (2010)",
+  "source_type": "case",
+  "citation": "Maryland v. Shatzer, 559 U.S. 98 (2010)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: The Edwards bar on reinterrogation ends after a break in custody of at least 14 days."
+  ],
+  "officer_notes": [
+    "Scenario: A suspect who invoked counsel was released; three weeks later investigators approach him again with fresh warnings.",
+    "Takeaway: Track invocation dates and custody status carefully."
+  ],
+  "related": [
+    "case-edwards-v-arizona"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Interrogation & Miranda"
+}

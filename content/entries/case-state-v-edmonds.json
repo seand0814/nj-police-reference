@@ -1,0 +1,24 @@
+{
+  "id": "case-state-v-edmonds",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Edmonds (N.J. 2012)",
+  "source_type": "case",
+  "citation": "State v. Edmonds, 211 N.J. 117 (2012)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Emergency-aid entry requires an objectively reasonable basis to believe an emergency requires immediate help, and the search must be limited to that purpose. Once the person is found safe, the justification ends."
+  ],
+  "officer_notes": [
+    "Scenario: A 911 hang-up leads you to a home where the caller answers the door calm and uninjured, but you insist on searching every room.",
+    "Takeaway: Confirm the emergency, address it, and stop."
+  ],
+  "related": [
+    "case-brigham-city-v-stuart"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Homes, Exigency & Emergency Aid"
+}

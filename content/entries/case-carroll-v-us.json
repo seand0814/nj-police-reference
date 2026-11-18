@@ -1,0 +1,24 @@
+{
+  "id": "case-carroll-v-us",
+  "category": "Case Law & Legal Terms",
+  "title": "Carroll v. United States (1925)",
+  "source_type": "case",
+  "citation": "Carroll v. United States, 267 U.S. 132 (1925)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: The automobile exception: police may search a vehicle without a warrant when they have probable cause it contains contraband or evidence."
+  ],
+  "officer_notes": [
+    "Scenario: Federal officers with probable cause that a car is carrying bootleg liquor search it on the highway.",
+    "Takeaway: In NJ, the automobile exception has extra limits; see State v. Witt."
+  ],
+  "related": [
+    "case-state-v-witt"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Vehicle Searches"
+}

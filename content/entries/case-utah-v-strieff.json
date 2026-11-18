@@ -1,0 +1,22 @@
+{
+  "id": "case-utah-v-strieff",
+  "category": "Case Law & Legal Terms",
+  "title": "Utah v. Strieff (2016)",
+  "source_type": "case",
+  "citation": "Utah v. Strieff, 579 U.S. 232 (2016)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Discovering a valid, pre-existing arrest warrant during an unlawful stop can attenuate the connection to evidence found in a search incident to arrest."
+  ],
+  "officer_notes": [
+    "Scenario: After an unjustified stop, you discover a warrant, arrest the man and find drugs.",
+    "Takeaway: Don't rely on this; make lawful stops. NJ applies its own attenuation analysis."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Evidence, Exclusion & ID"
+}

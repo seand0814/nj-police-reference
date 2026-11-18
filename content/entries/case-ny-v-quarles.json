@@ -1,0 +1,22 @@
+{
+  "id": "case-ny-v-quarles",
+  "category": "Case Law & Legal Terms",
+  "title": "New York v. Quarles (1984)",
+  "source_type": "case",
+  "citation": "New York v. Quarles, 467 U.S. 649 (1984)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: A public safety exception allows questions reasonably prompted by an immediate threat to public safety before Miranda warnings."
+  ],
+  "officer_notes": [
+    "Scenario: You catch an armed rape suspect in a supermarket wearing an empty holster and ask 'Where's the gun?'",
+    "Takeaway: Limit pre-Miranda questions to the safety threat itself."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Interrogation & Miranda"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "case-us-v-robinson",
+  "category": "Case Law & Legal Terms",
+  "title": "United States v. Robinson (1973)",
+  "source_type": "case",
+  "citation": "United States v. Robinson, 414 U.S. 218 (1973)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: After a lawful custodial arrest, officers may fully search the arrestee's person without additional justification."
+  ],
+  "officer_notes": [
+    "Scenario: You arrest a driver on a warrant and find drugs in a cigarette pack in his pocket.",
+    "Takeaway: Applies to custodial arrests, not to summonses (Knowles v. Iowa)."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Search Incident to Arrest"
+}

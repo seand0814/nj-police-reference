@@ -1,0 +1,22 @@
+{
+  "id": "case-tennessee-v-garner",
+  "category": "Case Law & Legal Terms",
+  "title": "Tennessee v. Garner (1985)",
+  "source_type": "case",
+  "citation": "Tennessee v. Garner, 471 U.S. 1 (1985)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Deadly force may not be used to stop a fleeing suspect unless the officer has probable cause the suspect poses a significant threat of death or serious physical injury."
+  ],
+  "officer_notes": [
+    "Scenario: An unarmed burglar climbs a fence to escape.",
+    "Takeaway: Flight alone never justifies deadly force; the NJ AG policy is stricter still."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Use of Force"
+}

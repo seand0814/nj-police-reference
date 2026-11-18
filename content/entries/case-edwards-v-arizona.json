@@ -1,0 +1,24 @@
+{
+  "id": "case-edwards-v-arizona",
+  "category": "Case Law & Legal Terms",
+  "title": "Edwards v. Arizona (1981)",
+  "source_type": "case",
+  "citation": "Edwards v. Arizona, 451 U.S. 477 (1981)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Once a suspect invokes the right to counsel, police may not question him further until counsel is present, unless the suspect himself starts the conversation."
+  ],
+  "officer_notes": [
+    "Scenario: A suspect says 'I want a lawyer.' An hour later detectives return to ask if he has changed his mind.",
+    "Takeaway: Stop and do not reinitiate."
+  ],
+  "related": [
+    "case-maryland-v-shatzer"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Interrogation & Miranda"
+}

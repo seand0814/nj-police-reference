@@ -1,0 +1,24 @@
+{
+  "id": "case-birchfield-v-north-dakota",
+  "category": "Case Law & Legal Terms",
+  "title": "Birchfield v. North Dakota (2016)",
+  "source_type": "case",
+  "citation": "Birchfield v. North Dakota, 579 U.S. 438 (2016)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Breath tests may be required as a search incident to a lawful DWI arrest; blood tests require a warrant or consent."
+  ],
+  "officer_notes": [
+    "Scenario: After a DWI arrest, you require a breath test at headquarters.",
+    "Takeaway: Breath is fine incident to arrest; blood needs a warrant or a valid exception."
+  ],
+  "related": [
+    "case-missouri-v-mcneely"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "DWI & Chemical Tests"
+}

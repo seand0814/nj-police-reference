@@ -1,0 +1,25 @@
+{
+  "id": "case-california-v-hodari-d",
+  "category": "Case Law & Legal Terms",
+  "title": "California v. Hodari D. (1991)",
+  "source_type": "case",
+  "citation": "California v. Hodari D., 499 U.S. 621 (1991)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Federally, a person who flees is not seized until he submits or is physically restrained, so items he throws while running are not the fruit of a seizure.",
+    "New Jersey: Rejected by State v. Tucker, 136 N.J. 158 (1994): a seizure occurs when police conduct would lead a reasonable person to believe they are not free to leave."
+  ],
+  "officer_notes": [
+    "Scenario: A youth runs as you approach and tosses a bag of drugs before you catch him.",
+    "Takeaway: In NJ, do not rely on this rule: NJ looks at when a reasonable person would feel not free to leave."
+  ],
+  "related": [
+    "case-state-v-tucker"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Stops & Reasonable Suspicion"
+}

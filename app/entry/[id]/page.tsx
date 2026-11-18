@@ -28,12 +28,23 @@ function List({ title, icon, items }: { title: string; icon: string; items: stri
         <span aria-hidden>{icon}</span> {title}
       </h2>
       <ul className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        {items.map((t, i) => (
-          <li key={i} className="flex gap-3 border-b border-slate-100 p-4 leading-relaxed last:border-0 dark:border-slate-800">
-            <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400" />
-            <span>{t}</span>
-          </li>
-        ))}
+        {items.map((t, i) => {
+          // Lines like "Holding: ..." or "Scenario: ..." get a bold label.
+          const m = t.match(/^([A-Z][A-Za-z ]{2,20}):\s+([\s\S]*)$/);
+          return (
+            <li key={i} className="flex gap-3 border-b border-slate-100 p-4 leading-relaxed last:border-0 dark:border-slate-800">
+              <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400" />
+              {m ? (
+                <span>
+                  <span className="mb-0.5 block text-xs font-bold uppercase tracking-wide text-slate-500">{m[1]}</span>
+                  {m[2]}
+                </span>
+              ) : (
+                <span>{t}</span>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
@@ -80,8 +91,17 @@ export default async function EntryPage({ params }: { params: Params }) {
         </section>
       ) : null}
 
-      <List title="Key points" icon="📌" items={entry.key_points} />
-      <List title="Officer notes" icon="👮" items={entry.officer_notes} />
+      {entry.source_type === "case" ? (
+        <>
+          <List title="The ruling" icon="⚖️" items={entry.key_points} />
+          <List title="In the field" icon="👮" items={entry.officer_notes} />
+        </>
+      ) : (
+        <>
+          <List title="Key points" icon="📌" items={entry.key_points} />
+          <List title="Officer notes" icon="👮" items={entry.officer_notes} />
+        </>
+      )}
 
       {related.length ? (
         <section className="mt-5">

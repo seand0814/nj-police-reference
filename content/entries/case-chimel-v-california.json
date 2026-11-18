@@ -1,0 +1,22 @@
+{
+  "id": "case-chimel-v-california",
+  "category": "Case Law & Legal Terms",
+  "title": "Chimel v. California (1969)",
+  "source_type": "case",
+  "citation": "Chimel v. California, 395 U.S. 752 (1969)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: A search incident to arrest is limited to the arrestee's person and the area within immediate control."
+  ],
+  "officer_notes": [
+    "Scenario: After arresting a man in his living room, officers search the entire house.",
+    "Takeaway: Search the person and reachable area; anything beyond needs a warrant or another exception."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Search Incident to Arrest"
+}

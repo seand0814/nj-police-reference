@@ -1,0 +1,24 @@
+{
+  "id": "case-state-v-carty",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Carty (N.J. 2002)",
+  "source_type": "case",
+  "citation": "State v. Carty, 170 N.J. 632 (2002)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Before asking for consent to search a lawfully stopped motor vehicle, the officer must have reasonable and articulable suspicion that the search will reveal evidence of a crime."
+  ],
+  "officer_notes": [
+    "Scenario: A routine speeding stop with nothing suspicious, and you ask to search the car.",
+    "Takeaway: No reasonable suspicion, no consent request on a vehicle stop."
+  ],
+  "related": [
+    "case-state-v-johnson-1975"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Consent Searches"
+}

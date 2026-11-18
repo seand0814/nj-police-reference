@@ -29,7 +29,7 @@ export const SECTIONS: Section[] = [
     tile: "from-fuchsia-600 to-pink-700", accent: "border-fuchsia-600 text-fuchsia-700 dark:text-fuchsia-300", chip: "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200" },
   { slug: "force-search", name: "Use of Force & Search", short: "Force & Search", icon: "🛡️", blurb: "AG force policy, stops, frisks, searches",
     tile: "from-violet-600 to-purple-700", accent: "border-violet-600 text-violet-700 dark:text-violet-300", chip: "bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-200" },
-  { slug: "case-law", name: "Case Law & Legal Terms", short: "Case Law", icon: "📜", blurb: "Key cases, Miranda, definitions",
+  { slug: "case-law", name: "Case Law Library", short: "Case Law", icon: "📜", blurb: "Key U.S. and NJ cases with field scenarios",
     tile: "from-indigo-600 to-slate-700", accent: "border-indigo-600 text-indigo-700 dark:text-indigo-300", chip: "bg-indigo-100 text-indigo-800 dark:bg-indigo-950 dark:text-indigo-200" },
   { slug: "investigations", name: "Investigations", short: "Investigations", icon: "🔍", blurb: "Deaths, missing persons, crises, sex crimes",
     tile: "from-teal-600 to-cyan-700", accent: "border-teal-600 text-teal-700 dark:text-teal-300", chip: "bg-teal-100 text-teal-800 dark:bg-teal-950 dark:text-teal-200" },
@@ -233,6 +233,26 @@ export const HUB_GROUPS: Record<string, string> = {
   ics: "Incident Command", "radio-pursuits": "Pursuits", "hazmat-erg": "Hazmat", "terrorism-awareness": "Terrorism",
   "peel-principles": "Principles",
 };
+
+/** Display order for groups in the Case Law section. */
+export const CASE_GROUPS = [
+  "Stops & Reasonable Suspicion",
+  "Frisks & Pat-Downs",
+  "Motor Vehicle Stops",
+  "Vehicle Searches",
+  "Search Incident to Arrest",
+  "Homes, Exigency & Emergency Aid",
+  "Consent Searches",
+  "Plain View, Dogs & Technology",
+  "Phones, Data & Privacy",
+  "DWI & Chemical Tests",
+  "Interrogation & Miranda",
+  "Use of Force",
+  "Evidence, Exclusion & ID",
+  "Threats & Speech",
+  "Constitution & Terms",
+  "Overviews",
+];
 
 /** Statutes shown as a "Related statutes" group inside hub sections (they also stay in their own section). */
 export const HUB_STATUTES: Record<string, (c: Cite) => boolean> = {

@@ -13,6 +13,22 @@ in the user's own browser (localStorage) and never leave the device.
 2. Add New → Project → import this repository. Leave every setting at its default.
 3. Deploy. Each push to `main` redeploys automatically.
 
+## AI assistant (Ask AI tab)
+
+The `/ask` page sends questions to `/api/chat`, which calls the Anthropic Messages API and streams the answer.
+It adds the most relevant app entries to each request so answers line up with the app's content.
+
+Set these in Vercel → Project → Settings → Environment Variables, then redeploy:
+
+| Variable | Required | Notes |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | yes | From console.anthropic.com → API Keys. Never commit it. |
+| `CHAT_MODEL` | no | Defaults to `claude-sonnet-5-5`. |
+| `CHAT_RATE_LIMIT_PER_HOUR` | no | Per-IP questions per hour, default 30 (best effort). |
+
+Set a monthly spend limit in the Anthropic Console: the site is public, so anyone can use the assistant.
+Without a key, the page still loads and shows that the assistant isn't set up.
+
 ## Run locally (computer only)
 
 ```bash
@@ -57,7 +73,7 @@ You can edit these files directly on github.com; Vercel rebuilds the site on sav
 
 ## Content status
 
-- 610 entries. 24 were checked against a public source; the rest are written from general knowledge of
+- 687 entries (including a 77-case law library). 24 were checked against a public source; the rest are written from general knowledge of
   NJ law and show "Not yet verified".
 - 345 grades are flagged `grade_review` and display "Grade under review — confirm before charging."
 - All text is original. `pipeline/` holds the scripts and data used to generate the entries; the

@@ -1,0 +1,22 @@
+{
+  "id": "case-state-v-andrews",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Andrews (N.J. 2020)",
+  "source_type": "case",
+  "citation": "State v. Andrews, 243 N.J. 447 (2020)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: A court may compel a defendant to disclose phone passcodes when a warrant authorizes the search and the State shows it already knows the passcodes exist, the defendant possesses them and they are authentic (foregone conclusion)."
+  ],
+  "officer_notes": [
+    "Scenario: With a warrant for two phones, the prosecutor seeks an order requiring the defendant to unlock them.",
+    "Takeaway: Work with the prosecutor; this is a court process, not a roadside demand."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Phones, Data & Privacy"
+}

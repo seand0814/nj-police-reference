@@ -1,0 +1,22 @@
+{
+  "id": "case-state-v-shaw",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Shaw (N.J. 2012)",
+  "source_type": "case",
+  "citation": "State v. Shaw, 213 N.J. 398 (2012)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Officers executing a warrant for one person may not detain someone else simply because he is nearby or shares a general characteristic with the wanted person."
+  ],
+  "officer_notes": [
+    "Scenario: Looking for a wanted man described only by race, you stop a different man walking out of the same building.",
+    "Takeaway: Detain only people who actually match a specific description or about whom you have independent suspicion."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Stops & Reasonable Suspicion"
+}

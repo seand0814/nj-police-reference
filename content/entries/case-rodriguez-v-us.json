@@ -1,0 +1,25 @@
+{
+  "id": "case-rodriguez-v-us",
+  "category": "Case Law & Legal Terms",
+  "title": "Rodriguez v. United States (2015)",
+  "source_type": "case",
+  "citation": "Rodriguez v. United States, 575 U.S. 348 (2015)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Police may not extend a completed traffic stop, even briefly, to conduct a dog sniff without reasonable suspicion."
+  ],
+  "officer_notes": [
+    "Scenario: You finish writing a warning, then hold the driver seven minutes for a K-9 unit with no new suspicion.",
+    "Takeaway: Once the stop's mission is complete, release the driver unless you have independent reasonable suspicion."
+  ],
+  "related": [
+    "case-state-v-dunbar",
+    "case-illinois-v-caballes"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Motor Vehicle Stops"
+}

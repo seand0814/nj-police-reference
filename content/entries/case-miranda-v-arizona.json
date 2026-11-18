@@ -1,0 +1,24 @@
+{
+  "id": "case-miranda-v-arizona",
+  "category": "Case Law & Legal Terms",
+  "title": "Miranda v. Arizona (1966)",
+  "source_type": "case",
+  "citation": "Miranda v. Arizona, 384 U.S. 436 (1966)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Before custodial interrogation, a suspect must be warned of the right to remain silent, that statements can be used against them, and the right to an attorney (appointed if needed)."
+  ],
+  "officer_notes": [
+    "Scenario: You arrest a burglary suspect and, in the patrol car, ask him where the stolen items are.",
+    "Takeaway: Custody plus questioning means warnings first."
+  ],
+  "related": [
+    "case-state-v-oneill"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Interrogation & Miranda"
+}

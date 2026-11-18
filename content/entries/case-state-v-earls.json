@@ -1,0 +1,24 @@
+{
+  "id": "case-state-v-earls",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Earls (N.J. 2013)",
+  "source_type": "case",
+  "citation": "State v. Earls, 214 N.J. 564 (2013)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Under the NJ Constitution, police need a warrant (or an exception such as exigency) to obtain cell phone location information from a provider."
+  ],
+  "officer_notes": [
+    "Scenario: Looking for a burglary suspect, you ask the carrier to ping his phone without a warrant or emergency.",
+    "Takeaway: Location data requires a warrant unless a real emergency exists."
+  ],
+  "related": [
+    "case-carpenter-v-us"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Phones, Data & Privacy"
+}

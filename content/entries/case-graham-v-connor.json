@@ -1,0 +1,24 @@
+{
+  "id": "case-graham-v-connor",
+  "category": "Case Law & Legal Terms",
+  "title": "Graham v. Connor (1989)",
+  "source_type": "case",
+  "citation": "Graham v. Connor, 490 U.S. 386 (1989)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Force claims are judged by objective reasonableness from the perspective of a reasonable officer on the scene, considering the severity of the crime, the immediate threat, and active resistance or flight."
+  ],
+  "officer_notes": [
+    "Scenario: A diabetic man's erratic behavior leads officers to handcuff him forcefully while investigating a possible robbery.",
+    "Takeaway: Articulate each Graham factor in your report; NJ's AG policy adds stricter limits."
+  ],
+  "related": [
+    "case-barnes-v-felix"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Use of Force"
+}

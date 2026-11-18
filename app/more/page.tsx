@@ -2,6 +2,8 @@ import Link from "next/link";
 import { DISCLAIMER, PageTitle } from "@/components/ui";
 
 const LINKS = [
+  { href: "/saved", label: "Saved Entries", icon: "⭐", cls: "bg-yellow-100 text-yellow-900 dark:bg-yellow-950 dark:text-yellow-100" },
+  { href: "/s/case-law", label: "Case Law Library", icon: "📜", cls: "bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-100" },
   { href: "/notes", label: "My Notes", icon: "📝", cls: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-100" },
   { href: "/contacts", label: "My Phone Numbers", icon: "📞", cls: "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100" },
   { href: "/radio-codes", label: "Radio Codes", icon: "📻", cls: "bg-violet-100 text-violet-900 dark:bg-violet-950 dark:text-violet-100" },

@@ -1,0 +1,24 @@
+{
+  "id": "case-terry-v-ohio",
+  "category": "Case Law & Legal Terms",
+  "title": "Terry v. Ohio (1968)",
+  "source_type": "case",
+  "citation": "Terry v. Ohio, 392 U.S. 1 (1968)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Police may briefly stop a person on reasonable, articulable suspicion of criminal activity, and may frisk outer clothing for weapons if they reasonably suspect the person is armed and dangerous."
+  ],
+  "officer_notes": [
+    "Scenario: You watch two men take turns walking past a jewelry store window a dozen times and conferring at the corner. You stop them to ask questions.",
+    "Takeaway: Write down the specific facts that made you suspicious; a hunch is not enough."
+  ],
+  "related": [
+    "case-minnesota-v-dickerson"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Stops & Reasonable Suspicion"
+}

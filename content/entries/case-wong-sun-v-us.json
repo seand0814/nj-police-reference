@@ -1,0 +1,22 @@
+{
+  "id": "case-wong-sun-v-us",
+  "category": "Case Law & Legal Terms",
+  "title": "Wong Sun v. United States (1963)",
+  "source_type": "case",
+  "citation": "Wong Sun v. United States, 371 U.S. 471 (1963)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Evidence derived from an illegal search or arrest ('fruit of the poisonous tree') is excluded unless an exception applies."
+  ],
+  "officer_notes": [
+    "Scenario: An unlawful arrest leads to a statement that leads to drugs at another location.",
+    "Takeaway: Legal errors early in a case spread to everything that follows."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Evidence, Exclusion & ID"
+}

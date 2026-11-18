@@ -1,0 +1,22 @@
+{
+  "id": "case-whren-v-us",
+  "category": "Case Law & Legal Terms",
+  "title": "Whren v. United States (1996)",
+  "source_type": "case",
+  "citation": "Whren v. United States, 517 U.S. 806 (1996)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: A traffic stop supported by probable cause of a violation is reasonable regardless of the officer's actual motive."
+  ],
+  "officer_notes": [
+    "Scenario: You stop a car for failing to signal a turn; you also suspect drug activity.",
+    "Takeaway: The violation must be real and documented. Bias-based policing is still prohibited by NJ AG directives."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Motor Vehicle Stops"
+}

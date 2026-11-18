@@ -1,0 +1,25 @@
+{
+  "id": "case-maryland-v-wilson",
+  "category": "Case Law & Legal Terms",
+  "title": "Maryland v. Wilson (1997)",
+  "source_type": "case",
+  "citation": "Maryland v. Wilson, 519 U.S. 408 (1997)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Federally, officers may order passengers out of a lawfully stopped car without further justification.",
+    "New Jersey: State v. Smith, 134 N.J. 599 (1994) requires specific facts creating a heightened awareness of danger before ordering a passenger out."
+  ],
+  "officer_notes": [
+    "Scenario: During a stop you want the front passenger out of the car.",
+    "Takeaway: In NJ, apply State v. Smith instead."
+  ],
+  "related": [
+    "case-state-v-smith-1994"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Motor Vehicle Stops"
+}

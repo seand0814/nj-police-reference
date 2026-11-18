@@ -1,0 +1,22 @@
+{
+  "id": "case-kyllo-v-us",
+  "category": "Case Law & Legal Terms",
+  "title": "Kyllo v. United States (2001)",
+  "source_type": "case",
+  "citation": "Kyllo v. United States, 533 U.S. 27 (2001)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: Using sense-enhancing technology not in general public use to learn details inside a home is a search."
+  ],
+  "officer_notes": [
+    "Scenario: You scan a house with a thermal imager to look for grow lights.",
+    "Takeaway: Get a warrant before using such technology on a home."
+  ],
+  "related": [],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Plain View, Dogs & Technology"
+}

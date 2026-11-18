@@ -4,9 +4,9 @@ import RecentList from "@/components/RecentList";
 import { DISCLAIMER } from "@/components/ui";
 
 const QUICK = [
+  { href: "/ask", icon: "💬", label: "Ask AI", cls: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-100" },
   { href: "/go/dv-arrest", icon: "🏠", label: "DV arrest?", cls: "bg-fuchsia-100 text-fuchsia-900 dark:bg-fuchsia-950 dark:text-fuchsia-100" },
   { href: "/go/dwi-arrest", icon: "🍺", label: "DWI checklist", cls: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-100" },
-  { href: "/go/consent-search", icon: "🚗", label: "Consent search?", cls: "bg-violet-100 text-violet-900 dark:bg-violet-950 dark:text-violet-100" },
   { href: "/tools", icon: "🧮", label: "Grade calculator", cls: "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100" },
 ];
 

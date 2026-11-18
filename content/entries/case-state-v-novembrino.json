@@ -1,0 +1,24 @@
+{
+  "id": "case-state-v-novembrino",
+  "category": "Case Law & Legal Terms",
+  "title": "State v. Novembrino (N.J. 1987)",
+  "source_type": "case",
+  "citation": "State v. Novembrino, 105 N.J. 95 (1987)",
+  "source_url": "",
+  "grade_or_penalty": "",
+  "key_points": [
+    "Holding: NJ does not recognize a good-faith exception to the exclusionary rule."
+  ],
+  "officer_notes": [
+    "Scenario: A judge signs a warrant that later proves to lack probable cause; you relied on it in good faith.",
+    "Takeaway: Write strong, detailed affidavits; good faith won't save a weak warrant in NJ."
+  ],
+  "related": [
+    "case-mapp-v-ohio"
+  ],
+  "status": "DRAFT",
+  "source_verified": false,
+  "grade_review": false,
+  "last_verified": null,
+  "group": "Evidence, Exclusion & ID"
+}

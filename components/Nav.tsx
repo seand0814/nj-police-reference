@@ -6,15 +6,15 @@ import { usePathname } from "next/navigation";
 const TABS = [
   { href: "/", label: "Home", icon: "🏛️" },
   { href: "/search", label: "Search", icon: "🔎" },
+  { href: "/ask", label: "Ask AI", icon: "💬" },
   { href: "/s/checklists", label: "Go-Bys", icon: "✅" },
-  { href: "/saved", label: "Saved", icon: "⭐" },
   { href: "/more", label: "More", icon: "☰" },
 ];
 
 function isActive(href: string, path: string) {
   if (href === "/") return path === "/" || (path.startsWith("/s/") && path !== "/s/checklists") || path.startsWith("/entry/");
   if (href === "/s/checklists") return path === "/s/checklists" || path.startsWith("/go/");
-  if (href === "/more") return ["/more", "/notes", "/contacts", "/radio-codes", "/tools"].some((p) => path.startsWith(p));
+  if (href === "/more") return ["/more", "/notes", "/contacts", "/radio-codes", "/tools", "/saved"].some((p) => path.startsWith(p));
   return path === href || path.startsWith(href + "/");
 }
 
