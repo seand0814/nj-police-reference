@@ -75,7 +75,9 @@ export default function GroupedList({
         </div>
       ) : null}
 
-      <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={placeholder} className={inputCls} />
+      <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 py-2 backdrop-blur dark:bg-slate-950/95">
+        <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={placeholder} className={inputCls} />
+      </div>
 
       {term && filtered.length === 0 ? <p className="mt-4 text-sm text-slate-500">No matches in this section.</p> : null}
 

@@ -1,45 +1,24 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
-import { useIndex, type IndexItem } from "@/lib/useIndex";
+import { useIndex } from "@/lib/useIndex";
+import { prepare, search } from "@/lib/searchLogic";
 import { PageTitle, RowLink, inputCls } from "@/components/ui";
 
-const norm = (s: string) => s.toLowerCase().replace(/n\.?j\.?s\.?a\.?/g, "").replace(/\s+/g, " ").trim();
-
-function score(item: IndexItem, terms: string[]) {
-  const title = norm(item.t);
-  const cite = norm(item.c);
-  const rest = norm(`${item.k} ${item.g} ${item.x}`);
-  let s = item.id.startsWith("go:") ? 2 : 0;
-  for (const term of terms) {
-    if (cite.includes(term)) s += cite.startsWith(term) || cite.includes(" " + term) ? 12 : 8;
-    else if (title.includes(term)) s += title.startsWith(term) ? 10 : 6;
-    else if (rest.includes(term)) s += 1;
-    else return 0; // every term must match somewhere
-  }
-  return s;
-}
-
-const SUGGESTIONS = ["shoplifting", "2C:12-1", "DWI", "careless", "domestic violence", "resisting", "seat belt", "consent search"];
+const SUGGESTIONS = ["shoplifting", "2C:12-1", "DUI", "hit and run", "TRO", "resisting", "weed", "consent search"];
 
 export default function SearchPage() {
   const { items, error } = useIndex();
   const [q, setQ] = useState("");
 
-  const results = useMemo(() => {
-    const terms = norm(q).split(" ").filter(Boolean);
-    if (!items || terms.length === 0) return [];
-    return items
-      .map((it) => ({ it, s: score(it, terms) }))
-      .filter((r) => r.s > 0)
-      .sort((a, b) => b.s - a.s)
-      .slice(0, 80)
-      .map((r) => r.it);
-  }, [items, q]);
+  const prepared = useMemo(() => (items ? prepare(items) : null), [items]);
+  const results = useMemo(() => (prepared && q.trim() ? search(prepared, q) : []), [prepared, q]);
 
   return (
     <>
       <PageTitle sub="Charges, citations, grades, checklists">Search</PageTitle>
+      <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 py-2 backdrop-blur dark:bg-slate-950/95">
       <input
         type="search"
         value={q}
@@ -49,6 +28,10 @@ export default function SearchPage() {
         autoFocus
         enterKeyHint="search"
       />
+      </div>
+      <p className="mt-1 text-xs text-slate-500">
+        Typos and shorthand work (DUI, TRO, DWS, PWID). Prefer to browse? <Link href="/az" className="font-medium text-brand dark:text-brand-dark">A–Z index ›</Link>
+      </p>
       {error ? <p className="mt-3 text-sm text-red-600">Could not load search. Check your connection and reload.</p> : null}
       {!items && !error ? <p className="mt-3 text-sm text-slate-500">Loading…</p> : null}
 

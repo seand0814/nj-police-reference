@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { allEntries, sectionCounts } from "@/lib/content";
+import { allEntries, getEntry, sectionCounts } from "@/lib/content";
+import { gradeBadge } from "@/lib/sections";
 import RecentList from "@/components/RecentList";
-import { DISCLAIMER } from "@/components/ui";
+import { DISCLAIMER, GradeBadge } from "@/components/ui";
 
 const QUICK = [
   { href: "/ask", icon: "💬", label: "Ask AI", cls: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-100" },
@@ -10,9 +11,16 @@ const QUICK = [
   { href: "/tools", icon: "🧮", label: "Grade calculator", cls: "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100" },
 ];
 
+/** Hand-picked everyday charges (no usage tracking, so this list is curated). */
+const COMMON = [
+  "njsa-2c-12-1a", "njsa-2c-12-1b", "njsa-2c-20-11", "njsa-2c-20-3", "njsa-2c-33-4", "njsa-2c-33-2", "njsa-2c-29-2",
+  "njsa-2c-29-9", "njsa-2c-35-10", "njsa-2c-18-3", "njsa-2c-17-3", "njsa-39-4-50", "njsa-39-3-40", "njsa-39-4-97",
+];
+
 export default function Home() {
   const sections = sectionCounts();
   const total = allEntries().length;
+  const common = COMMON.map((id) => getEntry(id)).filter((e) => e !== null);
 
   return (
     <>
@@ -35,6 +43,28 @@ export default function Home() {
             <Link key={q.href} href={q.href} className={"flex min-h-[76px] flex-col items-center justify-center gap-1 rounded-2xl px-1 text-center active:scale-95 " + q.cls}>
               <span aria-hidden className="text-2xl">{q.icon}</span>
               <span className="text-[11px] font-semibold leading-tight">{q.label}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-6">
+        <div className="mb-2 flex items-center justify-between">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Common charges</h2>
+          <Link href="/az" className="text-sm font-medium text-brand dark:text-brand-dark">A–Z index ›</Link>
+        </div>
+        <div className="flex gap-2 overflow-x-auto pb-1">
+          {common.map((e) => (
+            <Link
+              key={e!.id}
+              href={`/entry/${e!.id}`}
+              className="flex min-h-[72px] w-40 shrink-0 flex-col justify-between rounded-2xl border border-slate-200 bg-white px-3 py-2 shadow-sm active:scale-[0.98] dark:border-slate-800 dark:bg-slate-900"
+            >
+              <span className="line-clamp-2 text-sm font-semibold leading-snug">{e!.title}</span>
+              <span className="mt-1 flex items-center justify-between gap-1">
+                <span className="truncate text-[11px] text-slate-500">{(e!.citation ?? "").replace(/^N\.J\.S\.A\.\s*/, "").replace(/\s*\(as amended.*$/, "")}</span>
+                <GradeBadge badge={gradeBadge(e!.grade_or_penalty, e!.citation)} />
+              </span>
             </Link>
           ))}
         </div>

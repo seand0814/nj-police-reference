@@ -2,6 +2,7 @@ import Link from "next/link";
 import { DISCLAIMER, PageTitle } from "@/components/ui";
 
 const LINKS = [
+  { href: "/az", label: "A–Z Index", icon: "🔤", cls: "bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-100" },
   { href: "/saved", label: "Saved Entries", icon: "⭐", cls: "bg-yellow-100 text-yellow-900 dark:bg-yellow-950 dark:text-yellow-100" },
   { href: "/s/case-law", label: "Case Law Library", icon: "📜", cls: "bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-100" },
   { href: "/notes", label: "My Notes", icon: "📝", cls: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-100" },

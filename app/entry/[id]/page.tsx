@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allEntries, entrySection, getEntry, type Entry } from "@/lib/content";
+import { allEntries, entrySection, getEntry, sectionSequence, type Entry } from "@/lib/content";
 import { fullTextUrl, gradeBadge, sectionBySlug } from "@/lib/sections";
 import BookmarkButton from "@/components/BookmarkButton";
 import CopyCharge from "@/components/CopyCharge";
@@ -135,6 +135,13 @@ export default async function EntryPage({ params }: { params: Params }) {
   const related = entry.related.map((id) => getEntry(id)).filter((x) => x !== null);
   const verified = entry.source_verified && entry.last_verified;
   const textUrl = entry.source_type === "statute" ? fullTextUrl(entry.citation) : null;
+  const seq = sectionSequence(section.slug);
+  const pos = seq.findIndex((x) => x.row.id === entry.id);
+  const prev = pos > 0 ? seq[pos - 1].row : null;
+  const next = pos >= 0 && pos < seq.length - 1 ? seq[pos + 1].row : null;
+  const groupName = pos >= 0 ? seq[pos].group : "";
+  const groupRows = seq.filter((x) => x.group === groupName);
+  const posInGroup = groupRows.findIndex((x) => x.row.id === entry.id);
   const isCharge = entry.source_type === "statute" && !!badge && !["Info", "Defense", "Penalty", "Confirm", "Enhancer"].includes(badge.label);
   const chargeText = isCharge
     ? [`${entry.citation} – ${entry.title} – ${LONG_GRADE[badge!.label] ?? badge!.label}`, entry.key_points[0] ?? ""].filter(Boolean).join("\n")
@@ -228,7 +235,31 @@ export default async function EntryPage({ params }: { params: Params }) {
         </section>
       ) : null}
 
-      <footer className="mt-8 space-y-2 rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 dark:bg-slate-900 dark:text-slate-400">
+      {prev || next ? (
+        <nav aria-label="Previous and next" className="mt-8">
+          {groupName ? (
+            <p className="mb-2 text-center text-xs text-slate-500">
+              {groupName} · {posInGroup + 1} of {groupRows.length}
+            </p>
+          ) : null}
+          <div className="grid grid-cols-2 gap-2">
+            {prev ? (
+              <Link href={prev.href} className="flex min-h-[64px] flex-col justify-center rounded-2xl border border-slate-200 bg-white px-3 py-2 shadow-sm active:scale-[0.98] dark:border-slate-800 dark:bg-slate-900">
+                <span className="text-xs font-semibold text-slate-500">‹ Previous</span>
+                <span className="line-clamp-2 text-sm font-medium leading-snug">{prev.title}</span>
+              </Link>
+            ) : <span />}
+            {next ? (
+              <Link href={next.href} className="flex min-h-[64px] flex-col justify-center rounded-2xl border border-slate-200 bg-white px-3 py-2 text-right shadow-sm active:scale-[0.98] dark:border-slate-800 dark:bg-slate-900">
+                <span className="text-xs font-semibold text-slate-500">Next ›</span>
+                <span className="line-clamp-2 text-sm font-medium leading-snug">{next.title}</span>
+              </Link>
+            ) : <span />}
+          </div>
+        </nav>
+      ) : null}
+
+      <footer className="mt-6 space-y-2 rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 dark:bg-slate-900 dark:text-slate-400">
         <p>
           <span className="font-semibold">Source: </span>
           {entry.source_url ? (

@@ -221,6 +221,25 @@ export function sectionGroups(slug: string): { byType: Group[]; byChapter?: Grou
   return { byType: groups, tools };
 }
 
+const seqCache = new Map<string, { row: Row; group: string }[]>();
+
+/** Entries of a section in display order (first view), used for previous/next navigation. */
+export function sectionSequence(slug: string) {
+  if (seqCache.has(slug)) return seqCache.get(slug)!;
+  const own = new Set(sectionEntries(slug).map((e) => e.id));
+  const seen = new Set<string>();
+  const seq: { row: Row; group: string }[] = [];
+  for (const g of sectionGroups(slug).byType) {
+    for (const row of g.rows) {
+      if (!row.href.startsWith("/entry/") || !own.has(row.id) || seen.has(row.id)) continue;
+      seen.add(row.id);
+      seq.push({ row, group: g.name });
+    }
+  }
+  seqCache.set(slug, seq);
+  return seq;
+}
+
 export function searchIndex(): IndexItem[] {
   const entries = allEntries().map((e) => ({
     id: e.id,
