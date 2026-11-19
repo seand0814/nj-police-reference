@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light dark; }
-html { -webkit-text-size-adjust: 100%; }
-body { @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100; }
+html { -webkit-text-size-adjust: 100%; color-scheme: light; }
+html.dark { color-scheme: dark; }
+body {
+  @apply bg-[#f4f6fa] text-slate-900 antialiased dark:bg-ink-950 dark:text-slate-100;
+  font-feature-settings: "cv11", "ss01";
+}
+
+/* Night mode: a red, dimmed view that protects night vision. A full-screen multiply layer
+   turns everything red without changing layouts; it sits above content but ignores taps. */
+html.night body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgb(190, 0, 0);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 2147483647;
+}
+
+/* Hide horizontal scrollbars on swipe rows */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

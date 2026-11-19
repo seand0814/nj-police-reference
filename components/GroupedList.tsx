@@ -106,7 +106,7 @@ export default function GroupedList({
                     citation={r.citation}
                     badge={r.badge}
                     review={r.review}
-                    icon={r.kind === "flow" ? "🔀" : r.kind === "checklist" ? "☑️" : r.kind === "template" ? "📝" : undefined}
+                    icon={r.kind === "flow" ? "branch" : r.kind === "checklist" ? "checklist" : r.kind === "template" ? "template" : undefined}
                   />
                 </li>
               ))}

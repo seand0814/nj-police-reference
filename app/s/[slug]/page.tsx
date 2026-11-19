@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Icon from "@/components/Icon";
+import PageHeader from "@/components/PageHeader";
 import { notFound } from "next/navigation";
 import { sectionCounts, sectionGroups } from "@/lib/content";
 import { SECTIONS, sectionBySlug } from "@/lib/sections";
@@ -30,29 +32,30 @@ export default async function SectionPage({ params }: { params: Params }) {
 
   return (
     <>
-      <header className={"-mx-4 -mt-6 mb-5 bg-gradient-to-br px-4 pb-6 pt-6 text-white " + section.tile}>
-        <Link href="/" className="text-sm text-white/80">← Home</Link>
-        <div className="mt-3 flex items-center gap-3">
-          <span aria-hidden className="text-4xl">{section.icon}</span>
-          <div>
-            <h1 className="text-2xl font-bold leading-tight">{section.name}</h1>
-            <p className="text-sm text-white/85">{count} {slug === "checklists" ? "guides" : "entries"} · {section.blurb}</p>
-          </div>
-        </div>
-      </header>
+      <PageHeader
+        back={{ href: "/", label: "Home" }}
+        icon={section.icon}
+        iconBg={section.iconBg}
+        eyebrow={`${count} ${slug === "checklists" ? "guides" : "entries"}`}
+        title={section.name}
+        subtitle={section.blurb}
+      />
 
       {tools.length ? (
         <section className="mb-5">
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Go-bys & checklists</h2>
-          <div className="flex gap-2 overflow-x-auto pb-1">
+          <h2 className="mb-2.5 text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">Go-bys &amp; checklists</h2>
+          <div className="no-scrollbar -mx-4 flex gap-2.5 overflow-x-auto px-4 pb-1">
             {tools.map((t) => (
               <Link
                 key={t.id}
                 href={t.href}
-                className={"flex min-h-[64px] w-44 shrink-0 flex-col justify-center rounded-2xl border-l-4 bg-white px-3 py-2 shadow-sm dark:bg-slate-900 " + section.accent}
+                className="flex min-h-[76px] w-48 shrink-0 flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-3 shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04]"
               >
-                <span className="text-xs font-semibold">{t.kind === "flow" ? "🔀 Decision go-by" : t.kind === "template" ? "📝 Report template" : "☑️ Checklist"}</span>
-                <span className="text-sm font-medium leading-snug text-slate-800 dark:text-slate-100">{t.title}</span>
+                <span className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
+                  <Icon name={t.kind === "flow" ? "branch" : t.kind === "template" ? "template" : "checklist"} size={14} />
+                  {t.kind === "flow" ? "Decision go-by" : t.kind === "template" ? "Report template" : "Checklist"}
+                </span>
+                <span className="mt-1 text-sm font-semibold leading-snug text-slate-800 dark:text-slate-100">{t.title}</span>
               </Link>
             ))}
           </div>
@@ -60,9 +63,10 @@ export default async function SectionPage({ params }: { params: Params }) {
       ) : null}
 
       {slug === "motor-vehicle" ? (
-        <Link href="/tools/points" className="mb-4 flex min-h-[56px] items-center justify-between rounded-2xl border-l-4 border-blue-600 bg-white px-4 shadow-sm dark:bg-slate-900">
-          <span className="font-semibold">🎯 Points & penalties table</span>
-          <span aria-hidden className="text-slate-400">›</span>
+        <Link href="/tools/points" className="mb-4 flex min-h-[56px] items-center gap-3 rounded-2xl border border-slate-200/80 bg-white px-4 shadow-sm active:scale-[0.99] dark:border-white/10 dark:bg-white/[0.04]">
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-600 text-white"><Icon name="list" size={18} /></span>
+          <span className="flex-1 font-semibold">Points &amp; penalties table</span>
+          <Icon name="chevronRight" size={18} className="text-slate-400" />
         </Link>
       ) : null}
 

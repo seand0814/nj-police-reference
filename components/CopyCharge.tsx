@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Icon from "./Icon";
 
 /** Copies a ready-to-paste charge line, e.g. "N.J.S.A. 2C:20-11 – Shoplifting – graded by value". */
 export default function CopyCharge({ text, label = "Copy charge" }: { text: string; label?: string }) {
@@ -34,9 +35,9 @@ export default function CopyCharge({ text, label = "Copy charge" }: { text: stri
     <button
       type="button"
       onClick={copy}
-      className="inline-flex min-h-[44px] items-center gap-2 rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white active:scale-95 dark:bg-white dark:text-slate-900"
+      className="inline-flex min-h-[44px] items-center gap-2 rounded-xl bg-navy-800 px-4 text-sm font-semibold text-white active:scale-95 dark:bg-gold-400 dark:text-navy-900"
     >
-      <span aria-hidden>{state === "done" ? "✓" : "📋"}</span>
+      <Icon name={state === "done" ? "check" : "copy"} size={17} />
       {state === "done" ? "Copied" : state === "fail" ? "Copy failed" : label}
     </button>
   );

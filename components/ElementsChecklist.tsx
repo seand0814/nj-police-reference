@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Icon from "./Icon";
 
 /** Tap each element as you confirm probable cause for it. Not saved: resets when you leave the page. */
 export default function ElementsChecklist({ elements }: { elements: string[] }) {
@@ -16,8 +17,8 @@ export default function ElementsChecklist({ elements }: { elements: string[] }) 
   return (
     <section className="mt-5">
       <div className="mb-2 flex items-center justify-between">
-        <h2 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
-          <span aria-hidden>✅</span> Elements to prove
+        <h2 className="flex items-center gap-2 text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
+          <Icon name="check" size={16} className="text-navy-700 dark:text-gold-300" /> Elements to prove
         </h2>
         {done.length ? (
           <button type="button" onClick={() => setDone([])} className="text-sm font-medium text-brand dark:text-brand-dark">Reset</button>

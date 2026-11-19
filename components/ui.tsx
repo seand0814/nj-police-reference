@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import type { Badge } from "@/lib/sections";
+import Icon, { type IconName } from "./Icon";
 
 export const DISCLAIMER =
   "Reference only. Verify against current statute, AG directives, and your department's policy.";
@@ -69,29 +70,33 @@ export function RowLink({
   citation?: string;
   badge?: Badge | null;
   review?: boolean;
-  icon?: string;
+  icon?: IconName;
 }) {
   return (
     <Link
       href={href}
-      className="flex min-h-[56px] items-center gap-3 px-4 py-2.5 active:bg-slate-100 dark:active:bg-slate-800"
+      className="flex min-h-[56px] items-center gap-3 px-4 py-2.5 active:bg-slate-100 dark:active:bg-white/5"
     >
-      {icon ? <span aria-hidden className="text-xl">{icon}</span> : null}
+      {icon ? (
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-600/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-400">
+          <Icon name={icon} size={17} />
+        </span>
+      ) : null}
       <span className="min-w-0 flex-1">
         <span className="block font-medium leading-snug">{title}</span>
         {citation ? <span className="block truncate text-xs text-slate-500 dark:text-slate-400">{citation}</span> : null}
       </span>
       {review ? <span title="Grade under review" aria-label="Grade under review" className="h-2 w-2 shrink-0 rounded-full bg-amber-500" /> : null}
       <GradeBadge badge={badge ?? null} />
-      <span aria-hidden className="text-slate-300 dark:text-slate-600">›</span>
+      <Icon name="chevronRight" size={16} className="shrink-0 text-slate-300 dark:text-slate-600" />
     </Link>
   );
 }
 
 export function DeviceNote() {
   return (
-    <p className="mb-4 rounded-xl bg-slate-100 p-3 text-xs text-slate-600 dark:bg-slate-900 dark:text-slate-400">
-      🔒 Saved on this device only. Clearing Safari website data removes it.
+    <p className="mb-4 flex items-center gap-2 rounded-xl bg-slate-100 p-3 text-xs text-slate-600 dark:bg-white/[0.04] dark:text-slate-400">
+      <Icon name="lock" size={14} className="shrink-0" /> Saved on this device only. Clearing Safari website data removes it.
     </p>
   );
 }

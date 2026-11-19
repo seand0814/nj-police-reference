@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Icon from "./Icon";
 
 /** "English | Spanish" lines with a button that reads the Spanish aloud using the phone's built-in voice. */
 export default function SpeakList({ lines }: { lines: string[] }) {
@@ -41,7 +42,7 @@ export default function SpeakList({ lines }: { lines: string[] }) {
                 aria-label={`Play: ${es}`}
                 className={"flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-lg active:scale-95 " + (playing === i ? "bg-emerald-600 text-white" : "bg-slate-100 dark:bg-slate-800")}
               >
-                🔊
+                <Icon name="speaker" size={20} />
               </button>
             ) : null}
           </li>

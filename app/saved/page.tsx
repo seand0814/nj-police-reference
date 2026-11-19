@@ -11,7 +11,7 @@ export default function SavedPage() {
 
   return (
     <>
-      <PageTitle sub="Tap ☆ on any entry to save it here">Saved</PageTitle>
+      <PageTitle sub="Tap the star on any entry to save it here">Saved</PageTitle>
       <DeviceNote />
       {loaded && ids.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-slate-300 p-8 text-center text-slate-500 dark:border-slate-700">

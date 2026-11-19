@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import ChatText from "@/components/ChatText";
+import Icon from "@/components/Icon";
+import PageHeader from "@/components/PageHeader";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
@@ -93,22 +95,25 @@ export default function AskPage() {
 
   return (
     <div className="flex min-h-[calc(100vh-9rem)] flex-col">
-      <header className="-mx-4 -mt-6 mb-4 bg-gradient-to-br from-sky-600 to-indigo-700 px-4 pb-5 pt-6 text-white">
-        <div className="flex items-start justify-between gap-3">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-sky-100">AI assistant</p>
-            <h1 className="mt-1 text-2xl font-bold">Ask a Legal Question</h1>
-            <p className="mt-1 text-sm text-white/90">NJ statutes, AG directives and case law, explained.</p>
-          </div>
-          {messages.length ? (
-            <button type="button" onClick={clear} className="rounded-xl bg-white/15 px-3 py-2 text-sm font-semibold">New chat</button>
-          ) : null}
-        </div>
-      </header>
+      <PageHeader
+        icon="chat"
+        iconBg="bg-sky-600"
+        eyebrow="AI assistant"
+        title="Ask a Legal Question"
+        subtitle="NJ statutes, AG directives and case law, explained."
+        actions={
+          messages.length ? (
+            <button type="button" onClick={clear} className="h-11 rounded-xl border border-white/25 bg-white/10 px-3 text-sm font-semibold">
+              New chat
+            </button>
+          ) : null
+        }
+      />
 
-      <p className="mb-4 rounded-xl bg-amber-50 p-3 text-xs text-amber-900 dark:bg-amber-950 dark:text-amber-100">
-        ⚠️ AI answers can be wrong. This is legal information, not legal advice. Confirm with current statutes, AG directives,
-        your department&apos;s policy or the prosecutor before acting. Don&apos;t enter names or case details.
+      <p className="mb-4 flex gap-2 rounded-xl bg-amber-50 p-3 text-xs text-amber-900 dark:bg-amber-950 dark:text-amber-100">
+        <Icon name="alert" size={16} className="shrink-0" />
+        <span>AI answers can be wrong. This is legal information, not legal advice. Confirm with current statutes, AG directives,
+        your department&apos;s policy or the prosecutor before acting. Don&apos;t enter names or case details.</span>
       </p>
 
       {messages.length === 0 ? (
@@ -121,7 +126,7 @@ export default function AskPage() {
               onClick={() => send(s)}
               className="block w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-medium shadow-sm active:scale-[0.99] dark:border-slate-800 dark:bg-slate-900"
             >
-              💬 {s}
+              {s}
             </button>
           ))}
         </div>

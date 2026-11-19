@@ -1,37 +1,74 @@
 import Link from "next/link";
-import { DISCLAIMER, PageTitle } from "@/components/ui";
+import Icon, { type IconName } from "@/components/Icon";
+import { LogoMark } from "@/components/Logo";
+import PageHeader from "@/components/PageHeader";
+import ThemeToggle from "@/components/ThemeToggle";
+import { DISCLAIMER } from "@/components/ui";
 
-const LINKS = [
-  { href: "/az", label: "A–Z Index", icon: "🔤", cls: "bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-100" },
-  { href: "/saved", label: "Saved Entries", icon: "⭐", cls: "bg-yellow-100 text-yellow-900 dark:bg-yellow-950 dark:text-yellow-100" },
-  { href: "/s/case-law", label: "Case Law Library", icon: "📜", cls: "bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-100" },
-  { href: "/notes", label: "My Notes", icon: "📝", cls: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-100" },
-  { href: "/contacts", label: "My Phone Numbers", icon: "📞", cls: "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100" },
-  { href: "/radio-codes", label: "Radio Codes", icon: "📻", cls: "bg-violet-100 text-violet-900 dark:bg-violet-950 dark:text-violet-100" },
-  { href: "/tools", label: "Calculators", icon: "🧮", cls: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-100" },
+const LINKS: { href: string; label: string; sub: string; icon: IconName; bg: string }[] = [
+  { href: "/az", label: "A–Z Index", sub: "Every entry, alphabetical", icon: "az", bg: "bg-slate-600" },
+  { href: "/saved", label: "Saved", sub: "Your starred entries", icon: "starFill", bg: "bg-amber-500" },
+  { href: "/s/case-law", label: "Case Law", sub: "Rulings with field scenarios", icon: "gavel", bg: "bg-indigo-600" },
+  { href: "/notes", label: "My Notes", sub: "Private, on this phone", icon: "note", bg: "bg-sky-600" },
+  { href: "/contacts", label: "Phone Numbers", sub: "Your agency contacts", icon: "phone", bg: "bg-emerald-600" },
+  { href: "/radio-codes", label: "Radio Codes", sub: "Your department's codes", icon: "radio", bg: "bg-violet-600" },
+  { href: "/tools", label: "Calculators", sub: "Grade by value and more", icon: "calculator", bg: "bg-rose-600" },
 ];
+
+const CARD = "rounded-2xl border border-slate-200/80 bg-white shadow-sm dark:border-white/10 dark:bg-white/[0.04]";
 
 export default function MorePage() {
   return (
     <>
-      <PageTitle>More</PageTitle>
-      <div className="grid grid-cols-2 gap-3">
+      <PageHeader eyebrow="Tools & settings" title="More" />
+
+      <ul className={CARD + " overflow-hidden"}>
         {LINKS.map((l) => (
-          <Link key={l.href} href={l.href} className={"flex min-h-[96px] flex-col justify-between rounded-2xl p-4 active:scale-[0.98] " + l.cls}>
-            <span aria-hidden className="text-3xl">{l.icon}</span>
-            <span className="font-bold">{l.label}</span>
-          </Link>
+          <li key={l.href} className="border-b border-slate-100 last:border-0 dark:border-white/5">
+            <Link href={l.href} className="flex min-h-[60px] items-center gap-3 px-4 py-2.5 active:bg-slate-50 dark:active:bg-white/5">
+              <span className={"flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-white " + l.bg}>
+                <Icon name={l.icon} size={18} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-semibold leading-tight">{l.label}</span>
+                <span className="block text-xs text-slate-500 dark:text-slate-400">{l.sub}</span>
+              </span>
+              <Icon name="chevronRight" size={18} className="text-slate-300 dark:text-slate-600" />
+            </Link>
+          </li>
         ))}
-      </div>
-      <section className="mt-6 space-y-2 rounded-2xl border border-slate-200 bg-white p-4 text-sm shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        <h2 className="font-semibold">📲 Add to Home Screen</h2>
-        <p className="text-slate-600 dark:text-slate-400">In Safari, tap Share, then “Add to Home Screen” to open this like an app.</p>
+      </ul>
+
+      <section className={CARD + " mt-5 p-4"}>
+        <h2 className="text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">Appearance</h2>
+        <div className="mt-3">
+          <ThemeToggle />
+        </div>
+        <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+          Night turns the whole screen red and dim so it won&apos;t wreck your night vision in a dark car. You can also flip
+          it on and off with the moon button at the top of the Home screen.
+        </p>
       </section>
-      <section className="mt-4 space-y-2 rounded-2xl border border-slate-200 bg-white p-4 text-sm shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        <h2 className="font-semibold">ℹ️ About the content</h2>
+
+      <section className={CARD + " mt-4 flex gap-3 p-4 text-sm"}>
+        <LogoMark size={40} className="shrink-0" />
+        <div>
+          <h2 className="font-semibold">Add to Home Screen</h2>
+          <p className="mt-1 text-slate-600 dark:text-slate-400">
+            In Safari, tap Share, then &ldquo;Add to Home Screen&rdquo; to open this like an app. If you added it before,
+            remove the old shortcut and add it again to get the new icon.
+          </p>
+        </div>
+      </section>
+
+      <section className={CARD + " mt-4 space-y-2 p-4 text-sm"}>
+        <h2 className="flex items-center gap-2 font-semibold">
+          <Icon name="alert" size={16} className="text-amber-600" /> About the content
+        </h2>
         <p className="text-slate-600 dark:text-slate-400">
-          Entries marked “Not yet verified” have not been checked against the official source. Grades marked “under review”
-          (amber dot) need confirmation before charging. Checklists and go-bys don&apos;t replace your department&apos;s policy.
+          Entries marked &ldquo;Not yet verified&rdquo; have not been checked against the official source. Grades marked
+          &ldquo;under review&rdquo; (amber dot) need confirmation before charging. Checklists and go-bys don&apos;t replace
+          your department&apos;s policy.
         </p>
         <p className="font-medium">{DISCLAIMER}</p>
       </section>

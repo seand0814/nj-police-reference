@@ -1,14 +1,17 @@
 import Link from "next/link";
-import { allEntries, getEntry, sectionCounts } from "@/lib/content";
+import { allChecklists, allEntries, getEntry, sectionCounts } from "@/lib/content";
 import { gradeBadge } from "@/lib/sections";
+import Icon, { type IconName } from "@/components/Icon";
+import { Wordmark } from "@/components/Logo";
 import RecentList from "@/components/RecentList";
+import { NightButton } from "@/components/ThemeToggle";
 import { DISCLAIMER, GradeBadge } from "@/components/ui";
 
-const QUICK = [
-  { href: "/ask", icon: "💬", label: "Ask AI", cls: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-100" },
-  { href: "/go/dv-arrest", icon: "🏠", label: "DV arrest?", cls: "bg-fuchsia-100 text-fuchsia-900 dark:bg-fuchsia-950 dark:text-fuchsia-100" },
-  { href: "/go/dwi-arrest", icon: "🍺", label: "DWI checklist", cls: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-100" },
-  { href: "/tools", icon: "🧮", label: "Grade calculator", cls: "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100" },
+const QUICK: { href: string; icon: IconName; label: string; tint: string }[] = [
+  { href: "/ask", icon: "chat", label: "Ask AI", tint: "bg-sky-600" },
+  { href: "/go/dv-arrest", icon: "house", label: "DV arrest?", tint: "bg-fuchsia-600" },
+  { href: "/go/dwi-arrest", icon: "glass", label: "DWI checklist", tint: "bg-amber-500" },
+  { href: "/tools", icon: "calculator", label: "Grade by value", tint: "bg-emerald-600" },
 ];
 
 /** Hand-picked everyday charges (no usage tracking, so this list is curated). */
@@ -17,52 +20,75 @@ const COMMON = [
   "njsa-2c-29-9", "njsa-2c-35-10", "njsa-2c-18-3", "njsa-2c-17-3", "njsa-39-4-50", "njsa-39-3-40", "njsa-39-4-97",
 ];
 
+function SectionHeading({ children, action }: { children: React.ReactNode; action?: React.ReactNode }) {
+  return (
+    <div className="mb-2.5 flex items-end justify-between">
+      <h2 className="text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">{children}</h2>
+      {action}
+    </div>
+  );
+}
+
 export default function Home() {
   const sections = sectionCounts();
   const total = allEntries().length;
+  const guides = allChecklists().length;
   const common = COMMON.map((id) => getEntry(id)).filter((e) => e !== null);
 
   return (
     <>
-      <header className="-mx-4 -mt-6 mb-5 bg-gradient-to-br from-slate-900 via-blue-950 to-blue-800 px-4 pb-7 pt-8 text-white">
-        <p className="text-xs font-semibold uppercase tracking-widest text-blue-200">New Jersey</p>
-        <h1 className="mt-1 text-3xl font-extrabold tracking-tight">Police Reference</h1>
-        <p className="mt-1 text-sm text-blue-100">{total} statutes &amp; topics · checklists · go-bys</p>
+      {/* Hero */}
+      <header className="relative -mx-4 -mt-6 mb-6 overflow-hidden bg-gradient-to-b from-navy-900 via-navy-900 to-navy-800 px-4 pb-7 pt-[max(1.75rem,env(safe-area-inset-top))] text-white">
+        <div aria-hidden className="pointer-events-none absolute -right-20 -top-24 h-64 w-64 rounded-full bg-blue-500/15 blur-3xl" />
+        <div aria-hidden className="pointer-events-none absolute -bottom-24 -left-16 h-56 w-56 rounded-full bg-gold-400/10 blur-3xl" />
+        <div className="relative flex items-start justify-between gap-3">
+          <Wordmark />
+          <NightButton />
+        </div>
+        <p className="relative mt-4 text-sm text-white/70">
+          {total} statutes, cases &amp; topics · {guides} checklists and go-bys
+        </p>
         <Link
           href="/search"
-          className="mt-5 flex min-h-[52px] items-center gap-2 rounded-2xl bg-white/95 px-4 text-slate-500 shadow-lg"
+          className="relative mt-4 flex min-h-[54px] items-center gap-3 rounded-2xl bg-white px-4 text-slate-500 shadow-xl shadow-black/20 active:scale-[0.99]"
         >
-          <span aria-hidden>🔎</span> Search a charge, statute or topic…
+          <Icon name="search" size={20} className="text-navy-800" />
+          <span className="text-[15px]">Search a charge, statute or topic</span>
         </Link>
+        <div aria-hidden className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold-400/70 to-transparent" />
       </header>
 
-      <section className="mb-6">
-        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Quick access</h2>
-        <div className="grid grid-cols-4 gap-2">
+      {/* Quick access */}
+      <section className="mb-7">
+        <div className="grid grid-cols-4 gap-2.5">
           {QUICK.map((q) => (
-            <Link key={q.href} href={q.href} className={"flex min-h-[76px] flex-col items-center justify-center gap-1 rounded-2xl px-1 text-center active:scale-95 " + q.cls}>
-              <span aria-hidden className="text-2xl">{q.icon}</span>
-              <span className="text-[11px] font-semibold leading-tight">{q.label}</span>
+            <Link key={q.href} href={q.href} className="flex flex-col items-center gap-1.5 active:scale-95">
+              <span className={"flex h-14 w-14 items-center justify-center rounded-2xl text-white shadow-md shadow-slate-900/10 " + q.tint}>
+                <Icon name={q.icon} size={24} />
+              </span>
+              <span className="text-center text-[11.5px] font-semibold leading-tight text-slate-700 dark:text-slate-300">{q.label}</span>
             </Link>
           ))}
         </div>
       </section>
 
-      <section className="mb-6">
-        <div className="mb-2 flex items-center justify-between">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Common charges</h2>
-          <Link href="/az" className="text-sm font-medium text-brand dark:text-brand-dark">A–Z index ›</Link>
-        </div>
-        <div className="flex gap-2 overflow-x-auto pb-1">
+      {/* Common charges */}
+      <section className="mb-7">
+        <SectionHeading action={<Link href="/az" className="text-sm font-semibold text-brand dark:text-brand-dark">A–Z index</Link>}>
+          Common charges
+        </SectionHeading>
+        <div className="no-scrollbar -mx-4 flex gap-2.5 overflow-x-auto px-4 pb-1">
           {common.map((e) => (
             <Link
               key={e!.id}
               href={`/entry/${e!.id}`}
-              className="flex min-h-[72px] w-40 shrink-0 flex-col justify-between rounded-2xl border border-slate-200 bg-white px-3 py-2 shadow-sm active:scale-[0.98] dark:border-slate-800 dark:bg-slate-900"
+              className="flex min-h-[84px] w-[10.5rem] shrink-0 flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-3 shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04]"
             >
-              <span className="line-clamp-2 text-sm font-semibold leading-snug">{e!.title}</span>
-              <span className="mt-1 flex items-center justify-between gap-1">
-                <span className="truncate text-[11px] text-slate-500">{(e!.citation ?? "").replace(/^N\.J\.S\.A\.\s*/, "").replace(/\s*\(as amended.*$/, "")}</span>
+              <span className="line-clamp-2 text-[14px] font-semibold leading-snug">{e!.title}</span>
+              <span className="mt-2 flex items-center justify-between gap-1">
+                <span className="truncate font-mono text-[11px] text-slate-500">
+                  {(e!.citation ?? "").replace(/^N\.J\.S\.A\.\s*/, "").replace(/\s*\(as amended.*$/, "")}
+                </span>
                 <GradeBadge badge={gradeBadge(e!.grade_or_penalty, e!.citation)} />
               </span>
             </Link>
@@ -72,31 +98,35 @@ export default function Home() {
 
       <RecentList />
 
+      {/* Sections */}
       <section>
-        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Browse</h2>
-        <div className="grid grid-cols-2 gap-3">
+        <SectionHeading>Browse</SectionHeading>
+        <div className="grid grid-cols-2 gap-2.5">
           {sections.map((s, i) => (
             <Link
               key={s.slug}
               href={`/s/${s.slug}`}
               className={
-                "relative flex min-h-[112px] flex-col justify-between overflow-hidden rounded-2xl bg-gradient-to-br p-4 text-white shadow-md active:scale-[0.98] " +
-                s.tile +
-                (i < 2 ? " col-span-2 min-h-[96px]" : "")
+                "group flex rounded-2xl border border-slate-200/80 bg-white p-3.5 shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04] " +
+                (i < 2 ? "col-span-2 items-center gap-3.5" : "min-h-[118px] flex-col justify-between")
               }
             >
-              <span aria-hidden className="absolute -right-2 -top-2 text-6xl opacity-20">{s.icon}</span>
-              <span aria-hidden className="text-2xl">{s.icon}</span>
-              <span>
-                <span className="block text-base font-bold leading-tight">{s.name}</span>
-                <span className="block text-xs text-white/85">{s.count} · {s.blurb}</span>
+              <span className={"flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-white " + s.iconBg}>
+                <Icon name={s.icon} size={22} />
               </span>
+              <span className={i < 2 ? "min-w-0 flex-1" : "mt-3"}>
+                <span className="block text-[15px] font-semibold leading-tight">{s.name}</span>
+                <span className="mt-0.5 block text-xs leading-snug text-slate-500 dark:text-slate-400">
+                  {s.count} · {s.blurb}
+                </span>
+              </span>
+              {i < 2 ? <Icon name="chevronRight" size={18} className="text-slate-300 dark:text-slate-600" /> : null}
             </Link>
           ))}
         </div>
       </section>
 
-      <p className="mt-8 text-center text-xs text-slate-500">{DISCLAIMER}</p>
+      <p className="mx-auto mt-8 max-w-sm text-center text-xs leading-relaxed text-slate-500">{DISCLAIMER}</p>
     </>
   );
 }

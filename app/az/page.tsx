@@ -1,3 +1,4 @@
+import type { IconName } from "@/components/Icon";
 import Link from "next/link";
 import { allChecklists, allEntries } from "@/lib/content";
 import { gradeBadge } from "@/lib/sections";
@@ -5,7 +6,7 @@ import { PageTitle, RowLink } from "@/components/ui";
 
 export const metadata = { title: "A–Z Index · NJ Police Reference" };
 
-type Item = { key: string; href: string; title: string; sub: string; badge: ReturnType<typeof gradeBadge>; icon?: string };
+type Item = { key: string; href: string; title: string; sub: string; badge: ReturnType<typeof gradeBadge>; icon?: IconName };
 
 const LETTERS = ["#", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 
@@ -29,7 +30,7 @@ export default function AZPage() {
       title: c.title,
       sub: c.kind === "flow" ? "Decision go-by" : c.kind === "template" ? "Report template" : "Checklist",
       badge: null,
-      icon: c.kind === "flow" ? "🔀" : c.kind === "template" ? "📝" : "☑️",
+      icon: c.kind === "flow" ? "branch" : c.kind === "template" ? "template" : "checklist",
     })),
   ];
   const collator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });

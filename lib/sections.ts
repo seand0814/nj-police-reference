@@ -4,11 +4,15 @@
  * can override placement with optional "section" and "group" fields.
  */
 
+import type { IconName } from "@/components/Icon";
+
 export type Section = {
   slug: string;
   name: string;
   short: string;
-  icon: string;
+  icon: IconName;
+  /** Solid color behind the section's icon. */
+  iconBg: string;
   blurb: string;
   /** Tailwind classes (written out in full so Tailwind keeps them). */
   tile: string;
@@ -17,31 +21,31 @@ export type Section = {
 };
 
 export const SECTIONS: Section[] = [
-  { slug: "criminal-code", name: "Criminal Code (2C)", short: "2C Crimes", icon: "⚖️", blurb: "Crimes and offenses by type or chapter",
+  { slug: "criminal-code", name: "Criminal Code (2C)", short: "2C Crimes", icon: "scale", iconBg: "bg-rose-600", blurb: "Crimes and offenses by type or chapter",
     tile: "from-rose-600 to-red-700", accent: "border-rose-600 text-rose-700 dark:text-rose-300", chip: "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-200" },
-  { slug: "motor-vehicle", name: "Motor Vehicle (Title 39)", short: "Title 39", icon: "🚓", blurb: "Moving violations, licensing, equipment and more",
+  { slug: "motor-vehicle", name: "Motor Vehicle (Title 39)", short: "Title 39", icon: "car", iconBg: "bg-blue-600", blurb: "Moving violations, licensing, equipment and more",
     tile: "from-blue-600 to-indigo-700", accent: "border-blue-600 text-blue-700 dark:text-blue-300", chip: "bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-200" },
-  { slug: "checklists", name: "Checklists & Go-Bys", short: "Go-Bys", icon: "✅", blurb: "Step-by-step checklists and decision guides",
+  { slug: "checklists", name: "Checklists & Go-Bys", short: "Go-Bys", icon: "checklist", iconBg: "bg-emerald-600", blurb: "Step-by-step checklists and decision guides",
     tile: "from-emerald-600 to-teal-700", accent: "border-emerald-600 text-emerald-700 dark:text-emerald-300", chip: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200" },
-  { slug: "dwi-drugs", name: "DWI & Drugs", short: "DWI & Drugs", icon: "🍺", blurb: "SFSTs, breath testing, drug recognition",
+  { slug: "dwi-drugs", name: "DWI & Drugs", short: "DWI & Drugs", icon: "glass", iconBg: "bg-amber-500", blurb: "SFSTs, breath testing, drug recognition",
     tile: "from-amber-500 to-orange-600", accent: "border-amber-500 text-amber-700 dark:text-amber-300", chip: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200" },
-  { slug: "domestic-violence", name: "Domestic Violence", short: "DV", icon: "🏠", blurb: "Procedures, mandatory arrest, DV statutes",
+  { slug: "domestic-violence", name: "Domestic Violence", short: "DV", icon: "house", iconBg: "bg-fuchsia-600", blurb: "Procedures, mandatory arrest, DV statutes",
     tile: "from-fuchsia-600 to-pink-700", accent: "border-fuchsia-600 text-fuchsia-700 dark:text-fuchsia-300", chip: "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200" },
-  { slug: "arrest-juveniles", name: "Arrest, Juveniles & Directives", short: "Arrest & AG", icon: "🚔", blurb: "Charging, juveniles, cannabis, AG directives",
+  { slug: "arrest-juveniles", name: "Arrest, Juveniles & Directives", short: "Arrest & AG", icon: "badge", iconBg: "bg-sky-600", blurb: "Charging, juveniles, cannabis, AG directives",
     tile: "from-sky-500 to-cyan-700", accent: "border-sky-500 text-sky-700 dark:text-sky-300", chip: "bg-sky-100 text-sky-800 dark:bg-sky-950 dark:text-sky-200" },
-  { slug: "force-search", name: "Use of Force & Search", short: "Force & Search", icon: "🛡️", blurb: "AG force policy, stops, frisks, searches",
+  { slug: "force-search", name: "Use of Force & Search", short: "Force & Search", icon: "shield", iconBg: "bg-violet-600", blurb: "AG force policy, stops, frisks, searches",
     tile: "from-violet-600 to-purple-700", accent: "border-violet-600 text-violet-700 dark:text-violet-300", chip: "bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-200" },
-  { slug: "case-law", name: "Case Law Library", short: "Case Law", icon: "📜", blurb: "Key U.S. and NJ cases with field scenarios",
+  { slug: "case-law", name: "Case Law Library", short: "Case Law", icon: "gavel", iconBg: "bg-indigo-600", blurb: "Key U.S. and NJ cases with field scenarios",
     tile: "from-indigo-600 to-slate-700", accent: "border-indigo-600 text-indigo-700 dark:text-indigo-300", chip: "bg-indigo-100 text-indigo-800 dark:bg-indigo-950 dark:text-indigo-200" },
-  { slug: "investigations", name: "Investigations", short: "Investigations", icon: "🔍", blurb: "Deaths, missing persons, crises, sex crimes",
+  { slug: "investigations", name: "Investigations", short: "Investigations", icon: "eye", iconBg: "bg-teal-600", blurb: "Deaths, missing persons, crises, sex crimes",
     tile: "from-teal-600 to-cyan-700", accent: "border-teal-600 text-teal-700 dark:text-teal-300", chip: "bg-teal-100 text-teal-800 dark:bg-teal-950 dark:text-teal-200" },
-  { slug: "operations", name: "Operations, ICS & Hazmat", short: "Operations", icon: "📡", blurb: "Incident command, pursuits, hazmat, terrorism",
+  { slug: "operations", name: "Operations, ICS & Hazmat", short: "Operations", icon: "radio", iconBg: "bg-orange-600", blurb: "Incident command, pursuits, hazmat, terrorism",
     tile: "from-orange-600 to-red-600", accent: "border-orange-600 text-orange-700 dark:text-orange-300", chip: "bg-orange-100 text-orange-800 dark:bg-orange-950 dark:text-orange-200" },
-  { slug: "medical", name: "Medical", short: "Medical", icon: "🩺", blurb: "CPR and first aid quick reference",
+  { slug: "medical", name: "Medical", short: "Medical", icon: "pulse", iconBg: "bg-red-600", blurb: "CPR and first aid quick reference",
     tile: "from-red-500 to-rose-600", accent: "border-red-500 text-red-700 dark:text-red-300", chip: "bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-200" },
-  { slug: "quick-reference", name: "Spanish & Quick Reference", short: "Quick Ref", icon: "🗣️", blurb: "Spanish phrases, hotlines, conversions",
+  { slug: "quick-reference", name: "Spanish & Quick Reference", short: "Quick Ref", icon: "language", iconBg: "bg-lime-600", blurb: "Spanish phrases, hotlines, conversions",
     tile: "from-lime-600 to-green-700", accent: "border-lime-600 text-lime-700 dark:text-lime-300", chip: "bg-lime-100 text-lime-800 dark:bg-lime-950 dark:text-lime-200" },
-  { slug: "other-statutes", name: "Animals & Mental Health", short: "Other Laws", icon: "🐾", blurb: "Title 4 animal cruelty, Title 30 screening",
+  { slug: "other-statutes", name: "Animals & Mental Health", short: "Other Laws", icon: "paw", iconBg: "bg-slate-600", blurb: "Title 4 animal cruelty, Title 30 screening",
     tile: "from-slate-600 to-slate-800", accent: "border-slate-500 text-slate-700 dark:text-slate-300", chip: "bg-slate-200 text-slate-800 dark:bg-slate-800 dark:text-slate-200" },
 ];
 

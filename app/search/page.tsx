@@ -50,7 +50,7 @@ export default function SearchPage() {
         <ul className="mt-3 divide-y divide-slate-100 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-900">
           {results.map((r) => (
             <li key={r.id}>
-              <RowLink href={r.u} title={r.t} citation={[r.c, r.k].filter(Boolean).join(" · ")} icon={r.id.startsWith("go:") ? "✅" : undefined} />
+              <RowLink href={r.u} title={r.t} citation={[r.c, r.k].filter(Boolean).join(" · ")} icon={r.id.startsWith("go:") ? "checklist" : undefined} />
             </li>
           ))}
         </ul>

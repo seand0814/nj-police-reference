@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
+import ShareButton from "@/components/ShareButton";
 import { notFound } from "next/navigation";
 import { allChecklists, getChecklist } from "@/lib/content";
 import ChecklistView from "@/components/ChecklistView";
@@ -24,22 +25,28 @@ export default async function GoByPage({ params }: { params: Params }) {
   const c = getChecklist((await params).id);
   if (!c) notFound();
   const isFlow = c.kind === "flow";
+  const shareText = [c.title, c.summary, ...(c.groups ?? []).slice(0, 3).map((g) => "• " + g.name), "Quick reference only. Follow department policy."]
+    .filter(Boolean)
+    .join("\n");
 
   return (
     <>
       <RecordVisit id={"go:" + c.id} />
-      <header className="-mx-4 -mt-6 mb-5 bg-gradient-to-br from-emerald-600 to-teal-700 px-4 pb-6 pt-6 text-white">
-        <Link href="/s/checklists" className="text-sm text-white/85">← Checklists & Go-Bys</Link>
-        <p className="mt-3 text-xs font-semibold uppercase tracking-widest text-emerald-100">{isFlow ? "🔀 Decision go-by" : c.kind === "template" ? "📝 Report template" : "☑️ Checklist"}</p>
-        <h1 className="mt-1 text-2xl font-bold leading-tight">{c.title}</h1>
-        <p className="mt-1 text-sm text-white/90">{c.summary}</p>
-      </header>
+      <PageHeader
+        back={{ href: "/s/checklists", label: "Checklists & Go-Bys" }}
+        icon={isFlow ? "branch" : c.kind === "template" ? "template" : "checklist"}
+        iconBg="bg-emerald-600"
+        eyebrow={isFlow ? "Decision go-by" : c.kind === "template" ? "Report template" : "Checklist"}
+        title={c.title}
+        subtitle={c.summary}
+        actions={<ShareButton title={c.title} text={shareText} path={`/go/${c.id}`} />}
+      />
 
       {isFlow && c.start && c.nodes ? <FlowView start={c.start} nodes={c.nodes} /> : null}
       {c.kind === "checklist" && c.groups ? <ChecklistView id={c.id} groups={c.groups} /> : null}
       {c.kind === "template" && c.groups ? <TemplateView title={c.title} groups={c.groups} /> : null}
 
-      <p className="mt-6 rounded-2xl bg-slate-100 p-4 text-xs text-slate-600 dark:bg-slate-900 dark:text-slate-400">{c.note}</p>
+      <p className="mt-6 rounded-2xl bg-slate-100 p-4 text-xs text-slate-600 dark:bg-white/[0.04] dark:text-slate-400">{c.note}</p>
     </>
   );
 }

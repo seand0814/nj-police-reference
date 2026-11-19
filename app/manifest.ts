@@ -7,11 +7,12 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "New Jersey statutes, case law, checklists and go-bys for patrol officers.",
     start_url: "/",
     display: "standalone",
-    background_color: "#020617",
-    theme_color: "#1e3a8a",
+    background_color: "#0c1834",
+    theme_color: "#0c1834",
     icons: [
-      { src: "/icon", sizes: "512x512", type: "image/png", purpose: "any" },
-      { src: "/apple-icon", sizes: "180x180", type: "image/png" },
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
   };
 }

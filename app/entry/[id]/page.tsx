@@ -5,6 +5,9 @@ import { allEntries, entrySection, getEntry, sectionSequence, type Entry } from 
 import { fullTextUrl, gradeBadge, sectionBySlug } from "@/lib/sections";
 import BookmarkButton from "@/components/BookmarkButton";
 import CopyCharge from "@/components/CopyCharge";
+import Icon, { type IconName } from "@/components/Icon";
+import PageHeader from "@/components/PageHeader";
+import ShareButton from "@/components/ShareButton";
 import ElementsChecklist from "@/components/ElementsChecklist";
 import SpeakList from "@/components/SpeakList";
 import { RecordVisit } from "@/components/RecentList";
@@ -23,20 +26,28 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return { title: e ? `${e.title} · NJ Police Reference` : "Not found" };
 }
 
-function List({ title, icon, items }: { title: string; icon: string; items: string[] }) {
+function Heading({ icon, children }: { icon: IconName; children: React.ReactNode }) {
+  return (
+    <h2 className="mb-2 flex items-center gap-2 text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
+      <Icon name={icon} size={16} className="text-navy-700 dark:text-gold-300" /> {children}
+    </h2>
+  );
+}
+
+const CARD = "overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-sm dark:border-white/10 dark:bg-white/[0.04]";
+
+function List({ title, icon, items }: { title: string; icon: IconName; items: string[] }) {
   if (!items?.length) return null;
   return (
     <section className="mt-5">
-      <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
-        <span aria-hidden>{icon}</span> {title}
-      </h2>
-      <ul className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
+      <Heading icon={icon}>{title}</Heading>
+      <ul className={CARD}>
         {items.map((t, i) => {
           // Lines like "Holding: ..." or "Scenario: ..." get a bold label.
           const m = t.match(/^([A-Z][A-Za-z ]{2,20}):\s+([\s\S]*)$/);
           return (
-            <li key={i} className="flex gap-3 border-b border-slate-100 p-4 leading-relaxed last:border-0 dark:border-slate-800">
-              <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400" />
+            <li key={i} className="flex gap-3 border-b border-slate-100 p-4 leading-relaxed last:border-0 dark:border-white/5">
+              <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400" />
               {m ? (
                 <span>
                   <span className="mb-0.5 block text-xs font-bold uppercase tracking-wide text-slate-500">{m[1]}</span>
@@ -68,7 +79,7 @@ const LONG_GRADE: Record<string, string> = {
 function Table({ table }: { table: NonNullable<Entry["table"]> }) {
   return (
     <section className="mt-5">
-      <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
+      <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-sm dark:border-white/10 dark:bg-ink-900">
         <table className="w-full min-w-[560px] text-left text-sm">
           <thead className="bg-slate-100 dark:bg-slate-800">
             <tr>
@@ -96,15 +107,13 @@ function Table({ table }: { table: NonNullable<Entry["table"]> }) {
 function Subsections({ items, url }: { items: NonNullable<Entry["subsections"]>; url: string | null }) {
   return (
     <section className="mt-5">
-      <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
-        <span aria-hidden>📑</span> Subsections
-      </h2>
-      <ul className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
+      <Heading icon="list">Subsections</Heading>
+      <ul className={CARD}>
         {items.map((it, i) => {
           const b = gradeBadge(it.grade);
           return (
-            <li key={i} className="flex gap-3 border-b border-slate-100 p-4 last:border-0 dark:border-slate-800">
-              <span className="mt-0.5 h-fit shrink-0 rounded-lg bg-slate-900 px-2 py-0.5 font-mono text-xs font-bold text-white dark:bg-slate-100 dark:text-slate-900">
+            <li key={i} className="flex gap-3 border-b border-slate-100 p-4 last:border-0 dark:border-white/5">
+              <span className="mt-0.5 h-fit shrink-0 rounded-lg bg-navy-800 px-2 py-0.5 font-mono text-xs font-bold text-gold-300">
                 {it.label}
               </span>
               <div className="min-w-0 flex-1">
@@ -143,6 +152,12 @@ export default async function EntryPage({ params }: { params: Params }) {
   const groupRows = seq.filter((x) => x.group === groupName);
   const posInGroup = groupRows.findIndex((x) => x.row.id === entry.id);
   const isCharge = entry.source_type === "statute" && !!badge && !["Info", "Defense", "Penalty", "Confirm", "Enhancer"].includes(badge.label);
+  const shareText = [
+    entry.title,
+    [entry.citation, entry.grade_or_penalty].filter(Boolean).join(" · "),
+    ...entry.key_points.slice(0, 2).map((k) => "• " + k),
+    "Quick reference only. Verify against the official source.",
+  ].filter(Boolean).join("\n");
   const chargeText = isCharge
     ? [`${entry.citation} – ${entry.title} – ${LONG_GRADE[badge!.label] ?? badge!.label}`, entry.key_points[0] ?? ""].filter(Boolean).join("\n")
     : "";
@@ -150,31 +165,32 @@ export default async function EntryPage({ params }: { params: Params }) {
   return (
     <article>
       <RecordVisit id={entry.id} />
-      <header className={"-mx-4 -mt-6 bg-gradient-to-br px-4 pb-5 pt-6 text-white " + section.tile}>
-        <Link href={`/s/${section.slug}`} className="text-sm text-white/85">← {section.name}</Link>
-        <div className="mt-3 flex items-start justify-between gap-3">
-          <div className="min-w-0">
-            {entry.citation ? <p className="font-mono text-sm text-white/90">{entry.citation}</p> : null}
-            <h1 className="mt-1 text-2xl font-bold leading-tight">{entry.title}</h1>
-          </div>
-          <BookmarkButton id={entry.id} />
-        </div>
-      </header>
+      <PageHeader
+        back={{ href: `/s/${section.slug}`, label: section.name }}
+        eyebrow={entry.citation ? <span className="font-mono normal-case tracking-normal">{entry.citation}</span> : section.short}
+        title={entry.title}
+        actions={
+          <>
+            <ShareButton title={entry.title} text={shareText} path={`/entry/${entry.id}`} />
+            <BookmarkButton id={entry.id} />
+          </>
+        }
+      />
 
       {entry.category === "Medical" ? (
-        <p className="mt-4 rounded-2xl bg-red-50 p-4 font-semibold text-red-800 dark:bg-red-950 dark:text-red-200">⚠️ {CPR_BANNER}</p>
+        <p className="mb-4 flex gap-2 rounded-2xl bg-red-50 p-4 font-semibold text-red-800 dark:bg-red-950 dark:text-red-200"><Icon name="alert" size={20} className="shrink-0" /> {CPR_BANNER}</p>
       ) : null}
 
       {entry.grade_or_penalty ? (
-        <section className={"mt-4 rounded-2xl border-l-4 bg-white p-4 shadow-sm dark:bg-slate-900 " + section.accent}>
+        <section className="rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.04]">
           <div className="flex items-center justify-between gap-2">
-            <h2 className="text-xs font-semibold uppercase tracking-wide">Grade / Penalty</h2>
+            <h2 className="text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">Grade / Penalty</h2>
             <GradeBadge badge={badge} large />
           </div>
           <p className="mt-2 font-medium text-slate-900 dark:text-slate-100">{entry.grade_or_penalty}</p>
           {entry.grade_review ? (
             <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-800 dark:bg-amber-950 dark:text-amber-200">
-              ⚠️ Grade under review — confirm before charging.
+              Grade under review — confirm before charging.
             </p>
           ) : null}
           {isCharge ? <div className="mt-3"><CopyCharge text={chargeText} /></div> : null}
@@ -186,13 +202,14 @@ export default async function EntryPage({ params }: { params: Params }) {
           href={textUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 flex min-h-[52px] items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 shadow-sm active:scale-[0.99] dark:border-slate-800 dark:bg-slate-900"
+          className="mt-4 flex min-h-[56px] items-center gap-3 rounded-2xl border border-slate-200/80 bg-white px-4 shadow-sm active:scale-[0.99] dark:border-white/10 dark:bg-white/[0.04]"
         >
-          <span>
-            <span className="block font-semibold">📖 Full statute text</span>
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-navy-800 text-gold-300"><Icon name="book" size={18} /></span>
+          <span className="flex-1">
+            <span className="block font-semibold">Full statute text</span>
             <span className="block text-xs text-slate-500">Every subsection, word for word (Justia, unofficial copy)</span>
           </span>
-          <span aria-hidden className="text-slate-400">↗</span>
+          <Icon name="external" size={18} className="text-slate-400" />
         </a>
       ) : null}
 
@@ -202,31 +219,29 @@ export default async function EntryPage({ params }: { params: Params }) {
 
       {entry.speak ? (
         <section className="mt-5">
-          <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
-            <span aria-hidden>🗣️</span> Tap 🔊 to hear it
-          </h2>
+          <Heading icon="speaker">Tap the speaker to hear it</Heading>
           <SpeakList lines={entry.key_points} />
-          <List title="Notes" icon="👮" items={entry.officer_notes} />
+          <List title="Notes" icon="badge" items={entry.officer_notes} />
         </section>
       ) : entry.source_type === "case" ? (
         <>
-          <List title="The ruling" icon="⚖️" items={entry.key_points} />
-          <List title="In the field" icon="👮" items={entry.officer_notes} />
+          <List title="The ruling" icon="gavel" items={entry.key_points} />
+          <List title="In the field" icon="badge" items={entry.officer_notes} />
         </>
       ) : (
         <>
-          <List title="Key points" icon="📌" items={entry.key_points} />
-          <List title="Officer notes" icon="👮" items={entry.officer_notes} />
+          <List title="Key points" icon="pin" items={entry.key_points} />
+          <List title="Officer notes" icon="badge" items={entry.officer_notes} />
         </>
       )}
 
       {related.length ? (
         <section className="mt-5">
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">🔗 Related</h2>
+          <Heading icon="branch">Related</Heading>
           <ul className="flex flex-wrap gap-2">
             {related.map((r) => (
               <li key={r!.id}>
-                <Link href={`/entry/${r!.id}`} className={"inline-flex min-h-[40px] items-center rounded-full px-4 text-sm font-medium " + section.chip}>
+                <Link href={`/entry/${r!.id}`} className="inline-flex min-h-[40px] items-center rounded-full border border-slate-200 bg-white px-4 text-sm font-medium text-navy-800 shadow-sm active:scale-95 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-100">
                   {r!.title}
                 </Link>
               </li>
@@ -244,13 +259,13 @@ export default async function EntryPage({ params }: { params: Params }) {
           ) : null}
           <div className="grid grid-cols-2 gap-2">
             {prev ? (
-              <Link href={prev.href} className="flex min-h-[64px] flex-col justify-center rounded-2xl border border-slate-200 bg-white px-3 py-2 shadow-sm active:scale-[0.98] dark:border-slate-800 dark:bg-slate-900">
+              <Link href={prev.href} className="flex min-h-[64px] flex-col justify-center rounded-2xl border border-slate-200/80 bg-white px-3 py-2 shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04]">
                 <span className="text-xs font-semibold text-slate-500">‹ Previous</span>
                 <span className="line-clamp-2 text-sm font-medium leading-snug">{prev.title}</span>
               </Link>
             ) : <span />}
             {next ? (
-              <Link href={next.href} className="flex min-h-[64px] flex-col justify-center rounded-2xl border border-slate-200 bg-white px-3 py-2 text-right shadow-sm active:scale-[0.98] dark:border-slate-800 dark:bg-slate-900">
+              <Link href={next.href} className="flex min-h-[64px] flex-col justify-center rounded-2xl border border-slate-200/80 bg-white px-3 py-2 text-right shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04]">
                 <span className="text-xs font-semibold text-slate-500">Next ›</span>
                 <span className="line-clamp-2 text-sm font-medium leading-snug">{next.title}</span>
               </Link>
@@ -259,7 +274,7 @@ export default async function EntryPage({ params }: { params: Params }) {
         </nav>
       ) : null}
 
-      <footer className="mt-6 space-y-2 rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 dark:bg-slate-900 dark:text-slate-400">
+      <footer className="mt-6 space-y-2 rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 dark:bg-white/[0.04] dark:text-slate-400">
         <p>
           <span className="font-semibold">Source: </span>
           {entry.source_url ? (

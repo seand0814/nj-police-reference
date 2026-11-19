@@ -80,7 +80,7 @@ export default function GradeCalculator() {
         {t ? <span className={"rounded-full px-4 py-1.5 text-lg font-extrabold " + t.cls}>{t.label}</span> : <span className="text-slate-400">Enter a value</span>}
       </div>
       {c.note ? <p className="text-sm text-slate-600 dark:text-slate-400">{c.note}</p> : null}
-      {c.review ? <p className="text-xs font-semibold text-amber-700 dark:text-amber-300">⚠️ Thresholds under review — confirm before charging.</p> : null}
+      {c.review ? <p className="text-xs font-semibold text-amber-700 dark:text-amber-300">Thresholds under review — confirm before charging.</p> : null}
       <Link href={c.href} className="inline-block text-sm font-medium text-brand dark:text-brand-dark">Open the statute ›</Link>
     </div>
   );
