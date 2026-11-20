@@ -27,7 +27,7 @@ export default function PointsPage() {
   return (
     <>
       <Link href="/s/motor-vehicle" className="text-sm text-brand dark:text-brand-dark">← Motor Vehicle</Link>
-      <PageTitle sub="MVC points by violation, from the app's Title 39 entries">Points & Penalties</PageTitle>
+      <PageTitle back={{ href: "/tools", label: "Tools" }} sub="MVC points by violation, from the app's Title 39 entries">Points & Penalties</PageTitle>
       <p className="mb-3 rounded-xl bg-amber-50 p-3 text-xs text-amber-900 dark:bg-amber-950 dark:text-amber-100">
         Points and fines here come from entries that are not yet verified. Fines vary by court and are set by statute and the
         statewide violations schedule. Confirm before quoting them to a driver.

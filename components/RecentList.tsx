@@ -4,8 +4,10 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { useIndex, type IndexItem } from "@/lib/useIndex";
 import { gradeBadge } from "@/lib/sections";
-import { haptic } from "@/lib/haptics";
 import Icon from "./Icon";
+import RowActions from "./RowActions";
+import { openSheet } from "@/lib/sheet";
+import { useLongPress } from "@/lib/useLongPress";
 import { GradeBadge } from "./ui";
 import { KEYS, useStoredList } from "@/lib/useStoredList";
 
@@ -23,10 +25,11 @@ export function RecordVisit({ id }: { id: string }) {
 
 function Card({ r, starred }: { r: IndexItem; starred?: boolean }) {
   const badge = r.s === "case-law" || r.s === "checklists" ? null : gradeBadge(r.g, r.c);
+  const press = useLongPress(() => openSheet(<RowActions href={r.u} title={r.t} citation={r.c} badge={badge} />));
   return (
     <Link
       href={r.u}
-      onClick={() => haptic()}
+      {...press}
       className="flex min-h-[76px] w-[10rem] shrink-0 flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-3 shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04]"
     >
       <span className="line-clamp-2 text-[14px] font-semibold leading-snug">{r.t}</span>

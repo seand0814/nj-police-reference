@@ -6,6 +6,7 @@ import { fullTextUrl, gradeBadge, sectionBySlug } from "@/lib/sections";
 import EntryActionBar from "@/components/EntryActionBar";
 import Icon, { type IconName } from "@/components/Icon";
 import PageHeader from "@/components/PageHeader";
+import RelatedChips from "@/components/RelatedChips";
 import ElementsChecklist from "@/components/ElementsChecklist";
 import SpeakList from "@/components/SpeakList";
 import { RecordVisit } from "@/components/RecentList";
@@ -306,15 +307,15 @@ export default async function EntryPage({ params }: { params: Params }) {
       {related.length ? (
         <section className="mt-5">
           <Heading icon="branch">Related</Heading>
-          <ul className="flex flex-wrap gap-2">
-            {related.map((r) => (
-              <li key={r!.id}>
-                <Link href={`/entry/${r!.id}`} className="inline-flex min-h-[40px] items-center rounded-full border border-slate-200 bg-white px-4 text-sm font-medium text-navy-800 shadow-sm active:scale-95 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-100">
-                  {r!.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <RelatedChips
+            items={related.map((r) => ({
+              id: r!.id,
+              title: r!.title,
+              citation: r!.citation ?? "",
+              badge: gradeBadge(r!.grade_or_penalty, r!.citation),
+              points: r!.key_points.slice(0, 3),
+            }))}
+          />
         </section>
       ) : null}
 

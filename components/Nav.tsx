@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState, type MouseEvent } from "react";
+import { haptic } from "@/lib/haptics";
 import Icon, { type IconName } from "./Icon";
 
 const TABS: { href: string; label: string; icon: IconName }[] = [
@@ -19,8 +21,64 @@ function isActive(href: string, path: string) {
   return path === href || path.startsWith(href + "/");
 }
 
+/** Pages that clearly belong to one tab. Other pages (entries, go-bys, sections) stay in whichever tab you opened them from. */
+function ownerTab(path: string): string | null {
+  if (path === "/") return "/";
+  if (path === "/search") return "/search";
+  if (path === "/ask") return "/ask";
+  if (path === "/s/checklists") return "/s/checklists";
+  if (["/more", "/notes", "/contacts", "/radio-codes", "/tools", "/saved", "/az"].some((p) => path.startsWith(p))) return "/more";
+  return null;
+}
+
+const STATE_KEY = "njpr.tabs";
+type TabState = { current: string; last: Record<string, string> };
+
+function load(): TabState | null {
+  try {
+    return JSON.parse(sessionStorage.getItem(STATE_KEY) || "null");
+  } catch {
+    return null;
+  }
+}
+
 export default function Nav() {
   const path = usePathname() || "/";
+  const router = useRouter();
+  const [state, setState] = useState<TabState | null>(null);
+
+  // Like an iPhone tab bar: each tab remembers the last page you had open in it.
+  useEffect(() => {
+    const prev = load();
+    const current = ownerTab(path) ?? prev?.current ?? TABS.find((t) => isActive(t.href, path))?.href ?? "/";
+    const next: TabState = { current, last: { ...(prev?.last ?? {}), [current]: path } };
+    setState(next);
+    try {
+      sessionStorage.setItem(STATE_KEY, JSON.stringify(next));
+    } catch {}
+  }, [path]);
+
+  function tap(e: MouseEvent, href: string) {
+    e.preventDefault();
+    haptic();
+    const current = state?.current ?? TABS.find((t) => isActive(t.href, path))?.href;
+    if (current === href) {
+      // Second tap: back to the top of this tab.
+      if (path === href) window.scrollTo({ top: 0, behavior: "smooth" });
+      else router.push(href);
+      return;
+    }
+    const target = state?.last[href] ?? href;
+    const next: TabState = { current: href, last: state?.last ?? {} };
+    try {
+      sessionStorage.setItem(STATE_KEY, JSON.stringify(next));
+    } catch {}
+    setState(next);
+    router.push(target);
+  }
+
+  const activeTab = state?.current ?? TABS.find((t) => isActive(t.href, path))?.href ?? "/";
+
   return (
     <nav
       aria-label="Main"
@@ -28,11 +86,12 @@ export default function Nav() {
     >
       <ul className="mx-auto grid max-w-3xl grid-cols-5 px-1">
         {TABS.map((t) => {
-          const active = isActive(t.href, path);
+          const active = activeTab === t.href;
           return (
             <li key={t.href}>
               <Link
                 href={t.href}
+                onClick={(e) => tap(e, t.href)}
                 aria-current={active ? "page" : undefined}
                 className="group flex min-h-[60px] flex-col items-center justify-center gap-1 text-[11px] font-medium"
               >

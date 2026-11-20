@@ -21,7 +21,7 @@ export default function ChecklistView({ id, groups }: Props) {
 
   return (
     <div>
-      <div className="sticky top-0 z-10 -mx-4 mb-4 bg-slate-50/95 px-4 py-3 backdrop-blur dark:bg-slate-950/95">
+      <div className="sticky top-[calc(2.75rem+env(safe-area-inset-top))] z-10 -mx-4 mb-4 bg-[#f4f6fa]/95 px-4 py-3 backdrop-blur dark:bg-ink-950/95">
         <div className="flex items-center justify-between text-sm">
           <span className="font-semibold">{count} of {total} done</span>
           <button type="button" onClick={() => save([])} className="rounded-lg px-3 py-1 text-sm font-medium text-brand dark:text-brand-dark">

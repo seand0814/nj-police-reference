@@ -92,7 +92,7 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.startsWith("/api/") || url.pathname === "/offline-manifest.json") return;
+  if (url.pathname.startsWith("/api/") || url.pathname === "/offline-manifest.json" || url.pathname === "/version.json") return;
   // Next.js page data for in-app navigation: let it fail offline; Next then loads the full (saved) page instead.
   if (request.headers.get("RSC") === "1" || url.searchParams.has("_rsc")) return;
 

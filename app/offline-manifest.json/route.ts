@@ -13,6 +13,6 @@ export function GET() {
     ...allComparisons().map((c) => `/compare/${c.id}`),
     ...allEntries().map((e) => `/entry/${e.id}`),
   ];
-  const version = process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 12) || process.env.VERCEL_DEPLOYMENT_ID || "dev";
+  const version = process.env.NEXT_PUBLIC_BUILD_ID || "dev";
   return Response.json({ version, urls });
 }

@@ -1,8 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import AppChrome from "@/components/AppChrome";
 import Nav from "@/components/Nav";
+import SheetHost from "@/components/SheetHost";
 import OfflineSupport from "@/components/OfflineSupport";
 import { THEME_SCRIPT } from "@/lib/theme";
+import splash from "@/lib/splash.json";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
@@ -17,7 +20,7 @@ export const metadata: Metadata = {
   title: "NJ Police Reference",
   description: "New Jersey statutes with grading, case law, checklists and go-bys for patrol officers.",
   applicationName: "NJ Police Reference",
-  appleWebApp: { capable: true, title: "NJ Police Ref", statusBarStyle: "black-translucent" },
+  appleWebApp: { capable: true, title: "NJ Police Ref", statusBarStyle: "black-translucent", startupImage: splash },
   icons: {
     icon: [
       { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
@@ -49,6 +52,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <OfflineSupport />
         <main className="mx-auto max-w-3xl px-4 pb-28 pt-6">{children}</main>
         <Nav />
+        <AppChrome />
+        <SheetHost />
       </body>
     </html>
   );

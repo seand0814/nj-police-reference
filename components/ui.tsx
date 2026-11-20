@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import type { Badge } from "@/lib/sections";
 import Icon, { type IconName } from "./Icon";
+import PageHeader from "./PageHeader";
 
 export const DISCLAIMER =
   "Reference only. Verify against current statute, AG directives, and your department's policy.";
@@ -20,13 +21,9 @@ export const btnGhostCls =
   "inline-flex min-h-[44px] items-center justify-center rounded-xl border border-slate-300 bg-white px-4 py-2 font-medium " +
   "text-slate-700 active:scale-[0.98] hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800";
 
-export function PageTitle({ children, sub }: { children: ReactNode; sub?: ReactNode }) {
-  return (
-    <header className="mb-4">
-      <h1 className="text-2xl font-bold tracking-tight">{children}</h1>
-      {sub ? <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{sub}</p> : null}
-    </header>
-  );
+/** Navy page header for the More-tab pages (notes, contacts, tools, A–Z…). */
+export function PageTitle({ children, sub, back = { href: "/more", label: "More" } }: { children: ReactNode; sub?: ReactNode; back?: { href: string; label: string } | null }) {
+  return <PageHeader back={back ?? undefined} title={children} subtitle={sub} />;
 }
 
 export function Card({ href, children }: { href?: string; children: ReactNode }) {
@@ -41,57 +38,8 @@ export function Card({ href, children }: { href?: string; children: ReactNode })
   );
 }
 
-export function GradeBadge({ badge, large }: { badge: Badge | null; large?: boolean }) {
-  if (!badge) return null;
-  return (
-    <span
-      className={
-        "inline-flex shrink-0 items-center justify-center rounded-full font-bold " +
-        (large ? "px-3 py-1 text-sm " : "min-w-[3.25rem] px-2 py-0.5 text-[11px] ") +
-        badge.cls
-      }
-    >
-      {badge.label}
-    </span>
-  );
-}
-
-/** A tappable list row: badge, title, citation. */
-export function RowLink({
-  href,
-  title,
-  citation,
-  badge,
-  review,
-  icon,
-}: {
-  href: string;
-  title: string;
-  citation?: string;
-  badge?: Badge | null;
-  review?: boolean;
-  icon?: IconName;
-}) {
-  return (
-    <Link
-      href={href}
-      className="flex min-h-[56px] items-center gap-3 px-4 py-2.5 active:bg-slate-100 dark:active:bg-white/5"
-    >
-      {icon ? (
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-600/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-400">
-          <Icon name={icon} size={17} />
-        </span>
-      ) : null}
-      <span className="min-w-0 flex-1">
-        <span className="block font-medium leading-snug">{title}</span>
-        {citation ? <span className="block truncate text-xs text-slate-500 dark:text-slate-400">{citation}</span> : null}
-      </span>
-      {review ? <span title="Grade under review" aria-label="Grade under review" className="h-2 w-2 shrink-0 rounded-full bg-amber-500" /> : null}
-      <GradeBadge badge={badge ?? null} />
-      <Icon name="chevronRight" size={16} className="shrink-0 text-slate-300 dark:text-slate-600" />
-    </Link>
-  );
-}
+export { default as GradeBadge } from "./GradeBadge";
+export { default as RowLink } from "./RowLink";
 
 export function DeviceNote() {
   return (

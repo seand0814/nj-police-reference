@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import CompactTitle from "./CompactTitle";
 import Icon, { type IconName } from "./Icon";
 
 type Props = {
@@ -39,6 +40,7 @@ export default function PageHeader({ title, eyebrow, subtitle, back, icon, iconB
         </div>
         {children}
       </div>
+      {typeof title === "string" ? <CompactTitle title={title} back={back} /> : null}
       <div aria-hidden className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold-400/70 to-transparent" />
     </header>
   );

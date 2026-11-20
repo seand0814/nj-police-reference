@@ -1,8 +1,10 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import type { Group } from "@/lib/content";
 import { KEYS } from "@/lib/useStoredList";
+import Icon from "./Icon";
 import { RowLink, inputCls } from "./ui";
 
 type Props = {
@@ -25,6 +27,25 @@ export default function GroupedList({
 }: Props) {
   const [view, setView] = useState<"type" | "chapter">("type");
   const [q, setQ] = useState("");
+  const [open, setOpen] = useState<Record<string, boolean>>({});
+  const path = usePathname() || "";
+  const memKey = "njpr.list:" + path;
+
+  // Coming back to this list keeps the groups you had open and your filter.
+  useEffect(() => {
+    try {
+      const m = JSON.parse(sessionStorage.getItem(memKey) || "null");
+      if (m) {
+        setOpen(m.open ?? {});
+        setQ(m.q ?? "");
+      }
+    } catch {}
+  }, [memKey]);
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(memKey, JSON.stringify({ open, q }));
+    } catch {}
+  }, [memKey, open, q]);
 
   // Remember the user's preferred Criminal Code view on this device.
   useEffect(() => {
@@ -57,7 +78,7 @@ export default function GroupedList({
   return (
     <div>
       {byChapter ? (
-        <div role="tablist" aria-label="Organize by" className="mb-3 grid grid-cols-2 rounded-xl bg-slate-200 p-1 dark:bg-slate-800">
+        <div role="tablist" aria-label="Organize by" className="mb-3 grid grid-cols-2 rounded-xl bg-slate-200/70 p-1 dark:bg-white/[0.06]">
           {(["type", "chapter"] as const).map((v) => (
             <button
               key={v}
@@ -75,7 +96,7 @@ export default function GroupedList({
         </div>
       ) : null}
 
-      <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 py-2 backdrop-blur dark:bg-slate-950/95">
+      <div className="sticky top-[calc(2.75rem+env(safe-area-inset-top))] z-10 -mx-4 bg-[#f4f6fa]/95 px-4 py-2 backdrop-blur dark:bg-ink-950/95">
         <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={placeholder} className={inputCls} />
       </div>
 
@@ -85,8 +106,13 @@ export default function GroupedList({
         {filtered.map((g) => (
           <details
             key={view + g.name}
-            open={!!term || openAll || filtered.length === 1}
-            className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900"
+            open={!!term || (open[view + g.name] ?? (!!openAll || filtered.length === 1))}
+            onToggle={(e) => {
+              if (term) return;
+              const isOpen = (e.currentTarget as HTMLDetailsElement).open;
+              setOpen((o) => (o[view + g.name] === isOpen ? o : { ...o, [view + g.name]: isOpen }));
+            }}
+            className="group overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-sm dark:border-white/10 dark:bg-white/[0.04]"
           >
             <summary className="flex min-h-[52px] cursor-pointer list-none items-center justify-between gap-3 px-4 font-semibold [&::-webkit-details-marker]:hidden">
               <span>{g.name}</span>
@@ -94,10 +120,10 @@ export default function GroupedList({
                 <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300">
                   {g.rows.length}
                 </span>
-                <span aria-hidden className="text-slate-400 transition group-open:rotate-90">›</span>
+                <Icon name="chevronRight" size={16} className="text-slate-400 transition-transform group-open:rotate-90" />
               </span>
             </summary>
-            <ul className="divide-y divide-slate-100 border-t border-slate-100 dark:divide-slate-800 dark:border-slate-800">
+            <ul className="divide-y divide-slate-100 border-t border-slate-100 dark:divide-white/5 dark:border-white/10">
               {g.rows.map((r) => (
                 <li key={r.id}>
                   <RowLink

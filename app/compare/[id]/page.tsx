@@ -45,7 +45,7 @@ export default async function ComparisonPage({ params }: { params: Params }) {
       />
 
       {/* Charge headers: tap to open the full entry */}
-      <div className={"sticky top-0 z-10 -mx-4 mb-3 grid gap-2 bg-[#f4f6fa]/95 px-4 py-2 backdrop-blur dark:bg-ink-950/95 " + (n === 3 ? "grid-cols-3" : "grid-cols-2")}>
+      <div className={"sticky top-[calc(2.75rem+env(safe-area-inset-top))] z-10 -mx-4 mb-3 grid gap-2 bg-[#f4f6fa]/95 px-4 py-2 backdrop-blur dark:bg-ink-950/95 " + (n === 3 ? "grid-cols-3" : "grid-cols-2")}>
         {c.charges.map((ch, i) => {
           const e = getEntry(ch.entry);
           return (

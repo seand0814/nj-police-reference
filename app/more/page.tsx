@@ -3,7 +3,7 @@ import Icon, { type IconName } from "@/components/Icon";
 import { LogoMark } from "@/components/Logo";
 import OfflineManager from "@/components/OfflineManager";
 import PageHeader from "@/components/PageHeader";
-import ThemeToggle from "@/components/ThemeToggle";
+import ThemeToggle, { TextSizePicker } from "@/components/ThemeToggle";
 import { DISCLAIMER } from "@/components/ui";
 
 const LINKS: { href: string; label: string; sub: string; icon: IconName; bg: string }[] = [
@@ -54,6 +54,8 @@ export default function MorePage() {
         <div className="mt-3">
           <ThemeToggle />
         </div>
+        <h3 className="mb-2 mt-4 text-xs font-semibold text-slate-500 dark:text-slate-400">Text size</h3>
+        <TextSizePicker />
         <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
           Night turns the whole screen red and dim so it won&apos;t wreck your night vision in a dark car. You can also flip
           it on and off with the moon button at the top of the Home screen.

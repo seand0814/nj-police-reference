@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Icon, { type IconName } from "./Icon";
-import { THEME_KEY, applyTheme, type ThemeChoice } from "@/lib/theme";
+import { TEXT_KEY, TEXT_SIZES, THEME_KEY, applyTextSize, applyTheme, type ThemeChoice } from "@/lib/theme";
+import { haptic } from "@/lib/haptics";
 
 function useTheme() {
   const [theme, setTheme] = useState<ThemeChoice>("auto");
@@ -20,6 +21,7 @@ function useTheme() {
     return () => mq.removeEventListener("change", on);
   }, [theme]);
   function choose(t: ThemeChoice) {
+    haptic();
     setTheme(t);
     try {
       localStorage.setItem(THEME_KEY, t);
@@ -55,6 +57,40 @@ export default function ThemeToggle() {
         >
           <Icon name={o.icon} size={20} />
           {o.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/** Text size picker (More > Appearance). Scales the app's text; your iPhone's own text size isn't readable by websites. */
+export function TextSizePicker() {
+  const [size, setSize] = useState<string>("");
+  useEffect(() => {
+    try {
+      setSize(localStorage.getItem(TEXT_KEY) || "");
+    } catch {}
+  }, []);
+  return (
+    <div role="radiogroup" aria-label="Text size" className="grid grid-cols-4 gap-1 rounded-2xl bg-slate-200/70 p-1 dark:bg-slate-800">
+      {TEXT_SIZES.map((o, i) => (
+        <button
+          key={o.label}
+          type="button"
+          role="radio"
+          aria-checked={size === o.value}
+          onClick={() => {
+            haptic();
+            setSize(o.value);
+            applyTextSize(o.value);
+          }}
+          className={
+            "flex min-h-[56px] flex-col items-center justify-center gap-0.5 rounded-xl font-semibold transition " +
+            (size === o.value ? "bg-white text-slate-900 shadow-sm dark:bg-ink-950 dark:text-white" : "text-slate-600 dark:text-slate-300")
+          }
+        >
+          <span style={{ fontSize: 14 + i * 3 + "px" }} className="leading-none">Aa</span>
+          <span className="text-[11px]">{o.label}</span>
         </button>
       ))}
     </div>

@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html { -webkit-text-size-adjust: 100%; color-scheme: light; }
+html { -webkit-text-size-adjust: 100%; color-scheme: light; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+
+/* Feel like an app, not a web page: no grey tap flash, no selecting button text, no iOS link-preview popups on long press. */
+a, button, summary, nav, [role="tab"], [role="radio"] { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+input, textarea, select { font-size: max(16px, 1rem); } /* 16px+ stops iOS from zooming into fields */
+img { -webkit-user-drag: none; }
+/* The fixed tab bar shouldn't drag the page around. */
+nav[aria-label="Main"] { overscroll-behavior: none; }
 html.dark { color-scheme: dark; }
 body {
   @apply bg-[#f4f6fa] text-slate-900 antialiased dark:bg-ink-950 dark:text-slate-100;

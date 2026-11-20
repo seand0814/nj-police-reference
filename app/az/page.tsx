@@ -66,7 +66,7 @@ export default function AZPage() {
       <div className="space-y-5 pr-6">
         {LETTERS.filter((l) => groups.has(l)).map((l) => (
           <section key={l} id={`L-${l}`} className="scroll-mt-4">
-            <h2 className="sticky top-0 z-[5] -mx-4 bg-slate-50/95 px-4 py-1.5 text-lg font-extrabold text-slate-700 backdrop-blur dark:bg-slate-950/95 dark:text-slate-200">
+            <h2 className="sticky top-[calc(2.75rem+env(safe-area-inset-top))] z-[5] -mx-4 bg-[#f4f6fa]/95 px-4 py-1.5 text-lg font-extrabold text-slate-700 backdrop-blur dark:bg-ink-950/95 dark:text-slate-200">
               {l}
             </h2>
             <ul className="divide-y divide-slate-100 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-900">
