@@ -6,5 +6,17 @@ const nextConfig = {
   outputFileTracingIncludes: {
     "/api/chat": ["./content/**/*"],
   },
+  // The offline service worker must always be re-checked so updates reach phones.
+  async headers() {
+    return [
+      {
+        source: "/sw.js",
+        headers: [
+          { key: "Cache-Control", value: "no-cache, no-store, must-revalidate" },
+          { key: "Service-Worker-Allowed", value: "/" },
+        ],
+      },
+    ];
+  },
 };
 export default nextConfig;

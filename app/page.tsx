@@ -3,6 +3,7 @@ import { allChecklists, allEntries, getEntry, sectionCounts } from "@/lib/conten
 import { gradeBadge } from "@/lib/sections";
 import Icon, { type IconName } from "@/components/Icon";
 import { Wordmark } from "@/components/Logo";
+import OfflinePrompt from "@/components/OfflinePrompt";
 import RecentList from "@/components/RecentList";
 import { NightButton } from "@/components/ThemeToggle";
 import { DISCLAIMER, GradeBadge } from "@/components/ui";
@@ -97,6 +98,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <OfflinePrompt />
 
       {/* Sections */}
       <section>

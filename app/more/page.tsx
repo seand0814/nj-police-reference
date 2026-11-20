@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Icon, { type IconName } from "@/components/Icon";
 import { LogoMark } from "@/components/Logo";
+import OfflineManager from "@/components/OfflineManager";
 import PageHeader from "@/components/PageHeader";
 import ThemeToggle from "@/components/ThemeToggle";
 import { DISCLAIMER } from "@/components/ui";
@@ -39,7 +40,16 @@ export default function MorePage() {
         ))}
       </ul>
 
-      <section className={CARD + " mt-5 p-4"}>
+      <section id="offline" className={CARD + " mt-5 scroll-mt-4 p-4"}>
+        <h2 className="mb-3 text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">Offline use</h2>
+        <OfflineManager />
+        <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+          Pages you open are also saved automatically. If you use the Home Screen icon, download from inside that app; it keeps
+          its own copy separate from Safari. Ask AI always needs a connection.
+        </p>
+      </section>
+
+      <section className={CARD + " mt-4 p-4"}>
         <h2 className="text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">Appearance</h2>
         <div className="mt-3">
           <ThemeToggle />

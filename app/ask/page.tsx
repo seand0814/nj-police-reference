@@ -43,6 +43,10 @@ export default function AskPage() {
   async function send(text: string) {
     const q = text.trim();
     if (!q || busy) return;
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      setError("You're offline. Ask AI needs a connection; search and saved pages still work.");
+      return;
+    }
     setError("");
     setInput("");
     const history: Msg[] = [...messages, { role: "user", content: q }];

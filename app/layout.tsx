@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import Nav from "@/components/Nav";
+import OfflineSupport from "@/components/OfflineSupport";
 import { THEME_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="min-h-screen font-sans">
+        <OfflineSupport />
         <main className="mx-auto max-w-3xl px-4 pb-28 pt-6">{children}</main>
         <Nav />
       </body>
