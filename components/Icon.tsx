@@ -3,7 +3,8 @@ export type IconName =
   | "home" | "search" | "chat" | "checklist" | "grid" | "scale" | "car" | "glass" | "house" | "badge" | "shield" | "book"
   | "eye" | "radio" | "pulse" | "language" | "paw" | "star" | "starFill" | "share" | "moon" | "sun" | "auto" | "chevronRight"
   | "chevronLeft" | "external" | "copy" | "check" | "note" | "phone" | "calculator" | "az" | "branch" | "template" | "list"
-  | "alert" | "clock" | "speaker" | "lock" | "pin" | "file" | "gavel";
+  | "alert" | "clock" | "speaker" | "lock" | "pin" | "file" | "gavel"
+  | "mic" | "compare" | "close" | "help" | "arrowLeft" | "arrowRight";
 
 const P: Record<IconName, string[]> = {
   home: ["M3 10.5 12 3l9 7.5", "M5 9v11h14V9", "M10 20v-6h4v6"],
@@ -47,6 +48,12 @@ const P: Record<IconName, string[]> = {
   lock: ["M6 11h12v10H6z", "M8.5 11V8a3.5 3.5 0 0 1 7 0v3"],
   pin: ["M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z", "M12 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"],
   file: ["M6 3h9l4 4v14H6z", "M14 3v5h5"],
+  mic: ["M12 3a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3z", "M5 11a7 7 0 0 0 14 0", "M12 18v3", "M9 21h6"],
+  compare: ["M4 4h6v16H4z", "M14 4h6v16h-6z", "M7 8h0", "M17 8h0", "M6 12h2", "M16 12h2"],
+  close: ["M6 6l12 12", "M18 6 6 18"],
+  help: ["M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z", "M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.5v.7", "M12 17h.01"],
+  arrowLeft: ["M19 12H5", "m11 6-6 6 6 6"],
+  arrowRight: ["M5 12h14", "m13 6 6 6-6 6"],
   gavel: ["m14 4 6 6", "m11 7 6 6", "m12.5 5.5-4 4 6 6 4-4", "M10.5 11.5 3 19l2 2 7.5-7.5", "M13 21h8"],
 };
 

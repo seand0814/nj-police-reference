@@ -2,6 +2,7 @@
 
 import { KEYS, useStoredList } from "@/lib/useStoredList";
 import Icon from "./Icon";
+import { haptic } from "@/lib/haptics";
 
 export default function BookmarkButton({ id }: { id: string }) {
   const { items, save, loaded } = useStoredList<string>(KEYS.bookmarks);
@@ -10,7 +11,10 @@ export default function BookmarkButton({ id }: { id: string }) {
     <button
       type="button"
       disabled={!loaded}
-      onClick={() => save(on ? items.filter((x) => x !== id) : [id, ...items])}
+      onClick={() => {
+        haptic(on ? "light" : "success");
+        save(on ? items.filter((x) => x !== id) : [id, ...items]);
+      }}
       aria-label={on ? "Remove from Saved" : "Save"}
       aria-pressed={on}
       className={
@@ -18,7 +22,7 @@ export default function BookmarkButton({ id }: { id: string }) {
         (on ? "border-gold-400/60 bg-gold-400/20 text-gold-300" : "border-white/25 bg-white/10 text-white")
       }
     >
-      <Icon name={on ? "starFill" : "star"} size={20} />
+      <Icon key={on ? "on" : "off"} name={on ? "starFill" : "star"} size={20} className={on ? "pop" : ""} />
     </button>
   );
 }

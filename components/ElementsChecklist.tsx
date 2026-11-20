@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Icon from "./Icon";
+import { haptic } from "@/lib/haptics";
 
 /** Tap each element as you confirm probable cause for it. Not saved: resets when you leave the page. */
 export default function ElementsChecklist({ elements }: { elements: string[] }) {
@@ -11,6 +12,7 @@ export default function ElementsChecklist({ elements }: { elements: string[] }) 
   const allMet = required.length > 0 && doneRequired === required.length;
 
   function toggle(i: number) {
+    haptic();
     setDone(done.includes(i) ? done.filter((x) => x !== i) : [...done, i]);
   }
 

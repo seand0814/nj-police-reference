@@ -1,0 +1,94 @@
+{
+ "id": "which-trespass",
+ "kind": "flow",
+ "title": "Trespass or Burglary?",
+ "sections": [
+  "checklists",
+  "criminal-code"
+ ],
+ "summary": "Unlicensed entry, defiant trespass, peering and burglary.",
+ "note": "Helps you find the right statute to read. It does not replace the statute, your prosecutor's guidance or department policy. Not yet verified against official sources.",
+ "start": "structure",
+ "nodes": {
+  "structure": {
+   "q": "Did the suspect enter or hide in a structure knowing they weren't allowed to be there?",
+   "yes": "purpose",
+   "no": "notice",
+   "help": "Includes a separately secured part of a building, like a back office or apartment."
+  },
+  "purpose": {
+   "q": "Was their purpose to commit an offense inside (theft, assault, damage)?",
+   "yes": "r_burg",
+   "no": "dwelling",
+   "help": "Purpose can be shown by tools, items taken, statements or what they did once inside."
+  },
+  "dwelling": {
+   "q": "Was it a dwelling, school or school property, utility, research facility or airport secure area?",
+   "yes": "r_a4",
+   "no": "r_adp"
+  },
+  "notice": {
+   "q": "Did they enter or stay somewhere after being told to leave, or where it was posted or fenced?",
+   "yes": "r_def",
+   "no": "peer",
+   "help": "Notice can be given in person, by signs, or by a fence or enclosure meant to keep people out."
+  },
+  "peer": {
+   "q": "Did they peer into a window or opening of a home to invade someone's privacy?",
+   "yes": "r_peer",
+   "no": "r_none"
+  },
+  "r_burg": {
+   "result": "Burglary 2C:18-2: 3rd degree",
+   "tone": "red",
+   "points": [
+    "2nd degree if they caused, tried or threatened bodily injury, or were armed.",
+    "Charge the crime they meant to commit, or committed, separately."
+   ],
+   "link": "/entry/njsa-2c-18-2"
+  },
+  "r_a4": {
+   "result": "Criminal trespass 2C:18-3(a): 4th degree",
+   "tone": "red",
+   "points": [
+    "Unlicensed entry into a dwelling, school or other listed place."
+   ],
+   "link": "/entry/njsa-2c-18-3"
+  },
+  "r_adp": {
+   "result": "Criminal trespass 2C:18-3(a): disorderly persons",
+   "tone": "amber",
+   "points": [
+    "Unlicensed entry into any other structure."
+   ],
+   "link": "/entry/njsa-2c-18-3"
+  },
+  "r_def": {
+   "result": "Defiant trespass 2C:18-3(b): petty disorderly",
+   "tone": "amber",
+   "points": [
+    "Write down who gave notice, when, and exactly what was said, or photograph the signs.",
+    "Defense: a place open to the public where the person followed all lawful conditions."
+   ],
+   "link": "/entry/njsa-2c-18-3"
+  },
+  "r_peer": {
+   "result": "Criminal trespass 2C:18-3(c): 4th degree",
+   "tone": "red",
+   "points": [
+    "Peering into a dwelling window or opening to invade privacy.",
+    "Note where they stood and what they could see."
+   ],
+   "link": "/entry/njsa-2c-18-3"
+  },
+  "r_none": {
+   "result": "Probably not trespass",
+   "tone": "blue",
+   "points": [
+    "Defenses include abandoned structures and places open to the public.",
+    "If they won't leave after you or the owner tell them to, it becomes defiant trespass."
+   ],
+   "link": "/entry/njsa-2c-18-3"
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "assault",
+ "title": "Simple vs. Aggravated Assault",
+ "summary": "The injury, the weapon and who the victim is decide the charge.",
+ "charges": [
+  {
+   "entry": "njsa-2c-12-1a",
+   "label": "Simple Assault",
+   "cite": "2C:12-1a"
+  },
+  {
+   "entry": "njsa-2c-12-1b",
+   "label": "Aggravated Assault",
+   "cite": "2C:12-1b"
+  }
+ ],
+ "rows": [
+  {
+   "label": "Injury",
+   "decider": true,
+   "cells": [
+    "Bodily injury: pain, illness or impairment, or an attempt",
+    "Serious bodily injury (2nd°), significant bodily injury (3rd°), or any injury with a weapon or to a protected victim"
+   ]
+  },
+  {
+   "label": "Weapon",
+   "decider": true,
+   "cells": [
+    "Only negligent injury with a deadly weapon",
+    "Purposely or knowingly with a deadly weapon (3rd°); recklessly (4th°); pointing a firearm (4th°)"
+   ]
+  },
+  {
+   "label": "Victim",
+   "decider": true,
+   "cells": [
+    "Anyone",
+    "Police, fire, EMS, health care, school staff, transit, judges and others on duty: 4th°, or 3rd° with injury"
+   ]
+  },
+  {
+   "label": "Mental state",
+   "cells": [
+    "Purposely, knowingly or recklessly (negligently only with a weapon)",
+    "Usually purposely or knowingly; recklessly with extreme indifference for serious injury"
+   ]
+  },
+  {
+   "label": "Grade",
+   "cells": [
+    "Disorderly persons; petty disorderly for a mutual fight",
+    "2nd, 3rd or 4th degree depending on the paragraph"
+   ]
+  }
+ ],
+ "tip": "Start with the injury. Pain alone points to simple assault; lasting or serious injury, a weapon, or a protected victim points to aggravated.",
+ "flow": "which-assault",
+ "sections": [
+  "criminal-code"
+ ],
+ "note": "Plain-language summary. Not yet verified against official sources. Read the full statute before charging."
+}

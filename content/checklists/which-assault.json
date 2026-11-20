@@ -1,0 +1,172 @@
+{
+ "id": "which-assault",
+ "kind": "flow",
+ "title": "Which Assault Charge Fits?",
+ "sections": [
+  "checklists",
+  "criminal-code"
+ ],
+ "summary": "Simple vs. aggravated assault, one question at a time.",
+ "note": "Helps you find the right statute to read. It does not replace the statute, your prosecutor's guidance or department policy. Not yet verified against official sources.",
+ "start": "sbi",
+ "nodes": {
+  "sbi": {
+   "q": "Did the suspect cause serious bodily injury, or try to?",
+   "yes": "r_b1",
+   "no": "strang",
+   "help": "Serious bodily injury: creates a substantial risk of death, or causes serious permanent disfigurement or long-lasting loss or impairment of a body part or organ."
+  },
+  "strang": {
+   "q": "Was a domestic violence victim strangled, or did the suspect try to strangle them?",
+   "yes": "r_b13",
+   "no": "weapon",
+   "help": "Impeding normal breathing or blood circulation by pressure on the throat or neck, or blocking the nose or mouth."
+  },
+  "weapon": {
+   "q": "Was a deadly weapon used to cause, or try to cause, bodily injury?",
+   "yes": "w_mental",
+   "no": "point",
+   "help": "Anything used or meant to be used in a way that can cause death or serious bodily injury, including an object used that way."
+  },
+  "w_mental": {
+   "q": "Did the suspect act purposely or knowingly (not just carelessly)?",
+   "yes": "r_b2",
+   "no": "r_b3"
+  },
+  "point": {
+   "q": "Did the suspect point a firearm at or toward someone, loaded or not?",
+   "yes": "r_b4",
+   "no": "sig"
+  },
+  "sig": {
+   "q": "Did the suspect cause significant bodily injury, or try to?",
+   "yes": "r_b7",
+   "no": "prot",
+   "help": "Significant bodily injury: temporary loss of the function of a body part or organ, or temporary loss of one of the five senses."
+  },
+  "prot": {
+   "q": "Was the victim a protected person doing their job?",
+   "yes": "prot_inj",
+   "no": "bi",
+   "help": "Police, firefighters, EMS, health care workers, school employees, transit operators, judges, DCP&P workers and others listed in 2C:12-1b(5)."
+  },
+  "prot_inj": {
+   "q": "Did the protected victim suffer bodily injury?",
+   "yes": "r_b5_3",
+   "no": "r_b5_4",
+   "help": "Bodily injury means physical pain, illness or any impairment of physical condition."
+  },
+  "bi": {
+   "q": "Did the suspect cause bodily injury, try to, or use a physical threat to make someone fear imminent serious bodily injury?",
+   "yes": "mutual",
+   "no": "r_none",
+   "help": "Bodily injury means physical pain, illness or any impairment of physical condition."
+  },
+  "mutual": {
+   "q": "Was it a fight or scuffle both sides entered into by mutual consent?",
+   "yes": "r_pdp",
+   "no": "r_dp"
+  },
+  "r_b1": {
+   "result": "Aggravated assault 2C:12-1b(1): 2nd degree",
+   "tone": "red",
+   "points": [
+    "Document the injury: hospital, diagnosis, photos, and how long the victim is expected to be impaired.",
+    "If the victim is a protected person, note it; it still matters for bail and sentencing.",
+    "Domestic relationship? Run the mandatory arrest go-by too."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b13": {
+   "result": "Aggravated assault 2C:12-1b(13): 2nd degree",
+   "tone": "red",
+   "points": [
+    "Look for neck marks, petechiae, voice changes, trouble swallowing; symptoms can show up later.",
+    "Get EMS to evaluate. Strangulation injuries can be serious without visible marks.",
+    "This is a DV case: mandatory arrest rules and weapon seizure apply."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b2": {
+   "result": "Aggravated assault 2C:12-1b(2): 3rd degree",
+   "tone": "red",
+   "points": [
+    "Recover and photograph the weapon; note how it was used.",
+    "Also consider possession of a weapon for an unlawful purpose (2C:39-4)."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b3": {
+   "result": "Aggravated assault 2C:12-1b(3): 4th degree",
+   "tone": "amber",
+   "points": [
+    "Fits reckless injury with a deadly weapon.",
+    "If the injury was only negligent, it drops to simple assault a(2), a disorderly persons offense."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b4": {
+   "result": "Aggravated assault 2C:12-1b(4): 4th degree",
+   "tone": "amber",
+   "points": [
+    "Pointing at a police officer is a higher grade under a separate paragraph; check the entry.",
+    "Recover the firearm or imitation; check permits and also consider weapons charges in 2C:39."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b7": {
+   "result": "Aggravated assault 2C:12-1b(7): 3rd degree",
+   "tone": "red",
+   "points": [
+    "Write down exactly which function or sense was lost and for how long.",
+    "Example: knocked unconscious, or a punch that temporarily blinds an eye."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b5_3": {
+   "result": "Aggravated assault 2C:12-1b(5): 3rd degree",
+   "tone": "red",
+   "points": [
+    "Protected victim plus bodily injury.",
+    "Note the victim's role and that they were acting in the line of duty (or because of their status)."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_b5_4": {
+   "result": "Aggravated assault 2C:12-1b(5): 4th degree",
+   "tone": "amber",
+   "points": [
+    "A simple assault on a protected victim with no bodily injury.",
+    "Note the victim's role and that they were on duty."
+   ],
+   "link": "/entry/njsa-2c-12-1b"
+  },
+  "r_dp": {
+   "result": "Simple assault 2C:12-1a: disorderly persons",
+   "tone": "amber",
+   "points": [
+    "Domestic relationship? Simple assault is a DV predicate; run the mandatory arrest go-by.",
+    "Consider a complaint-summons unless a warrant is justified."
+   ],
+   "link": "/entry/njsa-2c-12-1a"
+  },
+  "r_pdp": {
+   "result": "Simple assault (mutual fight): petty disorderly",
+   "tone": "blue",
+   "points": [
+    "Both sides agreed to fight. Each may be charged.",
+    "Mutual consent is judged by the facts, not just what the parties say afterward."
+   ],
+   "link": "/entry/njsa-2c-12-1a"
+  },
+  "r_none": {
+   "result": "Probably not an assault",
+   "tone": "blue",
+   "points": [
+    "An offensive touch, shove or threat to do so with purpose to harass fits harassment 2C:33-4(b).",
+    "A threat to kill or of a violent crime may be terroristic threats 2C:12-3."
+   ],
+   "link": "/entry/njsa-2c-33-4"
+  }
+ }
+}

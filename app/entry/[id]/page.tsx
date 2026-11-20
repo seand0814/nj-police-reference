@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allEntries, entrySection, getEntry, sectionSequence, type Entry } from "@/lib/content";
+import { allEntries, comparisonsFor, entrySection, getEntry, sectionSequence, type Entry } from "@/lib/content";
 import { fullTextUrl, gradeBadge, sectionBySlug } from "@/lib/sections";
-import BookmarkButton from "@/components/BookmarkButton";
-import CopyCharge from "@/components/CopyCharge";
+import EntryActionBar from "@/components/EntryActionBar";
 import Icon, { type IconName } from "@/components/Icon";
 import PageHeader from "@/components/PageHeader";
-import ShareButton from "@/components/ShareButton";
 import ElementsChecklist from "@/components/ElementsChecklist";
 import SpeakList from "@/components/SpeakList";
 import { RecordVisit } from "@/components/RecentList";
@@ -141,6 +139,7 @@ export default async function EntryPage({ params }: { params: Params }) {
   if (!entry) notFound();
   const section = sectionBySlug(entrySection(entry))!;
   const badge = gradeBadge(entry.grade_or_penalty, entry.citation);
+  const compares = comparisonsFor(entry.id);
   const related = entry.related.map((id) => getEntry(id)).filter((x) => x !== null);
   const verified = entry.source_verified && entry.last_verified;
   const textUrl = entry.source_type === "statute" ? fullTextUrl(entry.citation) : null;
@@ -169,12 +168,6 @@ export default async function EntryPage({ params }: { params: Params }) {
         back={{ href: `/s/${section.slug}`, label: section.name }}
         eyebrow={entry.citation ? <span className="font-mono normal-case tracking-normal">{entry.citation}</span> : section.short}
         title={entry.title}
-        actions={
-          <>
-            <ShareButton title={entry.title} text={shareText} path={`/entry/${entry.id}`} />
-            <BookmarkButton id={entry.id} />
-          </>
-        }
       />
 
       {entry.category === "Medical" ? (
@@ -193,7 +186,6 @@ export default async function EntryPage({ params }: { params: Params }) {
               Grade under review — confirm before charging.
             </p>
           ) : null}
-          {isCharge ? <div className="mt-3"><CopyCharge text={chargeText} /></div> : null}
         </section>
       ) : null}
 
@@ -235,6 +227,28 @@ export default async function EntryPage({ params }: { params: Params }) {
         </>
       )}
 
+      {compares.length ? (
+        <section className="mt-5">
+          <Heading icon="compare">Compare</Heading>
+          <div className="space-y-2">
+            {compares.map((c) => (
+              <Link
+                key={c.id}
+                href={`/compare/${c.id}`}
+                className="flex min-h-[56px] items-center gap-3 rounded-2xl border border-slate-200/80 bg-white px-4 py-2.5 shadow-sm active:scale-[0.99] dark:border-white/10 dark:bg-white/[0.04]"
+              >
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-navy-800 text-gold-300"><Icon name="compare" size={18} /></span>
+                <span className="min-w-0 flex-1">
+                  <span className="block font-semibold leading-tight">{c.title}</span>
+                  <span className="block text-xs text-slate-500 dark:text-slate-400">{c.summary}</span>
+                </span>
+                <Icon name="chevronRight" size={18} className="text-slate-400" />
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       {related.length ? (
         <section className="mt-5">
           <Heading icon="branch">Related</Heading>
@@ -273,6 +287,22 @@ export default async function EntryPage({ params }: { params: Params }) {
           </div>
         </nav>
       ) : null}
+
+      <EntryActionBar
+        id={entry.id}
+        title={entry.title}
+        path={`/entry/${entry.id}`}
+        shareText={shareText}
+        copy={
+          isCharge
+            ? { text: chargeText, label: "Copy charge" }
+            : entry.source_type === "case"
+              ? { text: [entry.title, entry.citation, entry.key_points[0]].filter(Boolean).join("\n"), label: "Copy cite" }
+              : { text: shareText, label: "Copy" }
+        }
+        prev={prev ? { href: prev.href, title: prev.title } : null}
+        next={next ? { href: next.href, title: next.title } : null}
+      />
 
       <footer className="mt-6 space-y-2 rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 dark:bg-white/[0.04] dark:text-slate-400">
         <p>

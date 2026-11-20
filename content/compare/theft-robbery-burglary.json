@@ -1,0 +1,64 @@
+{
+ "id": "theft-robbery-burglary",
+ "title": "Theft vs. Robbery vs. Burglary",
+ "summary": "Force turns theft into robbery; entry with criminal purpose is burglary.",
+ "charges": [
+  {
+   "entry": "njsa-2c-20-3",
+   "label": "Theft",
+   "cite": "2C:20-3"
+  },
+  {
+   "entry": "njsa-2c-15-1",
+   "label": "Robbery",
+   "cite": "2C:15-1"
+  },
+  {
+   "entry": "njsa-2c-18-2",
+   "label": "Burglary",
+   "cite": "2C:18-2"
+  }
+ ],
+ "rows": [
+  {
+   "label": "Force or threat",
+   "decider": true,
+   "cells": [
+    "None",
+    "Injury, force, or threat of immediate injury during the theft or immediate flight",
+    "Not required"
+   ]
+  },
+  {
+   "label": "Entry into a structure",
+   "decider": true,
+   "cells": [
+    "Not required",
+    "Not required",
+    "Required, with purpose to commit an offense inside"
+   ]
+  },
+  {
+   "label": "Must something be taken?",
+   "cells": [
+    "Yes (or an attempt)",
+    "No, an attempted theft is enough",
+    "No, the purpose at entry is enough"
+   ]
+  },
+  {
+   "label": "Grade",
+   "cells": [
+    "By value: DP to 2nd°",
+    "2nd°; 1st° if armed or serious injury",
+    "3rd°; 2nd° if injury, threat or armed"
+   ]
+  }
+ ],
+ "tip": "A shoplifter who shoves a guard on the way out can be charged with robbery: force during the immediate flight counts.",
+ "flow": "which-theft",
+ "sections": [
+  "criminal-code"
+ ],
+ "note": "Plain-language summary. Not yet verified against official sources. Read the full statute before charging."
+}

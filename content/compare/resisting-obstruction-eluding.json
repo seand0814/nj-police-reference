@@ -1,0 +1,54 @@
+{
+ "id": "resisting-obstruction-eluding",
+ "title": "Resisting vs. Obstruction vs. Eluding",
+ "summary": "What the officer was doing decides which statute applies.",
+ "charges": [
+  {
+   "entry": "njsa-2c-29-2",
+   "label": "Resisting Arrest",
+   "cite": "2C:29-2a"
+  },
+  {
+   "entry": "njsa-2c-29-1",
+   "label": "Obstruction",
+   "cite": "2C:29-1"
+  },
+  {
+   "entry": "njsa-2c-29-2",
+   "label": "Eluding",
+   "cite": "2C:29-2b"
+  }
+ ],
+ "rows": [
+  {
+   "label": "What the officer was doing",
+   "decider": true,
+   "cells": [
+    "Making an arrest",
+    "Any lawful official function, like an investigation",
+    "Signaling a vehicle to stop"
+   ]
+  },
+  {
+   "label": "Conduct",
+   "cells": [
+    "Preventing the arrest: flight, force, threats or creating a risk of injury",
+    "Flight, intimidation, force, physical interference or an obstacle",
+    "Fleeing or trying to elude in a vehicle"
+   ]
+  },
+  {
+   "label": "Grade",
+   "cells": [
+    "DP; 4th° by flight; 3rd° with force or risk of injury",
+    "DP; 4th° if it obstructs a crime investigation",
+    "3rd°; 2nd° if it creates a risk of death or injury"
+   ]
+  }
+ ],
+ "tip": "Before the arrest is announced, running from an investigative stop is usually obstruction. After, it is resisting.",
+ "sections": [
+  "criminal-code"
+ ],
+ "note": "Plain-language summary. Not yet verified against official sources. Read the full statute before charging."
+}

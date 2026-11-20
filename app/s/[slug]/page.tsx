@@ -62,6 +62,17 @@ export default async function SectionPage({ params }: { params: Params }) {
         </section>
       ) : null}
 
+      {slug === "criminal-code" || slug === "checklists" ? (
+        <Link href="/compare" className="mb-4 flex min-h-[60px] items-center gap-3 rounded-2xl bg-gradient-to-r from-navy-800 to-navy-900 px-4 text-white shadow-md active:scale-[0.99]">
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gold-400 text-navy-900"><Icon name="help" size={18} /></span>
+          <span className="flex-1">
+            <span className="block font-semibold">Which charge fits?</span>
+            <span className="block text-xs text-white/70">Yes/no helpers and side-by-side comparisons</span>
+          </span>
+          <Icon name="chevronRight" size={18} className="text-white/60" />
+        </Link>
+      ) : null}
+
       {slug === "motor-vehicle" ? (
         <Link href="/tools/points" className="mb-4 flex min-h-[56px] items-center gap-3 rounded-2xl border border-slate-200/80 bg-white px-4 shadow-sm active:scale-[0.99] dark:border-white/10 dark:bg-white/[0.04]">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-600 text-white"><Icon name="list" size={18} /></span>

@@ -14,7 +14,7 @@ const TABS: { href: string; label: string; icon: IconName }[] = [
 
 function isActive(href: string, path: string) {
   if (href === "/") return path === "/" || (path.startsWith("/s/") && path !== "/s/checklists") || path.startsWith("/entry/");
-  if (href === "/s/checklists") return path === "/s/checklists" || path.startsWith("/go/");
+  if (href === "/s/checklists") return path === "/s/checklists" || path.startsWith("/go/") || path.startsWith("/compare");
   if (href === "/more") return ["/more", "/notes", "/contacts", "/radio-codes", "/tools", "/saved", "/az"].some((p) => path.startsWith(p));
   return path === href || path.startsWith(href + "/");
 }

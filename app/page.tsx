@@ -9,9 +9,9 @@ import { DISCLAIMER, GradeBadge } from "@/components/ui";
 
 const QUICK: { href: string; icon: IconName; label: string; tint: string }[] = [
   { href: "/ask", icon: "chat", label: "Ask AI", tint: "bg-sky-600" },
+  { href: "/compare", icon: "help", label: "Which charge?", tint: "bg-emerald-600" },
   { href: "/go/dv-arrest", icon: "house", label: "DV arrest?", tint: "bg-fuchsia-600" },
   { href: "/go/dwi-arrest", icon: "glass", label: "DWI checklist", tint: "bg-amber-500" },
-  { href: "/tools", icon: "calculator", label: "Grade by value", tint: "bg-emerald-600" },
 ];
 
 /** Hand-picked everyday charges (no usage tracking, so this list is curated). */
@@ -58,6 +58,8 @@ export default function Home() {
         <div aria-hidden className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gold-400/70 to-transparent" />
       </header>
 
+      <RecentList />
+
       {/* Quick access */}
       <section className="mb-7">
         <div className="grid grid-cols-4 gap-2.5">
@@ -95,8 +97,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      <RecentList />
 
       {/* Sections */}
       <section>

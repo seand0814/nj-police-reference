@@ -1,0 +1,54 @@
+{
+ "id": "trespass-burglary",
+ "title": "Criminal Trespass vs. Burglary",
+ "summary": "Same unlawful entry; burglary adds the purpose to commit a crime inside.",
+ "charges": [
+  {
+   "entry": "njsa-2c-18-3",
+   "label": "Criminal Trespass",
+   "cite": "2C:18-3"
+  },
+  {
+   "entry": "njsa-2c-18-2",
+   "label": "Burglary",
+   "cite": "2C:18-2"
+  }
+ ],
+ "rows": [
+  {
+   "label": "Unlicensed entry",
+   "cells": [
+    "Yes, or hiding inside",
+    "Yes, or hiding inside"
+   ]
+  },
+  {
+   "label": "Purpose to commit an offense inside",
+   "decider": true,
+   "cells": [
+    "Not required",
+    "Required"
+   ]
+  },
+  {
+   "label": "Other forms",
+   "cells": [
+    "Defiant trespass after notice (PDP); peering into a home (4th°)",
+    "Utility property with criminal purpose"
+   ]
+  },
+  {
+   "label": "Grade",
+   "cells": [
+    "DP; 4th° for a dwelling, school, utility or other listed place",
+    "3rd°; 2nd° if injury, threat or armed"
+   ]
+  }
+ ],
+ "tip": "Ask what they meant to do inside. Tools, items taken, statements or damage can show purpose.",
+ "flow": "which-trespass",
+ "sections": [
+  "criminal-code"
+ ],
+ "note": "Plain-language summary. Not yet verified against official sources. Read the full statute before charging."
+}

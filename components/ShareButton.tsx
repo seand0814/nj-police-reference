@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Icon from "./Icon";
+import { haptic } from "@/lib/haptics";
 
 type Props = { title: string; text: string; path: string; variant?: "light" | "plain" };
 
@@ -13,6 +14,7 @@ export default function ShareButton({ title, text, path, variant = "light" }: Pr
   const [copied, setCopied] = useState(false);
 
   async function share() {
+    haptic();
     const url = window.location.origin + path;
     const body = `${text}\n\n${url}`;
     try {

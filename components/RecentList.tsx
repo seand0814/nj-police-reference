@@ -2,7 +2,11 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
-import { useIndex } from "@/lib/useIndex";
+import { useIndex, type IndexItem } from "@/lib/useIndex";
+import { gradeBadge } from "@/lib/sections";
+import { haptic } from "@/lib/haptics";
+import Icon from "./Icon";
+import { GradeBadge } from "./ui";
 import { KEYS, useStoredList } from "@/lib/useStoredList";
 
 /** Records a visit (call from an entry or go-by page). */
@@ -17,29 +21,63 @@ export function RecordVisit({ id }: { id: string }) {
   return null;
 }
 
-/** Horizontal strip of recently viewed entries for the home page. */
-export default function RecentList() {
-  const { items: ids, loaded } = useStoredList<string>(KEYS.recent);
-  const { items: index } = useIndex();
-  if (!loaded || ids.length === 0 || !index) return null;
-  const byId = new Map(index.map((i) => [i.id, i] as const));
-  const rows = ids.map((id) => byId.get(id)).filter((x) => x !== undefined);
-  if (!rows.length) return null;
+function Card({ r, starred }: { r: IndexItem; starred?: boolean }) {
+  const badge = r.s === "case-law" || r.s === "checklists" ? null : gradeBadge(r.g, r.c);
+  return (
+    <Link
+      href={r.u}
+      onClick={() => haptic()}
+      className="flex min-h-[76px] w-[10rem] shrink-0 flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-3 shadow-sm active:scale-[0.98] dark:border-white/10 dark:bg-white/[0.04]"
+    >
+      <span className="line-clamp-2 text-[14px] font-semibold leading-snug">{r.t}</span>
+      <span className="mt-1.5 flex items-center justify-between gap-1">
+        <span className="truncate font-mono text-[11px] text-slate-500">{(r.c || "").replace(/^N\.J\.S\.A\.\s*/, "").replace(/\s*\(as amended.*$/, "")}</span>
+        {starred ? <Icon name="starFill" size={13} className="shrink-0 text-gold-400" /> : <GradeBadge badge={badge} />}
+      </span>
+    </Link>
+  );
+}
+
+function Strip({ title, rows, starred, action }: { title: string; rows: IndexItem[]; starred?: boolean; action?: React.ReactNode }) {
   return (
     <section className="mb-6">
-      <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Recently viewed</h2>
-      <div className="flex gap-2 overflow-x-auto pb-1">
+      <div className="mb-2.5 flex items-end justify-between">
+        <h2 className="text-[13px] font-semibold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">{title}</h2>
+        {action}
+      </div>
+      <div className="no-scrollbar -mx-4 flex gap-2.5 overflow-x-auto px-4 pb-1">
         {rows.map((r) => (
-          <Link
-            key={r!.id}
-            href={r!.u}
-            className="flex min-h-[60px] w-40 shrink-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white px-3 py-2 shadow-sm dark:border-slate-800 dark:bg-slate-900"
-          >
-            <span className="line-clamp-2 text-sm font-medium leading-snug">{r!.t}</span>
-            {r!.c ? <span className="truncate text-[11px] text-slate-500">{r!.c}</span> : null}
-          </Link>
+          <Card key={r.id} r={r} starred={starred} />
         ))}
       </div>
     </section>
+  );
+}
+
+/** Your starred entries and recently viewed pages, shown at the top of Home once you have any. */
+export default function RecentList() {
+  const { items: recent, loaded: l1 } = useStoredList<string>(KEYS.recent);
+  const { items: stars, loaded: l2 } = useStoredList<string>(KEYS.bookmarks);
+  const { items: index } = useIndex();
+  if (!l1 || !l2 || !index || (!recent.length && !stars.length)) return null;
+  const byId = new Map(index.map((i) => [i.id, i] as const));
+  const starRows = stars.map((id) => byId.get(id)).filter((x): x is IndexItem => !!x);
+  const recentRows = recent
+    .filter((id) => !stars.includes(id))
+    .map((id) => byId.get(id))
+    .filter((x): x is IndexItem => !!x)
+    .slice(0, 8);
+  return (
+    <>
+      {starRows.length ? (
+        <Strip
+          title="Starred"
+          rows={starRows}
+          starred
+          action={<Link href="/saved" className="text-sm font-semibold text-brand dark:text-brand-dark">See all</Link>}
+        />
+      ) : null}
+      {recentRows.length ? <Strip title="Jump back in" rows={recentRows} /> : null}
+    </>
   );
 }

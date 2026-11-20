@@ -1,0 +1,86 @@
+{
+ "id": "which-mischief",
+ "kind": "flow",
+ "title": "Is It Criminal Mischief?",
+ "sections": [
+  "checklists",
+  "criminal-code"
+ ],
+ "summary": "Damage or tampering, and how the dollar amount sets the grade.",
+ "note": "Helps you find the right statute to read. It does not replace the statute, your prosecutor's guidance or department policy. Not yet verified against official sources.",
+ "start": "owner",
+ "nodes": {
+  "owner": {
+   "q": "Did the property belong to someone other than the suspect?",
+   "yes": "mental",
+   "no": "r_own",
+   "help": "Jointly owned property can still count. A spouse breaking shared property is a common DV mischief case."
+  },
+  "mental": {
+   "q": "Was the damage done purposely or knowingly, or recklessly or negligently with fire, explosives or another dangerous means?",
+   "yes": "value2k",
+   "no": "tamper"
+  },
+  "tamper": {
+   "q": "Did the suspect tamper with the property in a way that endangers a person or property?",
+   "yes": "value2k",
+   "no": "r_civil"
+  },
+  "value2k": {
+   "q": "Is the damage $2,000 or more?",
+   "yes": "r_3rd",
+   "no": "value500",
+   "help": "Use the repair or replacement cost. Get an estimate or receipt for the report."
+  },
+  "value500": {
+   "q": "Is the damage more than $500?",
+   "yes": "r_4th",
+   "no": "r_dp"
+  },
+  "r_3rd": {
+   "result": "Criminal mischief 2C:17-3: 3rd degree",
+   "tone": "red",
+   "points": [
+    "Higher grades apply to damage to utilities, transportation, public services and some facilities; check the entry.",
+    "Domestic relationship? Criminal mischief is a DV predicate."
+   ],
+   "link": "/entry/njsa-2c-17-3"
+  },
+  "r_4th": {
+   "result": "Criminal mischief 2C:17-3: 4th degree",
+   "tone": "amber",
+   "points": [
+    "Over $500 but under $2,000.",
+    "Domestic relationship? Criminal mischief is a DV predicate."
+   ],
+   "link": "/entry/njsa-2c-17-3"
+  },
+  "r_dp": {
+   "result": "Criminal mischief 2C:17-3: disorderly persons",
+   "tone": "amber",
+   "points": [
+    "$500 or less.",
+    "Domestic relationship? Criminal mischief is a DV predicate."
+   ],
+   "link": "/entry/njsa-2c-17-3"
+  },
+  "r_own": {
+   "result": "Not criminal mischief",
+   "tone": "blue",
+   "points": [
+    "Damaging only your own property is generally not mischief.",
+    "Check for other offenses, like insurance fraud or a restraining order violation."
+   ],
+   "link": "/entry/njsa-2c-17-3"
+  },
+  "r_civil": {
+   "result": "Probably a civil matter",
+   "tone": "blue",
+   "points": [
+    "Accidental or careless damage without fire or explosives is usually civil.",
+    "Give both parties a case number and exchange information."
+   ],
+   "link": "/entry/njsa-2c-17-3"
+  }
+ }
+}

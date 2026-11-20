@@ -3,6 +3,7 @@
 import Link from "next/link";
 import type { Step } from "@/lib/content";
 import { KEYS, useStoredList } from "@/lib/useStoredList";
+import { haptic } from "@/lib/haptics";
 
 type Props = { id: string; groups: { name: string; steps: Step[] }[] };
 
@@ -14,6 +15,7 @@ export default function ChecklistView({ id, groups }: Props) {
   const pct = total ? Math.round((count / total) * 100) : 0;
 
   function toggle(key: string) {
+    haptic();
     save(done.includes(key) ? done.filter((k) => k !== key) : [...done, key]);
   }
 

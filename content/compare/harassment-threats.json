@@ -1,0 +1,54 @@
+{
+ "id": "harassment-threats",
+ "title": "Harassment vs. Terroristic Threats",
+ "summary": "Annoying or alarming conduct vs. a threat meant to terrorize.",
+ "charges": [
+  {
+   "entry": "njsa-2c-33-4",
+   "label": "Harassment",
+   "cite": "2C:33-4"
+  },
+  {
+   "entry": "njsa-2c-12-3",
+   "label": "Terroristic Threats",
+   "cite": "2C:12-3"
+  }
+ ],
+ "rows": [
+  {
+   "label": "What was said or done",
+   "decider": true,
+   "cells": [
+    "Annoying or alarming communications, offensive touching or a threat to touch, a course of alarming conduct",
+    "A threat to commit a crime of violence, or a threat to kill"
+   ]
+  },
+  {
+   "label": "Purpose",
+   "decider": true,
+   "cells": [
+    "To harass, or to alarm or seriously annoy",
+    "To terrorize or cause evacuation; or to put the victim in imminent fear of death"
+   ]
+  },
+  {
+   "label": "Victim's belief",
+   "cells": [
+    "Not required",
+    "For a threat to kill, circumstances must make the victim reasonably believe it"
+   ]
+  },
+  {
+   "label": "Grade",
+   "cells": [
+    "Petty disorderly; 4th° in some cases (for example, on parole or probation)",
+    "3rd°; 2nd° under (a) during a declared emergency"
+   ]
+  }
+ ],
+ "tip": "Write the threat in the suspect's exact words, plus the setting and the victim's reaction. Context decides which charge fits.",
+ "sections": [
+  "criminal-code"
+ ],
+ "note": "Plain-language summary. Not yet verified against official sources. Read the full statute before charging."
+}

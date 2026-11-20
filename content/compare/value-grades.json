@@ -1,0 +1,62 @@
+{
+ "id": "value-grades",
+ "title": "Value Grading: Theft vs. Criminal Mischief",
+ "summary": "The dollar breakpoints are different. Check which table you're using.",
+ "charges": [
+  {
+   "entry": "njsa-2c-20-2",
+   "label": "Theft, Shoplifting, RSP",
+   "cite": "2C:20-2"
+  },
+  {
+   "entry": "njsa-2c-17-3",
+   "label": "Criminal Mischief",
+   "cite": "2C:17-3"
+  }
+ ],
+ "rows": [
+  {
+   "label": "Disorderly persons",
+   "cells": [
+    "Under $200",
+    "$500 or less"
+   ]
+  },
+  {
+   "label": "4th degree",
+   "decider": true,
+   "cells": [
+    "$200 to $500",
+    "Over $500, under $2,000"
+   ]
+  },
+  {
+   "label": "3rd degree",
+   "decider": true,
+   "cells": [
+    "Over $500, under $75,000",
+    "$2,000 or more"
+   ]
+  },
+  {
+   "label": "2nd degree",
+   "cells": [
+    "$75,000 or more",
+    "Listed public services and facilities; check the entry"
+   ]
+  },
+  {
+   "label": "Regardless of value",
+   "cells": [
+    "Firearm, motor vehicle, boat, horse, companion animal, CDS: 3rd°",
+    "Utilities, transportation and other listed property: higher grades"
+   ]
+  }
+ ],
+ "tip": "$400 is a 4th degree theft but only a disorderly persons criminal mischief.",
+ "flow": "which-mischief",
+ "sections": [
+  "criminal-code"
+ ],
+ "note": "Plain-language summary. Not yet verified against official sources. Read the full statute before charging."
+}

@@ -61,12 +61,25 @@ export type Checklist = {
   nodes?: Record<string, FlowNode>;
 };
 
+/** Side-by-side comparison of related charges. */
+export type Comparison = {
+  id: string;
+  title: string;
+  summary: string;
+  charges: { entry: string; label: string; cite: string }[];
+  rows: { label: string; cells: string[]; decider?: boolean }[];
+  tip?: string;
+  flow?: string;
+  sections: string[];
+  note: string;
+};
+
 /** One row in a list: enough to render a title, citation and grade badge. */
 export type Row = { id: string; href: string; title: string; citation: string; badge: Badge | null; review: boolean; kind?: string };
 export type Group = { name: string; rows: Row[] };
 
 /** Compact record used by search, Saved and Recent. */
-export type IndexItem = { id: string; u: string; t: string; c: string; k: string; g: string; x: string };
+export type IndexItem = { id: string; u: string; t: string; c: string; k: string; g: string; x: string; s: string };
 
 const collator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
 let entryCache: Entry[] | null = null;
@@ -97,6 +110,21 @@ export function allChecklists(): Checklist[] {
   );
   checklistCache = list;
   return list;
+}
+
+let compareCache: Comparison[] | null = null;
+export function allComparisons(): Comparison[] {
+  if (!compareCache) compareCache = readJsonDir<Comparison>("compare");
+  const order = ["assault", "theft-robbery-burglary", "trespass-burglary", "value-grades", "harassment-threats", "resisting-obstruction-eluding"];
+  const rank = (id: string) => (order.includes(id) ? order.indexOf(id) : 99);
+  return [...compareCache].sort((a, b) => rank(a.id) - rank(b.id));
+}
+export function getComparison(id: string) {
+  return allComparisons().find((c) => c.id === id) ?? null;
+}
+/** Comparisons that include this entry. */
+export function comparisonsFor(entryId: string) {
+  return allComparisons().filter((c) => c.charges.some((x) => x.entry === entryId));
 }
 
 export function getEntry(id: string) {
@@ -249,6 +277,7 @@ export function searchIndex(): IndexItem[] {
     k: e.category,
     g: e.grade_or_penalty ?? "",
     x: [...e.key_points, ...e.officer_notes].join(" "),
+    s: sectionOf(e),
   }));
   const lists = allChecklists().map((c) => ({
     id: "go:" + c.id,
@@ -262,6 +291,17 @@ export function searchIndex(): IndexItem[] {
       ...(c.groups ?? []).flatMap((g) => g.steps.map((s) => s.text)),
       ...Object.values(c.nodes ?? {}).map((n) => ("q" in n ? n.q : n.result)),
     ].join(" "),
+    s: "checklists",
   }));
-  return [...lists, ...entries];
+  const compares = allComparisons().map((c) => ({
+    id: "cmp:" + c.id,
+    u: `/compare/${c.id}`,
+    t: c.title,
+    c: "Charge comparison",
+    k: "Checklists & Go-Bys",
+    g: "",
+    x: [c.summary, c.tip ?? "", ...c.charges.map((x) => x.label + " " + x.cite)].join(" "),
+    s: "checklists",
+  }));
+  return [...lists, ...compares, ...entries];
 }

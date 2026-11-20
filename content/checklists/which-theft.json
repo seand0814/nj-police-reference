@@ -1,0 +1,110 @@
+{
+ "id": "which-theft",
+ "kind": "flow",
+ "title": "Which Theft Charge Fits?",
+ "sections": [
+  "checklists",
+  "criminal-code"
+ ],
+ "summary": "Theft, shoplifting, robbery, burglary or receiving stolen property.",
+ "note": "Helps you find the right statute to read. It does not replace the statute, your prosecutor's guidance or department policy. Not yet verified against official sources.",
+ "start": "force",
+ "nodes": {
+  "force": {
+   "q": "During the theft or the immediate flight, did the suspect use force, cause injury, or threaten immediate injury?",
+   "yes": "armed",
+   "no": "entry",
+   "help": "Includes a shoplifter who shoves the guard while running out the door."
+  },
+  "armed": {
+   "q": "Was the suspect armed with or did they threaten a deadly weapon, or cause or try to cause serious bodily injury?",
+   "yes": "r_rob1",
+   "no": "r_rob2"
+  },
+  "entry": {
+   "q": "Did the suspect enter, or hide in, a structure with purpose to commit an offense inside?",
+   "yes": "r_burg",
+   "no": "store",
+   "help": "A house, garage, business, vehicle used as a dwelling, or a separately secured part of one."
+  },
+  "store": {
+   "q": "Was it merchandise taken from a store or business offering it for sale?",
+   "yes": "r_shop",
+   "no": "recv"
+  },
+  "recv": {
+   "q": "Did the suspect receive, keep or sell property they knew (or believed) was stolen, rather than take it themselves?",
+   "yes": "r_rsp",
+   "no": "car"
+  },
+  "car": {
+   "q": "Was a vehicle taken just to use it, with no plan to keep it?",
+   "yes": "r_joy",
+   "no": "r_theft"
+  },
+  "r_rob1": {
+   "result": "Robbery 2C:15-1: 1st degree",
+   "tone": "red",
+   "points": [
+    "Recover the weapon, or document the threat in the victim's words.",
+    "Add weapons charges as they apply."
+   ],
+   "link": "/entry/njsa-2c-15-1"
+  },
+  "r_rob2": {
+   "result": "Robbery 2C:15-1: 2nd degree",
+   "tone": "red",
+   "points": [
+    "Force or threat during the theft, the attempt or the immediate flight turns a theft into a robbery.",
+    "Nothing has to actually be taken; an attempted theft counts."
+   ],
+   "link": "/entry/njsa-2c-15-1"
+  },
+  "r_burg": {
+   "result": "Burglary 2C:18-2: 3rd degree",
+   "tone": "red",
+   "points": [
+    "2nd degree if they caused, tried or threatened bodily injury, or were armed.",
+    "Charge the theft or other crime inside separately.",
+    "No purpose to commit a crime inside? Look at criminal trespass instead."
+   ],
+   "link": "/entry/njsa-2c-18-2"
+  },
+  "r_shop": {
+   "result": "Shoplifting 2C:20-11: graded by value",
+   "tone": "amber",
+   "points": [
+    "Under $200 DP, $200 to $500 4th degree, over $500 3rd degree, $75,000 or more 2nd degree.",
+    "Use the full retail value. Run the shoplifting checklist."
+   ],
+   "link": "/entry/njsa-2c-20-11"
+  },
+  "r_rsp": {
+   "result": "Receiving stolen property 2C:20-7: graded by value",
+   "tone": "amber",
+   "points": [
+    "Graded by value, the same as theft.",
+    "Look for the statutory presumptions of knowledge, like a very low price paid."
+   ],
+   "link": "/entry/njsa-2c-20-7"
+  },
+  "r_joy": {
+   "result": "Unlawful taking of a means of conveyance 2C:20-10",
+   "tone": "amber",
+   "points": [
+    "For a vehicle used and abandoned without intent to keep it.",
+    "If they meant to keep it, it is theft, and a motor vehicle is 3rd degree regardless of value."
+   ],
+   "link": "/entry/njsa-2c-20-10"
+  },
+  "r_theft": {
+   "result": "Theft by unlawful taking 2C:20-3: graded by value",
+   "tone": "amber",
+   "points": [
+    "Under $200 DP, $200 to $500 4th degree, over $500 3rd degree, $75,000 or more 2nd degree.",
+    "A firearm, motor vehicle, boat, horse, companion animal or CDS is 3rd degree regardless of value."
+   ],
+   "link": "/entry/njsa-2c-20-3"
+  }
+ }
+}

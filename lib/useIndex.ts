@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-/** u = link, t = title, c = citation, k = category, g = grade, x = searchable text */
-export type IndexItem = { id: string; u: string; t: string; c: string; k: string; g: string; x: string };
+/** u = link, t = title, c = citation, k = category, g = grade, x = searchable text, s = section slug */
+export type IndexItem = { id: string; u: string; t: string; c: string; k: string; g: string; x: string; s: string };
 
 let cached: IndexItem[] | null = null;
 

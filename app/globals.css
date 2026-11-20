@@ -24,3 +24,16 @@ html.night body::after {
 /* Hide horizontal scrollbars on swipe rows */
 .no-scrollbar { scrollbar-width: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Page transitions (see app/template.tsx). Skipped when the phone asks for reduced motion. */
+@keyframes page-fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes page-left { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+@keyframes page-right { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
+.page-in { animation: page-fade 0.22s ease-out; }
+.page-in-left { animation: page-left 0.24s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.page-in-right { animation: page-right 0.24s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.18); } 100% { transform: scale(1); } }
+.pop { animation: pop 0.25s ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .page-in, .page-in-left, .page-in-right, .pop { animation: none; }
+}

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { FlowNode } from "@/lib/content";
 import { btnGhostCls } from "./ui";
+import { haptic } from "@/lib/haptics";
 
 const TONES = {
   red: "border-red-600 bg-red-50 text-red-900 dark:bg-red-950 dark:text-red-100",
@@ -21,6 +22,7 @@ export default function FlowView({ start, nodes }: { start: string; nodes: Recor
   const current = nodes[path[path.length - 1]];
 
   function go(next: string, a?: Answer) {
+    haptic(nodes[next] && "result" in nodes[next] ? "success" : "light");
     setPath([...path, next]);
     if (a) setAnswers([...answers, a]);
   }
