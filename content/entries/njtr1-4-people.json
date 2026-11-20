@@ -1,0 +1,66 @@
+{
+ "id": "njtr1-4-people",
+ "category": "Crash Reports",
+ "title": "Drivers, Passengers & Pedestrians",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "Someone seated in a vehicle is an occupant even if their feet are on the ground; someone half in or half out while standing up or sitting down is a pedestrian.",
+  "Riders in a cargo area are position 10; people riding on or hanging onto the outside are position 11 (box 84).",
+  "Pedestrians and cyclists don't get driver's license numbers in boxes 32/62."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Filling Out the Boxes",
+ "faq": [
+  {
+   "q": "When does someone getting out of a parked car become a pedestrian?",
+   "a": "If they're seated, they're an occupant, even with their feet on the ground. If they're in the middle of standing up or sitting down, half in and half out, they're a pedestrian. If they're standing on the vehicle with their feet off the ground, they're a passenger.",
+   "box": "84"
+  },
+  {
+   "q": "How do I list someone riding in a pickup bed, or who falls off the back of a trash truck?",
+   "a": "In the cargo area: code 10. Riding on or hanging onto the outside: code 11.",
+   "box": "84"
+  },
+  {
+   "q": "Someone jumps onto the outside of a car and the driver takes off.",
+   "a": "List it as a motor vehicle crash with a passenger riding on the outside: code 11.",
+   "box": "84"
+  },
+  {
+   "q": "A 16-year-old with a permit is driving with a parent. Whose information goes where?",
+   "a": "The permit driver's information goes in the driver boxes (26-34 or 56-64). Put the supervising parent's information in the crash description (box 145)."
+  },
+  {
+   "q": "Do I enter the license of an emergency vehicle driver, or a volunteer responding in a personal car?",
+   "a": "Yes.",
+   "box": "32/62"
+  },
+  {
+   "q": "Do pedestrians or cyclists get a license number entered?",
+   "a": "No.",
+   "box": "32/62"
+  },
+  {
+   "q": "Do pedestrians get Sequence of Events?",
+   "a": "No. Sequence of Events describes what the motor vehicles did. Record the pedestrian's actions in Pre-Crash Action.",
+   "box": "122/123"
+  },
+  {
+   "q": "A car runs a cyclist off the road but never touches them. Is that a crash?",
+   "a": "No. Without contact with the vehicle in transport, it isn't a crash."
+  },
+  {
+   "q": "A cyclist grabs onto a moving car for a tow, falls and is hurt.",
+   "a": "List them as a pedalcyclist. In the narrative, explain that they were holding onto the vehicle and whether the driver knew."
+  }
+ ]
+}

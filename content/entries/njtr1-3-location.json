@@ -1,0 +1,53 @@
+{
+ "id": "njtr1-3-location",
+ "category": "Crash Reports",
+ "title": "Location: Road Names, Parking Lots & GPS",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "Locate private property and parking lot crashes by street address, followed by \"parking lot.\"",
+  "Direction in box 10 is only for divided roads and one-way streets.",
+  "Latitude and longitude go in decimal degrees, not degrees, minutes and seconds."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Filling Out the Boxes",
+ "faq": [
+  {
+   "q": "When do I fill in the direction in box 10?",
+   "a": "Only for divided roadways and one-way streets.",
+   "box": "10"
+  },
+  {
+   "q": "A parking lot borders several streets. What address do I use?",
+   "a": "Use the lot's own street address from the municipal tax map or 9-1-1 database. If there isn't one, use a common name for the place, like \"Whiting Lake (parking lot).\"",
+   "box": "10"
+  },
+  {
+   "q": "For a private property crash, do I list a cross street?",
+   "a": "No. Use the street address in box 10, followed by \"parking lot\" if it happened in a lot, for example \"101 Main Street (parking lot).\"",
+   "box": "10"
+  },
+  {
+   "q": "Can an overpass be the nearest cross street?",
+   "a": "Yes. Overpasses, underpasses and railroad crossings can all be used.",
+   "box": "17"
+  },
+  {
+   "q": "Do I need to fill in latitude and longitude?",
+   "a": "Fill them in if your department has GPS. Use decimal degrees only. NJDOT also relies on an accurate distance to the nearest cross road to place the crash.",
+   "box": "21/22"
+  },
+  {
+   "q": "A car hits a curb. Is that private property?",
+   "a": "No. Curbing is part of the roadway system unless the whole crash happened on private or other off-road property."
+  }
+ ]
+}

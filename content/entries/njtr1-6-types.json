@@ -1,0 +1,64 @@
+{
+ "id": "njtr1-6-types",
+ "category": "Crash Reports",
+ "title": "Animals, Objects, Fires & Potholes",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "Always complete an NJTR-1 for an animal strike; send it to NJDOT only if it's reportable.",
+  "A load or object falling off one vehicle onto another is a multi-vehicle non-collision crash.",
+  "Potholes and raised manhole covers count as fixed-object crashes."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Filling Out the Boxes",
+ "faq": [
+  {
+   "q": "A car hits a dog. What report?",
+   "a": "An NJTR-1, every time. It goes to NJDOT only if it meets the reportable criteria; otherwise mark it non-reportable and keep it. Typical codes: contributing circumstance 57 – Animal in Roadway; Sequence of Events 24 – Deer or 25 – Other Animal. A horse pulling a buggy is not \"an animal\" for this purpose."
+  },
+  {
+   "q": "A tire kicks up a rock that hits another car.",
+   "a": "Complete an NJTR-1, reportable or non-reportable based on your investigation and the criteria."
+  },
+  {
+   "q": "Something falls off one vehicle and hits another.",
+   "a": "A two-vehicle (or multi-vehicle) non-collision crash."
+  },
+  {
+   "q": "A tree branch, golf ball or baseball hits a moving car.",
+   "a": "It can be classified as a one-vehicle non-collision crash."
+  },
+  {
+   "q": "Why report potholes and manhole covers if they're temporary?",
+   "a": "They're fixed-object crashes, and the reports help find road maintenance and engineering problems."
+  },
+  {
+   "q": "A car hits a parked, unhitched, registered trailer.",
+   "a": "A one-vehicle crash. The trailer is a non-fixed object; put its information in the narrative."
+  },
+  {
+   "q": "Does a vehicle have to be moving for a fire to be an NJTR-1?",
+   "a": "Yes. A fire that starts in a vehicle in transport is a non-collision crash."
+  },
+  {
+   "q": "A car runs onto a center island and needs a tow.",
+   "a": "Yes, an NJTR-1. Send it to NJDOT if it's reportable; keep it if not."
+  },
+  {
+   "q": "A snowmobile hits a parked car.",
+   "a": "Yes, an NJTR-1. Snowmobile, ATV and dirt bike crashes with injury, death or property damage follow the same reporting rules (N.J.S.A. 39:3C-21)."
+  },
+  {
+   "q": "A riding mower hits a moving car, or a tree.",
+   "a": "Mower vs. a vehicle in transport: yes. Mower vs. a fixed object only: no."
+  }
+ ]
+}

@@ -14,7 +14,7 @@ function terms(q: string) {
 }
 
 function entryText(e: Entry) {
-  return [e.title, e.citation, e.grade_or_penalty, ...e.key_points, ...e.officer_notes].filter(Boolean).join(" ").toLowerCase();
+  return [e.title, e.citation, e.grade_or_penalty, ...e.key_points, ...e.officer_notes, ...(e.faq ?? []).flatMap((f) => [f.q, f.a])].filter(Boolean).join(" ").toLowerCase();
 }
 
 let docs: { e: Entry; title: string; body: string }[] | null = null;
@@ -59,6 +59,7 @@ export function relevantContext(question: string, max = 8): string {
       e.grade_or_penalty ? `Grade/penalty: ${e.grade_or_penalty}${e.grade_review ? " [grade flagged for review]" : ""}` : "",
       ...e.key_points.map((k) => `- ${k}`),
       ...e.officer_notes.map((k) => `- ${k}`),
+      ...(e.faq ?? []).map((f) => `- Q: ${f.q} A: ${f.a}`),
       `Verified against source: ${e.source_verified ? "yes" : "no"}. App link: /entry/${e.id}`,
     ]
       .filter(Boolean)

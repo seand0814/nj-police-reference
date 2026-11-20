@@ -1,0 +1,49 @@
+{
+ "id": "njtr1-10-devices",
+ "category": "Crash Reports",
+ "title": "E-Bikes, E-Scooters & Personal Conveyances",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "Low-speed e-bikes, low-speed e-scooters, motorized scooters, motorized wheelchairs and hoverboards are \"personal conveyances,\" not vehicles, for crash reporting.",
+  "Only report them on an NJTR-1 when they're in a crash with a motor vehicle in transport.",
+  "Then list the rider as a pedestrian: name, address, date of birth and sex only; select 17 – Personal Conveyance in box 108/109; describe the device in box 145."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Vehicles & Devices",
+ "faq": [
+  {
+   "q": "Do e-bike or e-scooter crashes go on an NJTR-1?",
+   "a": "Only when they collide with a motor vehicle in transport. A rider who falls alone or hits a fixed object isn't captured on the NJTR-1."
+  },
+  {
+   "q": "How do I list the rider?",
+   "a": "As a pedestrian, with only name, address, date of birth and sex. Select 17 – Personal Conveyance and describe the device in the narrative.",
+   "box": "108/109, 145"
+  },
+  {
+   "q": "What is a low-speed electric bicycle?",
+   "a": "Two or three wheels, working pedals and a motor under 750 watts. Class 1 assists only while pedaling and stops at 20 mph. Class 2 can run on the motor alone but stops assisting at 20 mph."
+  },
+  {
+   "q": "What is a low-speed electric scooter?",
+   "a": "A stand-up scooter with a floorboard and handlebars whose motor tops out under 19 mph."
+  },
+  {
+   "q": "What is a motorized scooter?",
+   "a": "A miniature motor vehicle without federal safety certification: pocket bikes, mini choppers, mini motorcycles, motorized skateboards and similar. They can't be ridden on public streets, highways, sidewalks or public property (except by riders with a mobility-related disability), or on private property without permission."
+  },
+  {
+   "q": "What are the hoverboard rules?",
+   "a": "A self-balancing two-wheeled device under 20 mph. It may be used on roads, sidewalks and bike paths with a cyclist's rights and duties. No license, registration or insurance required. The rider must wear a helmet and be 16 or older (unless they have a mobility-related disability). Towns can regulate them. Penalties: a warning first, then a $10 fine, then impound for up to 30 days."
+  }
+ ]
+}

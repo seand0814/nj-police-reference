@@ -1,0 +1,48 @@
+{
+ "id": "njtr1-9-vehicles",
+ "category": "Crash Reports",
+ "title": "Low-Speed Vehicles, Mopeds & Autocycles",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "Complete an NJTR-1 for crashes involving low-speed vehicles, motorized bicycles (mopeds), autocycles, ATVs, snowmobiles and dirt bikes.",
+  "A low-speed vehicle tops out above 20 but no more than 25 mph and isn't gas or diesel powered. A golf cart (under 20 mph) is not one.",
+  "Mopeds: at least 15 years old, any valid driver's license or a moped license, registration, insurance and a helmet; DWI applies."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Vehicles & Devices",
+ "faq": [
+  {
+   "q": "What is a low-speed vehicle?",
+   "a": "A four-wheeled vehicle that can go more than 20 but no more than 25 mph on a level road, isn't powered by gas or diesel, and meets federal safety standards. Faster than 25 mph means it's a regular motor vehicle. It must have a \"25 MPH Vehicle\" decal on the back."
+  },
+  {
+   "q": "What do low-speed vehicles need?",
+   "a": "A valid driver's license, registration, insurance and a license plate. No inspection. Brakes, an odometer, a speedometer and a stamped VIN are required."
+  },
+  {
+   "q": "Where can a low-speed vehicle drive?",
+   "a": "Roads posted 25 mph or less. A town or county can allow them on roads posted up to 35 mph, or ban them where they'd be a hazard. Drivers can get Title 39 summonses."
+  },
+  {
+   "q": "What is a motorized bicycle (moped)?",
+   "a": "A pedal bicycle with a helper motor: under 50 cc, no more than 1.5 brake horsepower, or electric, with a top speed of 25 mph on flat ground. The current definition also covers some faster electric bikes; see the definitions in the manual. It is not a low-speed electric bicycle."
+  },
+  {
+   "q": "Moped rules",
+   "a": "Operator must be 15 or older; any valid driver's license or a moped license; registration; liability insurance; a helmet. Not allowed on interstates, divided highways or roads over 50 mph. Title 39 duties and the DWI statute apply."
+  },
+  {
+   "q": "What is an autocycle?",
+   "a": "A three-wheeled motorcycle with a steering wheel and pedals, an enclosed or partly enclosed seat area, roll cage or hoops, seat belts and anti-lock brakes. A regular driver's license is enough, no motorcycle endorsement. Riders must be seated and belted, need helmets unless it's fully enclosed, and no child who needs a car seat may ride."
+  }
+ ]
+}

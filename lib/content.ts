@@ -4,6 +4,7 @@ import {
   ARREST_GROUPS,
   DV_GROUPS,
   CASE_GROUPS,
+  CRASH_GROUPS,
   HUB_GROUPS,
   HUB_STATUTES,
   MV_TYPES,
@@ -41,6 +42,10 @@ export type Entry = {
   table?: { columns: string[]; rows: string[][]; note?: string };
   /** Plain-language breakdown of a statute's subsections, each with its own grade. */
   subsections?: { label: string; text: string; grade: string }[];
+  /** Question-and-answer list (e.g. the NJTR-1 manual's general questions). box = related form box numbers. */
+  faq?: { q: string; a: string; box?: string }[];
+  /** Official documents to open (PDFs, forms). */
+  links?: { label: string; url: string }[];
   /** Lines in "English | Spanish" form get a play button. */
   speak?: boolean;
 };
@@ -237,7 +242,7 @@ export function sectionGroups(slug: string): { byType: Group[]; byChapter?: Grou
 
   // Hub sections: named groups, then related statutes that live in other sections.
   const rows = entries.map((e) => ({ key: e.group || HUB_GROUPS[e.id] || "Procedures & Reference", row: toRow(e) }));
-  const groups = bucket(rows, [...new Set([...DV_GROUPS, ...ARREST_GROUPS, ...CASE_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
+  const groups = bucket(rows, [...new Set([...DV_GROUPS, ...ARREST_GROUPS, ...CASE_GROUPS, ...CRASH_GROUPS, ...Object.values(HUB_GROUPS), "Procedures & Reference"])]);
   const filter = HUB_STATUTES[slug];
   if (filter) {
     const related = allEntries().filter((e) => {
@@ -276,7 +281,7 @@ export function searchIndex(): IndexItem[] {
     c: e.citation ?? "",
     k: e.category,
     g: e.grade_or_penalty ?? "",
-    x: [...e.key_points, ...e.officer_notes].join(" "),
+    x: [...e.key_points, ...e.officer_notes, ...(e.faq ?? []).flatMap((f) => [f.q, f.a])].join(" "),
     s: sectionOf(e),
   }));
   const lists = allChecklists().map((c) => ({

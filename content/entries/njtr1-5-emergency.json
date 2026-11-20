@@ -1,0 +1,44 @@
+{
+ "id": "njtr1-5-emergency",
+ "category": "Crash Reports",
+ "title": "Police Vehicles, Emergency Response & Rideshare",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "Responding to Emergency ends once the patrol car is positioned at the scene.",
+  "A no-lights, no-siren response to a real emergency still counts as responding; explain in the narrative.",
+  "Uber or Lyft drivers count as Business/Commerce only while carrying a passenger or on the way to pick one up."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Filling Out the Boxes",
+ "faq": [
+  {
+   "q": "My patrol car is parked at a crash scene and gets hit. Do I check Responding to Emergency?",
+   "a": "No. Once the car is positioned at the scene, the emergency response is over."
+  },
+  {
+   "q": "I was answering an emergency call with no lights or siren (tactical approach) and crashed.",
+   "a": "Still check Responding to Emergency, and explain the reason for the silent response in the narrative."
+  },
+  {
+   "q": "Is a rideshare driver personal use or business?",
+   "a": "Mark vehicle use 02 – Business/Commerce only if they were carrying a passenger or driving to pick one up for hire. Otherwise it's personal use."
+  },
+  {
+   "q": "Is there insurance coverage when I crash a patrol car?",
+   "a": "Generally your municipality's insurance carrier covers it."
+  },
+  {
+   "q": "Is a police car stopped in the road at a crash or traffic stop \"in transport\"?",
+   "a": "Yes, whether or not its emergency lights are on. A patrol car on patrol or responding to a call is also in transport."
+  }
+ ]
+}

@@ -176,7 +176,7 @@ ITEMS.append(dict(id="sexual-assault-response", kind="checklist", title="Sexual 
   ]),
  ]))
 
-ITEMS.append(dict(id="mv-crash", kind="checklist", title="Motor Vehicle Crash", sections=["motor-vehicle", "checklists"],
+ITEMS.append(dict(id="mv-crash", kind="checklist", title="Motor Vehicle Crash", sections=["motor-vehicle", "checklists", "crash-reports"],
  summary="Scene management through the crash report.", groups=[
   dict(name="Scene safety", steps=[
    S("Position the vehicle to protect the scene; lights on"),
@@ -193,7 +193,8 @@ ITEMS.append(dict(id="mv-crash", kind="checklist", title="Motor Vehicle Crash", 
   ]),
   dict(name="Wrap up", steps=[
    S("Arrange tows and clear debris"),
-   S("Complete the NJTR-1 crash report"),
+   S("Complete the NJTR-1 crash report (reportable: any injury or death, or over $500 damage to any vehicle)", "", "/entry/njtr1-2-reportable"),
+   S("Check the manual Q&A for unusual cases", "", "/s/crash-reports"),
    S("Issue summonses where the facts support them"),
   ]),
  ]))

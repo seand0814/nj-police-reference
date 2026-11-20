@@ -1,0 +1,50 @@
+{
+ "id": "njtr1-1-manual",
+ "category": "Crash Reports",
+ "title": "NJTR-1 Crash Report Manual (Full Guide)",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "The official statewide guide to completing the NJTR-1, box by box, with definitions and examples.",
+  "Current edition: 2.0, revised January 1, 2023. The 2023 form has 153 boxes (four more than the old 149-box form); new guidance appears in green text in the manual.",
+  "Sections follow the form: Crash Location (1-22), Driver/Vehicle (23-48, 53-78), Commercial Vehicle (49-52, 79-82), Persons Involved (83-95), Roadway System (96-103), Crash/Vehicle Characteristics (104-117), and Contributing Circumstances, Sequence of Events and Pre-Crash (118-153).",
+  "The appendix covers general questions, vehicle and device definitions, and the extension forms: NJTR-1A, NJTR-1B (diagram), NJTR-1M (more persons) and bus seating layouts."
+ ],
+ "officer_notes": [
+  "Boxes 1-7 go on every page of the report; boxes 8-22 and 96-105 are only needed on page 1 (per the form overlay).",
+  "Use 00 for Unknown and 99 for Other (unless the field has its own Other code), and explain Other and asterisk (*) items in the crash description."
+ ],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Manual & Forms",
+ "faq": [
+  {
+   "q": "Where do I get the full manual?",
+   "a": "Tap \"Open the full manual\" below. It is the official PDF on the NJDOT website (about 136 pages)."
+  },
+  {
+   "q": "Is this page the whole manual?",
+   "a": "No. This section summarizes the manual's General Questions appendix in plain language. Always check the full manual for box-by-box codes and the exact wording."
+  }
+ ],
+ "links": [
+  {
+   "label": "Open the full manual (PDF)",
+   "url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf"
+  },
+  {
+   "label": "Form code overlays (PDF)",
+   "url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1_Overlays.pdf"
+  },
+  {
+   "label": "2023 form change summary (PDF)",
+   "url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1_Form_Change_Summary.pdf"
+  }
+ ]
+}

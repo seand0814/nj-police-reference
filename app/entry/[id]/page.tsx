@@ -102,6 +102,57 @@ function Table({ table }: { table: NonNullable<Entry["table"]> }) {
   );
 }
 
+function Faq({ items }: { items: NonNullable<Entry["faq"]> }) {
+  return (
+    <section className="mt-5">
+      <Heading icon="help">Questions &amp; answers</Heading>
+      <div className={CARD}>
+        {items.map((f, i) => (
+          <details key={i} className="group border-b border-slate-100 last:border-0 dark:border-white/5">
+            <summary className="flex min-h-[56px] cursor-pointer list-none items-start gap-3 px-4 py-3.5 [&::-webkit-details-marker]:hidden">
+              <span className="min-w-0 flex-1 font-semibold leading-snug">{f.q}</span>
+              <Icon name="chevronRight" size={18} className="mt-0.5 shrink-0 text-slate-400 transition-transform group-open:rotate-90" />
+            </summary>
+            <div className="px-4 pb-4 leading-relaxed text-slate-700 dark:text-slate-300">
+              {f.box ? (
+                <span className="mb-1.5 inline-block rounded-md bg-navy-800 px-2 py-0.5 font-mono text-[11px] font-bold text-gold-300">Box {f.box}</span>
+              ) : null}
+              <p>{f.a}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function DocLinks({ links }: { links: NonNullable<Entry["links"]> }) {
+  return (
+    <div className="mb-4 space-y-2">
+      {links.map((l, i) => (
+        <a
+          key={i}
+          href={l.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={
+            "flex min-h-[56px] items-center gap-3 rounded-2xl px-4 shadow-sm active:scale-[0.99] " +
+            (i === 0
+              ? "bg-navy-800 text-white"
+              : "border border-slate-200/80 bg-white dark:border-white/10 dark:bg-white/[0.04]")
+          }
+        >
+          <span className={"flex h-9 w-9 shrink-0 items-center justify-center rounded-xl " + (i === 0 ? "bg-gold-400 text-navy-900" : "bg-navy-800 text-gold-300")}>
+            <Icon name="file" size={18} />
+          </span>
+          <span className="flex-1 font-semibold">{l.label}</span>
+          <Icon name="external" size={18} className={i === 0 ? "text-white/70" : "text-slate-400"} />
+        </a>
+      ))}
+    </div>
+  );
+}
+
 function Subsections({ items, url }: { items: NonNullable<Entry["subsections"]>; url: string | null }) {
   return (
     <section className="mt-5">
@@ -170,6 +221,8 @@ export default async function EntryPage({ params }: { params: Params }) {
         title={entry.title}
       />
 
+      {entry.links?.length ? <DocLinks links={entry.links} /> : null}
+
       {entry.category === "Medical" ? (
         <p className="mb-4 flex gap-2 rounded-2xl bg-red-50 p-4 font-semibold text-red-800 dark:bg-red-950 dark:text-red-200"><Icon name="alert" size={20} className="shrink-0" /> {CPR_BANNER}</p>
       ) : null}
@@ -224,6 +277,7 @@ export default async function EntryPage({ params }: { params: Params }) {
         <>
           <List title="Key points" icon="pin" items={entry.key_points} />
           <List title="Officer notes" icon="badge" items={entry.officer_notes} />
+          {entry.faq?.length ? <Faq items={entry.faq} /> : null}
         </>
       )}
 

@@ -4,7 +4,8 @@
   "title": "Motor Vehicle Crash",
   "sections": [
     "motor-vehicle",
-    "checklists"
+    "checklists",
+    "crash-reports"
   ],
   "summary": "Scene management through the crash report.",
   "groups": [
@@ -55,7 +56,12 @@
           "text": "Arrange tows and clear debris"
         },
         {
-          "text": "Complete the NJTR-1 crash report"
+          "text": "Complete the NJTR-1 crash report (reportable: any injury or death, or over $500 damage to any vehicle)",
+          "link": "/entry/njtr1-2-reportable"
+        },
+        {
+          "text": "Check the manual Q&A for unusual cases",
+          "link": "/s/crash-reports"
         },
         {
           "text": "Issue summonses where the facts support them"

@@ -25,6 +25,8 @@ export const SECTIONS: Section[] = [
     tile: "from-rose-600 to-red-700", accent: "border-rose-600 text-rose-700 dark:text-rose-300", chip: "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-200" },
   { slug: "motor-vehicle", name: "Motor Vehicle (Title 39)", short: "Title 39", icon: "car", iconBg: "bg-blue-600", blurb: "Moving violations, licensing, equipment and more",
     tile: "from-blue-600 to-indigo-700", accent: "border-blue-600 text-blue-700 dark:text-blue-300", chip: "bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-200" },
+  { slug: "crash-reports", name: "NJTR-1 Crash Reports", short: "Crash Reports", icon: "file", iconBg: "bg-cyan-600", blurb: "When to report, filling out the boxes, manual Q&A",
+    tile: "from-cyan-600 to-sky-700", accent: "border-cyan-600 text-cyan-700 dark:text-cyan-300", chip: "bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-200" },
   { slug: "checklists", name: "Checklists & Go-Bys", short: "Go-Bys", icon: "checklist", iconBg: "bg-emerald-600", blurb: "Step-by-step checklists and decision guides",
     tile: "from-emerald-600 to-teal-700", accent: "border-emerald-600 text-emerald-700 dark:text-emerald-300", chip: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200" },
   { slug: "dwi-drugs", name: "DWI & Drugs", short: "DWI & Drugs", icon: "glass", iconBg: "bg-amber-500", blurb: "SFSTs, breath testing, drug recognition",
@@ -255,6 +257,9 @@ export const HUB_GROUPS: Record<string, string> = {
   ics: "Incident Command", "radio-pursuits": "Pursuits", "hazmat-erg": "Hazmat", "terrorism-awareness": "Terrorism",
   "peel-principles": "Principles",
 };
+
+/** Display order for groups in the NJTR-1 Crash Reports section. */
+export const CRASH_GROUPS = ["Manual & Forms", "When to Report", "Filling Out the Boxes", "Vehicles & Devices"];
 
 /** Display order for groups in the Case Law section. */
 export const CASE_GROUPS = [

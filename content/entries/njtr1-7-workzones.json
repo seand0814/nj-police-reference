@@ -1,0 +1,52 @@
+{
+ "id": "njtr1-7-workzones",
+ "category": "Crash Reports",
+ "title": "Work Zones, Equipment & Snowplows",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "A work zone runs from the first warning sign or device to the END ROAD WORK sign or last control device.",
+  "Complete an NJTR-1 when the traveling public (drivers, cyclists, pedestrians) is involved in a crash in, entering or leaving a work zone.",
+  "Crashes involving only workers, work vehicles and equipment inside the zone are work or OSHA incidents, not NJTR-1s."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Filling Out the Boxes",
+ "faq": [
+  {
+   "q": "Does a work zone crash go on an NJTR-1?",
+   "a": "Yes, if the first harmful event happens inside the work zone or on the approach or exit, and it involves the traveling public. The data is used to judge how safe work-zone traffic plans are."
+  },
+  {
+   "q": "Two pieces of work equipment collide inside the work zone.",
+   "a": "Not an NJTR-1. If everyone involved was part of the work activity, it's a work zone or OSHA incident."
+  },
+  {
+   "q": "A forklift hits a pedestrian. Is that a crash?",
+   "a": "Inside a work zone with another worker, it's a work incident. It's an NJTR-1 if the forklift leaves the zone and hits a member of the public, or a member of the public enters the zone and hits a worker or equipment."
+  },
+  {
+   "q": "A backhoe driving on the road runs off and hits a tree.",
+   "a": "Not reportable; a backhoe isn't built to carry passengers. If it collides with a driver or pedestrian who isn't part of the work zone, complete an NJTR-1."
+  },
+  {
+   "q": "A snowplow actively plowing hits a parked car or fixed object.",
+   "a": "A crash report is appropriate because of the damage to the other vehicle. Fill in the plow's information like any other vehicle."
+  },
+  {
+   "q": "A plow throws ice and snow onto a moving car.",
+   "a": "Yes, an NJTR-1."
+  },
+  {
+   "q": "Is a snowplow \"work equipment\"?",
+   "a": "No. A pickup, dump truck or garbage truck with a plow is a vehicle in transport, and is only treated as a snowplow while the blade is down and it's actively clearing the road."
+  }
+ ]
+}

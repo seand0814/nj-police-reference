@@ -1,0 +1,36 @@
+{
+ "id": "njtr1-8-transport",
+ "category": "Crash Reports",
+ "title": "Parked vs. In Transport",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "In transport: on the roadway (moving or stopped), or moving anywhere in or outside the trafficway.",
+  "Parked: not moving and completely off the travel lanes. If any part of the vehicle or its load sticks into the roadway, it's in transport.",
+  "In a lane that allows parking only at certain times, a parked car counts as in transport while parking is banned."
+ ],
+ "officer_notes": [],
+ "related": [],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "Filling Out the Boxes",
+ "faq": [
+  {
+   "q": "Examples of parked (not in transport)",
+   "a": "A car stopped at the curb whose driver opens a door into traffic; a truck on the shoulder with only its mirror over the line; any vehicle stopped on the shoulder, median or roadside; at a gas pump; in a driveway; in a metered space even if the meter ran out."
+  },
+  {
+   "q": "Examples of in transport",
+   "a": "Any vehicle driving on the shoulder, median or roadside; a parked car that rolls away with no brake set; a car stopped with two tires in the lane; a tractor trailer with its load over the edge line; a van left in a travel lane during a rush-hour no-parking period; a delivery truck stopped in a \"no parking any time\" zone; a police car on patrol or stopped in the road at a scene; a school bus stopped in a lane with its lights on; a car pulling away from a gas pump; a moving car in a private driveway; an ATV on a trail."
+  },
+  {
+   "q": "Is a work vehicle doing road work in transport?",
+   "a": "No, not while it's doing construction, maintenance or utility work in the work zone (for example, a bucket truck working on lines, a line-painting truck, a paving roller, or a highway plow clearing snow as road maintenance). It is in transport when driving between work sites."
+  }
+ ]
+}

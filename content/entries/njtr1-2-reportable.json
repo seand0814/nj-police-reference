@@ -1,0 +1,64 @@
+{
+ "id": "njtr1-2-reportable",
+ "category": "Crash Reports",
+ "title": "Reportable Crashes, Fatals & Change Reports",
+ "source_type": "manual",
+ "citation": "NJTR-1 Crash Report Manual (2023), Appendix: General Questions",
+ "source_url": "https://www.nj.gov/transportation/refdata/accident/pdf/NJTR-1CrashReportManual2023.pdf",
+ "grade_or_penalty": "",
+ "key_points": [
+  "A crash is reportable when it causes injury or death to anyone, or more than $500 in damage to any vehicle (N.J.S.A. 39:4-129, 39:4-130).",
+  "Below that line it is non-reportable: still fill out an NJTR-1, check the non-reportable box, and keep it at the department instead of sending it to NJDOT.",
+  "Reportable NJTR-1s go to NJDOT within 72 hours."
+ ],
+ "officer_notes": [],
+ "related": [
+  "njsa-39-4-129",
+  "njsa-39-4-130"
+ ],
+ "status": "DRAFT",
+ "source_verified": true,
+ "grade_review": false,
+ "last_verified": "2026-11-19",
+ "section": "crash-reports",
+ "group": "When to Report",
+ "faq": [
+  {
+   "q": "What makes a crash reportable?",
+   "a": "Any injury or death, or damage over $500 to any vehicle. Crashes under $500 with no injuries are non-reportable, but they still need to be documented; follow your department's policy on the form to use."
+  },
+  {
+   "q": "Can an officer skip the report on a non-reportable crash?",
+   "a": "No. You still complete the NJTR-1 and check the non-reportable box. It stays at your department for records and isn't sent to NJDOT."
+  },
+  {
+   "q": "For a fatal crash, do we do both an NJTR-1 and an investigation report?",
+   "a": "Common practice: complete every box of the NJTR-1 with the minimum required information so it reaches NJDOT within 72 hours, keep the full investigation in a separate report, then file a change report that adds it. Investigation reports usually aren't released until the prosecutor's office finishes the case."
+  },
+  {
+   "q": "What if the crash was intentional?",
+   "a": "Still complete the NJTR-1 if it meets the reportable criteria. Mark Pre-Crash Action as a deliberate act (code 19 or 46) and explain in the narrative. This covers suicide attempts, homicide and deliberately damaging property or hurting someone with a vehicle. Pair it with an investigation or incident report.",
+   "box": "122/123"
+  },
+  {
+   "q": "A driver disputes the report the next day. Now what?",
+   "a": "If the department agrees a change is warranted (for example, wrong vehicle information), complete and submit an NJTR-1 change report to NJDOT. If not, you can note the dispute internally; nothing goes to NJDOT."
+  },
+  {
+   "q": "Someone walks in saying they were hit in a parking lot four days ago and now their neck hurts.",
+   "a": "Handle it as an SR-1 report (a crash not investigated at the scene)."
+  },
+  {
+   "q": "Are hit-and-run crashes always marked pending?",
+   "a": "Yes, until the other vehicle is identified; then submit a change report with the original case number and mark it complete. If every lead is exhausted, you may mark it complete and explain in the narrative why the vehicle wasn't identified and that the case will reopen if new information comes in."
+  },
+  {
+   "q": "A vehicle leaves the road in one town and hits something in the next. Who takes it?",
+   "a": "The crash location is generally where the first harmful event happened, but the investigating agency is generally the one where the vehicle first left the roadway."
+  },
+  {
+   "q": "A vehicle leaves one crash, goes two blocks and crashes again. One report or two?",
+   "a": "It depends on whether the situation stabilized. If the driver regained control and then hit something else, it's a second crash. If the vehicle stayed out of control the whole way, it's one crash. An unstabilized situation lasts until control is regained or everyone and everything comes to rest."
+  }
+ ]
+}
